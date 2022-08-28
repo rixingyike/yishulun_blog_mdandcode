@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.yishulun.com/en/categories/</loc>
+    <loc>https://www.yishulun.com/en/categories.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.yishulun.com/categories/"
+                href="https://www.yishulun.com/categories.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.yishulun.com/en/categories/"
+                href="https://www.yishulun.com/en/categories.html"
                 />
   </url><url>
-    <loc>https://www.yishulun.com/en/tags/</loc>
+    <loc>https://www.yishulun.com/en/tags.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.yishulun.com/tags/"
+                href="https://www.yishulun.com/tags.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.yishulun.com/en/tags/"
+                href="https://www.yishulun.com/en/tags.html"
                 />
   </url><url>
     <loc>https://www.yishulun.com/en/</loc>

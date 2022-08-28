@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.yishulun.com/docs/example/</loc>
+    <loc>https://www.yishulun.com/docs/example.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/example/table-of-contents/with-toc/</loc>
+    <loc>https://www.yishulun.com/docs/example/table-of-contents/with-toc.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/example/table-of-contents/without-toc/</loc>
+    <loc>https://www.yishulun.com/docs/example/table-of-contents/without-toc.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/posts/creating-a-new-theme/</loc>
+    <loc>https://www.yishulun.com/posts/creating-a-new-theme.html</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/posts/migrate-from-jekyll/</loc>
+    <loc>https://www.yishulun.com/posts/migrate-from-jekyll.html</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/docs/example/table-of-contents/</loc>
+    <loc>https://www.yishulun.com/docs/example/table-of-contents.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/example/collapsed/</loc>
+    <loc>https://www.yishulun.com/docs/example/collapsed.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/posts/</loc>
+    <loc>https://www.yishulun.com/posts.html</loc>
     <lastmod>2022-08-28T07:11:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/posts/blog-test/</loc>
+    <loc>https://www.yishulun.com/posts/blog-test.html</loc>
     <lastmod>2022-08-28T07:11:27+08:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/</loc>
@@ -37,92 +37,92 @@
                 href="https://www.yishulun.com/"
                 />
   </url><url>
-    <loc>https://www.yishulun.com/posts/goisforlovers/</loc>
+    <loc>https://www.yishulun.com/posts/goisforlovers.html</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yishulun.com/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yishulun.com/categories/"
-                />
-  </url><url>
-    <loc>https://www.yishulun.com/categories/Development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/tags/</loc>
+    <loc>https://www.yishulun.com/categories.html</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.yishulun.com/en/tags/"
+                href="https://www.yishulun.com/en/categories.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.yishulun.com/tags/"
+                href="https://www.yishulun.com/categories.html"
                 />
   </url><url>
-    <loc>https://www.yishulun.com/tags/templates/</loc>
+    <loc>https://www.yishulun.com/categories/Development.html</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/tags/themes/</loc>
+    <loc>https://www.yishulun.com/tags/development.html</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/docs/example/collapsed/3rd-level/4th-level/</loc>
+    <loc>https://www.yishulun.com/posts/hugoisforlovers.html</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/docs/example/collapsed/3rd-level/</loc>
+    <loc>https://www.yishulun.com/tags/go.html</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/docs/example/hidden/</loc>
+    <loc>https://www.yishulun.com/tags/golang.html</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/</loc>
+    <loc>https://www.yishulun.com/categories/golang.html</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/buttons/</loc>
+    <loc>https://www.yishulun.com/tags/hugo.html</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/columns/</loc>
+    <loc>https://www.yishulun.com/tags.html</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yishulun.com/en/tags.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yishulun.com/tags.html"
+                />
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/details/</loc>
+    <loc>https://www.yishulun.com/tags/templates.html</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/expand/</loc>
+    <loc>https://www.yishulun.com/tags/themes.html</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/hints/</loc>
+    <loc>https://www.yishulun.com/docs/example/collapsed/3rd-level/4th-level.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/katex/</loc>
+    <loc>https://www.yishulun.com/docs/example/collapsed/3rd-level.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/mermaid/</loc>
+    <loc>https://www.yishulun.com/docs/example/hidden.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/section/</loc>
+    <loc>https://www.yishulun.com/docs/shortcodes.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/section/first-page/</loc>
+    <loc>https://www.yishulun.com/docs/shortcodes/buttons.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/section/second-page/</loc>
+    <loc>https://www.yishulun.com/docs/shortcodes/columns.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/shortcodes/tabs/</loc>
+    <loc>https://www.yishulun.com/docs/shortcodes/details.html</loc>
   </url><url>
-    <loc>https://www.yishulun.com/docs/</loc>
+    <loc>https://www.yishulun.com/docs/shortcodes/expand.html</loc>
+  </url><url>
+    <loc>https://www.yishulun.com/docs/shortcodes/hints.html</loc>
+  </url><url>
+    <loc>https://www.yishulun.com/docs/shortcodes/katex.html</loc>
+  </url><url>
+    <loc>https://www.yishulun.com/docs/shortcodes/mermaid.html</loc>
+  </url><url>
+    <loc>https://www.yishulun.com/docs/shortcodes/section.html</loc>
+  </url><url>
+    <loc>https://www.yishulun.com/docs/shortcodes/section/first-page.html</loc>
+  </url><url>
+    <loc>https://www.yishulun.com/docs/shortcodes/section/second-page.html</loc>
+  </url><url>
+    <loc>https://www.yishulun.com/docs/shortcodes/tabs.html</loc>
+  </url><url>
+    <loc>https://www.yishulun.com/docs.html</loc>
   </url>
 </urlset>

@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 艺术论 - YiShuLun</title>
-    <link>https://www.yishulun.com/tags/</link>
+    <link>https://www.yishulun.com/tags.html</link>
     <description>Recent content in Tags on 艺术论 - YiShuLun</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>development</title>
-      <link>https://www.yishulun.com/tags/development/</link>
+      <link>https://www.yishulun.com/tags/development.html</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yishulun.com/tags/development/</guid>
+      <guid>https://www.yishulun.com/tags/development.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://www.yishulun.com/tags/go/</link>
+      <link>https://www.yishulun.com/tags/go.html</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yishulun.com/tags/go/</guid>
+      <guid>https://www.yishulun.com/tags/go.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://www.yishulun.com/tags/golang/</link>
+      <link>https://www.yishulun.com/tags/golang.html</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yishulun.com/tags/golang/</guid>
+      <guid>https://www.yishulun.com/tags/golang.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://www.yishulun.com/tags/hugo/</link>
+      <link>https://www.yishulun.com/tags/hugo.html</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yishulun.com/tags/hugo/</guid>
+      <guid>https://www.yishulun.com/tags/hugo.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https://www.yishulun.com/tags/templates/</link>
+      <link>https://www.yishulun.com/tags/templates.html</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yishulun.com/tags/templates/</guid>
+      <guid>https://www.yishulun.com/tags/templates.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://www.yishulun.com/tags/themes/</link>
+      <link>https://www.yishulun.com/tags/themes.html</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yishulun.com/tags/themes/</guid>
+      <guid>https://www.yishulun.com/tags/themes.html</guid>
       <description></description>
     </item>
     
