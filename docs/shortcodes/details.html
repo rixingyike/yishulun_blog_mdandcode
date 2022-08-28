@@ -673,20 +673,20 @@ https://github.com/alex-shpak/hugo-book
   <h4>评论区</h4>
   
   
-    <div id="commentsContainer"></div>
+    <div id="git-comments"></div>
     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
     const gitment = new Gitment({
-      
-      owner: 'rixingyike',
-      repo: 'yishulun.com_comments',
+      id: '',  
+      owner: 'LIYI',
+      repo: 'rixingyike/yishulun.com_comments',
       oauth: {
         client_id: 'e1c92c0d8f4368a3d79d',
         client_secret: 'e17d259e0f59685557d805e15858fe8aaef49de9',
       },
     })
-    gitment.render('commentsContainer')
+    gitment.render('git-comments')
     </script>
   
 </div>
