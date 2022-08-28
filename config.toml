@@ -1,6 +1,6 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://yishulun.com/'
+baseURL = 'https://www.yishulun.com/'
 title = '艺术论 - YiShuLun'
 theme = 'hugo-book'
 defaultContentLanguage = "zh"
