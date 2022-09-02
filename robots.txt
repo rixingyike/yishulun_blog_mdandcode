@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /docs/
+
+User-agent: Googlebot
+Disallow: /posts/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.yishulun.com/sitemap.xml

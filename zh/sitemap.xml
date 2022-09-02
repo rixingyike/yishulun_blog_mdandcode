@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.yishulun.com/docs/example.html</loc>
+    <lastmod>2000-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/docs/example/table-of-contents/with-toc.html</loc>
+    <lastmod>2000-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/docs/example/table-of-contents/without-toc.html</loc>
+    <lastmod>2000-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/posts/creating-a-new-theme.html</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
@@ -15,8 +18,18 @@
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/docs/example/table-of-contents.html</loc>
+    <lastmod>2000-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/docs/example/collapsed.html</loc>
+  </url><url>
+    <loc>https://www.yishulun.com/about.html</loc>
+    <lastmod>2022-09-01T20:48:35+08:00</lastmod>
+  </url><url>
+    <loc>https://www.yishulun.com/guestbook.html</loc>
+    <lastmod>2022-09-01T20:48:35+08:00</lastmod>
+  </url><url>
+    <loc>https://www.yishulun.com/archives.html</loc>
+    <lastmod>2022-09-01T19:21:55+08:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/posts.html</loc>
     <lastmod>2022-08-28T07:11:27+08:00</lastmod>
@@ -36,6 +49,12 @@
                 hreflang="zh"
                 href="https://www.yishulun.com/"
                 />
+  </url><url>
+    <loc>https://www.yishulun.com/categories.html</loc>
+    <lastmod>2019-11-01T16:10:12+08:00</lastmod>
+  </url><url>
+    <loc>https://www.yishulun.com/tags.html</loc>
+    <lastmod>2019-11-01T16:10:12+08:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/posts/goisforlovers.html</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
@@ -93,6 +112,9 @@
     <loc>https://www.yishulun.com/tags/themes.html</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.yishulun.com/docs.html</loc>
+    <lastmod>2000-09-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.yishulun.com/docs/example/collapsed/3rd-level/4th-level.html</loc>
   </url><url>
     <loc>https://www.yishulun.com/docs/example/collapsed/3rd-level.html</loc>
@@ -122,7 +144,5 @@
     <loc>https://www.yishulun.com/docs/shortcodes/section/second-page.html</loc>
   </url><url>
     <loc>https://www.yishulun.com/docs/shortcodes/tabs.html</loc>
-  </url><url>
-    <loc>https://www.yishulun.com/docs.html</loc>
   </url>
 </urlset>

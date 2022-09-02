@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on 艺术论 - YiShuLun</title>
+    <title>Introduction on 艺述论 - YiShuLun</title>
     <link>https://www.yishulun.com/</link>
-    <description>Recent content in Introduction on 艺术论 - YiShuLun</description>
+    <description>Recent content in Introduction on 艺述论 - YiShuLun</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 28 Aug 2022 07:11:27 +0800</lastBuildDate><atom:link href="https://www.yishulun.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>With ToC</title>
       <link>https://www.yishulun.com/docs/example/table-of-contents/with-toc.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 28 Sep 2000 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/docs/example/table-of-contents/with-toc.html</guid>
       <description>Caput vino delphine in tamen vias #  Cognita laeva illo fracta #  Lorem markdownum pavent auras, surgit nunc cingentibus libet Laomedonque que est. Pastor An arbor filia foedat, ne fugit aliter, per. Helicona illas et callida neptem est Oresitrophos caput, dentibus est venit. Tenet reddite famuli praesentem fortibus, quaeque vis foret si frondes gelidos gravidae circumtulit inpulit armenta nativum.
@@ -19,7 +19,7 @@
     <item>
       <title>Without ToC</title>
       <link>https://www.yishulun.com/docs/example/table-of-contents/without-toc.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 28 Sep 2000 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/docs/example/table-of-contents/without-toc.html</guid>
       <description>At me ipso nepotibus nunc celebratior genus #  Tanto oblite #  Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat admonitu concidit, ad resimas vultus et rugas vultu dignamque Siphnon.
@@ -48,12 +48,58 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>About</title>
+      <link>https://www.yishulun.com/about.html</link>
+      <pubDate>Thu, 01 Sep 2022 20:48:35 +0800</pubDate>
+      
+      <guid>https://www.yishulun.com/about.html</guid>
+      <description>About #  李艺， 腾讯云最具价值专家（TVP），微信学堂 《小程序性能优化实践》讲师，极客时间 《微信小程序全栈开发实战》讲师，一汽大众等企业内训讲师，《小程序从0到1》《微信小游戏开发》等图书作者。视频号/公共号「艺述论」作者。
+学编程就像登山，一步一个台阶，没有人学不会。</description>
+    </item>
+    
+    <item>
+      <title>Guestbook</title>
+      <link>https://www.yishulun.com/guestbook.html</link>
+      <pubDate>Thu, 01 Sep 2022 20:48:35 +0800</pubDate>
+      
+      <guid>https://www.yishulun.com/guestbook.html</guid>
+      <description>Guestbook #  在下方评论区留言。</description>
+    </item>
+    
+    <item>
+      <title>Archives</title>
+      <link>https://www.yishulun.com/archives.html</link>
+      <pubDate>Thu, 01 Sep 2022 19:21:55 +0800</pubDate>
+      
+      <guid>https://www.yishulun.com/archives.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Blog Test</title>
       <link>https://www.yishulun.com/posts/blog-test.html</link>
       <pubDate>Sun, 28 Aug 2022 07:11:27 +0800</pubDate>
       
       <guid>https://www.yishulun.com/posts/blog-test.html</guid>
-      <description></description>
+      <description>这是一个测试页。</description>
+    </item>
+    
+    <item>
+      <title>Categories</title>
+      <link>https://www.yishulun.com/categories.html</link>
+      <pubDate>Fri, 01 Nov 2019 16:10:12 +0800</pubDate>
+      
+      <guid>https://www.yishulun.com/categories.html</guid>
+      <description>Categories #  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://www.yishulun.com/tags.html</link>
+      <pubDate>Fri, 01 Nov 2019 16:10:12 +0800</pubDate>
+      
+      <guid>https://www.yishulun.com/tags.html</guid>
+      <description>Tags #  </description>
     </item>
     
     <item>
@@ -106,7 +152,7 @@ Venasque repulsa Samos qui, exspectatum eram animosque hinc, aut manes, Assyrii.
       
       <guid>https://www.yishulun.com/docs/shortcodes/buttons.html</guid>
       <description>Buttons #  Buttons are styled links that can lead to local page or external link.
-Example #  1{{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} 2{{&amp;lt; button href=&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}  Get Home  Contribute  </description>
+ Example #  1{{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} 2{{&amp;lt; button href=&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}  Get Home  Contribute  </description>
     </item>
     
     <item>

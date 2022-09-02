@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>艺术论 - YiShuLun</title>
+    <title>艺述论 - YiShuLun</title>
     <link>https://www.yishulun.com/docs/shortcodes.html</link>
-    <description>Recent content on 艺术论 - YiShuLun</description>
+    <description>Recent content on 艺述论 - YiShuLun</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.yishulun.com/docs/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -12,7 +12,7 @@
       
       <guid>https://www.yishulun.com/docs/shortcodes/buttons.html</guid>
       <description>Buttons #  Buttons are styled links that can lead to local page or external link.
-Example #  1{{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} 2{{&amp;lt; button href=&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}  Get Home  Contribute  </description>
+ Example #  1{{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} 2{{&amp;lt; button href=&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}  Get Home  Contribute  </description>
     </item>
     
     <item>
