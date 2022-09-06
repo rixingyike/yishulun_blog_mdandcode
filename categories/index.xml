@@ -4,25 +4,6 @@
     <title>Categories on 艺述论 - YiShuLun</title>
     <link>https://www.yishulun.com/categories.html</link>
     <description>Recent content in Categories on 艺述论 - YiShuLun</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Development</title>
-      <link>https://www.yishulun.com/categories/Development.html</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yishulun.com/categories/Development.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://www.yishulun.com/categories/golang.html</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yishulun.com/categories/golang.html</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.yishulun.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

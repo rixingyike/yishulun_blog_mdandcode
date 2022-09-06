@@ -4,61 +4,6 @@
     <title>Tags on 艺述论 - YiShuLun</title>
     <link>https://www.yishulun.com/tags.html</link>
     <description>Recent content in Tags on 艺述论 - YiShuLun</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>development</title>
-      <link>https://www.yishulun.com/tags/development.html</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yishulun.com/tags/development.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://www.yishulun.com/tags/go.html</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yishulun.com/tags/go.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://www.yishulun.com/tags/golang.html</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yishulun.com/tags/golang.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://www.yishulun.com/tags/hugo.html</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yishulun.com/tags/hugo.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>templates</title>
-      <link>https://www.yishulun.com/tags/templates.html</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yishulun.com/tags/templates.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://www.yishulun.com/tags/themes.html</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yishulun.com/tags/themes.html</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.yishulun.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
