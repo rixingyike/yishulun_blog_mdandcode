@@ -42,11 +42,12 @@
 </head>
 
 <body dir=" ltr">
+  
+  <span id="top"></span>
 
   
 <header id="masthead" role="banner">
   <nav class="navbar navbar-default navbar-fixed-top navbar-left" role="navigation">
-
     <div class="container" id="navigation_menu">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -593,9 +594,14 @@
     微信公众号<br/>
   <img style="width: 150px;height: 150px;" src="/wxqrcode.jpeg" />
   </p>
+  <style>
+    .WB_follow_ex .follow_text{
+      word-break: keep-all !important;
+    }
+  </style>
   <p class="line">
     我的微博<br/>
-    <wb:follow-button style="display: flex;justify-content: center;padding-top: 0.5em;" uid="2820420060" type="red_2" width="136" height="24" ></wb:follow-button>
+    <wb:follow-button style="display: flex;justify-content: center;padding-top: 0.5em;" uid="2820420060" type="red_2" width="128" height="24" ></wb:follow-button>
   </p>
 </div>
 <div class="widget">
@@ -603,57 +609,58 @@
   <div class="book-section-flat">
     <ul>
       
-        <li>
-          
-          
-          <a href="/en/posts/2022/seconds-test-post.html">Seconds Test Post</a>
-          
-          
-        </li>
+      <li>
         
-        <li>
-          
-          
-          <a href="/en/posts/blog-test.html">Blog Test</a>
-          
-          
-        </li>
         
-        <li>
-          
-          
-          <a href="/en/posts/creating-a-new-theme.html">Creating a New Theme</a>
-          
-          
-        </li>
+        <a href="/en/posts/2022/seconds-test-post.html">Seconds Test Post</a>
         
-        <li>
-          
-          
-          <a href="/en/posts/goisforlovers.html">(Hu)go Template Primer</a>
-          
-          
-        </li>
         
-        <li>
-          
-          
-          <a href="/en/posts/hugoisforlovers.html">Getting Started with Hugo</a>
-          
-          
-        </li>
+      </li>
+      
+      <li>
         
-        <li>
-          
-          
-          <a href="/en/posts/migrate-from-jekyll.html">Migrate to Hugo from Jekyll</a>
-          
-          
-        </li>
         
+        <a href="/en/posts/blog-test.html">Blog Test</a>
+        
+        
+      </li>
+      
+      <li>
+        
+        
+        <a href="/en/posts/creating-a-new-theme.html">Creating a New Theme</a>
+        
+        
+      </li>
+      
+      <li>
+        
+        
+        <a href="/en/posts/goisforlovers.html">(Hu)go Template Primer</a>
+        
+        
+      </li>
+      
+      <li>
+        
+        
+        <a href="/en/posts/hugoisforlovers.html">Getting Started with Hugo</a>
+        
+        
+      </li>
+      
+      <li>
+        
+        
+        <a href="/en/posts/migrate-from-jekyll.html">Migrate to Hugo from Jekyll</a>
+        
+        
+      </li>
+      
     </ul>
   </div>
 </div>
+
 <div class="widget">
   <h4 class="widget-title">Featured</h4>
   <div class="book-section-flat">
@@ -788,6 +795,26 @@ if (!doNotTrack) {
 }
 </script>
 
+  <style>
+  .backtop {
+    color: #b3b1b1;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    width: 32px;
+    height: 32px;
+    z-index: 999998;
+  }
+</style>
+<a href="#top" class="backtop">
+  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-circle-up"
+    class="svg-inline--fa fa-chevron-circle-up fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 512 512">
+    <path fill="currentColor"
+      d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z">
+    </path>
+  </svg>
+</a>
 </body>
 
 </html>

@@ -172,3 +172,20 @@ margin: 2em 0 2em;
   margin: 1em 0;
   line-height: 1.7em;
 }
+
+/* index page */
+.index ul {
+  list-style: none;
+  padding: 0 1em;
+  text-align: left;
+}
+
+.index li {
+  padding: 0.5em 0;
+}
+
+/* 解决Bootstrap的row类，引起网页横向滚动条的问题 */
+.row{
+  margin-left:0px;
+  margin-right:0px;
+}
