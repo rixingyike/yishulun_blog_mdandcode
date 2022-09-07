@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh" dir=" ltr">
+<html 
+  lang="zh" 
+  dir=" ltr" 
+  xmlns:wb="http://open.weibo.com/wb">
 
 <head>
 	<meta name="generator" content="Hugo 0.96.0" />
@@ -7,13 +10,15 @@
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Hi #  微信学堂「小程序性能优化实践」 #  在微信学堂上架，全面介绍微信小程序的优化思想和优化技巧。
+<meta name="description" content="Hi #  这些专栏由作者亲自打造，推荐给你学习。
+微信学堂「小程序性能优化实践」 #  在微信学堂上架，全面介绍微信小程序的优化思想和优化技巧。
  
- 「微信小游戏开发：番外篇」付费合集 #  是为《微信小游戏开发》这套书编写的补充学习资料，面向的是没有经验的初学者。
+ 「微信小游戏开发：番外篇」合集 #  是为《微信小游戏开发》这套书编写的补充学习资料，面向的是没有经验的初学者。
  
   微信小程序全栈开发实战 #  在极客时间上架，手把手带你实现一款电商小程序，评论区留言可以开通企业开发者练习权限。
  
-其他专栏 #    Python零基础入门与进阶  ">
+其他专栏 #    Python零基础入门与进阶  联系我 #  你还需要学习哪方面的内容，欢迎留言给我，如果你喜欢使用Email，也欢迎写信，我的邮箱是：9830131#qq.com。关于作者介绍，可以查看 这里。
+2022年09月7日">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Hi" />
 <meta property="og:description" content="Led by dream，Make friends with time" />
@@ -27,99 +32,26 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="en" href="https://www.yishulun.com/en/" title="Introduction">
-<link rel="stylesheet" href="/book.min.b486b64eee439e2a86fdc17dd50afcbdc06070f0509a7896d2581d442e609d63.css" integrity="sha256-tIa2Tu5DniqG/cF91Qr8vcBgcPBQmniW0lgdRC5gnWM=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.52eafdadaf2418e06bb23ca853daee836a577e363483005711eacbda216f0588.css" integrity="sha256-Uur9ra8kGOBrsjyoU9rug2pXfjY0gwBXEerL2iFvBYg=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/zh.search.min.13e8f1d3d5f12a67adecbbc08c658c6ec634dd3b9d72a2ab33581577679e76d9.js" integrity="sha256-E&#43;jx09XxKmet7LvAjGWMbsY03TudcqKrM1gVd2eedtk=" crossorigin="anonymous"></script>
+  <script defer src="/zh.search.min.05ae7eb716b830486398498936430b0b268163fa8807feb6bbe8fae04e01ee00.js" integrity="sha256-Ba5&#43;txa4MEhjmEmJNkMLCyaBY/qIB/62u&#43;j64E4B7gA=" crossorigin="anonymous"></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://www.yishulun.com/index.xml" title="艺述论 - YiShuLun" />
+
+<script src="https://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9936052907746352"
      crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://www.yishulun.com//css/custom.css">
   
 </head>
 
 <body dir=" ltr">
 
   
-<style>
-  .navbar-nav {
-    float: right;
-  }
-
-  @media (max-width: 900px) {
-    .navbar-nav {
-      float: none;
-      text-align: center;
-    }
-  }
-
-  .nav {
-    display: block;
-  }
-
-  .logo {
-    background: url(/logo.png);
-    background-size: contain;
-    width: 30px;
-    height: 30px;
-    float: left;
-    position: relative;
-    top: -5px;
-    margin-right: 10px;
-  }
-
-  .site-header .site-branding {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-  .site-header {
-    background: #1d2b2d;
-    position: relative;
-    width: 100%;
-    margin-bottom: 3em;
-    overflow: hidden;
-    min-height: 200px;
-  }
-
-  .site-title {
-    color: #fff;
-    font-size: 3.5em;
-    font-weight: 700;
-    letter-spacing: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-shadow: rgb(255 255 255 / 10%) -1px -1px 1px, rgb(0 0 0 / 50%) 1px 1px 1px;
-  }
-
-  .site-title::after {
-    background-color: #fff;
-    content: "";
-    height: 2px;
-    display: block;
-    width: 100%;
-    margin: 10px auto;
-  }
-
-  .site-description {
-    color: #fff;
-    font-size: 1em;
-    font-weight: 400;
-    padding: 0.2em 0;
-    letter-spacing: 5px;
-    text-transform: capitalize;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-shadow: rgb(255 255 255 / 10%) -1px -1px 1px, rgb(0 0 0 / 50%) 1px 1px 1px;
-  }
-</style>
 <header id="masthead" role="banner">
   <nav class="navbar navbar-default navbar-fixed-top navbar-left" role="navigation">
 
@@ -131,26 +63,26 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="https://www.yishulun.com/">
+        <a class="navbar-brand" href="/">
           <div class="logo"></div>艺述论 - YiShuLun
         </a>
       </div>
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul id="menu-coolshell" class="nav navbar-nav">
           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a title="首页"
-              href="https://www.yishulun.com/">Home</a></li>
+              href="/">Home</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="归档"
-              href="https://www.yishulun.com/tags.html">Tags</a></li>
+              href="/tags.html">Tags</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="归档"
-              href="https://www.yishulun.com/categories.html">Categories</a></li>
+              href="/categories.html">Categories</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="归档"
-              href="https://www.yishulun.com/archives.html">Archives</a></li>
+              href="/archives.html">Archives</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="留言"
-              href="https://www.yishulun.com/guestbook.html">Guestbook</a></li>
+              href="/guestbook.html">Guestbook</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="关于作者"
-              href="https://www.yishulun.com/about.html">About</a></li>
+              href="/about.html">About</a></li>
           <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="RSS"
-              href="https://www.yishulun.com/index.xml">RSS</a></li>
+              href="/index.xml">RSS</a></li>
         </ul>
       </div>
     </div>
@@ -158,7 +90,7 @@
   <div id="cc_spacer" style="height: 50px;"></div>
   <div class="site-header">
     <div class="site-branding">
-      <a class="home-link" href="https://www.yishulun.com/" title="艺述论 - YiShuLun" rel="home">
+      <a class="home-link" href="/" title="艺述论 - YiShuLun" rel="home">
         <h1 class="site-title">艺述论 - YiShuLun</h1>
         <h2 class="site-description">Led by dream，Make friends with time</h2>
       </a>
@@ -303,6 +235,7 @@
   Hi
   <a class="anchor" href="#hi">#</a>
 </h2>
+<p>这些专栏由作者亲自打造，推荐给你学习。</p>
 <div class="book-columns flex flex-wrap">
 
   <div class="flex-even markdown-inner">
@@ -319,10 +252,10 @@
   </div>
 
   <div class="flex-even markdown-inner">
-    <h4 id="微信小游戏开发番外篇付费合集httpsmpweixinqqcomsg_dko3hpxylasb6eft0ykq">
+    <h4 id="微信小游戏开发番外篇合集httpsmpweixinqqcomsg_dko3hpxylasb6eft0ykq">
   
-  <a href="https://mp.weixin.qq.com/s/G_Dko3HpxYlasb6eft0yKQ">「微信小游戏开发：番外篇」付费合集</a>
-  <a class="anchor" href="#%e5%be%ae%e4%bf%a1%e5%b0%8f%e6%b8%b8%e6%88%8f%e5%bc%80%e5%8f%91%e7%95%aa%e5%a4%96%e7%af%87%e4%bb%98%e8%b4%b9%e5%90%88%e9%9b%86httpsmpweixinqqcomsg_dko3hpxylasb6eft0ykq">#</a>
+  <a href="https://mp.weixin.qq.com/s/G_Dko3HpxYlasb6eft0yKQ">「微信小游戏开发：番外篇」合集</a>
+  <a class="anchor" href="#%e5%be%ae%e4%bf%a1%e5%b0%8f%e6%b8%b8%e6%88%8f%e5%bc%80%e5%8f%91%e7%95%aa%e5%a4%96%e7%af%87%e5%90%88%e9%9b%86httpsmpweixinqqcomsg_dko3hpxylasb6eft0ykq">#</a>
 </h4>
 <p>是为《微信小游戏开发》这套书编写的补充学习资料，面向的是没有经验的初学者。</p>
 <p>
@@ -350,6 +283,13 @@
 <li>
   <a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAwODIzMzU3Mw==&amp;action=getalbum&amp;album_id=2240263915123310596#wechat_redirect">Python零基础入门与进阶</a></li>
 </ul>
+<h3 id="联系我">
+  联系我
+  <a class="anchor" href="#%e8%81%94%e7%b3%bb%e6%88%91">#</a>
+</h3>
+<p>你还需要学习哪方面的内容，欢迎留言给我，如果你喜欢使用Email，也欢迎写信，我的邮箱是：9830131#qq.com。关于作者介绍，可以查看
+  <a href="/about.html">这里</a>。</p>
+<p>2022年09月7日</p>
 </article>
 
       
@@ -386,81 +326,19 @@
 
     
       <aside class="book-toc">
-        <div class="book-toc-content">
-        <style>
-  .widget {
-    background-color: #fff;
-    color: #727272;
-    font-size: 14px;
-    margin: 0 auto 2em;
-    overflow: hidden;
-     
-    text-align: center;
-  }
-
-  .widget .widget-title {
-    margin-top: -24px;
-    margin-left: -24px;
-    margin-right: -24px;
-    margin-bottom: 2em;
-    padding: 1.5em 1.5em 0;
-    text-transform: uppercase;
-    text-align: left;
-  }
-
-  .widget .widget-title::after {
-    background-color: #009688;
-    content: "";
-    position: relative;
-    width: 35px;
-    display: block;
-    height: 3px;
-    bottom: -8px;
-  }
-
-  .widget ul {
-    list-style: none;
-    padding: 0 1em;
-    text-align: left;
-  }
-
-  .widget li {
-    border-bottom: 1px solid #f0f0f0;
-    padding: 0.5em 0;
-  }
-
-  .widget a {
-    color: #727272;
-  }
-
-  .widget a:hover {
-    color: #009688;
-  }
-
-  .widget .book-section-flat>a {
-    font-weight: 400;
-  }
-  .widget a.twitter {
-    background: #1b95e0;
-    border-radius: 6px;
-    color: #fff;
-    font-weight: 500;
-    line-height: 22px;
-    padding: 8px 20px;
-    text-align: center;
-}
-.widget .line{
-  margin: 1em 0 2em;
-}
-</style>
-<div class="widget">
+        <div class="book-toc-content" style="padding-top: 0;">
+        <div class="widget">
   <h4 class="widget-title">Notice</h4>
   <p class="line">
     <a class="twitter" href="https://twitter.com/coderliyi" target="_blank" rel="noopener"> Twitter @coderliyi </a>
   </p>
   <p class="line">
-    微信公众号
+    微信公众号<br/>
   <img style="width: 150px;height: 150px;" src="/wxqrcode.jpeg" />
+  </p>
+  <p class="line">
+    我的微博<br/>
+    <wb:follow-button style="display: flex;justify-content: center;padding-top: 0.5em;" uid="2820420060" type="red_2" width="136" height="24" ></wb:follow-button>
   </p>
 </div>
 <div class="widget">
@@ -471,7 +349,7 @@
         <li>
           
           
-          <a href="/posts/2022/0907.html">907th</a>
+          <a href="/posts/2022/0906.html">Github Gist是什么？</a>
           
           
         </li>
@@ -479,7 +357,7 @@
         <li>
           
           
-          <a href="/posts/2022/0906.html">Github Gist是什么？</a>
+          <a href="/posts/2022/0907.html">907th</a>
           
           
         </li>
@@ -505,9 +383,6 @@
 
 <div class="widget">
   <h4 class="widget-title">Tags</h4>
-
-  
-
   <div class="book-section-flat">
     
   </div>
@@ -531,31 +406,7 @@
     
   </main>
 
-  <style>
-  .site-footer {
-    background-color: #222;
-    color: #fff;
-    min-height: 70px;
-    font-size: 12px;
-    padding: 2em 0 3em;
-    margin-top: 2em;
-    letter-spacing: 1px;
-  }
-
-  .site-info {
-    text-align: center;
-  }
-
-  .site-footer a {
-    color: #fff;
-  }
-
-  .site-footer p {
-    margin: 1em 0;
-    line-height: 1.7em;
-  }
-</style>
-<footer class="site-footer" role="contentinfo">
+  <footer class="site-footer" role="contentinfo">
   <div class="row site-info">
     YiShuLun.com © 2022
     <span class="sep"> | </span>

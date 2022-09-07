@@ -1,9 +1,3 @@
-User-agent: Googlebot
-Disallow: /docs/
-
-User-agent: Googlebot
-Disallow: /posts/
-
 User-agent: *
 Allow: /
 

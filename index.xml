@@ -4,15 +4,19 @@
     <title>Hi on 艺述论 - YiShuLun</title>
     <link>https://www.yishulun.com/</link>
     <description>Recent content in Hi on 艺述论 - YiShuLun</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.yishulun.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://www.yishulun.com/about.html</link>
-      <pubDate>Thu, 01 Sep 2022 20:48:35 +0800</pubDate>
+      <title>Github Gist是什么？</title>
+      <link>https://www.yishulun.com/posts/2022/0906.html</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.yishulun.com/about.html</guid>
-      <description>About #  李艺， 腾讯云最具价值专家（TVP），微信学堂 《小程序性能优化实践》讲师，极客时间 《微信小程序全栈开发实战》讲师，一汽大众等企业内训讲师，《小程序从0到1》《微信小游戏开发》等图书作者。视频号/公共号「艺述论」作者。
-学编程就像登山，一步一个台阶，没有人学不会。</description>
+      <guid>https://www.yishulun.com/posts/2022/0906.html</guid>
+      <description>&lt;h1 id=&#34;github-gist是什么&#34;&gt;
+  Github Gist是什么？
+  &lt;a class=&#34;anchor&#34; href=&#34;#github-gist%e6%98%af%e4%bb%80%e4%b9%88&#34;&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Gist（https://gist.github.com/），中文要点，/dʒɪst/，是Github提供的一个子服务，可以在线分享比较小的代码片段，同样的代码如果用传统创建仓库的方式分享可能就显得笨重了。Gist就是一个精简版的Repository。下面是我用《微信小游戏开发》3.2.2示例代码做的实验，及实验感受。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -22,6 +26,18 @@
       
       <guid>https://www.yishulun.com/guestbook.html</guid>
       <description>Guestbook #  在下方评论区留言。</description>
+    </item>
+    
+    <item>
+      <title>关于作者</title>
+      <link>https://www.yishulun.com/about.html</link>
+      <pubDate>Thu, 01 Sep 2022 20:48:35 +0800</pubDate>
+      
+      <guid>https://www.yishulun.com/about.html</guid>
+      <description>关于作者 #  李艺， 腾讯云最具价值专家（TVP），微信学堂 《小程序性能优化实践》讲师，极客时间 《微信小程序全栈开发实战》讲师，一汽大众等企业内训讲师，《小程序从0到1》《微信小游戏开发》等图书作者。视频号/公共号「艺述论」作者。
+学编程就像登山，一步一个台阶，没有人学不会。
+联系方式 #   QQ：9830131 Weixin：同上 Email：9830131#qq.com  赞赏 #  如果觉得这个博客对你有帮助，欢迎扫码打赏博主。
+支付宝 微信  </description>
     </item>
     
     <item>
@@ -58,15 +74,6 @@
       
       <guid>https://www.yishulun.com/posts/2022/0907.html</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Github Gist是什么？</title>
-      <link>https://www.yishulun.com/posts/2022/0906.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yishulun.com/posts/2022/0906.html</guid>
-      <description>&lt;p&gt;Gist（https://gist.github.com/），中文要点，/dʒɪst/，是Github提供的一个子服务，可以在线分享比较小的代码片段，同样的代码如果用传统创建仓库的方式分享可能就显得笨重了。Gist就是一个精简版的Repository。下面是我用《微信小游戏开发》3.2.2示例代码做的实验，及实验感受。&lt;/p&gt;</description>
     </item>
     
   </channel>

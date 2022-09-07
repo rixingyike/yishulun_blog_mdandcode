@@ -2,17 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.yishulun.com/about.html</loc>
-    <lastmod>2022-09-01T20:48:35+08:00</lastmod>
+    <loc>https://www.yishulun.com/posts/2022/0906.html</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yishulun.com/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.yishulun.com/en/about.html"
+                href="https://www.yishulun.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.yishulun.com/about.html"
+                href="https://www.yishulun.com/"
+                />
+  </url><url>
+    <loc>https://www.yishulun.com/posts.html</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yishulun.com/en/posts.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yishulun.com/posts.html"
                 />
   </url><url>
     <loc>https://www.yishulun.com/guestbook.html</loc>
@@ -26,6 +42,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://www.yishulun.com/guestbook.html"
+                />
+  </url><url>
+    <loc>https://www.yishulun.com/about.html</loc>
+    <lastmod>2022-09-01T20:48:35+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yishulun.com/en/about.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yishulun.com/about.html"
                 />
   </url><url>
     <loc>https://www.yishulun.com/archives.html</loc>
@@ -79,32 +108,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://www.yishulun.com/categories.html"
-                />
-  </url><url>
-    <loc>https://www.yishulun.com/posts/2022/0906.html</loc>
-  </url><url>
-    <loc>https://www.yishulun.com/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yishulun.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yishulun.com/"
-                />
-  </url><url>
-    <loc>https://www.yishulun.com/posts.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yishulun.com/en/posts.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yishulun.com/posts.html"
                 />
   </url><url>
     <loc>https://www.yishulun.com/tags.html</loc>

@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh" dir=" ltr">
+<html 
+  lang="zh" 
+  dir=" ltr" 
+  xmlns:wb="http://open.weibo.com/wb">
 
 <head>
   <meta charset="UTF-8">
@@ -14,8 +17,8 @@
 <meta property="og:description" content="Gist是Github提供的一个子服务，可以在线分享比较小的代码片段，同样的代码如果用传统创建仓库的方式分享可能就显得笨重了。Gist就是一个精简版的Repository。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.yishulun.com/posts/2022/0906.html" /><meta property="article:section" content="posts" />
-
-
+<meta property="article:published_time" content="2022-09-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-09-06T00:00:00+00:00" />
 
 <title>Github Gist是什么？ | 艺述论 - YiShuLun</title>
 
@@ -23,98 +26,25 @@
 <link rel="stylesheet" href="https://www.yishulun.com//css/bootstrap-theme.min.css">
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/book.min.b486b64eee439e2a86fdc17dd50afcbdc06070f0509a7896d2581d442e609d63.css" integrity="sha256-tIa2Tu5DniqG/cF91Qr8vcBgcPBQmniW0lgdRC5gnWM=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.52eafdadaf2418e06bb23ca853daee836a577e363483005711eacbda216f0588.css" integrity="sha256-Uur9ra8kGOBrsjyoU9rug2pXfjY0gwBXEerL2iFvBYg=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/zh.search.min.13e8f1d3d5f12a67adecbbc08c658c6ec634dd3b9d72a2ab33581577679e76d9.js" integrity="sha256-E&#43;jx09XxKmet7LvAjGWMbsY03TudcqKrM1gVd2eedtk=" crossorigin="anonymous"></script>
+  <script defer src="/zh.search.min.05ae7eb716b830486398498936430b0b268163fa8807feb6bbe8fae04e01ee00.js" integrity="sha256-Ba5&#43;txa4MEhjmEmJNkMLCyaBY/qIB/62u&#43;j64E4B7gA=" crossorigin="anonymous"></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+
+<script src="https://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9936052907746352"
      crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://www.yishulun.com//css/custom.css">
   
 </head>
 
 <body dir=" ltr">
 
   
-<style>
-  .navbar-nav {
-    float: right;
-  }
-
-  @media (max-width: 900px) {
-    .navbar-nav {
-      float: none;
-      text-align: center;
-    }
-  }
-
-  .nav {
-    display: block;
-  }
-
-  .logo {
-    background: url(/logo.png);
-    background-size: contain;
-    width: 30px;
-    height: 30px;
-    float: left;
-    position: relative;
-    top: -5px;
-    margin-right: 10px;
-  }
-
-  .site-header .site-branding {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-  .site-header {
-    background: #1d2b2d;
-    position: relative;
-    width: 100%;
-    margin-bottom: 3em;
-    overflow: hidden;
-    min-height: 200px;
-  }
-
-  .site-title {
-    color: #fff;
-    font-size: 3.5em;
-    font-weight: 700;
-    letter-spacing: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-shadow: rgb(255 255 255 / 10%) -1px -1px 1px, rgb(0 0 0 / 50%) 1px 1px 1px;
-  }
-
-  .site-title::after {
-    background-color: #fff;
-    content: "";
-    height: 2px;
-    display: block;
-    width: 100%;
-    margin: 10px auto;
-  }
-
-  .site-description {
-    color: #fff;
-    font-size: 1em;
-    font-weight: 400;
-    padding: 0.2em 0;
-    letter-spacing: 5px;
-    text-transform: capitalize;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-shadow: rgb(255 255 255 / 10%) -1px -1px 1px, rgb(0 0 0 / 50%) 1px 1px 1px;
-  }
-</style>
 <header id="masthead" role="banner">
   <nav class="navbar navbar-default navbar-fixed-top navbar-left" role="navigation">
 
@@ -126,26 +56,26 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="https://www.yishulun.com/">
+        <a class="navbar-brand" href="/">
           <div class="logo"></div>艺述论 - YiShuLun
         </a>
       </div>
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul id="menu-coolshell" class="nav navbar-nav">
           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a title="首页"
-              href="https://www.yishulun.com/">Home</a></li>
+              href="/">Home</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="归档"
-              href="https://www.yishulun.com/tags.html">Tags</a></li>
+              href="/tags.html">Tags</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="归档"
-              href="https://www.yishulun.com/categories.html">Categories</a></li>
+              href="/categories.html">Categories</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="归档"
-              href="https://www.yishulun.com/archives.html">Archives</a></li>
+              href="/archives.html">Archives</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="留言"
-              href="https://www.yishulun.com/guestbook.html">Guestbook</a></li>
+              href="/guestbook.html">Guestbook</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="关于作者"
-              href="https://www.yishulun.com/about.html">About</a></li>
+              href="/about.html">About</a></li>
           <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="RSS"
-              href="https://www.yishulun.com/index.xml">RSS</a></li>
+              href="/index.xml">RSS</a></li>
         </ul>
       </div>
     </div>
@@ -153,7 +83,7 @@
   <div id="cc_spacer" style="height: 50px;"></div>
   <div class="site-header">
     <div class="site-branding">
-      <a class="home-link" href="https://www.yishulun.com/" title="艺述论 - YiShuLun" rel="home">
+      <a class="home-link" href="/" title="艺述论 - YiShuLun" rel="home">
         <h1 class="site-title">艺述论 - YiShuLun</h1>
         <h2 class="site-description">Led by dream，Make friends with time</h2>
       </a>
@@ -293,17 +223,25 @@
   
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#github-gist是什么">Github Gist是什么？</a>
       <ul>
-        <li>
+        <li><a href="#它分享的范围有哪些">它分享的范围有哪些？</a></li>
+        <li><a href="#它有什么用法">它有什么用法？</a>
           <ul>
-            <li><a href="#它分享的范围有哪些">它分享的范围有哪些？</a></li>
-            <li><a href="#它有什么用法">它有什么用法？</a></li>
-            <li><a href="#gist-不能在线直接运行吗">Gist 不能在线直接运行吗？</a></li>
-            <li><a href="#其他问题">其他问题</a></li>
-            <li><a href="#小结">小结</a></li>
+            <li><a href="#在页面中内嵌代码">在页面中内嵌代码</a></li>
+            <li><a href="#分享链接">分享链接</a></li>
+            <li><a href="#提供一个-zip-下载链接">提供一个 zip 下载链接</a></li>
           </ul>
         </li>
+        <li><a href="#gist-不能在线直接运行吗">Gist 不能在线直接运行吗？</a></li>
+        <li><a href="#其他问题">其他问题</a>
+          <ul>
+            <li><a href="#gistgithubcom-被墙无法访问的解决办法">gist.github.com 被墙无法访问的解决办法</a></li>
+            <li><a href="#有人把-gist-当作一个写作平台">有人把 Gist 当作一个写作平台</a></li>
+            <li><a href="#how-to-create-a-github-gist-with-api">How to create a GitHub Gist with API?</a></li>
+          </ul>
+        </li>
+        <li><a href="#小结">小结</a></li>
       </ul>
     </li>
   </ul>
@@ -318,37 +256,44 @@
 
       
       
+
 <article class="markdown">
-  <h1>
+  <p>
     <a href="/posts/2022/0906.html">Github Gist是什么？</a>
-  </h1>
+  </p>
+  
+  <h5>2022-09-06</h5>
+
+
+
+  
+
   
 
 
-  
 
-  
-
-
-
+<h1 id="github-gist是什么">
+  Github Gist是什么？
+  <a class="anchor" href="#github-gist%e6%98%af%e4%bb%80%e4%b9%88">#</a>
+</h1>
 <p>Gist（https://gist.github.com/），中文要点，/dʒɪst/，是Github提供的一个子服务，可以在线分享比较小的代码片段，同样的代码如果用传统创建仓库的方式分享可能就显得笨重了。Gist就是一个精简版的Repository。下面是我用《微信小游戏开发》3.2.2示例代码做的实验，及实验感受。</p>
-<h3 id="它分享的范围有哪些">
+<h2 id="它分享的范围有哪些">
   它分享的范围有哪些？
   <a class="anchor" href="#%e5%ae%83%e5%88%86%e4%ba%ab%e7%9a%84%e8%8c%83%e5%9b%b4%e6%9c%89%e5%93%aa%e4%ba%9b">#</a>
-</h3>
+</h2>
 <p>创建时有两个选项：</p>
 <img src="assets/image-20220906204443158.png" alt="image-20220906204443158" style="zoom:50%;" />
 <p>第一个选项“Create secret gist”，虽然有 secret，但也不是私密的，看到分享链接的人都可以访问。第二个选项，是一个完全公开的、搜索引擎可以抓取的链接。</p>
 <p>基本公司团队内分享，使用第一个选项合适；撰写一个小教程，就像我这篇文章一样，适合使用第二个选项。这个选项或许还可以让我们的文章有更多的曝光量，当然这仅限于你在代码中可以留下了文章链接。</p>
-<h3 id="它有什么用法">
+<h2 id="它有什么用法">
   它有什么用法？
   <a class="anchor" href="#%e5%ae%83%e6%9c%89%e4%bb%80%e4%b9%88%e7%94%a8%e6%b3%95">#</a>
-</h3>
+</h2>
 <p>在线创建后便可以分享了。</p>
-<h4 id="1-在页面中内嵌代码">
-  1. 在页面中内嵌代码
-  <a class="anchor" href="#1-%e5%9c%a8%e9%a1%b5%e9%9d%a2%e4%b8%ad%e5%86%85%e5%b5%8c%e4%bb%a3%e7%a0%81">#</a>
-</h4>
+<h3 id="在页面中内嵌代码">
+  在页面中内嵌代码
+  <a class="anchor" href="#%e5%9c%a8%e9%a1%b5%e9%9d%a2%e4%b8%ad%e5%86%85%e5%b5%8c%e4%bb%a3%e7%a0%81">#</a>
+</h3>
 <p>直接在 md 或 HTML 页面中，用 script 标签嵌入一个 js 地址：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:2;-o-tab-size:2;tab-size:2;"><code class="language-js" data-lang="js"><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#000;font-weight:bold">&lt;</span>script src<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;https://gist.github.com/rixingyike/3e64127a5ebb66ee381093bfeeed8829.js&#34;</span><span style="color:#000;font-weight:bold">&gt;&lt;</span><span style="color:#a61717;background-color:#e3d2d2">/script&gt;</span>
 </span></span></code></pre></div><p>下面 Gist 嵌入开始：</p>
@@ -360,26 +305,26 @@
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:2;-o-tab-size:2;tab-size:2;"><code class="language-js" data-lang="js"><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#0086b3">document</span>.write(<span style="color:#d14">&#39;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://github.githubassets.com/assets/gist-embed-19d8e57711b3.css&#34;&gt;&#39;</span>)
 </span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#0086b3">document</span>.write(<span style="color:#d14">&#39;&lt;div id=\&#34;gist118190366\&#34; class=\&#34;gist\&#34;&gt;\n    &lt;div class=\&#34;gist-file\&#34; translate=\&#34;no\&#34;&gt;\n...&#39;</span>)
 </span></span></code></pre></div><p>第一行是 Github 基本的CSS样式类库，第二行是与我们每一个分享的代码有关的信息。</p>
-<h4 id="2-分享链接">
-  2. 分享链接
-  <a class="anchor" href="#2-%e5%88%86%e4%ba%ab%e9%93%be%e6%8e%a5">#</a>
-</h4>
+<h3 id="分享链接">
+  分享链接
+  <a class="anchor" href="#%e5%88%86%e4%ba%ab%e9%93%be%e6%8e%a5">#</a>
+</h3>
 <p>
   <a href="https://gist.github.com/rixingyike/3e64127a5ebb66ee381093bfeeed8829">https://gist.github.com/rixingyike/3e64127a5ebb66ee381093bfeeed8829</a></p>
 <p>注意，这个地址很奇妙啊，这不就是上面那个js文件的地址吗？只是少了一个js后缀。在Github的服务器端，加上后缀是被引入的js文件，不加是Gist代码的主页地址，这样的API设计不可谓不算简约。</p>
-<h4 id="3-提供一个-zip-下载链接">
-  3. 提供一个 zip 下载链接
-  <a class="anchor" href="#3-%e6%8f%90%e4%be%9b%e4%b8%80%e4%b8%aa-zip-%e4%b8%8b%e8%bd%bd%e9%93%be%e6%8e%a5">#</a>
-</h4>
+<h3 id="提供一个-zip-下载链接">
+  提供一个 zip 下载链接
+  <a class="anchor" href="#%e6%8f%90%e4%be%9b%e4%b8%80%e4%b8%aa-zip-%e4%b8%8b%e8%bd%bd%e9%93%be%e6%8e%a5">#</a>
+</h3>
 <p>
   <a href="https://gist.github.com/rixingyike/3e64127a5ebb66ee381093bfeeed8829/archive/9b29a41650efa5bd9884d27ba9cb617e0291f8e1.zip">https://gist.github.com/rixingyike/3e64127a5ebb66ee381093bfeeed8829/archive/9b29a41650efa5bd9884d27ba9cb617e0291f8e1.zip</a></p>
 <p>对于自己已经创建的历史 Gist，Github 都有记录，这个地址就是 Gist 地址加上自己的 Github ID，例如我的 Gists 地址是：</p>
 <p>
   <a href="https://gist.github.com/rixingyike">https://gist.github.com/rixingyike</a></p>
-<h3 id="gist-不能在线直接运行吗">
+<h2 id="gist-不能在线直接运行吗">
   Gist 不能在线直接运行吗？
   <a class="anchor" href="#gist-%e4%b8%8d%e8%83%bd%e5%9c%a8%e7%ba%bf%e7%9b%b4%e6%8e%a5%e8%bf%90%e8%a1%8c%e5%90%97">#</a>
-</h3>
+</h2>
 <p>目前不能。</p>
 <p>Gist 允许同时分享多个文件，我在使用时看到这个功能还很高兴，因为可以保持文件的名称和相对位置，对于前端小示例，便意味着可以在线运行。</p>
 <p>事实上不可以。</p>
@@ -399,43 +344,39 @@
 <iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="https://bl.ocks.org/rixingyike/raw/3e64127a5ebb66ee381093bfeeed8829/9b29a41650efa5bd9884d27ba9cb617e0291f8e1/" marginwidth="0" marginheight="0" style="height:100px;" scrolling="no"></iframe>
 <p>嵌入结束。</p>
 <p>没有效果！没有办法，资源是bl.ocks.org的，人家拒绝我们跨域嵌入，我们便无法通过iframe引入了。</p>
-<h3 id="其他问题">
+<h2 id="其他问题">
   其他问题
   <a class="anchor" href="#%e5%85%b6%e4%bb%96%e9%97%ae%e9%a2%98">#</a>
-</h3>
-<h4 id="gistgithubcom-被墙无法访问的解决办法">
+</h2>
+<h3 id="gistgithubcom-被墙无法访问的解决办法">
   gist.github.com 被墙无法访问的解决办法
   <a class="anchor" href="#gistgithubcom-%e8%a2%ab%e5%a2%99%e6%97%a0%e6%b3%95%e8%ae%bf%e9%97%ae%e7%9a%84%e8%a7%a3%e5%86%b3%e5%8a%9e%e6%b3%95">#</a>
-</h4>
+</h3>
 <p>可以用梯子，或者修改 hosts 文件，直接将 gist.github.com 指向它的 IP 地址（例如 192.30.253.118），这一招破解的是 DNS 污染。</p>
 <p>具体指向哪里，不一定，可以在本地用 ping 指令查看一下。希望你的 ping 结果不是这样的：</p>
-<blockquote>
 <p>0 received, 100% packet loss</p>
-</blockquote>
-<h4 id="有人把-gist-当作一个写作平台">
+<h3 id="有人把-gist-当作一个写作平台">
   有人把 Gist 当作一个写作平台
   <a class="anchor" href="#%e6%9c%89%e4%ba%ba%e6%8a%8a-gist-%e5%bd%93%e4%bd%9c%e4%b8%80%e4%b8%aa%e5%86%99%e4%bd%9c%e5%b9%b3%e5%8f%b0">#</a>
-</h4>
+</h3>
 <p>这件事是结合http://roughdraft.io来做的，但其实没有必要啊。Github仓库+hugo+Github Actions 就可以构建一个完美的静态博客，没有必要用结构松散的 Gist。</p>
 <h4 id="如何看待-github-gist-这个服务怎样更好地利用">
   如何看待 Github Gist 这个服务，怎样更好地利用？
   <a class="anchor" href="#%e5%a6%82%e4%bd%95%e7%9c%8b%e5%be%85-github-gist-%e8%bf%99%e4%b8%aa%e6%9c%8d%e5%8a%a1%e6%80%8e%e6%a0%b7%e6%9b%b4%e5%a5%bd%e5%9c%b0%e5%88%a9%e7%94%a8">#</a>
 </h4>
 <p>就是一个阉割版的 Repository，便于在线分享内容，不局限于分享代码。正常使用就可以了，过度使用就没有必要了。</p>
-<h4 id="how-to-create-a-github-gist-with-api">
+<h3 id="how-to-create-a-github-gist-with-api">
   How to create a GitHub Gist with API?
   <a class="anchor" href="#how-to-create-a-github-gist-with-api">#</a>
-</h4>
+</h3>
 <p>先创建 Github Token，然后在下面这个网址：</p>
-<blockquote>
 <p>
   <a href="https://docs.github.com/cn/rest/gists/gists">https://docs.github.com/cn/rest/gists/gists</a></p>
-</blockquote>
 <p>找到需要的 REST API，进行 Gist 的 CURD 操作就可以了。</p>
-<h3 id="小结">
+<h2 id="小结">
   小结
   <a class="anchor" href="#%e5%b0%8f%e7%bb%93">#</a>
-</h3>
+</h2>
 <p>当然了，Gist 本质上最大的功能，还是内嵌代码，且天然支持高亮，效果如下所示。</p>
 <p>
   <img src="assets/image-20220906214053495.png" alt="image-20220906214053495" /></p>
@@ -519,17 +460,25 @@
   
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#github-gist是什么">Github Gist是什么？</a>
       <ul>
-        <li>
+        <li><a href="#它分享的范围有哪些">它分享的范围有哪些？</a></li>
+        <li><a href="#它有什么用法">它有什么用法？</a>
           <ul>
-            <li><a href="#它分享的范围有哪些">它分享的范围有哪些？</a></li>
-            <li><a href="#它有什么用法">它有什么用法？</a></li>
-            <li><a href="#gist-不能在线直接运行吗">Gist 不能在线直接运行吗？</a></li>
-            <li><a href="#其他问题">其他问题</a></li>
-            <li><a href="#小结">小结</a></li>
+            <li><a href="#在页面中内嵌代码">在页面中内嵌代码</a></li>
+            <li><a href="#分享链接">分享链接</a></li>
+            <li><a href="#提供一个-zip-下载链接">提供一个 zip 下载链接</a></li>
           </ul>
         </li>
+        <li><a href="#gist-不能在线直接运行吗">Gist 不能在线直接运行吗？</a></li>
+        <li><a href="#其他问题">其他问题</a>
+          <ul>
+            <li><a href="#gistgithubcom-被墙无法访问的解决办法">gist.github.com 被墙无法访问的解决办法</a></li>
+            <li><a href="#有人把-gist-当作一个写作平台">有人把 Gist 当作一个写作平台</a></li>
+            <li><a href="#how-to-create-a-github-gist-with-api">How to create a GitHub Gist with API?</a></li>
+          </ul>
+        </li>
+        <li><a href="#小结">小结</a></li>
       </ul>
     </li>
   </ul>
@@ -542,31 +491,7 @@
     
   </main>
 
-  <style>
-  .site-footer {
-    background-color: #222;
-    color: #fff;
-    min-height: 70px;
-    font-size: 12px;
-    padding: 2em 0 3em;
-    margin-top: 2em;
-    letter-spacing: 1px;
-  }
-
-  .site-info {
-    text-align: center;
-  }
-
-  .site-footer a {
-    color: #fff;
-  }
-
-  .site-footer p {
-    margin: 1em 0;
-    line-height: 1.7em;
-  }
-</style>
-<footer class="site-footer" role="contentinfo">
+  <footer class="site-footer" role="contentinfo">
   <div class="row site-info">
     YiShuLun.com © 2022
     <span class="sep"> | </span>
