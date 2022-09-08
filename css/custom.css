@@ -189,3 +189,8 @@ margin: 2em 0 2em;
   margin-left:0px;
   margin-right:0px;
 }
+
+/* 重写Bootstrap样式 */
+body {
+  font-size: 16px;
+}
