@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程 on 艺述论 - YiShuLun</title>
+    <link>https://www.yishulun.com/categories/%E7%BC%96%E7%A8%8B.html</link>
+    <description>Recent content in 编程 on 艺述论 - YiShuLun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/categories/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Gist是什么？</title>
+      <link>https://www.yishulun.com/posts/2022/0906.html</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yishulun.com/posts/2022/0906.html</guid>
+      <description>&lt;h1 id=&#34;github-gist是什么&#34;&gt;
+  Github Gist是什么？
+  &lt;a class=&#34;anchor&#34; href=&#34;#github-gist%e6%98%af%e4%bb%80%e4%b9%88&#34;&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Gist（https://gist.github.com/），中文要点，/dʒɪst/，是Github提供的一个子服务，可以在线分享比较小的代码片段，同样的代码如果用传统创建仓库的方式分享可能就显得笨重了。Gist就是一个精简版的Repository。下面是我用《微信小游戏开发》3.2.2示例代码做的实验，及实验感受。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

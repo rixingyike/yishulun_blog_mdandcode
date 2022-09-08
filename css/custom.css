@@ -136,6 +136,7 @@
 .widget .book-section-flat>a {
   font-weight: 400;
 }
+
 .widget a.twitter {
   background: #1b95e0;
   border-radius: 6px;
@@ -145,8 +146,9 @@
   padding: 8px 20px;
   text-align: center;
 }
-.widget .line{
-margin: 2em 0 2em;
+
+.widget .line {
+  margin: 2em 0 2em;
 }
 
 /* footer */
@@ -185,15 +187,24 @@ margin: 2em 0 2em;
 }
 
 /* 解决Bootstrap的row类，引起网页横向滚动条的问题 */
-.row{
-  margin-left:0px;
-  margin-right:0px;
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* 重写Bootstrap样式 */
 body {
   font-size: 17px;
 }
+
 blockquote {
   font-size: inherit;
+}
+
+.featured-image {
+  max-width: 100px;
+  max-height: 100px;
+  float: right;
+  vertical-align: middle;
+  margin-left: 1rem
 }
