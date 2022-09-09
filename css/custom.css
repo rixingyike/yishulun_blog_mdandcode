@@ -177,9 +177,10 @@
 
 /* index page */
 .index ul {
-  list-style: none;
+  list-style: square;
   padding: 0 1em;
   text-align: left;
+  max-width: 550px;
 }
 
 .index li {
