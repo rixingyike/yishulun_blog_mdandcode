@@ -147,8 +147,24 @@
   text-align: center;
 }
 
+.widget a.weibo {
+  background: #f93f3f;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 35px;
+  padding: 8px 20px;
+  text-align: center;
+}
+.widget a.weibo img {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  top: 4px;
+}
+
 .widget .line {
-  margin: 2em 0 2em;
+  margin: 2em 0 1em;
 }
 
 /* footer */
@@ -194,6 +210,10 @@
 }
 
 /* 重写Bootstrap样式 */
+.h2, h2 {
+  /* font-size:inherit; */
+}
+
 body {
   font-size: 17px;
 }
@@ -203,8 +223,8 @@ blockquote {
 }
 
 .featured-image {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 60px;
+  max-height: 60px;
   float: right;
   vertical-align: middle;
   margin-left: 1rem
