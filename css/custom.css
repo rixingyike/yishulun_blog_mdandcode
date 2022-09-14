@@ -208,6 +208,19 @@
   margin-left: 0px;
   margin-right: 0px;
 }
+.markdown li {
+  list-style-type: none;
+}
+.markdown ul,.markdown ol {
+  padding-inline-start: 0rem;
+}
+.markdown li::before {
+  content: "◾️";
+  /* background: lightgray; */
+  border-radius: 1ch;
+  /* padding-inline: 1ch; */
+  margin-inline-end: 1ch;
+}
 
 /* 重写Bootstrap样式 */
 .h2, h2 {
