@@ -214,6 +214,9 @@
 .markdown ul,.markdown ol {
   padding-inline-start: 2rem;
 }
+.markdown p, .markdown ul {
+  margin: 0 0 20px 0;
+}
 /* .markdown li::before {
   content: "🔲";
   font-size: 1rem;
