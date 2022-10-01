@@ -209,17 +209,17 @@
   margin-right: 0px;
 }
 .markdown li {
-  list-style-type: none;
+  list-style-type: square;
 }
 .markdown ul,.markdown ol {
-  padding-inline-start: 1rem;
+  padding-inline-start: 2rem;
 }
-.markdown li::before {
+/* .markdown li::before {
   content: "🔲";
   font-size: 1rem;
   border-radius: 1ch;
   margin-inline-end: 1ch;
-}
+} */
 
 /* 重写Bootstrap样式 */
 .h2, h2 {
