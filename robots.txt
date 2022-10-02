@@ -1,4 +1,3 @@
 User-agent: *
-Allow: /
-
+Disallow: /en
 Sitemap: https://www.yishulun.com/sitemap.xml
