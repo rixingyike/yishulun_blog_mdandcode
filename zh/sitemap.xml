@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.yishulun.com/categories.html</loc>
-    <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://www.yishulun.com/</loc>
-    <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://www.yishulun.com/posts.html</loc>
-    <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,6 +40,28 @@
                 hreflang="zh"
                 href="https://www.yishulun.com/posts.html"
                 />
+  </url><url>
+    <loc>https://www.yishulun.com/tags.html</loc>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.yishulun.com/en/tags.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.yishulun.com/tags.html"
+                />
+  </url><url>
+    <loc>https://www.yishulun.com/posts/2022/1004.html</loc>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yishulun.com/tags/%E5%B0%8F%E8%AF%B4.html</loc>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yishulun.com/categories/%E6%96%87%E5%AD%A6.html</loc>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/posts/2022/1003.html</loc>
     <lastmod>2022-10-03T00:00:00+00:00</lastmod>
@@ -53,29 +75,7 @@
     <loc>https://www.yishulun.com/posts/2022/1002.html</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.yishulun.com/tags.html</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.yishulun.com/en/tags.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.yishulun.com/tags.html"
-                />
-  </url><url>
-    <loc>https://www.yishulun.com/posts/2022/1004.html</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.yishulun.com/posts/2022/1001.html</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/tags/%E5%B0%8F%E8%AF%B4.html</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/categories/%E6%96%87%E5%AD%A6.html</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/posts/2022/10012.html</loc>
