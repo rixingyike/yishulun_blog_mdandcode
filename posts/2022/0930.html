@@ -10,30 +10,10 @@
 <meta name="keywords" content="编程">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="为什么编程里习惯使用 i、j、k 等作为循环变量? #  i 可能是 integer 的简写，或者是 int 的简写。有人说是 iterator 的简写，这个有点牵强。早期教材中的示例都是以 i、k、j 作为循环变量，后来这样使用成为了一种习惯。
-但这种习惯是如何形成的呢？
-在 1957 年诞生的 Fortran 编程语言中，有一个「I—N 规则」，规定以字母 I，J，K，L，M，N 六个字母开头的变量，如无另外说明均为整型变量，以其它字母开头的变量则为实型变量。实型变量在这里狭隘理解就是小数，包括指数形式的小数。
-Fortran 更多是一种教学语言，后来诞生的 B 语言、C 语言都借鉴了 i、k、j 的命名规则，久而久之成为了习惯。
- 关于 I-N 规则，可以查看这里：https://micro.ustc.edu.cn/Fortran/ZJDing/Sec1-4.htm
- Fortran 支持整型、字符型等类型。Fortran 诞生于 1957 年，比 C 语言早了 10 年，很难想象在远古编程语言中，竟然就有了对变量类型的支持。虽然对类型的支持并不是一开始就有的，但也基本发生在 Fortran 诞生之后的几年里。
-JS、Python 这样的脚本语言没有变量类型，并不是它们低级，而是在它们的语言哲学里，没有类型更加简洁方便。
-编程语言一向有两个发展方向，两种哲学：
- 一，力求简洁，代码编写效率高，脚本语言基本都是这样，例如 Python、JS； 二，力求高性能、安全与稳定，后端编译型语言基本都是如此、例如 Java、C&#43;&#43;。  一般情况下，我们都会保持这种语言中哲学的纯粹，但有时候我发现我们开发者又很矛盾，例如 JS，它本来是弱类型的脚本语言，当我们在享受它简洁方便的语言特性时，又搞了一个 TypeScript 出来，希望它也像 Java 那样具有强类型的严谨。
-就像一个姑娘，有时候希望她泼辣，有时候又希望她文静。
-有一个语言，因为诞生的晚，吸收了众多现代语言的优点，既有强类型语言的优点，又有弱类型语言的优点，它就是 Go 语言。">
+<meta name="description" content="为什么编程里习惯使用 i、j、k 等作为循环变量? #  i 可能是 integer 的简写，或者是 int 的简写。有人说是 iterator 的简写，这个有点牵强。早期教材中的示例都是以 i、k、j 作为循环变量，后来这样使用成为了一种习惯。">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="为什么编程里习惯使用 i、j、k 等作为循环变量?" />
-<meta property="og:description" content="为什么编程里习惯使用 i、j、k 等作为循环变量? #  i 可能是 integer 的简写，或者是 int 的简写。有人说是 iterator 的简写，这个有点牵强。早期教材中的示例都是以 i、k、j 作为循环变量，后来这样使用成为了一种习惯。
-但这种习惯是如何形成的呢？
-在 1957 年诞生的 Fortran 编程语言中，有一个「I—N 规则」，规定以字母 I，J，K，L，M，N 六个字母开头的变量，如无另外说明均为整型变量，以其它字母开头的变量则为实型变量。实型变量在这里狭隘理解就是小数，包括指数形式的小数。
-Fortran 更多是一种教学语言，后来诞生的 B 语言、C 语言都借鉴了 i、k、j 的命名规则，久而久之成为了习惯。
- 关于 I-N 规则，可以查看这里：https://micro.ustc.edu.cn/Fortran/ZJDing/Sec1-4.htm
- Fortran 支持整型、字符型等类型。Fortran 诞生于 1957 年，比 C 语言早了 10 年，很难想象在远古编程语言中，竟然就有了对变量类型的支持。虽然对类型的支持并不是一开始就有的，但也基本发生在 Fortran 诞生之后的几年里。
-JS、Python 这样的脚本语言没有变量类型，并不是它们低级，而是在它们的语言哲学里，没有类型更加简洁方便。
-编程语言一向有两个发展方向，两种哲学：
- 一，力求简洁，代码编写效率高，脚本语言基本都是这样，例如 Python、JS； 二，力求高性能、安全与稳定，后端编译型语言基本都是如此、例如 Java、C&#43;&#43;。  一般情况下，我们都会保持这种语言中哲学的纯粹，但有时候我发现我们开发者又很矛盾，例如 JS，它本来是弱类型的脚本语言，当我们在享受它简洁方便的语言特性时，又搞了一个 TypeScript 出来，希望它也像 Java 那样具有强类型的严谨。
-就像一个姑娘，有时候希望她泼辣，有时候又希望她文静。
-有一个语言，因为诞生的晚，吸收了众多现代语言的优点，既有强类型语言的优点，又有弱类型语言的优点，它就是 Go 语言。" />
+<meta property="og:description" content="为什么编程里习惯使用 i、j、k 等作为循环变量? #  i 可能是 integer 的简写，或者是 int 的简写。有人说是 iterator 的简写，这个有点牵强。早期教材中的示例都是以 i、k、j 作为循环变量，后来这样使用成为了一种习惯。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.yishulun.com/posts/2022/0930.html" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-09-30T00:00:00+00:00" />
@@ -47,7 +27,7 @@ JS、Python 这样的脚本语言没有变量类型，并不是它们低级，�
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.2ed0c93d457503a25e5c7a59529a278037c3464c924ad7cc8e83bfe8d45ea3ce.css" integrity="sha256-LtDJPUV1A6JeXHpZUpongDfDRkySStfMjoO/6NReo84=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/zh.search.min.c41069e513f34dc094ef9941c901e1e883f99294d5ccd8628320030a1c55a580.js" integrity="sha256-xBBp5RPzTcCU75lByQHh6IP5kpTVzNhigyADChxVpYA=" crossorigin="anonymous"></script>
+  <script defer src="/zh.search.min.45f51893e206a4b48ff0587f75fe02ec749ea234867b754e287fc54648d1561d.js" integrity="sha256-RfUYk&#43;IGpLSP8Fh/df4C7HSeojSGe3VOKH/FRkjRVh0=" crossorigin="anonymous"></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
 
@@ -302,11 +282,14 @@ JS、Python 这样的脚本语言没有变量类型，并不是它们低级，�
 
       
       
+
+
 <div style="padding-top: 30px;color:#888888;">
   <blockquote>
     <p>不要相信任何片面、武断的观点，包括以上我的观点。</p>
   </blockquote>
 </div>
+
 
 
 

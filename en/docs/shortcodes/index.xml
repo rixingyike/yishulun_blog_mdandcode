@@ -11,8 +11,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/en/docs/shortcodes/buttons.html</guid>
-      <description>Buttons #  Buttons are styled links that can lead to local page or external link.
- Example #  1{{&lt; button relref=&#34;/&#34; [class=&#34;...&#34;] &gt;}}Get Home{{&lt; /button &gt;}} 2{{&lt; button href=&#34;https://github.com/alex-shpak/hugo-book&#34; &gt;}}Contribute{{&lt; /button &gt;}}  Get Home  Contribute  </description>
+      <description>Buttons #  Buttons are styled links that can lead to local page or external link.</description>
     </item>
     
     <item>
@@ -21,8 +20,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/en/docs/shortcodes/columns.html</guid>
-      <description>Columns #  Columns help organize shorter pieces of content horizontally for readability.
-1{{&lt; columns &gt;}} &lt;!-- begin columns block --&gt; 2# Left Content 3Lorem markdownum insigne... 4 5&lt;---&gt; &lt;!-- magic separator, between columns --&gt; 6 7# Mid Content 8Lorem markdownum insigne... 9 10&lt;---&gt; &lt;!-- magic separator, between columns --&gt; 11 12# Right Content 13Lorem markdownum insigne... 14{{&lt; /columns &gt;}} Example #  Left Content #  Lorem markdownum insigne. Olympo signis Delphis!</description>
+      <description>Columns #  Columns help organize shorter pieces of content horizontally for readability.</description>
     </item>
     
     <item>
@@ -31,8 +29,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/en/docs/shortcodes/details.html</guid>
-      <description>Details #  Details shortcode is a helper for details html5 element. It is going to replace expand shortcode.
-Example #  1{{&lt; details &#34;Title&#34; [open] &gt;}} 2## Markdown content 3Lorem markdownum insigne... 4{{&lt; /details &gt;}} 1{{&lt; details title=&#34;Title&#34; open=true &gt;}} 2## Markdown content 3Lorem markdownum insigne... 4{{&lt; /details &gt;}} Title Markdown content #  Lorem markdownum insigne&hellip;   </description>
+      <description>Details #  Details shortcode is a helper for details html5 element.</description>
     </item>
     
     <item>
@@ -41,8 +38,7 @@ Example #  1{{&lt; details &#34;Title&#34; [open] &gt;}} 2## Markdown content 3L
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/en/docs/shortcodes/expand.html</guid>
-      <description>Expand #  Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.
-Example #  Default #  1{{&lt; expand &gt;}} 2## Markdown content 3Lorem markdownum insigne... 4{{&lt; /expand &gt;}}   Expand ↕  Markdown content #  Lorem markdownum insigne&hellip;    With Custom Label #  1{{&lt; expand &#34;Custom Label&#34; &#34;...&#34; &gt;}} 2## Markdown content 3Lorem markdownum insigne.</description>
+      <description>Expand #  Expand shortcode can help to decrease clutter on screen by hiding part of text.</description>
     </item>
     
     <item>
@@ -51,10 +47,7 @@ Example #  Default #  1{{&lt; expand &gt;}} 2## Markdown content 3Lorem markdown
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/en/docs/shortcodes/hints.html</guid>
-      <description>Hints #  Hint shortcode can be used as hint/alerts/notification block.
-There are 3 colors to choose: info, warning and danger.
-1{{&lt; hint [info|warning|danger] &gt;}} 2**Markdown content** 3Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat 4stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa 5{{&lt; /hint &gt;}} Example #  Markdown content
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa  Markdown content</description>
+      <description>Hints #  Hint shortcode can be used as hint/alerts/notification block.</description>
     </item>
     
     <item>
@@ -63,8 +56,7 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/en/docs/shortcodes/katex.html</guid>
-      <description>KaTeX #  KaTeX shortcode let you render math typesetting in markdown document. See KaTeX
-Example #  1{{&lt; katex [display] [class=&#34;text-center&#34;] &gt;}} 2f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi 3{{&lt; /katex &gt;}}     \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]    Display Mode Example #  Here is some inline example:  \(\pi(x)\)  , rendered in the same line. And below is display example, having display: block  \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]  Text continues here.</description>
+      <description>KaTeX #  KaTeX shortcode let you render math typesetting in markdown document.</description>
     </item>
     
     <item>
@@ -73,10 +65,7 @@ Example #  1{{&lt; katex [display] [class=&#34;text-center&#34;] &gt;}} 2f(x) = 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/en/docs/shortcodes/mermaid.html</guid>
-      <description>Mermaid Chart #   MermaidJS is library for generating svg charts and diagrams from text.
-Override Mermaid Initialization Config
-To override the initialization config for Mermaid, create a mermaid.json file in your assets folder!
- Example #  1{{&lt; mermaid [class=&#34;text-center&#34;]&gt;}} 2stateDiagram-v2 3 State1: The state with a note 4 note right of State1 5 Important information! You can write 6 notes. 7 end note 8 State1 --&gt; State2 9 note left of State2 : This is the note to the left.</description>
+      <description>Mermaid Chart #   MermaidJS is library for generating svg charts and diagrams from text.</description>
     </item>
     
     <item>
@@ -85,9 +74,7 @@ To override the initialization config for Mermaid, create a mermaid.json file in
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/en/docs/shortcodes/tabs.html</guid>
-      <description>Tabs #  Tabs let you organize content by context, for example installation instructions for each supported platform.
-1{{&lt; tabs &#34;uniqueid&#34; &gt;}} 2{{&lt; tab &#34;MacOS&#34; &gt;}} # MacOS Content {{&lt; /tab &gt;}} 3{{&lt; tab &#34;Linux&#34; &gt;}} # Linux Content {{&lt; /tab &gt;}} 4{{&lt; tab &#34;Windows&#34; &gt;}} # Windows Content {{&lt; /tab &gt;}} 5{{&lt; /tabs &gt;}} Example #  MacOS MacOS #  This is tab MacOS content.
-Lorem markdownum insigne. Olympo signis Delphis!</description>
+      <description>Tabs #  Tabs let you organize content by context, for example installation instructions for each supported platform.</description>
     </item>
     
   </channel>
