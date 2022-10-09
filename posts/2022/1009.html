@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html 
+  lang="zh" 
+  dir=" ltr">
+
+<head>
+  <meta charset="UTF-8">
+
+
+<meta name="keywords" content="Linux">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Linux 真的会因为开源而失败吗？ #  我不确定当你看到这张图时，是不是和我一样感到震惊？">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Linux 真的会因为开源而失败吗？" />
+<meta property="og:description" content="Linux 真的会因为开源而失败吗？ #  我不确定当你看到这张图时，是不是和我一样感到震惊？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.yishulun.com/posts/2022/1009.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-09T00:00:00+00:00" />
+
+<title>Linux 真的会因为开源而失败吗？ | 艺述论 - YiShuLun</title>
+
+<link rel="stylesheet" href="https://www.yishulun.com/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.yishulun.com/css/bootstrap-theme.min.css">
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.2ed0c93d457503a25e5c7a59529a278037c3464c924ad7cc8e83bfe8d45ea3ce.css" integrity="sha256-LtDJPUV1A6JeXHpZUpongDfDRkySStfMjoO/6NReo84=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/zh.search.min.1fa1c70898a513ab25cce57964f2cf19ae7caa27c863d7e1f6f48b577b02a941.js" integrity="sha256-H6HHCJilE6slzOV5ZPLPGa58qifIY9fh9vSLV3sCqUE=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+
+<script src="https://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+
+
+<link rel="stylesheet" href="https://www.yishulun.com//css/custom.css">
+
+
+  
+</head>
+
+<body dir=" ltr">
+  
+  <span id="top"></span>
+
+  
+<header id="masthead" role="banner">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-left" role="navigation">
+    <div class="container" id="navigation_menu">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <div class="logo"></div>艺述论 - YiShuLun
+        </a>
+      </div>
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul id="menu-coolshell" class="nav navbar-nav">
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a title="首页"
+              href="/">Home</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="归档"
+              href="/tags.html">Tags</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="归档"
+              href="/categories.html">Categories</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="归档"
+              href="/archives.html">Archives</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="留言"
+              href="/guestbook.html">Guestbook</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="关于作者"
+              href="/about.html">Connect</a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="RSS"
+              href="/index.xml">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="cc_spacer" style="height: 50px;"></div>
+  <div class="site-header">
+    <div class="site-branding">
+      <a class="home-link" href="/" title="艺述论 - YiShuLun" rel="home">
+        <h1 class="site-title">艺述论 - YiShuLun</h1>
+        <h2 class="site-description">Led by dream，Make friends with time</h2>
+      </a>
+    </div>
+  </div>
+</header>
+
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+<nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>艺述论 - YiShuLun</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Chinese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://www.yishulun.com/en/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts.html"  rel="noopener">
+        Posts
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+        
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Linux 真的会因为开源而失败吗？</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#linux-真的会因为开源而失败吗">Linux 真的会因为开源而失败吗？</a></li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+
+        
+      </header>
+
+      
+      
+
+<article class="markdown">
+  <p>
+    <a href="/posts/2022/1009.html">Linux 真的会因为开源而失败吗？</a>
+  </p>
+  
+  <h5>2022-10-09</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/%E7%BC%96%E7%A8%8B.html">编程</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/tags/Linux.html">Linux</a>
+  </div>
+  
+
+
+
+<h1 id="linux-真的会因为开源而失败吗">
+  Linux 真的会因为开源而失败吗？
+  <a class="anchor" href="#linux-%e7%9c%9f%e7%9a%84%e4%bc%9a%e5%9b%a0%e4%b8%ba%e5%bc%80%e6%ba%90%e8%80%8c%e5%a4%b1%e8%b4%a5%e5%90%97">#</a>
+</h1>
+<p>我不确定当你看到这张图时，是不是和我一样感到震惊？</p>
+<p>
+  <center><img src="assets/main-qimg-effa76a1eff52868e3b4459a1a5b5936.png" alt="img"  loading="lazy"/></center></p>
+<p>这行图大致描绘了三个主要 Linux 发行版 Debian、Fedora 和 Slackware 的分支演化情况，三个分支下，每个分支背后都隐藏着一个绝顶聪明的开发者或一个精英团队在维护。</p>
+<p>这张图来自
+  <a href="https://www.quora.com/profile/Tomislav-Turalija">托米斯拉夫·图拉利亚</a>，他认为 Linux 发行版之所以出现这种过度野蛮的生长——产生了一百多种不同的 Linux 发行版，完全是由于开发者的自负（BIG EGO）。</p>
+<p>下面以 Debian 路线的分支演化举例，看一看这种来自开发者的自负是如何体现的，其他两个分支的情况与其类似。</p>
+<p>确实 Debian 是一个不错的发行版，它稳定、健壮，但它缺乏新的、酷的东西。因此，一些开发人员开始捯饬轻量级的 Linux Knoppix——一个基于光盘或 USB 闪存启动的 GNU/Linux 系统，而另一些开发人员则开始开发更前沿的版本 ——Ubuntu。</p>
+<p>Ubuntu 因为几乎可以在全世界范围内免费分发 CD，它因此受到了很多人的喜欢，Linux 系统也被更多人看到和使用。我 2006 年在北京从事编程工作的时候，同办公室的同事在网上免费就申请了一个 Ubuntu 系统，当他收到 CD 包裹的时候，他还高兴地拿给我们看。在印度，有很多地方网络基础设施不完善，只要当地的开发者提出申请，他们就能得到一张免费邮寄的系统安装盘。CD 大概有 700MB，基本支持所有的主流硬件，不需要到处找驱动就可以马上安装使用，想想这真让人激动。</p>
+<p>但是很多人不喜欢 Ubuntu 的界面，不久，除了 Ubuntu，就诞生了 Kubuntu、Lubuntu 和 Xubuntu，它们相当于 Ubuntu 的大皮肤，或者说是三件时尚——想时尚的外套。</p>
+<p>下面这些话基本来自图拉利亚的抱怨，他是一位非常有经验的开发者，他讲的话是可信的。</p>
+<ul>
+<li>一些人想要更好的软件支持，他们制作了 Ubuntu Studio；</li>
+<li>一些人想要一个不同的界面，他们制作了 Mint；</li>
+<li>一些人喜欢一切，但希望界面颜色更好，他们制作了 ZorinOS；</li>
+<li>谷歌想要一个更简单的版本，他们制作了 ChromeOS；</li>
+<li>一些人希望它更像 MacOS，他们制作了 Elementary OS；</li>
+<li>一些人想要一个更安全的版本，他们制作了 ParrotOS；</li>
+<li>一些人讨厌已有的这一切，他们制作了 Solus、Arch 等。</li>
+</ul>
+<p>等等，还有很多，数不胜数。</p>
+<p>随着时间的推移，所有这些开发者都在分散、减少，而不是一起工作。他们必须一遍又一遍地解决相同的问题，而不是为了一个共同的目标而共同努力，所以就有了开头那张「荒谬」的图表。想象一下，如果聪明的开发者都在同一个 Linux 版本上工作，那会是一个什么样的结果？</p>
+<p>下面说一下我的观点。</p>
+<p>先说 Linux 是否失败。如果拿 Linux 桌面版与 Windows 系统的市场份额做比较，Linux确实是失败了。但是 Linux 本来就不是一个商业公司啊？如果拿 Linux 的作者林纳斯·托瓦兹（Linus Torvalds）与微软的创始人比尔·盖茨（Bill Gates）作为一名程序员对比，显然林纳斯·托瓦兹又非常成功。百年之后——或者二百年之后，微软帝国大概可能不存在了，但 Linux 系统可能还在。Linux 发行版越是繁华多样，这种成功就越是耀眼；有如此多的分支，不是 Linux 的弱点，反而是它成功的标志。</p>
+<p>再谈一下动机。让一百多个发行版的开发者为一个发行版而努力，这是公司的行为，试问，谁给他们发薪水？能写这些系统的家伙，他们单位小时的技术薪水应该都不低，谁有财力养活他们？如果把他们招揽在一起，在一起共同维护一个系统，这不就是微软吗？</p>
+<p>像软件、谷歌这样的大厂实行的研发机制，像计划经济；而 Linux 发行版实行的，更像是开源世界里的市场经济。这两种模式它们肯定会相互学习，大厂学习开源模式的优点，甚至带头搞开源，这都不稀罕；有越来越多的开发者——像图拉利亚这样的开发者，也会看到发行版发展混乱、缺少规划的问题，但解决或改善这个问题可能还需要时间和智慧。</p>
+<p>还有，有一点必须提一下，有一些发行版的背后是一个小团队在维护，他们之所以那样做，源于他们的客户的需要。虽然混乱，但星星点点都是经济价值。</p>
+<p>当我第一次看到篇首的那张分支演化图时，我感到的不是震惊，不对，也可以理解为是一种震惊，惊于 Linux 发行版发展的繁荣与兴旺，而不是混乱与无序。</p>
+<p>我不确定当你看到这张图时，是不是和我一样感到震惊？</p>
+</article>
+
+      
+      
+
+
+
+<div style="padding-top: 30px;color:#888888;">
+  <blockquote>
+    <p>不要相信任何片面、武断的观点，包括以上我的观点。</p>
+  </blockquote>
+</div>
+
+
+
+
+
+  <div style="padding-top: 40px;">
+  <h4>Share</h4>
+  <div class="social-share" data-sites="wechat,weibo,twitter,facebook,douban" data-mobile-sites="wechat,weibo"></div>
+  <link rel="stylesheet" href="https://www.yishulun.com/share/css/share.min.css">
+  <script src="https://www.yishulun.com/share/js/social-share.min.js"></script>
+</div>
+
+
+
+      <footer class="book-footer">
+        
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(n){const e=window.getSelection(),t=document.createRange();t.selectNodeContents(n),e.removeAllRanges(),e.addRange(t)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+
+        
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div style="padding-top: 20px;">
+  <h4>Comments</h4>
+  
+  
+    <div id="gitalk-container"></div>
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+      const gitalk = new Gitalk({
+        clientID: 'e1c92c0d8f4368a3d79d',
+        clientSecret: 'e17d259e0f59685557d805e15858fe8aaef49de9',
+        repo: 'yishulun.com_comments',
+        owner: 'rixingyike',
+        admin: ['rixingyike'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+      });
+      (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+          return;
+        }
+        gitalk.render('gitalk-container');
+      })();
+    </script>
+  
+</div>
+</div>
+  
+
+      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+      <aside class="book-toc">
+        <div class="book-toc-content">
+          
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#linux-真的会因为开源而失败吗">Linux 真的会因为开源而失败吗？</a></li>
+  </ul>
+</nav>
+
+
+          
+        </div>
+      </aside>
+    
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+  <div class="row site-info">
+    YiShuLun.com © 2022
+    <span class="sep"> | </span>
+    Powered by <a href="https://gohugo.io/">HUGO</a>
+    <span class="sep"> | </span>
+    Based on Theme: Hugo Book by <a href="https://github.com/alex-shpak/" rel="designer">Alex Shpak</a>.
+    <p><a href="http://www.beian.miit.gov.cn" target="_target">京ICP备14007000号-7</a></p>
+  </div>
+</footer>
+<script src="https://www.yishulun.com//js/jquery.min.js"></script>
+<script src="https://www.yishulun.com//js/bootstrap.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BDJ1WQYWN3"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-BDJ1WQYWN3', { 'anonymize_ip': false });
+}
+</script>
+
+  <style>
+  .backtop {
+    color: #b3b1b1;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    width: 32px;
+    height: 32px;
+    z-index: 999998;
+  }
+</style>
+<a href="#top" class="backtop">
+  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-circle-up"
+    class="svg-inline--fa fa-chevron-circle-up fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 512 512">
+    <path fill="currentColor"
+      d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z">
+    </path>
+  </svg>
+</a>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
