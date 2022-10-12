@@ -5,7 +5,25 @@
     <link>https://www.yishulun.com/</link>
     <description>Recent content in Hi on 艺述论 - YiShuLun</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>目前国内前端哪个 UI 类库简单好定制，用的人最多？</title>
+      <link>https://www.yishulun.com/posts/2022/1012.html</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yishulun.com/posts/2022/1012.html</guid>
+      <description>目前国内前端哪个 UI 类库简单好定制，用的人最多？ #  如果基于 jQuery 开发多页面响应式 Web 应用，可以使用 Bootstrap。</description>
+    </item>
+    
+    <item>
+      <title>程序员大牛是如何编写程序的？在开始编码之前，他们会先在纸上推演程序吗？</title>
+      <link>https://www.yishulun.com/posts/2022/1011.html</link>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yishulun.com/posts/2022/1011.html</guid>
+      <description>程序员大牛是如何编写程序的？在开始编码之前，他们会先在纸上推演程序吗？ #  好的程序员是怎么写代码的呢？点燃一根烟，一边吸一边进行周密的思考，待想法成熟了，一把操起键盘，一阵噼里啪啦敲击，一气呵成吗？</description>
+    </item>
+    
     <item>
       <title>编写干净、清晰代码的9个小技巧</title>
       <link>https://www.yishulun.com/posts/2022/1010.html</link>
@@ -52,12 +70,12 @@
     </item>
     
     <item>
-      <title>如何将学到的技术知识牢记于心？</title>
+      <title>学到的技术知识，在使用的时候总会忘记，如何将它们牢记于心？</title>
       <link>https://www.yishulun.com/posts/2022/1006.html</link>
       <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.yishulun.com/posts/2022/1006.html</guid>
-      <description>学到的技术知识，在使用的时候总会忘记，如何将它们牢记与心？ #  今天看到一位国外前端程序员，他分享了一个这样的学习体验：</description>
+      <description>学到的技术知识，在使用的时候总会忘记，如何将它们牢记于心？ #  今天看到一位国外前端程序员，他分享了一个这样的学习体验：</description>
     </item>
     
     <item>
