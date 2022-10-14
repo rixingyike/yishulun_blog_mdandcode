@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>语言 on 艺述论 - YiShuLun</title>
+    <link>https://www.yishulun.com/tags/%E8%AF%AD%E8%A8%80.html</link>
+    <description>Recent content in 语言 on 艺述论 - YiShuLun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 14 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/tags/%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>由鸭子测试看 Go 语言的接口实现</title>
+      <link>https://www.yishulun.com/posts/2022/1014.html</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yishulun.com/posts/2022/1014.html</guid>
+      <description>由鸭子测试看 Go 语言的接口实现 #  「If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript 到底是不是面向对象语言？面向对象语言有哪三个基本特征？</title>
+      <link>https://www.yishulun.com/posts/2022/1013.html</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yishulun.com/posts/2022/1013.html</guid>
+      <description>JavaScript 到底是不是面向对象语言？面向对象语言有哪三个基本特征？ #  是，当然是。</description>
+    </item>
+    
+  </channel>
+</rss>
