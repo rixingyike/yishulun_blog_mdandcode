@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.yishulun.com/categories.html</loc>
-    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://www.yishulun.com/</loc>
-    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://www.yishulun.com/posts.html</loc>
-    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,7 +42,7 @@
                 />
   </url><url>
     <loc>https://www.yishulun.com/tags.html</loc>
-    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -53,6 +53,15 @@
                 hreflang="zh"
                 href="https://www.yishulun.com/tags.html"
                 />
+  </url><url>
+    <loc>https://www.yishulun.com/tags/%E5%B0%8F%E8%AF%B4.html</loc>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yishulun.com/categories/%E6%96%87%E5%AD%A6.html</loc>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.yishulun.com/posts/2022/1015.html</loc>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/posts/2022/1014.html</loc>
     <lastmod>2022-10-14T00:00:00+00:00</lastmod>
@@ -112,12 +121,6 @@
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/posts/2022/1006.html</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/tags/%E5%B0%8F%E8%AF%B4.html</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.yishulun.com/categories/%E6%96%87%E5%AD%A6.html</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.yishulun.com/posts/2022/1005.html</loc>
