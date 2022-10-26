@@ -5,7 +5,16 @@
     <link>https://www.yishulun.com/categories/%E7%BC%96%E7%A8%8B.html</link>
     <description>Recent content in 编程 on 艺述论 - YiShuLun</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 14 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/categories/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.yishulun.com/categories/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用面向过程和面向对象结合的思想开发软件，而不仅仅是使用面向对象的设计思想</title>
+      <link>https://www.yishulun.com/posts/2022/1016.html</link>
+      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.yishulun.com/posts/2022/1016.html</guid>
+      <description>使用面向过程和面向对象结合的思想开发软件，而不仅仅是使用面向对象的设计思想 #  两者结合起来，开发更有保障。</description>
+    </item>
+    
     <item>
       <title>由鸭子测试看 Go 语言的接口实现</title>
       <link>https://www.yishulun.com/posts/2022/1014.html</link>
