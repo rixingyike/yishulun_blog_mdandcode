@@ -4,6 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 heroImage: /logo.svg
+bgImage: /hero.jpg
 heroText: 艺述论
 heroFullScreen: true
 tagline: 编写立体式、渐进式、交互式PBL实战教材，提高读者职业技能学习效率。
