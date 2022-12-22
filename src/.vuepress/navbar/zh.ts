@@ -6,6 +6,7 @@ export const zhNavbar = navbar([
   { text: "标签", link: "/tags.html" },
   { text: "分类", link: "/categories.html" },
   { text: "归档", link: "/archives.html" },
+  { text: "友情链接", link: "/friendlinks.html" },
   { text: "留言", link: "/guestbook.html" },
   { text: "关于作者", link: "/about.html" },
   // {
