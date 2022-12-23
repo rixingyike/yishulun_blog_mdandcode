@@ -43,7 +43,7 @@ export default hopeTheme({
       navbar: zhNavbar,
       sidebar: zhSidebar,
 
-      footer: `<p>Copyright © ${(new Date()).getFullYear()} 艺述论<br/><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备14007000号-7</a></p>`,
+      footer: `<p>Copyright © ${(new Date()).getFullYear()} 艺述论，由<a href='https://vuepress-theme-hope.github.io/v2/' target='_blank'>VuePress Theme Hope 2.0</a>驱动<br/><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备第14007000号-7号</a></p>`,
       displayFooter: true,
 
       blog: {
