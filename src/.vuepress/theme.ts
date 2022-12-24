@@ -65,6 +65,11 @@ export default hopeTheme({
   // },
 
   plugins: {
+    copyright: {
+      global: true,
+      author: "LIYI",
+      license: "CC BY-SA 4.0",
+    },
     blog: {
       tag:"/tags.html",
       tagItem:"/tags/:name.html",
