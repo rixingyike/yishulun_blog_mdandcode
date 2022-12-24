@@ -43,7 +43,7 @@ export default hopeTheme({
       navbar: zhNavbar,
       sidebar: zhSidebar,
 
-      footer: `<p>Copyright © ${(new Date()).getFullYear()} 艺述论，由<a href='https://vuepress-theme-hope.github.io/v2/' target='_blank'>VuePress Theme Hope 2.0</a>驱动<br/><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备第14007000号-7号</a></p>`,
+      footer: `<p><img width=80 src="/yslqrcode.jpg"><br/>关注公众号艺述论，与时间做朋友，终身学习<br/>加作者v9830131，回复【读者】进修仙群</p><p>Copyright © ${(new Date()).getFullYear()} 艺述论，由<a href='https://vuepress-theme-hope.github.io/v2/' target='_blank'>VuePress Theme Hope 2.0</a>驱动<br/><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备第14007000号-7号</a></p>`,
       displayFooter: true,
 
       blog: {
