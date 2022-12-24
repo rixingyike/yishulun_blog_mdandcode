@@ -3,6 +3,7 @@ editLink: false
 comment: true
 pageInfo: false
 date: 2002-12-24 10:50:22
+footer: false
 ---
 
 # 留言簿
