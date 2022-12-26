@@ -94,10 +94,10 @@ export default hopeTheme({
        * Using Giscus
        */
       provider: "Giscus",
-      repo: "rixingyike/yishulun.com_comments",
-      repoId: "R_kgDOH5b_lw",
+      repo: "rixingyike/rixingyike.github.io",
+      repoId: "R_kgDOH5MeXQ",
       category: "Announcements",
-      categoryId: "DIC_kwDOH5b_l84CTLca",
+      categoryId: "DIC_kwDOH5MeXc4CTRJB",
 
       /**
        * Using Twikoo
