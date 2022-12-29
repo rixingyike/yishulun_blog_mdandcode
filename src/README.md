@@ -30,9 +30,18 @@ projects:
     icon: edit
     desc: 一本书学通JS语言，即将上市
 
-  - name: 《TS PBL一本通》电子书
+  - name: 《TS PBL实战一本通》电子书
     icon: note
     desc: 写作中..
+
+  - name: 《Rust PBL实战一本通》电子书
+    icon: note
+    desc: 写作中..
+
+  - name: 给初学者看的Web开发教程
+    icon: free
+    desc: 微软24周前端课程Web-Dev-For-Beginners中文版
+    link: https://yishulun.com/Web-Dev-For-Beginners-CN/
 
 # footer: 自定义你的页脚文字
 ---
