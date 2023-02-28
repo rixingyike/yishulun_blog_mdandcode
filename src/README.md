@@ -8,7 +8,7 @@ heroImage: /logo.svg
 bgImage: /hero.jpg
 heroText: 艺述论
 heroFullScreen: true
-tagline: 编写立体式、渐进式、交互式PBL实战教材，提高读者职业技能学习效率。
+tagline: 编写PBL实战教材，提高编程教学效率。关注微信公众号【艺述论】，加作者微信9830131，进读者修仙群。
 
 projects:
   - name: 《小程序从0到1》读者常见问题
