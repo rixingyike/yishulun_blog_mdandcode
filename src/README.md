@@ -28,13 +28,14 @@ projects:
 
   - name: 《微信小游戏开发》实体书
     icon: edit
-    desc: 一本书学通JS语言，即将上市
+    desc: 手把你带你学习JS编程
+    link: https://item.jd.com/13630053.html
 
-  - name: 《TS PBL实战一本通》电子书
+  - name: 《TypeScript 实战一本通》电子书
     icon: note
     desc: 写作中..
 
-  - name: 《Rust PBL实战一本通》电子书
+  - name: 《Rust 语言实战一本通》电子书
     icon: note
     desc: 写作中..
 
