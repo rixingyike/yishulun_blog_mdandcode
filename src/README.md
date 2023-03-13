@@ -8,7 +8,7 @@ heroImage: /logo.svg
 bgImage: /hero.jpg
 heroText: 艺述论
 heroFullScreen: true
-tagline: 编写PBL实战教材，提高编程教学效率。关注微信公众号【艺述论】，加作者微信9830131，进读者修仙群。
+tagline: 数字中国崛起之下各类见闻技术解读，及普遍技术的历史解读。关注微信公众号【艺述论】，加作者微信9830131，进读者修仙群。
 
 projects:
   - name: 《小程序从0到1》读者常见问题
