@@ -18,7 +18,6 @@ export const zhNavbar = navbar([
       {text: "归档", link: "/archives.html"},
       {text: "友情链接", link: "/friendlinks.html"},
       {text: "留言", link: "/guestbook.html"},
-      {text: "联系作者", link: "/about.html"},
     ],
   },
   {
@@ -27,7 +26,8 @@ export const zhNavbar = navbar([
     prefix: "https://yishulun.com",
     children: [
       // {text: "TS PBL一本通", link: "/ts/"},
-      {text: "给初学者看的Web开发教程", link: "/Web-Dev-For-Beginners-CN/"},
+      // {text: "给初学者看的Web开发教程", link: "/Web-Dev-For-Beginners-CN/"},
     ],
   },
+  {text: "联系我", link: "/about.html"},
 ]);
