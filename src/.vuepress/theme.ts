@@ -1,9 +1,42 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { zhNavbar } from "./navbar/index.js";
-import { zhSidebar } from "./sidebar/index.js";
+import { enNavbar } from "./navbar/index.js";
+import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://yishulun.com",
+  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  pure: true,
+  breadcrumb: false,
+  pageInfo: false,
+  print: false,
+  copyright: "",
+  footer: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9936052907746352" crossorigin="anonymous"></script><p><img width=120 src="/yslqrcode.jpg"><br/>关注公众号艺述论，保持更新<br/>加作者vx9830131，暗号“读者”进修仙群</p><p>Copyright © ${(new Date()).getFullYear()} 艺述论，由 <a href='https://vuepress-theme-hope.github.io/v2/' target='_blank'>VuePress Theme Hope</a> 驱动<br/><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备第14007000号-7号</a></p><br/><br/><br/>`,
+  displayFooter: false,
+  darkmode: "disable",
+  // 不显示文章右侧浮动目录
+  toc: true,
+  lastUpdated: false,
+  editLink: false,
+  contributors: false,
+
+  // 顶部导航栏
+  navbarLayout: {
+    start: ["Brand", "Links"],
+    center: [],
+    end: ["Search"],
+  },
+
+  blog: {
+    avatar: "/avatar.png",
+    description: "计算机讲师/作家，用唯物辩证法这个工具在艺术与技术领域挖啊挖。",
+    medias: {
+      QQ: "tencent://message/?uin=9830131",
+      Twitter: "https://twitter.com/coderliyi",
+    },
+    articleInfo: [],
+    timeline: "发布历史",
+    sidebarDisplay: "none",
+    roundAvatar: true,
+  },
 
   author: {
     name: "LIYI",
@@ -11,122 +44,93 @@ export default hopeTheme({
   },
 
   iconAssets: "iconfont",
-  logo: "/logo.svg",
+  logo: "/logo.png",
   repo: "rixingyike/rixingyike.github.io",
+  repoDisplay: false,
   docsDir: "src",
 
-  pageInfo: ["Author", "Word", "ReadingTime"],
-  breadcrumb: false,
-  copyright: "",
-  displayFooter: false,
-
-  navbarLayout: {
-    left: ["Brand"],
-    center: ["Links"],
-    right: ["Repo","Search"],
-  },
-
-  blog: {
-    medias: {
-      QQ: "tencent://message/?uin=9830131",
-    },
-    articleInfo:["Date"],
-    timeline: "昨日像那东流水",
-    sidebarDisplay: "none",
-  },
-
   locales: {
+    "/": {
+      // navbar
+      navbar: enNavbar,
+      // sidebar
+      sidebar: enSidebar,
+
+      // footer: "Default footer",
+      // displayFooter: true,
+
+      // metaLocales: {
+      //   editLink: "Edit this page on GitHub",
+      // },
+    },
+
     /**
      * Chinese locale config
      */
-    "/": {
-      navbar: zhNavbar,
-      sidebar: zhSidebar,
+    // "/zh/": {
+    //   // navbar
+    //   navbar: zhNavbar,
 
-      footer: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9936052907746352"
-      crossorigin="anonymous"></script><p><img width=80 src="/yslqrcode.jpg"><br/>关注公众号艺述论，保持更新<br/>加作者vx9830131，回复“读者”进修仙群</p><p>Copyright © ${(new Date()).getFullYear()} 艺述论，由<a href='https://vuepress-theme-hope.github.io/v2/' target='_blank'>VuePress Theme Hope 2.0</a>驱动<br/><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备第14007000号-7号</a></p><br/><br/><br/><br/><br/>`,
-      displayFooter: true,
+    //   // sidebar
+    //   sidebar: zhSidebar,
 
-      blog: {
-        description: "计算机讲师/作家",
-        intro: "/about.html",
-      },
+    //   footer: "默认页脚",
 
-      // page meta
-      metaLocales: {
-        editLink: "编辑此页",
-      },
+    //   displayFooter: true,
+
+    //   // page meta
+    //   metaLocales: {
+    //     editLink: "在 GitHub 上编辑此页",
+    //   },
+    // },
+  },
+
+  encrypt: {
+    config: {
+      "/demo/encrypt.html": ["1234"],
+      "/zh/demo/encrypt.html": ["1234"],
     },
   },
 
-  // encrypt: {
-  //   config: {
-  //     "/demo/encrypt.html": ["1234"],
-  //   },
-  // },
-
   plugins: {
+    comment: {
+      // Using Giscus
+      provider: "Giscus",
+      repo: "rixingyike/rixingyike.github.io",
+      repoId: "R_kgDOH5MeXQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOH5MeXc4CTRJB",
+    },
+
     copyright: {
       global: true,
       author: "LIYI",
       license: "CC BY-SA 4.0",
     },
     blog: {
-      tag:"/tags.html",
-      tagItem:"/tags/:name.html",
-      category:"/categories.html",
-      categoryItem:"/categories/:name.html",
-      timeline:"archives.html",
-      article:"posts.html",
-      excerptLength:120,
-      star:"stars.html",
-    },
-    feed: {
-      rss: true,
-      atom: true,
-      rssOutputFilename: "index.xml",
+      // tag:"/tags.html",
+      // tagItem:"/tags/:name.html",
+      // category:"/categories.html",
+      // categoryItem:"/categories/:name.html",
+      // timeline:"archives.html",
+      // article:"posts.html",
+      // star:"stars.html",
+      excerptLength:80,
     },
 
-    // If you don’t need comment feature, you can remove following option
-    // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
-    // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
-    comment: {
-      /**
-       * Using Giscus
-       */
-      provider: "Giscus",
-      repo: "rixingyike/rixingyike.github.io",
-      repoId: "R_kgDOH5MeXQ",
-      category: "Announcements",
-      categoryId: "DIC_kwDOH5MeXc4CTRJB",
-
-      /**
-       * Using Twikoo
-       */
-      // provider: "Twikoo",
-      // envId: "https://twikoo.ccknbc.vercel.app",
-
-      /**
-       * Using Waline
-       */
-      // provider: "Waline",
-      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
-    },
-
-    // Disable features you don’t want here
+    // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
       chart: true,
       codetabs: true,
-      container: true,
       demo: true,
       echarts: true,
       figure: true,
       flowchart: true,
       gfm: true,
-      imageLazyload: true,
-      imageSize: true,
+      imgLazyload: true,
+      imgSize: true,
       include: true,
       katex: true,
       mark: true,
@@ -157,7 +161,7 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
-    // uncomment these if you want a PWA
+    // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",
     //   cacheHTML: true,
@@ -206,12 +210,6 @@ export default hopeTheme({
     //             src: "/assets/icon/guide-maskable.png",
     //             sizes: "192x192",
     //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //           {
-    //             src: "/assets/icon/guide-monochrome.png",
-    //             sizes: "192x192",
-    //             purpose: "monochrome",
     //             type: "image/png",
     //           },
     //         ],

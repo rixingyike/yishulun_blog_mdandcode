@@ -1,7 +1,7 @@
 ---
 date: 2021-12-21 23:48:25
 ---
-# 21 Go语言简易入门
+# Go语言简易入门
 
 这是一篇关于Go语言的简易入门教程。不看Go语言内部信道自旋等源码，从应用角度阐述主要概念及使用技巧。
 
@@ -25,7 +25,7 @@ go version
 
 一般都可以显示版本号了。此时编写一个简单的go语言文件，也可以运行。
 
-但此时Go语言完全运行所需的环境变量还没有完全准备就绪。一般我们在环境变量中，还需要设置一个名称为GOPATH的用户变量或系统变量，同时还需要将$GOPATH/bin添加到变量$PATH的路径中。
+但此时Go语言完全运行所需的环境变量还没有完全准备就绪。一般我们在环境变量中，还需要设置一个名称为GOPATH的用户变量或系统变量，同时还需要将`$GOPATH/bin`添加到变量`$PATH`的路径中。
 
 在macOS上，我们可以在~/.bash_profile中设置用户变量，也可以在/etc/profile中设置系统变量。在Windows上，我们可以通过计算机属性->高级属性->设置变量进行设置。
 
@@ -308,7 +308,7 @@ go mod vendor
 
 - GO111MODULE=off，不支持module功能，此时查找依赖包的次序是：vendor、GOPATH、GOROOT。
 - GO111MODULE=on，支持使用modules，会从vendor目录下查找，但不会去GOPATH、GOROOT目录下查。
-- GO111MODULE=auto，是默认值，自动性取决于上下文目录。$GOPATH/src之中的项目继续使用GOPATH模式；$GOPATH/src之外的项目使用模块化模式。
+- GO111MODULE=auto，是默认值，自动性取决于上下文目录。`$GOPATH/src`之中的项目继续使用`GOPATH`模式；`$GOPATH/src`之外的项目使用模块化模式。
 
 #### go mod指令，除init外，还有哪些子指令？
 
@@ -378,7 +378,7 @@ Go语言提供了testing基础类库和`go test`指令，不使用第三方类�
 
 ![](https://cdn.jsdelivr.net/gh/rixingyike/images@master/202120210124181459.png)
 
-> 图：测试金字塔之单元测试、集合测试、端到端测试（链路测试）、UI测试
+> 图：测试金字塔之单元测试、集合测试、端到端测试（链路测试）及UI测试
 
 我们先看一下单元测试怎么搞。单元测试是最基本的测试，就是对软件中最基础的功能，对某个函数、某个接口、某个配置等代码进行测试。测试方法有三种：
 
@@ -993,7 +993,7 @@ go test -cover -bench=Fibonacci* ./...
 ./main.go:23: &c escapes to heap
 ```
 
-类似“moved to heap”、“escapes to heap”这样的描述，表示变量发生逃逸了，变量已到堆中。
+类似moved to heap、escapes to heap这样的描述，表示变量发生逃逸了，变量已到堆中。
 
 #### 关于-gcflags编译参数
 

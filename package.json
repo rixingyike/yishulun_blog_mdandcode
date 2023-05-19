@@ -5,15 +5,18 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "vuepress build src",
-    "clean-dev": "vuepress dev src --clean-cache",
-    "dev": "vuepress dev src"
+    "docs:build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "dev": "vuepress dev src",
+    "docs:update-package": "yarn dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.59",
-    "vue": "^3.2.45",
-    "vuepress": "2.0.0-beta.59",
-    "vuepress-plugin-search-pro": "2.0.0-beta.143",
-    "vuepress-theme-hope": "2.0.0-beta.143"
+    "@vuepress/client": "2.0.0-beta.62",
+    "vue": "^3.2.47",
+    "vuepress": "2.0.0-beta.62",
+    "vuepress-theme-hope": "2.0.0-beta.211"
+  },
+  "dependencies": {
+    "vuepress-plugin-search-pro": "^2.0.0-beta.211"
   }
 }
