@@ -5,4 +5,3 @@ src/.vuepress/.temp/
 src/.vuepress/dist/
 src/.vuepress/pdf-outputs
 pnpm-lock.yaml
-yarn*
