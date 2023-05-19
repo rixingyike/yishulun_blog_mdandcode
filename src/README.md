@@ -51,4 +51,4 @@ features:
   #   link: https://yishulun.com/Web-Dev-For-Beginners-CN/
 ---
 
-[更多内容...](/posts.html)
+[更多内容...](/article/)
