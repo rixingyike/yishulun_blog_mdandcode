@@ -6,7 +6,7 @@ heroImage: /avatar.png
 bgImage: /hero.jpg
 heroFullScreen: true
 heroText: 艺述论博客
-tagline: 计算机讲师/作家，用唯物辩证法这个工具在艺术与技术领域持续挖啊挖。
+tagline: 计算机讲师/作家，用唯物辩证法工具在艺术与技术领域耕耘，撰写登山式PBL实战项目教材。
 
 # actions:
 #   - text: Tutorial
