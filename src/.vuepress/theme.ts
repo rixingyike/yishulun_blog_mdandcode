@@ -9,8 +9,8 @@ export default hopeTheme({
   pageInfo: false,
   print: false,
   copyright: "",
-  footer: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9936052907746352" crossorigin="anonymous"></script><p><img width=120 src="/yslqrcode.jpg"><br/>关注公众号艺述论，保持更新<br/>加作者vx9830131，暗号“读者”进修仙群</p><p>Copyright © ${(new Date()).getFullYear()} 艺述论，由 <a href='https://vuepress-theme-hope.github.io/v2/' target='_blank'>VuePress Theme Hope</a> 驱动<br/><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备第14007000号-7号</a></p><br/><br/><br/>`,
-  displayFooter: false,
+  footer: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9936052907746352" crossorigin="anonymous"></script><p><img width=120 src="/yslqrcode.jpg"><br/>关注公众号<br/>加作者微信9830131，暗号“读者”进修仙群</p><p>Copyright © ${(new Date()).getFullYear()} 艺述论，由 <a href='https://vuepress-theme-hope.github.io/v2/' target='_blank'>VuePress Theme Hope</a> 驱动<br/><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备第14007000号-7号</a></p><br/><br/><br/>`,
+  displayFooter: true,
   darkmode: "disable",
   // 不显示文章右侧浮动目录
   toc: true,
