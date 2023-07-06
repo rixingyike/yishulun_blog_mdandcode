@@ -21,10 +21,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: npm
-      - run: pnpm install --frozen-lockfile
+          cache: yarn
+      - run: yarn install --frozen-lockfile
       - name: Build
-        run: pnpm run build
+        run: yarn run build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
