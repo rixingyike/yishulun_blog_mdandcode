@@ -1,22 +1,27 @@
 {
-  "name": "vuepress-theme-hope-template",
-  "version": "2.0.0",
-  "description": "A project of vuepress-theme-hope",
-  "license": "MIT",
+  "name": "blog4",
+  "version": "1.0.0",
+  "description": "",
   "type": "module",
+  "main": "index.js",
   "scripts": {
-    "docs:build": "vuepress build src",
-    "docs:clean-dev": "vuepress dev src --clean-cache",
-    "dev": "vuepress dev src",
-    "docs:update-package": "yarn dlx vp-update"
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.62",
-    "vue": "^3.2.47",
-    "vuepress": "2.0.0-beta.62",
-    "vuepress-theme-hope": "2.0.0-beta.211"
-  },
-  "dependencies": {
-    "vuepress-plugin-search-pro": "^2.0.0-beta.211"
+    "vitepress": "1.0.0-beta.5",
+    "vitepress-sidebar": "^1.8.1"
   }
 }

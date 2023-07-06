@@ -1,7 +1,4 @@
-
+.DS_Store
 node_modules/
-src/.vuepress/.cache/
-src/.vuepress/.temp/
-src/.vuepress/dist/
-src/.vuepress/pdf-outputs
-pnpm-lock.yaml
+src/.vitepress/.cache/
+src/.vitepress/dist/
