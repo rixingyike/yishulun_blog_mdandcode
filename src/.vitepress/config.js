@@ -9,6 +9,7 @@ export default {
   description: '80后，社恐+老码农一枚，有20年以上上网经历。',
   srcDir: ".",
   lastUpdated: true,
+  ignoreDeadLinks: true,
 
   themeConfig: {
     footer: {
