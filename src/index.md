@@ -26,13 +26,13 @@ features:
     details: 小程序全栈开发实战（后端使用Go语言）
     link: /posts/2021/23.html
 
-  - title: 微信学堂《小程序性能优化实践》视频专栏
+  - title: 微信学堂《小程序性能优化实践》专题
     details: 免费学习小程序性能优化技巧
     link: https://developers.weixin.qq.com/community/business/course/000606628dc2e86dc0ddcbb115940d
 
-  - title: 《微信小游戏开发》实体书
+  - title: 《微信小游戏开发》前后端两册
     details: 手把你带你学习JS编程
-    link: https://item.jd.com/13630053.html
+    link: https://item.jd.com/10070363837259.html
 ---
 
 <!-- [更多博客...](/posts/) -->

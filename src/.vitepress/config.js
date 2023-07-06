@@ -14,7 +14,7 @@ export default {
   themeConfig: {
     footer: {
       message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备第14007000号-7号</a>，由<a href="https://vitepress.dev/" target="_blank">VitePress 1.0 beta5</a>驱动。',
-      copyright: 'Copyright © 2002-present LIYI'
+      copyright: 'Copyright © 2002-2023 LIYI'
     },
     logo: '/logo.png',
     outlineTitle: '目录',
