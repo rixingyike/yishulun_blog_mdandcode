@@ -9,7 +9,7 @@ toc: false
 ---
 # 关于作者
 
-80后，社恐+老码农一枚，有20年以上上网经历。熟悉 Linux/Mac/Windows 系统开关机，精通 Go/JS/Rust/Python/C 等高级编程语言 Hello World 程序编写，擅长 Git push/pull 操作，了解浏览器/小程序/React/Vue/Tailwind/Webpack/Vite 等底层工作原理的名称书写。
+80后，小社恐+老码农一枚，有20年以上上网经历。熟悉 Linux/Mac/Windows 系统开关机，精通 Go/JS/Rust/Python/C 等高级编程语言 Hello World 程序编写，擅长 Git push/pull 操作，了解浏览器/小程序/React/Vue/Tailwind/Webpack/Vite 等底层工作原理的名称书写。
 
 计算机讲师一枚，持有“中移联合智库ICT专家级讲师”证书，是一汽大众等国企内训讲师，是微信学堂[《小程序性能优化实践》](https://developers.weixin.qq.com/community/business/course/000606628dc2e86dc0ddcbb115940d)、极客时间[《微信小程序全栈开发实战》](http://gk.link/a/10AdC)等在线课程主讲人。
 
