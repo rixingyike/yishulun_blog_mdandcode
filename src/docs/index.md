@@ -1,7 +1,6 @@
 ---
 layout: doc
 ---
-
 # 文档
 
-coming soon...
+见左侧docs。
