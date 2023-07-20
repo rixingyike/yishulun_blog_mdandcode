@@ -1,6 +1,11 @@
-## Rustlings 学习程序，在实践中练习 Rust语法
+---
+title: "在Rustlings示例实践中学习Rust"
+---
+# Rustlings 学习程序，在实践中练习 Rust语法
 
 Rustlings 是一个辅助学习者学习Rust语言的学习程序。
+
+## 第1天
 
 ### 学习程序的安装、说明与启动
 
@@ -205,7 +210,7 @@ fn main() {
 
 第2行，mut是一个修饰符，用它修饰，代表变量可被修改的开关被打开了。
 
-### 类型必须匹配
+### 类型必须匹配，变量可以遮蔽
 
 exercises/variables/variables5.rs：
 
@@ -249,8 +254,15 @@ func main() {
 
 第7行会报出一个“number redeclared in this block”的异常。
 
+## 第2天
 
-### 参考资料
+exercises/variables/variables6.rs：
+
+```
+
+```
+
+## 参考资料
 
 - 《The Rust Programming Language》：https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html
 - https://www.rust-lang.org/zh-CN/learn

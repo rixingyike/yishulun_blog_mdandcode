@@ -2,4 +2,3 @@
 node_modules/
 src/.vitepress/cache/
 src/.vitepress/dist/
-src/.vitepress/cache
