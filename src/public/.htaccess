@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{http_host}^yishulun.com [NC]
-RewriteRule ^(.*)$http://www.yishulun.com/$1 [L,R=301]
