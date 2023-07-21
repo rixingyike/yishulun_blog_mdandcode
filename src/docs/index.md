@@ -1,6 +1,12 @@
 ---
 layout: doc
 ---
-# 文档
+<script setup>
+import LatestList from '@/components/LatestDocsList.vue'
+</script>
 
-见左侧docs。
+# 最新文档内容
+
+<LatestList />
+
+更多内容见左侧docs导航栏。

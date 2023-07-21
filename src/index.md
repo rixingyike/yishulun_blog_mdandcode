@@ -35,4 +35,11 @@ features:
     link: https://item.jd.com/10070363837259.html
 ---
 
-<!-- [更多博客...](/posts/) -->
+<script setup>
+import LatestList from '@/components/LatestPostsList.vue'
+</script>
+
+<div style="padding: 50px 64px 20px">
+<h1>最新博客文章</h1>
+<LatestList />
+</div>

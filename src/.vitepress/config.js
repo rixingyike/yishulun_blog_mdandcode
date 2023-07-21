@@ -1,4 +1,5 @@
 import { generateSidebar } from 'vitepress-sidebar'
+import { URL, fileURLToPath } from 'node:url'
 
 // .vitepress/config.js
 export default {
@@ -6,7 +7,7 @@ export default {
   base: '/',
   lang: 'zh-CN',
   title: '艺述论博客',
-  description: '80后，小社恐+老码农一枚，有20年以上上网经历。',
+  description: '80后社恐+老码农一枚，有20年以上上网经历。',
   srcDir: ".",
   lastUpdated: true,
   ignoreDeadLinks: true,
@@ -18,7 +19,7 @@ export default {
       text: 'Edit on GitHub'
     },
     footer: {
-      message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备第14007000号-7号</a>，由<a href="https://vitepress.dev/" target="_blank">VitePress 1.0 beta5</a>驱动。',
+      message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备第14007000号-7号</a>，由<a href="https://vitepress.dev/" target="_blank">VitePress</a>驱动。',
       copyright: 'Copyright © 2002-2023 LIYI'
     },
     logo: '/logo.png',
@@ -46,5 +47,14 @@ export default {
   markdown: {
     // 修改TOC匹配规则，与Typora一致
     toc: { pattern: /^\[TOC\]$/i },
-  }
+  },
+
+  // Vite
+  vite: {
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('./theme', import.meta.url)),
+      },
+    },
+  },
 }
