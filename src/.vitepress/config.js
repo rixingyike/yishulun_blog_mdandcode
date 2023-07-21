@@ -3,6 +3,21 @@ import { URL, fileURLToPath } from 'node:url'
 
 // .vitepress/config.js
 export default {
+  // add google analytics
+  head: [
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-8N64Q25EK9',
+      },
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-8N64Q25EK9');",
+    ],
+  ],
   // site-level options
   base: '/',
   lang: 'zh-CN',
