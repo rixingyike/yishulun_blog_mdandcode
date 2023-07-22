@@ -9,7 +9,7 @@ export default {
       'script',
       {
         async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-8N64Q25EK9',
+        src: '//www.googletagmanager.com/gtag/js?id=G-8N64Q25EK9',
       },
     ],
     [
@@ -17,13 +17,10 @@ export default {
       {},
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-8N64Q25EK9');",
     ],
-    [
-      'script',
-      {
-        async: true,
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9936052907746352',
-        crossorigin: "anonymous",
-      },
+    ['script', { src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }],
+    ['script', 
+      {async: true,}, 
+      '(adsbygoogle = window.adsbygoogle || []).push({  google_ad_client: "ca-pub-9936052907746352",  enable_page_level_ads: true });',
     ],
   ],
   // site-level options
