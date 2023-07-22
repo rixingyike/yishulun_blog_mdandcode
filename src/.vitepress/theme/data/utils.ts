@@ -21,5 +21,5 @@ export function transformPost(item: ContentData): ContentData {
 }
 
 export function sortPost(a: ContentData, b: ContentData): number {
-  return new Date(a.frontmatter.created).valueOf() > new Date(b.frontmatter.created).valueOf() ? 1 : -1
+  return new Date(b.frontmatter.created).valueOf() > new Date(a.frontmatter.created).valueOf() ? 1 : -1
 }
