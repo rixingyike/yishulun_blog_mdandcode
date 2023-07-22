@@ -28,6 +28,10 @@ export default {
   ignoreDeadLinks: true,
 
   themeConfig: {
+    // carbonAds: {
+    //   code: 'your-carbon-code',
+    //   placement: 'your-carbon-placement'
+    // },
     returnToTopLabel: "Return to top",
     editLink: {
       pattern: 'https://github.com/rixingyike/rixingyike.github.io/edit/main/src/:path',

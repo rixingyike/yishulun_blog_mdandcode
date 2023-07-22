@@ -7,7 +7,6 @@ footer: false
 sidebar: false
 toc: false
 ---
-
 # 关于作者
 
 <script setup>
@@ -28,7 +27,7 @@ const members = [
 
 <VPTeamMembers size="small" :members="members" />
 
-## 简介
+## 作者简介
 
 80后社恐+老码农一枚，20年以上上网经历。熟悉 Linux/Mac/Windows 系统开关机，精通 Go/JS/Rust/Python/C 等高级编程语言 Hello World 程序编写，擅长 Git push/pull 操作，了解浏览器/小程序/React/Vue/Tailwind/Webpack/Vite 等底层工作原理的名称书写。
 
