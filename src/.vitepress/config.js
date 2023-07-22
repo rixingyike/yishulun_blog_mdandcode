@@ -17,10 +17,12 @@ export default {
       {},
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-8N64Q25EK9');",
     ],
-    ['script', { src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }],
     ['script', 
-      {async: true}, 
-      "(adsbygoogle = window.adsbygoogle || []).push({  google_ad_client: 'ca-pub-9936052907746352',  enable_page_level_ads: true });",
+      { 
+        async: true,
+        src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9936052907746352",
+        crossorigin:"anonymous",
+      }
     ],
   ],
   // site-level options
