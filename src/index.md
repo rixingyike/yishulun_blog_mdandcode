@@ -5,7 +5,7 @@ title: 主页
 hero:
   name: 艺述论博客
   text: 社恐+老码农一枚，20年以上上网经历。
-  tagline: 计算机讲师/作家，网文小说作者。
+  tagline: 计算机技术作者/讲师，小说作者。
   image:
     src: /avatar.png
   actions:
