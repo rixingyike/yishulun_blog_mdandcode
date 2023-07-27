@@ -38,8 +38,6 @@ features:
 <script setup>
 import LatestList from '@/components/LatestPostsList.vue'
 </script>
-
-<div style="padding: 50px 64px 20px">
-<h1>最新博客内容</h1>
-<LatestList />
+<div style="padding:60px;">
+  <LatestList />
 </div>

@@ -1,12 +1,11 @@
 ---
 layout: doc
 ---
+
+# 文档
+- [《如何撰写 Claude 提示？》](/docs/claude/)
+
 <script setup>
 import LatestList from '@/components/LatestDocsList.vue'
 </script>
-
-# 最新文档内容
-
 <LatestList />
-
-更多内容见左侧docs导航栏。

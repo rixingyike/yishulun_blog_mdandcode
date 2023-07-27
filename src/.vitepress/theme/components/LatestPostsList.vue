@@ -8,12 +8,14 @@ const list = ref(latestPosts)
 </script>
 
 <template>
-  <div class="latest-list">
+  <div>
+    <h1>最新博客内容</h1>
     <PostItem
       v-for="item in list"
       :key="item.frontmatter.title"
       :info="{ ...item, ...item.frontmatter }"
     />
+    <p>更多见左侧导航。</p>
   </div>
 </template>
 

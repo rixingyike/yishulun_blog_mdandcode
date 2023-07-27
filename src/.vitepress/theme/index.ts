@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 
-import Layout from '@/components/layout/Layout.vue'
+// import Layout from '@/components/layout/Layout.vue'
 // import PostItem from '@/components/PostItem.vue'
 // import TitleWithImage from '@/components/TitleWithImage.vue'
 // import TitleWithEmoji from '@/components/TitleWithEmoji.vue'
@@ -22,7 +22,7 @@ const enhanceApp: typeof DefaultTheme.enhanceApp = ({ app }) => {
 
 const theme = {
   ...DefaultTheme,
-  Layout,
+  // Layout,
   enhanceApp,
 }
 

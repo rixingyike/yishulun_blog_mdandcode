@@ -10,6 +10,6 @@ export default createContentLoader('posts/*/*.md', {
     .map(transformPost)
     .sort(sortPost)
     .filter(item => !item.frontmatter.hidden)
-    .slice(0, 5),
+    .slice(0, 8),
 })
 

@@ -45,8 +45,8 @@ export default {
       text: 'Edit on GitHub'
     },
     footer: {
-      message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备第14007000号-7号</a>，由<a href="https://vitepress.dev/" target="_blank">VitePress</a>驱动。',
-      copyright: 'Copyright © 2002-2023 LIYI'
+      message: '该站由<a href="https://vitepress.dev/" target="_blank">VitePress</a>驱动。本站内容作者保留所有权利，未经允许不得擅自转载。',
+      copyright: `Copyright © 2002-${new Date().getFullYear()} LIYI`
     },
     logo: '/logo.png',
     outlineTitle: '目录',
@@ -67,7 +67,9 @@ export default {
       hyphenToSpace: true,
       useTitleFromFrontmatter: true,
       useTitleFromFileHeading: true,
-      excludeFiles: ['about.md', 'index.md'],
+      excludeFiles: ['about.md','index.md'],
+      // useFolderLinkAsIndexPage: false,
+      // includeFolderIndexFile: false,
     }),
   },
   markdown: {
