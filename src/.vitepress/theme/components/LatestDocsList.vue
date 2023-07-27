@@ -15,7 +15,6 @@ const list = ref(latestPosts)
       :key="item.frontmatter.title"
       :info="{ ...item, ...item.frontmatter }"
     />
-    <p>更多见左侧导航。</p>
   </div>
 </template>
 
