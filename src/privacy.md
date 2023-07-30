@@ -1,53 +1,53 @@
-# 艺述论博客 隐私政策
+# YishuLun Blog Privacy Policy
 
-欢迎您访问我们的产品。 **艺述论博客** （包括网站等产品提供的服务，以下简称“产品和服务”）是由 **LIYI** （以下简称“我们”）开发并运营的。 确保用户的数据安全和隐私保护是我们的首要任务， 本隐私政策载明了您访问和使用我们的产品和服务时所收集的数据及其处理方式。
+Welcome to our products. **YishuLun Blog** (including services provided by the website and other products, hereinafter referred to as "products and services") is developed and operated by **LIYI** (hereinafter referred to as "we"). Ensuring user data security and privacy protection is our primary task, this privacy policy clearly outlines the data collected and how it is processed when you visit and use our products and services.
 
-请您在继续使用我们的产品前务必认真仔细阅读并确认充分理解本隐私政策全部规则和要点， 一旦您选择使用，即视为您同意本隐私政策的全部内容，同意我们按其收集和使用您的相关信息。 如您在在阅读过程中，对本政策有任何疑问，可联系我们的客服咨询， 请通过 **LIYI** 或产品中的反馈方式与我们取得联系。 如您不同意相关协议或其中的任何条款的，您应停止使用我们的产品和服务。
+Please be sure to read and fully understand this privacy policy before continuing to use our products. Once you choose to use them, it is regarded as your acceptance of all the content of this privacy policy, and you agree that we collect and use your relevant information according to it. If you have any questions about this policy during the reading process, you can consult our customer service, please contact us through **LIYI** or the feedback method in the product. If you do not agree with the related agreement or any of its terms, you should stop using our products and services.
 
-本隐私政策帮助您了解以下内容：
+This privacy policy helps you understand the following:
 
-一、我们如何收集和使用您的个人信息；
+1. How we collect and use your personal information;
 
-二、我们如何存储和保护您的个人信息；
+2. How we store and protect your personal information;
 
-三、我们如何共享、转让、公开披露您的个人信息；
+3. How we share, transfer, and publicly disclose your personal information;
 
-四、我们如何使用 Cookie 和其他追踪技术；
+4. How we use Cookies and other tracking technologies;
 
-## 一、我们如何收集和使用您的个人信息
+## 1. How We Collect and Use Your Personal Information
 
-个人信息是指以电子或者其他方式记录的能够单独或者与其他信息， 结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。 由于我们的产品和服务并不需要此类信息，因此很高兴的告知您， 我们不会收集关于您的任何个人信息。
+Personal information refers to various pieces of information that can identify a specific natural person alone or in combination with other information, recorded in electronic or other ways that reflect the activities of a specific natural person. Since our products and services do not require this type of information, we are pleased to inform you that we will not collect any personal information about you.
 
-## 二、我们如何存储和保护您的个人信息
+## 2. How We Store and Protect Your Personal Information
 
-作为一般规则，我们仅在实现信息收集目的所需的时间内保留您的个人信息。 我们会在对于管理与您之间的关系严格必要的时间内保留您的个人信息 （例如，当您开立帐户，从我们的产品获取服务时）。 出于遵守法律义务或为证明某项权利或合同满足适用的诉讼时效要求的目的， 我们可能需要在上述期限到期后保留您存档的个人信息，并且无法按您的要求删除。
+As a general rule, we retain your personal information only for the time necessary to achieve the purpose of information collection. We will retain your personal information for the strictly necessary time to manage your relationship with us (for example, when you open an account or get services from our products). For the purpose of complying with legal obligations or proving a right or contract to meet the applicable statute of limitations, we may need to retain your archived personal information after the above deadline and cannot delete it at your request.
 
-## 三、我们如何共享、转让、公开披露您的个人信息
+## 3. How We Share, Transfer, and Publicly Disclose Your Personal Information
 
-在管理我们的日常业务活动所需要时，为追求合法利益以更好地服务客户， 我们将合规且恰当的使用您的个人信息。出于对业务和各个方面的综合考虑， 我们仅自身使用这些数据，不与任何第三方分享。
+When necessary to manage our daily business activities and pursue legitimate interests to better serve customers, we will use your personal information in a compliant and appropriate manner. Considering business and all aspects, we only use these data ourselves and do not share it with any third party.
 
-我们可能会根据法律法规规定，或按政府主管部门的强制性要求，对外共享您的个人信息。 在符合法律法规的前提下，当我们收到上述披露信息的请求时，我们会要求必须出具与之相应的法律文件，如传票或调查函。 我们坚信，对于要求我们提供的信息，应该在法律允许的范围内尽可能保持透明。
+We may share your personal information externally in accordance with laws and regulations, or in accordance with the mandatory requirements of government authorities. Under the premise of compliance with laws and regulations, when we receive the above request for disclosure of information, we will require the corresponding legal documents, such as subpoenas or investigation letters. We firmly believe that for the information requested to be provided by us, transparency should be maintained as much as possible within the scope allowed by law.
 
-在以下情形中，共享、转让、公开披露您的个人信息无需事先征得您的授权同意：
+In the following situations, sharing, transferring, and publicly disclosing your personal information does not require your prior authorization:
 
-1、与国家安全、国防安全直接相关的；
+1. Directly related to national security and national defense security;
 
-2、与犯罪侦查、起诉、审判和判决执行等直接相关的；
+2. Directly related to crime investigation, prosecution, trial, and judgment execution;
 
-3、出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；
+3. It is difficult to obtain personal consent when it is necessary to protect the life, property, and other major legal rights and interests of you or other individuals;
 
-4、您自行向社会公众公开的个人信息；
+4. Personal information that you disclose to the public;
 
-5、从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。
+5. Personal information collected from legally publicly disclosed information, such as legal news reports, government information disclosure, etc.
 
-6、根据个人信息主体要求签订和履行合同所必需的；
+6. Necessary for signing and performing a contract at the request of the subject of personal information;
 
-7、用于维护所提供的产品或服务的安全稳定运行所必需的，例如发现、处置产品或服务的故障；
+7. Necessary for maintaining the safe and stable operation of the product or service provided, such as finding and dealing with product or service failures;
 
-8、法律法规规定的其他情形。
+8. Other circumstances stipulated by laws and regulations.
 
-## 四、我们如何使用 Cookie 和其他追踪技术
+## 4. How We Use Cookies and Other Tracking Technologies
 
-为确保产品正常运转，我们会在您的计算机或移动设备上存储名为 Cookie 的小数据文件。 Cookie 通常包含标识符、产品名称以及一些号码和字符。 借助于 Cookie，我们能够存储您的偏好或商品等数据，并用以判断注册用户是否已经登录， 提升服务和产品质量及优化用户体验。
+To ensure the normal operation of the product, we will store a small data file called a Cookie on your computer or mobile device. Cookies usually contain identifiers, product names, and some numbers and characters. With the help of Cookies, we can store your preferences or goods and other data, and use it to judge whether registered users have logged in, improve the quality of services and products, and optimize user experience.
 
-我们出于不同的目的使用各种Cookie，包括：严格必要型Cookie、性能Cookie、营销Cookie和功能Cookie。 某些Cookie可能由外部第三方提供，以向我们的产品提供其它功能。 我们不会将 Cookie 用于本政策所述目的之外的任何用途。您可根据自己的偏好管理或删除 Cookie。 您可以清除计算机上或手机中保存的所有 Cookie，大部分网络浏览器都设有阻止或禁用 Cookie 的功能， 您可对浏览器进行配置。阻止或禁用 Cookie 功能后，可能影响您使用或不能充分使用我们的产品和服务。
+We use various Cookies for different purposes, including: strictly necessary Cookies, performance Cookies, marketing Cookies, and functional Cookies. Some Cookies may be provided by external third parties to provide additional functionality to our products. We will not use Cookies for any purpose other than those described in this policy. You can manage or delete Cookies according to your preferences. You can clear all the Cookies stored on your computer or mobile phone, and most web browsers have functions to block or disable Cookies. You can configure your browser accordingly. Blocking or disabling Cookies may affect your use or cannot fully use our products and services.
