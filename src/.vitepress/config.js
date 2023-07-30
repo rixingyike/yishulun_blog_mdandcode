@@ -46,7 +46,7 @@ export default {
     },
     footer: {
       message: '该站由<a href="https://vitepress.dev/" target="_blank">VitePress</a>驱动。本站内容作者保留所有权利，未经允许不得擅自转载。',
-      copyright: `Copyright © 2002-${new Date().getFullYear()} LIYI`
+      copyright: `<a href="/privacy.html" target="_blank">Privacy</a> Copyright © 2002-${new Date().getFullYear()} LIYI`
     },
     logo: '/logo.png',
     outlineTitle: '目录',
