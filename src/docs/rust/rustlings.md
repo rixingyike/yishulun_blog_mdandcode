@@ -5,7 +5,7 @@ title: "在Rustlings示例实践中学习Rust"
 
 Rustlings 是一个辅助学习者学习Rust语言的学习程序。
 
-## 第1天
+## 第1天 准备环境
 
 ### 学习程序的安装、说明与启动
 
@@ -47,7 +47,7 @@ Remove the I AM NOT DONE comment in the exercises/intro/intro1.rs file to move o
 
 当学习者从文件 intro1.rs 里移除“I AM NOT DONE”后，学习征程就开始了。当一个练习完成后，下一个练习的文件路径会自动出现在终端的反馈中。
 
-### 格式化字符串需要参数
+### 格式化字符串有一个位置需要一个实参
 
 **exercises/intro/intro2.rs**：
 
@@ -66,6 +66,8 @@ fn main() {
  println!("Hello {}!", "ly");
 }
 ```
+
+## 第2天 变量
 
 ### 不能使用未声明的变量
 
@@ -254,13 +256,317 @@ func main() {
 
 第7行会报出一个“number redeclared in this block”的异常。
 
-## 第2天
+### 常量在声明时必须有明确的类型
 
 exercises/variables/variables6.rs：
 
+```rust
+const NUMBER = 3;
+fn main() {
+    println!("Number {}", NUMBER);
+}
 ```
 
+error: missing type for `const` item
+
+错误:缺少“const”常量类型。
+
+常量声明时，给它一个类型即可：
+
+```rust
+const NUMBER: i32 = 3;
+fn main() {
+    println!("Number {}", NUMBER);
+}
 ```
+
+## 第3天 函数
+
+### 不得调用当前作用域看不见或未定义的函数
+
+functions/functions1.rs:
+
+```
+fn main() {
+    call_me();
+}
+```
+
+error[E0425]: cannot find function `call_me` in this scope
+
+在当前范围内找不到函数'call_me'。
+
+Rust函数必须先声明或引入，才可以调用。
+
+```
+fn main() {
+    call_me();
+}
+
+fn call_me() {
+  println!("hi");
+}
+```
+
+有时候看不见，和不存在在调用者的视角看是等同的。如同外星人存不存在，于地球人是否可见，在地球人来看也是赞同的。
+
+### 函数参数需要类型注释
+
+functions/functions2.rs:
+
+```
+fn main() {
+    call_me(3);
+}
+
+fn call_me(num:) {
+    for i in 0..num {
+        println!("Ring! Call number {}", i + 1);
+    }
+}
+```
+
+error[E0425]: cannot find value `num` in this scope
+
+当前作用域下找不到变量num。
+
+变量与函数一样，只有先声明或引入才可以使用。
+
+但在这个示例里，还不是完全的变量不存在，而是变量声明得不正确、不合法。num作为函数参数，缺少必要的类型注释，所以被编译器判定为不存在。函数参数声明不正确，等于不存在。
+
+```
+fn call_me(num: i32) {
+    for i in 0..num {
+        println!("Ring! Call number {}", i + 1);
+    }
+}
+```
+
+函数参数需要类型注释，与变量声明的格式一样，变量名在前，中间是冒号，后面是类型。
+
+### 函数参数定义几个，调用时便需要传递几个
+
+functions/functions3.rs:
+
+```
+fn main() {
+    call_me();
+}
+
+fn call_me(num: u32) {
+    for i in 0..num {
+        println!("Ring! Call number {}", i + 1);
+    }
+}
+```
+
+error[E0061]: this function takes 1 argument but 0 arguments were supplied
+
+函数需要一个参数，但在调用时只提供了0个。
+
+函数参数定义的个数，与调用时实际提供的个数（包括类型），需要匹配。
+
+```
+fn main() {
+    call_me(3);
+}
+
+fn call_me(num: u32) {
+    for i in 0..num {
+        println!("Ring! Call number {}", i + 1);
+    }
+}
+```
+
+### 函数需要一个返回值类型，如果它有一个返回箭头
+
+functions/functions4.rs:
+
+```
+fn main() {
+    let original_price = 51;
+    println!("Your sale price is {}", sale_price(original_price));
+}
+
+fn sale_price(price: i32) -> {
+    if is_even(price) {
+        price - 10
+    } else {
+        price - 3
+    }
+}
+
+fn is_even(num: i32) -> bool {
+    num % 2 == 0
+}
+
+```
+
+error: expected type, found *
+
+函数需要合适的参数，找到的类型不匹配。
+
+函数sale_price的类型根据函数体代码，需要修改为i32。
+
+```
+fn sale_price(price: i32) -> i32{
+    if is_even(price) {
+        price - 10
+    } else {
+        price - 3
+    }
+}
+```
+
+Rust没有return，函数体的最后一个表达式即是函数准备返回的结果。在这个函数中，price - 10与price - 3即是准备的结果，判断的依据是它们的行尾都没有分号。
+
+### 函数有返回值的语句行尾不加分号
+
+functions/functions5.rs:
+
+```
+fn main() {
+    let answer = square(3);
+    println!("The square of 3 is {}", answer);
+}
+
+fn square(num: i32) -> i32 {
+    num * num;
+}
+```
+
+error[E0308]: mismatched types，expected `i32`, found `()`
+
+类型不匹配，需要i32，找到了()。注：在Rust中，()也是一个类型，可以类比为JS中的void类型。
+
+在Rust函数中，返回一个值不需要使用return关键字，但返回的值或表达式，基行尾不能加分号。有分号是寻常语句，没有分号才是返回语句。
+
+```
+fn square(num: i32) -> i32 {
+    num * num
+}
+```
+
+## 第4天 逻辑控制语句
+
+### if语句使用C派写法，但条件不需要小括号
+
+if/if1.rs:6:
+
+```
+pub fn bigger(a: i32, b: i32) -> i32 {
+    // Complete this function to return the bigger number!
+}
+
+// Don't mind this for now :)
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn ten_is_bigger_than_eight() {
+        assert_eq!(10, bigger(10, 8));
+    }
+
+    #[test]
+    fn fortytwo_is_bigger_than_thirtytwo() {
+        assert_eq!(42, bigger(32, 42));
+    }
+}
+```
+
+error[E0308]: mismatched types，expected `i32`, found `()`。
+
+类型描述与上一个练习相同，但导致错误的原因不一定相同。排查代码错误需要仔细阅读编译器给出的错误反馈信息，并在此基础上作出进一步的正确的推断。
+
+在这个练习中，函数bigger需要一个类型为i32的返回值，但是函数体没有什么返回，所以报错了。
+
+解决方法只需要加上返回值即可：
+
+```
+pub fn bigger(a: i32, b: i32) -> i32 {
+    if a >= b {
+      a 
+    } else { 
+      b
+    }
+}
+
+```
+
+这里用到了if条件控制语句。在Rust中，if条件语句是逻辑控制语句——分支控制的一种，和Go语言一样，条件不需要使用小括号括住，代码块用花括号即可，花括号与if之间的部分，及花括号之间的部分自然就是条件语句。
+
+为了加深印象，我们可以看一下C/C++语言的if语句写法：
+
+```c
+int a = 100;
+if( a < 20 ) {
+   printf("a 小于 20\n" );
+} else {
+   printf("a 大于 20\n" );
+}
+```
+
+### 一个函数只有一个返回值类型，不可能同时存在两个返回值类型
+
+if/if2.rs:
+
+```
+pub fn foo_if_fizz(fizzish: &str) -> &str {
+    if fizzish == "fizz" {
+        "foo"
+    } else {
+        1
+    }
+}
+
+// No test changes needed!
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn foo_for_fizz() {
+        assert_eq!(foo_if_fizz("fizz"), "foo")
+    }
+
+    #[test]
+    fn bar_for_fuzz() {
+        assert_eq!(foo_if_fizz("fuzz"), "bar")
+    }
+
+    #[test]
+    fn default_to_baz() {
+        assert_eq!(foo_if_fizz("literally anything"), "baz")
+    }
+}
+```
+
+error[E0308]: mismatched types，expected `&str`, found integer。
+
+类型不匹配，需要字符串，却找到了整型。
+
+这是一次真正的类型不匹配，函数的返回类型是&str，但在if语句的一个分支中却返回了数字。修改方法很简单，统一类型即可：
+
+```
+pub fn foo_if_fizz(fizzish: &str) -> &str {
+    if fizzish == "fizz" {
+        "foo"
+    } else if fizzish == "fuzz" {
+        "bar"
+    } else {
+        "baz"
+    }
+}
+```
+
+函数的返回值类型一定要统一，如果if语句在分支中承担了函数值的返回，则每个分支返回的类型必须相同。
+
+在这个示例中，要想编译全部通过，不仅统一了函数foo_if_fizz的返回值类型，还在if控制语句中使用else if添加了一个分支条件。这是C派的写法，加一个分支，加一个else if即可。
+
+
+
+
 
 ## 参考资料
 

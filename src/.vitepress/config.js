@@ -45,7 +45,7 @@ export default {
       text: 'Edit on GitHub'
     },
     footer: {
-      message: '该站由<a href="https://vitepress.dev/" target="_blank">VitePress</a>驱动。本站内容作者保留所有权利，未经允许不得擅自转载。',
+      message: '该站由<a href="https://vitepress.dev/" target="_blank">VitePress</a>驱动，采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">署名-非商业性使用-禁止演绎(CC BY-NC-ND 4.0)共享。</a>',
       copyright: `<a href="/privacy.html" target="_blank">Privacy</a> Copyright © 2002-${new Date().getFullYear()} LIYI`
     },
     logo: '/logo.png',
