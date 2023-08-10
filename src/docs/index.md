@@ -9,4 +9,3 @@ layout: doc
 import LatestList from '@/components/LatestDocsList.vue'
 </script>
 <LatestList />
-<p>更多见左侧导航。</p>

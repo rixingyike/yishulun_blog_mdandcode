@@ -29,7 +29,7 @@ export default {
   base: '/',
   lang: 'zh-CN',
   title: '艺述论博客',
-  description: '80后社恐+老码农一枚，有20年以上上网经历。',
+  description: '计算机讲师、作家，网文小说作者。白天写代码，晚上写梦想。',
   srcDir: ".",
   lastUpdated: true,
   ignoreDeadLinks: true,

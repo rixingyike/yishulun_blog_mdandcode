@@ -9,7 +9,7 @@ const list = ref(latestPosts)
 
 <template>
   <div>
-    <h1 style="padding-top: 50px;">最新文档内容</h1>
+    <h1 style="padding-top: 50px;">最新内容</h1>
     <PostItem
       v-for="item in list"
       :key="item.frontmatter.title"
