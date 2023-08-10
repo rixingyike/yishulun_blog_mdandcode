@@ -11,9 +11,9 @@ export function transformPost(item: ContentData): ContentData {
     url: item.url,
     frontmatter: {
       ...item.frontmatter,
-      created: format(item.frontmatter.created || new Date(), 'yyyy-MM-dd'),
+      created: format(item.frontmatter.date || new Date(), 'yyyy'),
       updated: item.frontmatter.updated
-        ? format(item.frontmatter.updated, 'yyyy-MM-dd')
+        ? format(item.frontmatter.updated, 'yyyy')
         : undefined,
       topicIndex: /\/topics\/[a-zA-Z0-9\-]+\/index\.html/.test(item.url),
     },
@@ -21,5 +21,5 @@ export function transformPost(item: ContentData): ContentData {
 }
 
 export function sortPost(a: ContentData, b: ContentData): number {
-  return new Date(b.frontmatter.created).valueOf() > new Date(a.frontmatter.created).valueOf() ? 1 : -1
+  return new Date(b.frontmatter.date).valueOf() > new Date(a.frontmatter.date).valueOf() ? 1 : -1
 }
