@@ -13,9 +13,9 @@ hero:
       text: 博客
       link: /posts/
 
-    - theme: alt
-      text: 文档
-      link: /docs/
+    # - theme: alt
+    #   text: 文档
+    #   link: /docs/
 
 features:
   - title: 《小程序从0到1》读者常见问题

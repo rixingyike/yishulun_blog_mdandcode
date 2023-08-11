@@ -55,7 +55,7 @@ export default {
     },
     nav: [
       { text: '博客', link: '/posts/' },
-      { text: '文档', link: '/docs/' },
+      // { text: '文档', link: '/docs/' },
       { text: '关于', link: '/about.html' },
       { text: 'Github', link: 'https://github.com/rixingyike' },
     ],
@@ -68,6 +68,7 @@ export default {
       useTitleFromFrontmatter: true,
       useTitleFromFileHeading: true,
       excludeFiles: ['about.md','index.md','privacy.md'],
+      excludeFolders: ['docs'],
       // useFolderLinkAsIndexPage: false,
       // includeFolderIndexFile: false,
     }),
