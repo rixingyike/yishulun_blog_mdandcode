@@ -11,9 +11,9 @@ export function transformPost(item: ContentData): ContentData {
     url: item.url,
     frontmatter: {
       ...item.frontmatter,
-      created: format(item.frontmatter.date || new Date(), 'yyyy'),
+      created: format(item.frontmatter.date || new Date(), 'yyyy-MM-dd'),
       updated: item.frontmatter.updated
-        ? format(item.frontmatter.updated, 'yyyy')
+        ? format(item.frontmatter.updated, 'yyyy-MM-dd')
         : undefined,
       topicIndex: /\/topics\/[a-zA-Z0-9\-]+\/index\.html/.test(item.url),
     },

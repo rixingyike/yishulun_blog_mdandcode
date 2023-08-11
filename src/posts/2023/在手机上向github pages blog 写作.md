@@ -1,6 +1,5 @@
 ---
-created: 2023-07-07T09:45:39+08:00
-modified: 2023-07-07T09:49:16+08:00
+date: 2023-08-11 09:40:39
 ---
 
 # 在手机上向github pages blog 写作
@@ -9,4 +8,4 @@ modified: 2023-07-07T09:49:16+08:00
 
 试一下贴图功能吧：
 
-![Image](./6c2a10b3c0ed7bd17e0c7bdfba9d9a54.jpg)
+![Image](./assets/6c2a10b3c0ed7bd17e0c7bdfba9d9a54.jpg)

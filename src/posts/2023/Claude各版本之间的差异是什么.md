@@ -1,3 +1,6 @@
+---
+date: 2023-07-01 09:44:16
+---
 # Claude 各版本之间的差异是什么？
 
 在 Claude 官网上有两个版本：Claude 与 Claude Instant。在 poe 上面有三个版本：Claude-instant、Claude-instant-100k 和 Claude-2-100k，Claude2 自己对这三个版本的差异解答是：
