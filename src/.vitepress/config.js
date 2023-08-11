@@ -67,7 +67,7 @@ export default {
       hyphenToSpace: true,
       useTitleFromFrontmatter: true,
       useTitleFromFileHeading: true,
-      excludeFiles: ['about.md','index.md'],
+      excludeFiles: ['about.md','index.md','privacy.md'],
       // useFolderLinkAsIndexPage: false,
       // includeFolderIndexFile: false,
     }),

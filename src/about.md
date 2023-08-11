@@ -29,7 +29,7 @@ const members = [
 
 ## 作者简介
 
-🚀此地有老码农一枚，产于上世纪80年代，拥有20+年上网经历，👨‍💻擅长 Linux/Mac/Windows 系统开关机，精通 Go/JS/Rust/Python/C 语言世界的 Hello World 编写。🎩
+🚀码农一枚，产于上世纪80年代，拥有20+年上网经历，👨‍💻擅长 Linux/Mac/Windows 系统开关机，精通 Go/JS/Rust/Python/C 语言世界的 Hello World 编写。🎩
 
 📚除了写代码，我还是个讲师，有着“中移联合智库ICT专家级讲师”的称号。一汽大众等国企的内训课程，以及微信学堂[《小程序性能优化实践》](https://developers.weixin.qq.com/community/business/course/000606628dc2e86dc0ddcbb115940d)和极客时间[《微信小程序全栈开发实战》](http://gk.link/a/10AdC)，都有我传授知识的身影和声音。🎙️
 

@@ -4,7 +4,7 @@ title: 主页
 
 hero:
   name: 艺述论博客
-  text: 🚀此地有老码农一枚，白天写代码，晚上写梦想。
+  text: 🚀码农一枚，白天写代码，晚上写梦想。
   tagline: 计算机技术作者/讲师，网文小说作者。
   image:
     src: /avatar.png
