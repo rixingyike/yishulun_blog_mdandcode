@@ -58,7 +58,7 @@ jobs:
         with:
           # GitHub Action output files
           source-directory: src/.vitepress/dist/
-          destination-github-username: github.com/rixingyike
+          destination-github-username: rixingyike
           destination-repository-name: yishulun.com
           user-email: 9830131@qq.com
           # It defaults to `main`
