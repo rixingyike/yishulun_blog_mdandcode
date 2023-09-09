@@ -41,7 +41,8 @@ jobs:
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
           
-      - uses: actions/configure-pages@v2
+      # - uses: actions/configure-pages@v2
+      
       - uses: actions/upload-pages-artifact@v1
         with:
           path: src/.vuepress/dist
