@@ -7,25 +7,7 @@ footer: false
 sidebar: false
 toc: false
 ---
-# 关于作者
-
-<script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-
-const members = [
-  {
-    avatar: 'https://yishulun.com/avatar.png',
-    name: 'LIYI',
-    title: '计算机讲师、作家，网文小说作者。白天写代码，晚上写梦想。',
-    links: [
-      { icon: 'github', link: 'https://github.com/rixingyike' },
-      { icon: 'twitter', link: 'https://twitter.com/coderliyi' }
-    ]
-  },
-]
-</script>
-
-<VPTeamMembers size="small" :members="members" />
+# 关于
 
 ## 作者简介
 
@@ -39,7 +21,7 @@ const members = [
 
 我的公众号/视频号如下：
 
-<img src="https://yishulun.com/yslqrcode.jpg" style="zoom: 50%;" />
+<img src="https://yishulun.com/yslqrcode.jpg" style="zoom: 66%;" />
 
 ## 联系方式
 

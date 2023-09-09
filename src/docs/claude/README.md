@@ -1,4 +1,4 @@
-# Claude 小白教程
+# Claude小白教程
 
 - [1.Claude简介【2023-07-28 07:24:30】](/docs/claude/1.Claude简介.html)
 - [2.Claude提示的初步编写与优化【2023-07-28 07:24:44】](/docs/claude/2.Claude提示的初步编写与优化.html)

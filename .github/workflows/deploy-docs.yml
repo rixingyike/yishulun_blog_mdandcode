@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy(部署文档)
 on:
   workflow_dispatch: {}
   push:
@@ -15,23 +15,36 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v3
+      
+      # - run: yarn install --frozen-lockfile
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v2
         with:
-          node-version: 16
-          cache: yarn
-      - run: yarn install --frozen-lockfile
-      - name: Build
-        run: yarn run build
+          run_install: true
+          version: 8
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
+      
+      - name: Build(构建文档)
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          pnpm run docs:build
+          > src/.vuepress/dist/.nojekyll
+          
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: src/.vitepress/dist
-      # - name: Deploy
-      #   id: deployment
-      #   uses: actions/deploy-pages@v1
+          path: src/.vuepress/dist
 
       - name: Deploy to external repository
         uses: cpina/github-action-push-to-another-repository@v1.7.2
@@ -57,7 +70,7 @@ jobs:
 
         with:
           # GitHub Action output files
-          source-directory: src/.vitepress/dist/
+          source-directory: src/.vuepress/dist/
           destination-github-username: rixingyike
           destination-repository-name: yishulun.com
           user-email: 9830131@qq.com
