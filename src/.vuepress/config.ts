@@ -4,6 +4,29 @@ import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
+  // add google analytics & adsense
+  head: [
+    [
+      'script',
+      {
+        async: true,
+        src: '//www.googletagmanager.com/gtag/js?id=G-8N64Q25EK9',
+      },
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-8N64Q25EK9');",
+    ],
+    ['script', 
+      { 
+        async: true,
+        src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9936052907746352",
+        crossorigin:"anonymous",
+      }
+    ],
+  ],
+  
   base: "/",
 
   lang: "zh-CN",
