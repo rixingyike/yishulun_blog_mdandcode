@@ -8,9 +8,6 @@ devDependencies:
   '@vuepress/client':
     specifier: 2.0.0-beta.67
     version: 2.0.0-beta.67
-  '@vuepress/plugin-google-analytics':
-    specifier: 2.0.0-beta.67
-    version: 2.0.0-beta.67
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -2146,17 +2143,6 @@ packages:
       '@vuepress/core': 2.0.0-beta.67
       '@vuepress/utils': 2.0.0-beta.67
       execa: 8.0.1
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - supports-color
-    dev: true
-
-  /@vuepress/plugin-google-analytics@2.0.0-beta.67:
-    resolution: {integrity: sha512-Mffhzhq5tYUq9gRYzpl09NMIQ73MFuN2oIu6SuVPjYtEvKfccdkSksaSuMz0WCmDwTywxFj6v/d3OWjAZ4IFIA==}
-    dependencies:
-      '@vuepress/client': 2.0.0-beta.67
-      '@vuepress/core': 2.0.0-beta.67
-      '@vuepress/utils': 2.0.0-beta.67
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
