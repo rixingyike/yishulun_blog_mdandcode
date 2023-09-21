@@ -9,12 +9,14 @@ specifiers:
   globby: 11.0.4
   gray-matter: ^4.0.3
   markdown-it: ^13.0.1
+  react: ^18.2.0
+  react-dom: ^18.2.0
   vitepress: 1.0.0-rc.15
   vitepress-sidebar: ^1.16.0
 
 dependencies:
   dayjs: registry.npmmirror.com/dayjs/1.11.10
-  gitalk: registry.npmmirror.com/gitalk/1.8.0
+  gitalk: registry.npmmirror.com/gitalk/1.8.0_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
   fast-glob: registry.npmmirror.com/fast-glob/3.3.1
@@ -23,7 +25,9 @@ devDependencies:
   globby: registry.npmmirror.com/globby/11.0.4
   gray-matter: registry.npmmirror.com/gray-matter/4.0.3
   markdown-it: registry.npmmirror.com/markdown-it/13.0.1
-  vitepress: registry.npmmirror.com/vitepress/1.0.0-rc.15
+  react: registry.npmmirror.com/react/18.2.0
+  react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
+  vitepress: registry.npmmirror.com/vitepress/1.0.0-rc.15_biqbaboplfbrettd7655fr4n2y
   vitepress-sidebar: registry.npmmirror.com/vitepress-sidebar/1.16.0
 
 packages:
@@ -249,12 +253,13 @@ packages:
     version: 3.5.2
     dev: true
 
-  registry.npmmirror.com/@docsearch/js/3.5.2:
+  registry.npmmirror.com/@docsearch/js/3.5.2_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-p1YFTCDflk8ieHgFJYfmyHBki1D61+U9idwrLh+GQQMrBSP3DLGKpy0XUJtPjAOPltcVbqsTjiPFfH7JImjUNg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@docsearch/js/-/js-3.5.2.tgz}
+    id: registry.npmmirror.com/@docsearch/js/3.5.2
     name: '@docsearch/js'
     version: 3.5.2
     dependencies:
-      '@docsearch/react': registry.npmmirror.com/@docsearch/react/3.5.2
+      '@docsearch/react': registry.npmmirror.com/@docsearch/react/3.5.2_biqbaboplfbrettd7655fr4n2y
       preact: registry.npmmirror.com/preact/10.17.1
     transitivePeerDependencies:
       - '@algolia/client-search'
@@ -264,8 +269,9 @@ packages:
       - search-insights
     dev: true
 
-  registry.npmmirror.com/@docsearch/react/3.5.2:
+  registry.npmmirror.com/@docsearch/react/3.5.2_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-9Ahcrs5z2jq/DcAvYtvlqEBHImbm4YJI8M9y0x6Tqg598P40HTEkX7hsMcIuThI+hTFxRGZ9hll0Wygm2yEjng==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@docsearch/react/-/react-3.5.2.tgz}
+    id: registry.npmmirror.com/@docsearch/react/3.5.2
     name: '@docsearch/react'
     version: 3.5.2
     peerDependencies:
@@ -287,6 +293,8 @@ packages:
       '@algolia/autocomplete-preset-algolia': registry.npmmirror.com/@algolia/autocomplete-preset-algolia/1.9.3_algoliasearch@4.20.0
       '@docsearch/css': registry.npmmirror.com/@docsearch/css/3.5.2
       algoliasearch: registry.npmmirror.com/algoliasearch/4.20.0
+      react: registry.npmmirror.com/react/18.2.0
+      react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
     transitivePeerDependencies:
       - '@algolia/client-search'
     dev: true
@@ -1214,8 +1222,9 @@ packages:
       get-intrinsic: registry.npmmirror.com/get-intrinsic/1.2.1
     dev: false
 
-  registry.npmmirror.com/gitalk/1.8.0:
+  registry.npmmirror.com/gitalk/1.8.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-/bWlUAeb0gXuo1SzBeduS07T4PEyL5WoRgxewUIg3liVUof5hUgW/hhx3ns2PJuiFkOxnsSuk1FPzwf6YESJaA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/gitalk/-/gitalk-1.8.0.tgz}
+    id: registry.npmmirror.com/gitalk/1.8.0
     name: gitalk
     version: 1.8.0
     dependencies:
@@ -1227,7 +1236,7 @@ packages:
       node-polyglot: registry.npmmirror.com/node-polyglot/2.2.2
       preact: registry.npmmirror.com/preact/8.1.0
       preact-compat: registry.npmmirror.com/preact-compat/3.16.0_preact@8.1.0
-      react-flip-move: registry.npmmirror.com/react-flip-move/2.9.14
+      react-flip-move: registry.npmmirror.com/react-flip-move/2.9.14_biqbaboplfbrettd7655fr4n2y
     transitivePeerDependencies:
       - react
       - react-dom
@@ -1532,7 +1541,6 @@ packages:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz}
     name: js-tokens
     version: 4.0.0
-    dev: false
 
   registry.npmmirror.com/js-yaml/3.14.1:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/js-yaml/-/js-yaml-3.14.1.tgz}
@@ -1582,7 +1590,6 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: registry.npmmirror.com/js-tokens/4.0.0
-    dev: false
 
   registry.npmmirror.com/magic-string/0.30.3:
     resolution: {integrity: sha512-B7xGbll2fG/VjP+SWg4sX3JynwIU0mjoTc6MPpKNuIvftk6u6vqhDnk1R80b8C2GBR6ywqy+1DcKBrevBg+bmw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/magic-string/-/magic-string-0.30.3.tgz}
@@ -1802,13 +1809,29 @@ packages:
     version: 1.2.3
     dev: true
 
-  registry.npmmirror.com/react-flip-move/2.9.14:
+  registry.npmmirror.com/react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-dom/-/react-dom-18.2.0.tgz}
+    id: registry.npmmirror.com/react-dom/18.2.0
+    name: react-dom
+    version: 18.2.0
+    peerDependencies:
+      react: ^18.2.0
+    dependencies:
+      loose-envify: registry.npmmirror.com/loose-envify/1.4.0
+      react: registry.npmmirror.com/react/18.2.0
+      scheduler: registry.npmmirror.com/scheduler/0.23.0
+
+  registry.npmmirror.com/react-flip-move/2.9.14_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-XD8R8KPLa9GG3NM83FuWPJSGB9Emr2if9NQlJseZkE0YKd4cGq9gr74ehc/Erxr1nPo/Ln5uXf3LAImGG21TeQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-flip-move/-/react-flip-move-2.9.14.tgz}
+    id: registry.npmmirror.com/react-flip-move/2.9.14
     name: react-flip-move
     version: 2.9.14
     peerDependencies:
       react: 0.13.x || 0.14.x || 15.x.x
       react-dom: 0.13.x || 0.14.x || 15.x.x
+    dependencies:
+      react: registry.npmmirror.com/react/18.2.0
+      react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
     dev: false
 
   registry.npmmirror.com/react-is/16.13.1:
@@ -1816,6 +1839,14 @@ packages:
     name: react-is
     version: 16.13.1
     dev: false
+
+  registry.npmmirror.com/react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react/-/react-18.2.0.tgz}
+    name: react
+    version: 18.2.0
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: registry.npmmirror.com/loose-envify/1.4.0
 
   registry.npmmirror.com/regexp.prototype.flags/1.5.1:
     resolution: {integrity: sha512-sy6TXMN+hnP/wMy+ISxg3krXx7BAtWVO4UouuCN/ziM9UEne0euamVNafDfvC83bRNr95y0V5iijeDQFUNpvrg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/regexp.prototype.flags/-/regexp.prototype.flags-1.5.1.tgz}
@@ -1880,6 +1911,13 @@ packages:
     name: sax
     version: 1.2.4
     dev: true
+
+  registry.npmmirror.com/scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/scheduler/-/scheduler-0.23.0.tgz}
+    name: scheduler
+    version: 0.23.0
+    dependencies:
+      loose-envify: registry.npmmirror.com/loose-envify/1.4.0
 
   registry.npmmirror.com/section-matter/1.0.0:
     resolution: {integrity: sha512-vfD3pmTzGpufjScBh50YHKzEu2lxBWhVEHsNGoEXmCmn2hKGfeNLYMzCJpe8cD7gqX7TJluOVpBkAequ6dgMmA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/section-matter/-/section-matter-1.0.0.tgz}
@@ -2125,8 +2163,9 @@ packages:
       gray-matter: registry.npmmirror.com/gray-matter/4.0.3
     dev: true
 
-  registry.npmmirror.com/vitepress/1.0.0-rc.15:
+  registry.npmmirror.com/vitepress/1.0.0-rc.15_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-5criiHoEibkT/du7t6wQ2xQVsuTNuirQZbMAi0M9Hp0YzJoJvEX68Ej9p2PtNC84bYb/CxAh5QkMtMutk03lHw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-rc.15.tgz}
+    id: registry.npmmirror.com/vitepress/1.0.0-rc.15
     name: vitepress
     version: 1.0.0-rc.15
     hasBin: true
@@ -2137,7 +2176,7 @@ packages:
         optional: true
     dependencies:
       '@docsearch/css': registry.npmmirror.com/@docsearch/css/3.5.2
-      '@docsearch/js': registry.npmmirror.com/@docsearch/js/3.5.2
+      '@docsearch/js': registry.npmmirror.com/@docsearch/js/3.5.2_biqbaboplfbrettd7655fr4n2y
       '@vue/devtools-api': registry.npmmirror.com/@vue/devtools-api/6.5.0
       '@vueuse/core': registry.npmmirror.com/@vueuse/core/10.4.1_vue@3.3.4
       '@vueuse/integrations': registry.npmmirror.com/@vueuse/integrations/10.4.1_focus-trap@7.5.2+vue@3.3.4

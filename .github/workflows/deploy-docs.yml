@@ -27,7 +27,7 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: pnpm install --recursive
+        run: pnpm install --recursive --no-frozen-lockfile
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
