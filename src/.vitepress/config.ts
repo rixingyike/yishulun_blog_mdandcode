@@ -56,6 +56,7 @@ async function config() {
     ],
     // cleanUrls: "with-subfolders",
     lastUpdated: false,
+    ignoreDeadLinks: true,
     themeConfig: {
       logo: "/logo.png",
       avator: "/avatar.png",
