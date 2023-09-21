@@ -24,7 +24,7 @@ onContentUpdated(() => {
     repo: "yishulun.com_discus",
     owner: "rixingyike",
     admin: ["rixingyike"],
-    id: location.pathname.substring(0, 50), // Ensure uniqueness and length less than 50
+    id: encodeURI(location.pathname.substring(0, 50)), // Ensure uniqueness and length less than 50
     language: "zh-CN",
     distractionFreeMode: true, // Facebook-like distraction free mode
   });
