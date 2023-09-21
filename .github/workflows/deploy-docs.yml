@@ -38,14 +38,14 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          pnpm run docs:build
-          > src/.vuepress/dist/.nojekyll
+          pnpm run build
+          > src/.vitepress/dist/.nojekyll
           
       # - uses: actions/configure-pages@v2
       
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: src/.vuepress/dist
+          path: src/.vitepress/dist
 
       - name: Deploy to external repository
         uses: cpina/github-action-push-to-another-repository@v1.7.2
@@ -71,7 +71,7 @@ jobs:
 
         with:
           # GitHub Action output files
-          source-directory: src/.vuepress/dist/
+          source-directory: src/.vitepress/dist/
           destination-github-username: rixingyike
           destination-repository-name: yishulun.com
           user-email: 9830131@qq.com

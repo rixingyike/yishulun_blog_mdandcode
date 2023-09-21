@@ -1,0 +1,132 @@
+import { getPosts, getPostLength } from "./theme/serverUtils";
+import { buildBlogRSS } from "./theme/rss";
+import { generateSidebar } from 'vitepress-sidebar'
+import { URL, fileURLToPath } from 'node:url'
+
+const desc = "LIYI's Blog"
+
+async function config() {
+  return {
+    lang: "en-US",
+    title: "艺述论",
+    description: desc,
+    head: [
+      [
+        "link",
+        {
+          rel: "icon",
+          type: "image/icon",
+          href: "/favicon.ico",
+        },
+      ],
+      [
+        "meta",
+        {
+          name: "author",
+          content: "LIYI",
+        },
+      ],
+      [
+        "meta",
+        {
+          property: "og:title",
+          content: "Home",
+        },
+      ],
+      [
+        "meta",
+        {
+          property: "og:description",
+          content: desc,
+        },
+      ],
+      // add google analytics
+      [
+        'script',
+        {
+          async: true,
+          src: '//www.googletagmanager.com/gtag/js?id=G-8N64Q25EK9',
+        },
+      ],
+      [
+        'script',
+        {},
+        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-8N64Q25EK9');",
+      ], // add google analytics end
+    ],
+    // cleanUrls: "with-subfolders",
+    lastUpdated: false,
+    themeConfig: {
+      logo: "/logo.png",
+      avator: "/avatar.png",
+      search: {
+        provider: "local",
+      },
+      base: '/',
+      srcDir: ".", // 在src目录下，src目录是在package.json中指定的项目目录
+      docsDir: "./src/docs",
+      // docsBranch: "master",
+      posts: await getPosts(),
+      pageSize: 7,
+      postLength: await getPostLength(),
+      nav: [
+        {
+          text: "🏡 Blogs",
+          link: "/",
+        },
+        {
+          text: "🔖 Tags",
+          link: "/tags",
+        },
+        {
+          text: "📃 Archives",
+          link: "/archives",
+        },
+        { text: '📖 Docs', link: '/docs/' },
+        { text: '👤 About', link: '/about' },
+        {
+          text: "🔥 RSS",
+          link: "https://yishulun.com/feed.xml",
+        },
+      ],
+      sidebar: generateSidebar({
+        rootGroupText: 'Contents',
+        documentRootPath: '/src',
+        resolvePath: "/",
+        collapseDepth: 2,
+        hyphenToSpace: true,
+        useTitleFromFrontmatter: true,
+        useTitleFromFileHeading: true,
+        excludeFiles: ['about.md','index.md','privacy.md','archives.md','tags.md'],
+        // useFolderLinkAsIndexPage: false,
+        // includeFolderIndexFile: false,
+      }),
+      socialLinks: [
+        { icon: "github", link: "https://github.com/rixingyike" },
+        { icon: "twitter", link: "https://twitter.com/coderliyi" },
+        { icon: "youtube", link: "https://www.youtube.com/@yishulun" },
+      ],
+      outline: 3, //设置右侧aside显示层级
+      aside: false,
+      showFireworksAnimation: false, // 是否显示烟花
+      showCustomCategory: true, // 是否显示自定义右目录导航模块
+    },
+    buildEnd: buildBlogRSS,
+    markdown: {
+      // 修改TOC匹配规则，与Typora一致
+      toc: { pattern: /^\[TOC\]$/i },
+      // config: (md) => {
+      //   md.use(require("markdown-it-mathjax3"));
+      // },
+    },
+    // Vite
+    vite: {
+      resolve: {
+        alias: {
+          '@': fileURLToPath(new URL('./theme', import.meta.url)),
+        },
+      },
+    },
+  };
+}
+export default config();

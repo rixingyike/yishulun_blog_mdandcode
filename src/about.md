@@ -7,28 +7,46 @@ footer: false
 sidebar: false
 toc: false
 ---
-# 关于
+# 关于作者
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://yishulun.com/avatar.png',
+    name: 'LIYI',
+    title: '技术作者/讲师，《微信小游戏开发》作者',
+    links: [
+      { icon: 'github', link: 'https://github.com/rixingyike' },
+      { icon: 'twitter', link: 'https://twitter.com/coderliyi' }
+    ]
+  },
+]
+</script>
+
+<VPTeamMembers size="small" :members="members" />
 
 ## 作者简介
 
-🚀码农一枚，产于上世纪80年代，拥有20+年上网经历，👨‍💻擅长 Linux/Mac/Windows 系统开关机，精通 Go/JS/Rust/Python/C 语言世界的 Hello World 编写。🎩
+80后社恐+老码农一枚，20年以上上网经历。熟悉 Linux/Mac/Windows 系统开关机，精通 Go/JS/Rust/Python/C 等高级编程语言 Hello World 程序编写，擅长 Git push/pull 操作，了解浏览器/小程序/React/Vue/Tailwind/Webpack/Vite 等底层工作原理的名称书写。
 
-📚除了写代码，我还是个讲师，有着“中移联合智库ICT专家级讲师”的称号。一汽大众等国企的内训课程，以及微信学堂[《小程序性能优化实践》](https://developers.weixin.qq.com/community/business/course/000606628dc2e86dc0ddcbb115940d)和极客时间[《微信小程序全栈开发实战》](http://gk.link/a/10AdC)，都有我传授知识的身影和声音。🎙️
+计算机讲师一枚，持有“中移联合智库ICT专家级讲师”证书，是一汽大众等国企内训讲师，是微信学堂[《小程序性能优化实践》](https://developers.weixin.qq.com/community/business/course/000606628dc2e86dc0ddcbb115940d)、极客时间[《微信小程序全栈开发实战》](http://gk.link/a/10AdC)等在线课程主讲人。
 
-🖊️白天我是一名计算机讲师兼作家，出版过[《微信小游戏开发》](https://item.jd.com/10070363837259.html)、[《小程序从0到1：微信全栈工程师一本通》](https://item.jd.com/27148951176.html)等图书，获得了[腾讯云最具价值专家（TVP）](https://cloud.tencent.com/tvp/124)荣誉称号，也被腾讯课堂选为年度最具影响力专家。🏆
+计算机技术作者一枚，著有《微信小游戏开发》等计算机图书。获得了[腾讯云最具价值专家（TVP）](https://cloud.tencent.com/tvp/124)、腾讯课堂年度最具影响力专家等荣誉称号。
 
-📖在夜深人静的时候，我化身为一名网文小说家，书写着天马行空的虚拟故事。🌙忙碌之余，我喜欢散步，🎵享受箫等传统乐器。欢迎关注我，与时间做朋友一同成长，一起探索这个充满魅力的技术世界。
+此外，还是一枚非著名网文小说作者，如果你是一名老书虫，很有可能已经读过我的作品了。
 
-我的公众号/视频号如下：
+欢迎关注我的公众号/视频号：
 
-<img src="https://yishulun.com/yslqrcode.jpg" style="zoom: 66%;" />
+<img src="https://yishulun.com/yslqrcode.jpg" style="zoom: 50%;" />
+
+加我微信，回复“读者”可以进读者修仙群。
 
 ## 联系方式
 
 - Email：`9830131#qq.com`
 - Weixin/QQ：9830131
-
-添加微信，回复“读者”，可以进读者修仙群。
 
 ## 社区帐号
 
