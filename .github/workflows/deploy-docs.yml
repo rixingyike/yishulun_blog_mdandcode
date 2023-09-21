@@ -20,13 +20,14 @@ jobs:
         with:
           fetch-depth: 0
       
-      # - run: yarn install --frozen-lockfile
-
-      - name: 安装 pnpm
-        uses: pnpm/action-setup@v2
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2 # I try both v2 or v2.2.2
         with:
-          run_install: true
           version: 8
+          run_install: false
+
+      - name: Install dependencies
+        run: pnpm install --recursive --no-frozen-lockfile
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
