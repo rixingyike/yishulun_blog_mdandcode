@@ -13,7 +13,7 @@
     </template>
     <!-- Home slot-->
     <template #home-hero-before><HomeHero /> </template>
-    <template #home-features-after> <Page /></template>
+    <template #home-features-after> <Page /> <Award /></template>
   </Layout>
   <!-- copywright -->
   <CopyRright />
@@ -26,6 +26,7 @@ import Comments from "./Comments.vue";
 import Page from "./Page.vue";
 import Category from "./Category.vue";
 import Title from "./Title.vue";
+import Award from "./Award.vue";
 const { Layout } = DefaultTheme;
 const back = () => {
   history.back();

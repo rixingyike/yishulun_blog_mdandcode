@@ -1,5 +1,4 @@
 <template>
-  <FireWorksAnimation />
   <ShareCard />
   <h1 class="blog-title">Blogs</h1>
   <div class="blogList">
@@ -25,7 +24,6 @@
 <script lang="ts" setup>
 import { ref } from "vue";
 import ShareCard from "./ShareCard.vue";
-import FireWorksAnimation from "./FireWorksAnimation.vue";
 import { useData, withBase } from "vitepress";
 interface post {
   regularPath: string;

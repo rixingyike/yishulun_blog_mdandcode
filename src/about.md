@@ -33,7 +33,7 @@ const members = [
 
 计算机讲师一枚，持有“中移联合智库ICT专家级讲师”证书，是一汽大众等国企内训讲师，是微信学堂[《小程序性能优化实践》](https://developers.weixin.qq.com/community/business/course/000606628dc2e86dc0ddcbb115940d)、极客时间[《微信小程序全栈开发实战》](http://gk.link/a/10AdC)等在线课程主讲人。
 
-计算机技术作者一枚，著有《微信小游戏开发》等计算机图书。获得了[腾讯云最具价值专家（TVP）](https://cloud.tencent.com/tvp/124)、腾讯课堂年度最具影响力专家等荣誉称号。
+计算机技术作者一枚，著有[《微信小游戏开发》](https://item.jd.com/13728755.html)等计算机图书。获得了[腾讯云最具价值专家（TVP）](https://cloud.tencent.com/tvp/124)、腾讯课堂年度最具影响力专家等荣誉称号。
 
 此外，还是一枚非著名网文小说作者，如果你是一名老书虫，很有可能已经读过我的作品了。
 

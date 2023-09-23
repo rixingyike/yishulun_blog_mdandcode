@@ -61,5 +61,6 @@ const data = computed(() => useYearSort(theme.value.posts));
 }
 .date {
   font-family: Georgia, sans-serif;
+  min-width: 45px;
 }
 </style>
