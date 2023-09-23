@@ -24,8 +24,8 @@ const OPTIONS: FeedOptions = {
     rss: DOMAIN + "/feed.xml",
   },
   author: AUTHOR,
-  image: "https://yishulun.com/logo.svg",
-  favicon: "https://yishulun.com/logo.svg",
+  image: `${DOMAIN}/logo.svg`,
+  favicon: `${DOMAIN}/logo.svg`,
 };
 
 const markdown = MarkdownIt({
@@ -40,7 +40,7 @@ export async function buildBlogRSS() {
 }
 
 async function generateRSS() {
-  const files = await fg("src/posts/*.md");
+  const files = await fg("./src/posts/**/*.md");
 
   const posts: any[] = (
     await Promise.all(
