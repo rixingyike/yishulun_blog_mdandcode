@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "bun run --watch vitepress dev src",
+    "dev": "vitepress dev src",
     "bun-dev": "bun run --watch --bun vitepress dev src",
     "bun-smol-dev": "bun run --smol --watch --bun vitepress dev src",
     "build": "vitepress build src",

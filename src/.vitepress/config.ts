@@ -55,6 +55,7 @@ async function config() {
       ], // add google analytics end
     ],
     // cleanUrls: "with-subfolders",
+    appearance: "dark",
     lastUpdated: false,
     ignoreDeadLinks: true,
     themeConfig: {

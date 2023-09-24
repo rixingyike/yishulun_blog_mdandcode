@@ -4,3 +4,4 @@ src/.vitepress/dist
 src/.vitepress/cache
 .DS_Store
 .vscode
+pnpm-lock.yaml

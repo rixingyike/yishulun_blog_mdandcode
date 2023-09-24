@@ -138,5 +138,6 @@ const getFontSize = (length: number) => {
 }
 .date {
   font-family: Georgia, sans-serif;
+  min-width: 90px;
 }
 </style>
