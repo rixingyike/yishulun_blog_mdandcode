@@ -9,6 +9,8 @@
       <!-- <div>
         <button @click="back">cd ··</button>
       </div> -->
+      <Share :url="wwww" :title="wooowwww" />
+    <!-- share on Twitter -->
       <Comments />
     </template>
     <!-- Home slot-->
@@ -27,6 +29,8 @@ import Page from "./Page.vue";
 import Category from "./Category.vue";
 import Title from "./Title.vue";
 import Award from "./Award.vue";
+import Share from "./Share.vue";
+
 const { Layout } = DefaultTheme;
 const back = () => {
   history.back();

@@ -2,6 +2,7 @@ import { getPosts, getPostLength } from "./theme/serverUtils";
 import { buildBlogRSS } from "./theme/rss";
 import { generateSidebar } from 'vitepress-sidebar'
 import { URL, fileURLToPath } from 'node:url'
+import { socialSharePlugin } from 'vuepress-plugin-social-share'
 
 const desc = "LIYI's Blog"
 
