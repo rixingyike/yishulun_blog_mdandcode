@@ -9,7 +9,7 @@
       <!-- <div>
         <button @click="back">cd ··</button>
       </div> -->
-      <Share :url="wwww" :title="wooowwww" />
+      <Share />
     <!-- share on Twitter -->
       <Comments />
     </template>

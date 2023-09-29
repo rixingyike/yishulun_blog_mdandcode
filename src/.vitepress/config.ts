@@ -65,7 +65,7 @@ async function config() {
       ],
     ],
     // cleanUrls: "with-subfolders",
-    appearance: "dark",
+    appearance: "light",
     lastUpdated: false,
     ignoreDeadLinks: true,
     themeConfig: {
