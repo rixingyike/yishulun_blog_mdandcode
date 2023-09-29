@@ -54,6 +54,15 @@ async function config() {
         {},
         "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-8N64Q25EK9');",
       ], // add google analytics end
+      // add google ads
+      [
+        'script',
+        {
+          async: true,
+          crossorigin: "anonymous",
+          src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2139303336591479',
+        },
+      ],
     ],
     // cleanUrls: "with-subfolders",
     appearance: "dark",
