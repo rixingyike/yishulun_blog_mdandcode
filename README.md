@@ -2,6 +2,12 @@
 
 由vitepress & vitepress-blog-zaun 改造。
 
+- 支持生成sitemap.txt；
+- 支持社交分享；
+- 支持生成feed.atom/json/xml；
+- 支持评论；
+- 支持搜索。
+
 ## Detail
 
 This is a blog theme used vitepress to build. You could [click here](https://visionary-sunflower-dc7ae3.netlify.app/) to see what it looks like.

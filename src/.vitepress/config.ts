@@ -2,9 +2,10 @@ import { getPosts, getPostLength } from "./theme/serverUtils";
 import { buildBlogRSS } from "./theme/rss";
 import { generateSidebar } from 'vitepress-sidebar'
 import { URL, fileURLToPath } from 'node:url'
-import { socialSharePlugin } from 'vuepress-plugin-social-share'
+import fs from 'fs';
 
 const desc = "LIYI's Blog"
+const DOMAIN = "https://yishulun.com"
 
 async function config() {
   return {
@@ -98,7 +99,7 @@ async function config() {
         { text: '👤 About', link: '/about' },
         {
           text: "🔥 RSS",
-          link: "https://yishulun.com/feed.xml",
+          link: DOMAIN + "/feed.xml",
         },
       ],
       sidebar: generateSidebar({
@@ -123,7 +124,6 @@ async function config() {
       showFireworksAnimation: false, // 是否显示烟花
       showCustomCategory: true, // 是否显示自定义右目录导航模块
     },
-    buildEnd: buildBlogRSS,
     markdown: {
       // 修改TOC匹配规则，与Typora一致
       toc: { pattern: /^\[TOC\]$/i },
@@ -138,6 +138,23 @@ async function config() {
           '@': fileURLToPath(new URL('./theme', import.meta.url)),
         },
       },
+    },
+    async buildEnd(siteConfig) {
+      // build rss
+      buildBlogRSS();
+
+      // build sitemap 配置网站基础路径
+      const baseURL = DOMAIN;
+      let siteMapStr = '';
+      for (const page of siteConfig.pages) {
+        siteMapStr += `${baseURL}/${page.replace(/md$/, 'html')}\n`;
+      }
+      // 生成文件
+      try {
+        fs.writeFileSync(`${siteConfig.outDir}/sitemap.txt`, siteMapStr);
+      } catch (err) {
+        console.log('create sitemap.txt failed!', err);
+      }
     },
   };
 }
