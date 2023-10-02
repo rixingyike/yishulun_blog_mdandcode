@@ -6,11 +6,11 @@
     </template>
     <template #doc-after>
       <!-- 这是一个调皮的反加上一页的按钮 -->
-      <!-- <div>
+      <div>
         <button @click="back">cd ··</button>
-      </div> -->
+      </div>
+      <!-- share on Twitter -->
       <Share />
-    <!-- share on Twitter -->
       <Comments />
     </template>
     <!-- Home slot-->

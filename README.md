@@ -2,6 +2,7 @@
 
 由vitepress & vitepress-blog-zaun 改造。
 
+- 文章底部添加了引用信息；
 - 支持生成sitemap.txt；
 - 支持社交分享；
 - 支持生成feed.atom/json/xml；
