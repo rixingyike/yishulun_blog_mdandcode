@@ -5,17 +5,13 @@
       <Category />
     </template>
     <template #doc-after>
-      <!-- 这是一个调皮的反加上一页的按钮 -->
-      <div>
-        <button @click="back">cd ··</button>
-      </div>
-      <!-- share on Twitter -->
+      <!-- share -->
       <Share />
       <Comments />
     </template>
     <!-- Home slot-->
     <template #home-hero-before><HomeHero /> </template>
-    <template #home-features-after> <Page /> <Award /></template>
+    <template #home-features-after> <HomePage /> <Award /></template>
   </Layout>
   <!-- copywright -->
   <CopyRright />
@@ -25,16 +21,13 @@ import DefaultTheme from "vitepress/theme";
 import HomeHero from "./HomeHero.vue";
 import CopyRright from "./CopyRright.vue";
 import Comments from "./Comments.vue";
-import Page from "./Page.vue";
+import HomePage from "./HomePage.vue";
 import Category from "./Category.vue";
 import Title from "./Title.vue";
 import Award from "./Award.vue";
 import Share from "./Share.vue";
 
 const { Layout } = DefaultTheme;
-const back = () => {
-  history.back();
-};
 </script>
 <style scoped>
 @media (min-width: 1400px) {

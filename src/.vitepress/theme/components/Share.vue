@@ -1,5 +1,16 @@
 <template>
   <div class="social-share">
+    <!-- 这是一个调皮的反加上一页的按钮 -->
+    <!-- <div>
+      <button @click="back">cd ··</button>
+    </div> -->
+    <br/>
+    <h1 class="title">
+      <span>Cite this post</span>
+    </h1>
+    <p class="description">
+      - {{ author }}. {{ siteDesc }}, {{ date }}. {{ articleLink }}
+    </p>
     <br/>
     <h1 class="title">
       <span>Share this article</span>
@@ -19,13 +30,6 @@
       </button>
     </p>
     <br/>
-    <h1 class="title">
-      <span>Cite this post</span>
-    </h1>
-    <p class="description">
-      - {{ author }}. {{ siteDesc }}, {{ date }}. {{ articleLink }}
-    </p>
-    <br/>
   </div>
 </template>
 
@@ -37,6 +41,10 @@ const siteDesc = site.value.description;
 const date = new Date().toLocaleDateString('en-us', { year:"numeric", month:"short", day:"numeric"}) 
 const articleTitle = document.title
 const articleLink = document.URL
+
+const back = () => {
+  history.back();
+};
 
 const share = (platform:string) => {
       let url = '';

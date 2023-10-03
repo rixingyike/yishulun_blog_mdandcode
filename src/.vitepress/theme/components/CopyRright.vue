@@ -1,7 +1,7 @@
 <template>
   <footer>
     Powered by
-    <a href="https://vitepress.dev/" target="_blank">VitePress</a> & <a href="https://github.com/clark-cui/vitepress-blog-zaun" target="_blank">vitepress-blog-zaun</a>
+    <a href="https://vitepress.dev/" rel="nofollow" target="_blank">VitePress</a> & <a href="https://github.com/clark-cui/vitepress-blog-zaun" rel="nofollow" target="_blank">vitepress-blog-zaun</a>
     <br />Copyright © 2002-{{ date }} | MIT License | <a href="/sitemap.txt">sitemap</a> | <a href="/feed.xml">feed</a>
   </footer>
 </template>

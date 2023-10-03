@@ -85,25 +85,31 @@ async function config() {
       postLength: await getPostLength(),
       nav: [
         {
-          text: "🏡 Blogs",
+          text: "🏡 Home",
           link: "/",
         },
         {
-          text: "🔖 Tags",
-          link: "/tags",
-        },
-        {
-          text: "📃 Archives",
-          link: "/archives",
+          text: '🚩 Blogs',
+          items: [
+            {
+              text: "🔖 Tags",
+              link: "/tags",
+            },
+            {
+              text: "📃 Archives",
+              link: "/archives",
+            },
+            {
+              text: "🔥 RSS",
+              link: "/feed.xml",
+            },
+          ]
         },
         { text: '📖 Docs', link: '/docs/' },
-        { text: '👤 About', link: '/about' },
-        {
-          text: "🔥 RSS",
-          link: DOMAIN + "/feed.xml",
-        },
+        { text: '🧑 About', link: '/about' },
       ],
       sidebar: generateSidebar({
+        rootGroupCollapsed: true,
         rootGroupText: 'Contents',
         documentRootPath: '/src',
         resolvePath: "/",
@@ -112,11 +118,11 @@ async function config() {
         useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         excludeFiles: ['about.md','index.md','privacy.md','archives.md','tags.md'],
-        // useFolderLinkAsIndexPage: false,
-        // includeFolderIndexFile: false,
+        // useFolderLinkAsIndexPage: true,
+        // includeFolderIndexFile: true,
       }),
       socialLinks: [
-        { icon: "github", link: "https://github.com/rixingyike" },
+        // { icon: "github", link: "https://github.com/rixingyike" },
         { icon: "twitter", link: "https://twitter.com/coderliyi" },
         { icon: "youtube", link: "https://www.youtube.com/@yishulun" },
       ],
@@ -124,6 +130,10 @@ async function config() {
       aside: false,
       showFireworksAnimation: false, // 是否显示烟花
       showCustomCategory: true, // 是否显示自定义右目录导航模块
+      docFooter:{
+        prev:false,
+        next:false,
+      },
     },
     markdown: {
       // 修改TOC匹配规则，与Typora一致
