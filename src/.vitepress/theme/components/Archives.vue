@@ -14,7 +14,7 @@
           <div class="title-o"></div>
           {{ article.frontMatter.title }}
         </div>
-        <div class="date">{{ article.frontMatter.date.slice(5) }}</div>
+        <div class="date">{{ article.frontMatter.date }}</div>
       </a>
     </div>
   </div>
@@ -37,6 +37,7 @@ const data = computed(() => useYearSort(theme.value.posts));
 }
 .yearItem {
   border-bottom: 1px dashed #c7c7c7;
+  padding-bottom: 10px;
 }
 .yearItem:last-child {
   border: none;
@@ -61,6 +62,8 @@ const data = computed(() => useYearSort(theme.value.posts));
 }
 .date {
   font-family: Georgia, sans-serif;
-  min-width: 45px;
+  min-width: 90px;
+  word-break: keep-all;
+  color: rgb(0 0 0 / 30%);
 }
 </style>
