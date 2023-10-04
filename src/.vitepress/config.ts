@@ -101,7 +101,7 @@ async function config() {
             },
             {
               text: "🔥 RSS",
-              link: "/feed.xml",
+              link: DOMAIN + "/feed.xml",
             },
           ]
         },
