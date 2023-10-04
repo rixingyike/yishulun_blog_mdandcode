@@ -92,15 +92,15 @@ async function config() {
           text: '🚩 Blogs',
           items: [
             {
-              text: "🔖 Tags",
+              text: "🏷️ Tags",
               link: "/tags",
             },
             {
-              text: "📃 Archives",
+              text: "📅 Archives",
               link: "/archives",
             },
             {
-              text: "🔥 RSS",
+              text: "📰 RSS",
               link: DOMAIN + "/feed.xml",
             },
           ]
