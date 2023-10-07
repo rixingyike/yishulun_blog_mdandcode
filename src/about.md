@@ -58,10 +58,11 @@ Hi，我是80后，一名讲故事的计算机工程师/讲师/作者。我有20
 - [微博](https://weibo.com/u/2820420060)
 - [推特](https://twitter.com/coderliyi)
 
+<!-- 
 ## 赞赏
 
 欢迎赞赏，以支持本站更新。
 
 |   <img src="./public/wexinpaycode.jpg" alt="微信" style="zoom:25%;max-width: 800px;" />   |   <img src="./public/zhifubaopaycode.jpg" alt="支付宝" style="zoom:25%;max-width: 800px;" />   |
-| ---- | ---- |
-
+| ---- | ---- | 
+-->
