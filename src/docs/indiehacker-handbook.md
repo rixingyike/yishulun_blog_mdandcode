@@ -2,6 +2,7 @@
 date: 2023-10-09 23:19:07
 sidebar: false
 navbar: false
+aside: true
 tags: ["IndieHacker"]
 ---
 

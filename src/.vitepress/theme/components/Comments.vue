@@ -1,10 +1,13 @@
 <template>
-  <div id="gitalk-container"></div>
+  <div v-if="!hideComment" id="gitalk-container"></div>
 </template>
 <script lang="ts" setup>
 import "gitalk/dist/gitalk.css";
 import Gitalk from "gitalk";
-import { onContentUpdated, useRouter } from "vitepress";
+import { onContentUpdated, useData, useRouter } from "vitepress";
+
+const { frontmatter, theme } = useData();
+let hideComment = !!theme.value.hideComment || !!frontmatter.value.hideComment || false;
 
 // const { route, go } = useRouter();
 function deleteChild() {
