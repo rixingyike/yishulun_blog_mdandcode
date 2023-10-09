@@ -296,7 +296,7 @@ MVP Product：当然，如果您准备好直接使用一款软件，您可以（
 
 上面那篇文章中提到了一个编程教学领域的大 V——Wes bos，他太历害了，他有一个博客网站，上面有不少他创建的课程，并且销量很好。
 
-[![img](assets/ogimagetitle=Wes+Bos&url=https%3A%2F%2Fwesbos.png)](https://wesbos.com/)
+[![img](assets/ogimagetitlewesbos.png)](https://wesbos.com/)
 
 [**Wes Bos**](https://wesbos.com/)https://wesbos.com/
 
