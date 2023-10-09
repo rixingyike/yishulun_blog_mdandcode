@@ -1,15 +1,11 @@
 <template>
   <div class="social-share">
-    <!-- 这是一个调皮的反加上一页的按钮 -->
-    <!-- <div>
-      <button @click="back">cd ··</button>
-    </div> -->
     <br/>
     <h1 class="title">
       <span>Cite this post</span>
     </h1>
     <p class="description">
-      - {{ author }}. {{ siteDesc }}, {{ date }}. {{ articleLink }}
+      - {{ author }}. {{ siteDesc }}, {{ date }}. <a href="{{ encodeURI(articleLink) }}">{{ articleLink }}</a>
     </p>
     <br/>
     <h1 class="title">
