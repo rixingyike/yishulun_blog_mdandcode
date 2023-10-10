@@ -158,7 +158,8 @@ async function config() {
       const baseURL = DOMAIN;
       let siteMapStr = '';
       for (const page of siteConfig.pages) {
-        siteMapStr += `${baseURL}/${page.replace(/md$/, 'html')}\n`;
+        let url = `${baseURL}/${page.replace(/md$/, 'html')}`;
+        siteMapStr += `${encodeURI(url)}\n`
       }
       // 生成文件
       try {
