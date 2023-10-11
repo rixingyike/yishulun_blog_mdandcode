@@ -2,7 +2,7 @@
   <div class="social-share">
     <p class="description">
       <span>Reference</span><br/>
-      - {{ author }}. {{ siteDesc }}, {{ date }}. <a href="{{ encodedArticleLink }}">{{ articleLink }}</a>
+      - {{ author }}. {{ siteDesc }}, {{ date }}. <a :href="encodeURI(articleLink)">{{ articleLink }}</a>
     </p>
     <br/>
     <template v-if="!hideShare">
@@ -36,7 +36,6 @@ const siteDesc = site.value.description;
 const date = new Date().toLocaleDateString('en-us', { year:"numeric", month:"short", day:"numeric"}) 
 // const articleTitle = document.title
 const articleLink = document.URL
-const encodedArticleLink = encodeURI(articleLink) 
 
 let hideShare = !!theme.value.hideShare || !!frontmatter.value.hideShare || false;
 
