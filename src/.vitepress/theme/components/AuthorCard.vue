@@ -4,7 +4,7 @@
       <span>Hi, I'm LIYI 👋</span>
     </h1>
     <p class="description">
-      Someone who codes and teaches by day and writes novels by night.
+      一名讲故事的计算机工程师/讲师/图书作者。
     </p>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="shareCard">
+  <div class="authorCard">
     <h1 class="title">
       <span>Book</span>
     </h1>
@@ -18,7 +18,7 @@
   </div>
 </template>
 <style scoped>
-.shareCard {
+.authorCard {
   display: flex;
   flex-direction: column;
   align-items: center;
