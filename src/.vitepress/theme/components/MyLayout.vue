@@ -5,7 +5,7 @@
       <Category />
     </template>
     <template #doc-after>
-      <!-- share -->
+      <AdInArticleFooter />
       <Share />
       <Comments />
     </template>
@@ -26,6 +26,7 @@ import Category from "./Category.vue";
 import Title from "./Title.vue";
 import Award from "./Award.vue";
 import Share from "./Share.vue";
+import AdInArticleFooter from "./AdInArticleFooter.vue";
 
 const { Layout } = DefaultTheme;
 </script>

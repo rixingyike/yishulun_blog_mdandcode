@@ -4,7 +4,7 @@ import { generateSidebar } from 'vitepress-sidebar'
 import { URL, fileURLToPath } from 'node:url'
 import fs from 'fs';
 
-const desc = "yishulun Blog"
+const desc = "yishulun"
 const DOMAIN = "https://yishulun.com"
 
 async function config() {
