@@ -4,7 +4,7 @@
       <span>Recommend</span><br/>
       <ul class="list">
         <li class="link-header" v-for="item in adLinks">
-          👉🏾<a :href="item.link">{{
+          <a :href="item.link">{{
             item.title
           }}</a>
         </li>
@@ -31,7 +31,7 @@ const adLinks = [{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.link-header a:hover {
+.link-header a, a:hover {
   text-decoration: underline;
 }
 .social-share {
@@ -50,6 +50,8 @@ const adLinks = [{
   margin: 1em 0;
   word-break: break-all;
   background-color: #FFC107;
+  border-radius: 2px;
+  padding: 2px 5px 2px;
 }
 .social-share button {
   margin: 0 5px;
