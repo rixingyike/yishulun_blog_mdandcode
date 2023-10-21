@@ -4,7 +4,7 @@
       <span>Recommend</span><br/>
       <ul class="list">
         <li class="link-header" v-for="item in adLinks">
-          <a :href="item.link">{{
+          ✔<a :href="item.link">{{
             item.title
           }}</a>
         </li>
@@ -14,8 +14,11 @@
 </template>
 <script lang="ts" setup>
 const adLinks = [{
-  title:"【编程攻略】初学者如何快速入门编程？",
+  title:"明白这些道理，你也能快速学会编程",
     link:"https://mp.weixin.qq.com/s/Pt4UHmh3wO2lXBn3C2gKvA"
+  }, {
+  title:"爱读书怎么可以没有一枚印章？",
+    link:"https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAwODIzMzU3Mw==&action=getalbum&album_id=3158620429020807172&scene=21#wechat_redirect"
   }]
 </script>
 
