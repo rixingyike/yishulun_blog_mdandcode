@@ -43,8 +43,6 @@ Hi，我是80后，一名讲故事的计算机工程师/讲师/作者。我有20
 
 <img src="https://yishulun.com/yslqrcode.jpg" style="zoom: 50%;" />
 
-加我微信，回复“读者”可以进读者修仙群。
-
 ## 联系方式
 
 - Email：`coderliyi@foxmail.com`
