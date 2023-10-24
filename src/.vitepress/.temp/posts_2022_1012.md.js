@@ -1,0 +1,20 @@
+import { ssrRenderAttrs, ssrRenderAttr } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.cc2b3d55.js";
+const _imports_0 = "/assets/zTFoszBtDODhXfLAazfSpYbSLSEeytoG.f79afd79.png";
+const __pageData = JSON.parse('{"title":"目前国内前端哪个UI类库用的人最多？","description":"","frontmatter":{"sidebar":false,"date":"2022-10-12T00:00:00.000Z","category":["编程"],"tags":["类库"]},"headers":[],"relativePath":"posts/2022/1012.md","filePath":"posts/2022/1012.md"}');
+const _sfc_main = { name: "posts/2022/1012.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="目前国内前端哪个ui类库用的人最多" tabindex="-1">目前国内前端哪个UI类库用的人最多？ <a class="header-anchor" href="#目前国内前端哪个ui类库用的人最多" aria-label="Permalink to &quot;目前国内前端哪个UI类库用的人最多？&quot;">​</a></h1><p>如果基于 jQuery 开发多页面响应式 Web 应用，可以使用 <a href="https://v5.bootcss.com/" target="_blank" rel="noreferrer">Bootstrap</a>。</p><p>如果基于 Vue3 开发单页面 Web 应用，可以使用 <a href="https://www.antdv.com/docs/vue/migration-v3-cn" target="_blank" rel="noreferrer">Ant Design Vue 3</a>。在基于 uni-app 开发多端应用时，在 uni-app 中也可以引用 Ant Design Vue。</p><p>如果同时开发以上两种多页面应用和单页面应用，为了减少智力负担和学习成本，可以使用 Bootstrap 和 <a href="https://www.npmjs.com/package/bootstrap-vue-3" target="_blank" rel="noreferrer">Bootstrap-vue-3</a>。</p><p>在开发管理后台 Web 应用的时候，另外一种选择是 Element Plus，但有开发者说这个开源类库现在维护力度变弱了，有一些坑，PR 提了半年无人响应，已经不建议使用。官方文档已经从独立域名切换到了 Github 免费域名，打开网站在页面导航切换的时候，时时发生 404 错误，这种问题都无人处理，种种迹象表明这个曾经被作为后台 Web 样式类库第一选择的项目，现在已经开始摆烂了。</p><p>其实，开发 Web 应用目前统一使用 Ant Design Vue 3 就可以了。无论开始是开发面向 C 端用户的 Web 应用，还是开发 B 端或运营团队使用后台管理 Web 应用，都可以选择 Ant Design。Ant Design 支持 CSS 样式定制，在编写后台应用或企业 Web 应用时，大不了把 UI 风格修改成蓝色系就 OK 了。</p><p><img${ssrRenderAttr("src", _imports_0)} alt="img"></p><p>另外还有一个 Material 样式风格的开源类库 Vuetify，打开它的官方文档，每一页都有一个广告。我并不反对放置广告，但每一页都放，这种放的方式说明操作者很不用心，可能这个项目在开发者那里已经不重要了，也已经开始放养了。</p><p><strong>我们应该选择什么样的类库呢？</strong></p><p>1）选择那些在功能、性能上没有短板的类库，可以满足我们需求的类库。</p><p>2）我们要选择背后有大厂使用和支持的类库，这样的类库更有可能走得更远，发展得更完善。</p><p>开源项目不存在开发完善、已经大功告成一说。所有开源项目注定都要不断维护，不停和开发者一同进步。开源项目如逆水行舟，不进则退。</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("posts/2022/1012.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _1012 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _1012 as default
+};
