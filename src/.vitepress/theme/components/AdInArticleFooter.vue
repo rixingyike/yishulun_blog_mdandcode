@@ -1,5 +1,3 @@
-<!-- This component shows a list of links from an adLinks array and renders them in a list. -->
-
 <template>
   <div class="social-share">
     <p class="description">
