@@ -1,10 +1,10 @@
 <template>
   <div class="shareCard">
     <h1 class="title">
-      <span>Hi, I'm LIYI 👋</span>
+      <span>👋 你好, 我是李艺探长</span>
     </h1>
     <p class="description">
-      一名讲故事的计算机工程师/讲师/图书作者。
+      一名文化与科技领域的深入探索者。
     </p>
   </div>
 </template>
