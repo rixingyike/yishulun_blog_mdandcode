@@ -11,7 +11,13 @@
     </template>
     <!-- Home slot-->
     <template #home-hero-before><HomeHero /> </template>
-    <template #home-features-after> <HomePage /> <Award /></template>
+    <template #home-features-after> 
+      <HomePage /> 
+      <Award />
+      <div class="width-wrapper">
+        <AdInArticleFooter />
+      </div>
+    </template>
   </Layout>
   <!-- copywright -->
   <CopyRright />
@@ -31,6 +37,11 @@ import AdInArticleFooter from "./AdInArticleFooter.vue";
 const { Layout } = DefaultTheme;
 </script>
 <style scoped>
+.width-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media (min-width: 1400px) {
   .content {
     margin-right: 350px;
