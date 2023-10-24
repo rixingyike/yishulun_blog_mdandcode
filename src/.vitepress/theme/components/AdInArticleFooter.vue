@@ -3,7 +3,7 @@
     <p class="description">
       <span>Recommend</span><br/>
       <ul class="list">
-        <li class="link-header" v-for="item in adLinks">
+        <li class="link-header" v-bind:key="item.title" v-for="item in adLinks">
           ✔<a :href="item.link">{{
             item.title
           }}</a>

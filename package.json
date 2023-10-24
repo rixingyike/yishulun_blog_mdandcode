@@ -10,6 +10,7 @@
     "bun-dev": "bun run --watch --bun vitepress dev src",
     "bun-smol-dev": "bun run --smol --watch --bun vitepress dev src",
     "build": "vitepress build src",
+    "clean": "vitepress clean",
     "serve": "vitepress serve src"
   },
   "pnpm": {

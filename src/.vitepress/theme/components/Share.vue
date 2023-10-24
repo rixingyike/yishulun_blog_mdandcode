@@ -30,13 +30,19 @@
 
 <script lang="ts" setup>
 import { useData } from "vitepress";
+import { onMounted } from 'vue';
+
 const { site, theme, frontmatter } = useData();
 const author = theme.value.author;
 const siteDesc = site.value.description;
 const date = new Date().toLocaleDateString('en-us', { year:"numeric", month:"short", day:"numeric"}) 
-const articleLinkText = decodeURI(window.location.origin + window.location.pathname)
-
+let articleLinkText = theme.value.blogUrl
 let hideShare = !!theme.value.hideShare || !!frontmatter.value.hideShare || false;
+
+onMounted(() => {
+  console.log("mounted...");
+  articleLinkText = decodeURI(window.location.origin + window.location.pathname)
+});
 
 const back = () => {
   history.back();

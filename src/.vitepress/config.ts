@@ -12,6 +12,7 @@ async function config() {
     lang: "en-US",
     title: "艺述论",
     description: desc,
+    blogUrl: DOMAIN,
     head: [
       [
         "link",
