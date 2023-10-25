@@ -4,7 +4,7 @@
       <span>👋 你好, 我是李艺探长</span>
     </h1>
     <p class="description">
-      一名文化与科技领域的深入探索者。
+      一名文化科技深入探讨者。
     </p>
   </div>
 </template>
