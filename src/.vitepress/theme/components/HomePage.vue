@@ -1,5 +1,5 @@
 <template>
-  <AuthorCard />
+  <!-- <AuthorCard /> -->
   <h1 class="blog-title">Blogs</h1>
   <div class="blogList">
     <a class="blog" v-for="item in posts" :href="withBase(item.regularPath)">
@@ -23,7 +23,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from "vue";
-import AuthorCard from "./AuthorCard.vue";
+// import AuthorCard from "./AuthorCard.vue";
 import { useData, withBase } from "vitepress";
 
 interface post {

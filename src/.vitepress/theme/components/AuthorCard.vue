@@ -1,11 +1,11 @@
 <template>
   <div class="shareCard">
     <h1 class="title">
-      <span>👋 你好, 我是李艺探长</span>
+      <span>李艺探长</span>
     </h1>
-    <p class="description">
+    <!-- <p class="description">
       一名文化科技深入探讨者。
-    </p>
+    </p> -->
   </div>
 </template>
 

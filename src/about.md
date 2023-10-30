@@ -17,8 +17,8 @@ import { VPTeamMembers } from 'vitepress/theme'
 const members = [
   {
     avatar: 'https://yishulun.com/avatar.png',
-    name: 'LIYI',
-    title: '李艺探长，文化科技深入探讨者。',
+    name: '李艺探长',
+    title: '',
     links: [
       { icon: 'github', link: 'https://github.com/rixingyike' },
       { icon: 'twitter', link: 'https://twitter.com/coderliyi' }
@@ -49,12 +49,12 @@ const members = [
 
 如果您是网络安全监管人员，在我的网站中发现了敏感信息必须处理，也请发邮件给我并标注重要紧急，我收到后会第一时间处理。
 
-## 社区帐号
+<!-- ## 社区帐号
 
 - [博客](https://yishulun.com/)
 - [推特](https://twitter.com/coderliyi)
 - [知乎](https://www.zhihu.com/people/liyi2005)
-- [微博](https://weibo.com/u/2820420060)
+- [微博](https://weibo.com/u/2820420060) -->
 
 ## 赞赏
 

@@ -1,6 +1,15 @@
 <template>
   <div class="content">
-    <img :src="theme.avator" width="135" height="135" class="avator" />
+    <div class="shareCard">
+      <img :src="theme.avator" width="135" height="135" class="avator" />
+      <br />
+      <h1 class="title">
+        <span>非淡泊无以明志，非宁静无以致远。</span>
+      </h1>
+      <!-- <p class="description">
+        一名文化科技深入探讨者。
+      </p> -->
+    </div>
   </div>
 </template>
 <script lang="ts" setup>
@@ -14,6 +23,23 @@ const { theme } = useData();
   justify-content: center;
   height: 300px;
   margin-right: 0 !important;
+}
+
+.shareCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+  text-align: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.description {
+  margin: 1em 0;
 }
 .avator {
   border-radius: 50%;

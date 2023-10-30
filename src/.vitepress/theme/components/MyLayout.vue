@@ -10,7 +10,9 @@
       <Comments />
     </template>
     <!-- Home slot-->
-    <template #home-hero-before><HomeHero /> </template>
+    <template #home-hero-before>
+      <HomeHero /> 
+    </template>
     <template #home-features-after> 
       <HomePage /> 
       <Award />
