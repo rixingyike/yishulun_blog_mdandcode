@@ -7,5 +7,6 @@ navbar: false
 ---
 
 # 文档
+- [《ChatGPT 从0到1，人类全能工程师自修宝典》2023.10.31](/docs/ChatGPT.html)
 - [独立黑客成长手册 2023.10.09](/docs/indiehacker-handbook.html)
 - [如何撰写 Claude 提示？2023.07.28](/docs/claude/)
