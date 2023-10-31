@@ -90,7 +90,7 @@ async function config() {
           link: "/",
         },
         {
-          text: '🚩 Blogs',
+          text: '🆕 Blogs',
           items: [
             {
               text: "🏷️ Tags",
@@ -106,8 +106,8 @@ async function config() {
             },
           ]
         },
-        { text: '📖 Docs', link: '/docs/' },
-        { text: '🧑 About', link: '/about' },
+        { text: '📒 Docs', link: '/docs/' },
+        { text: '📚 About', link: '/about' },
       ],
       sidebar: generateSidebar({
         rootGroupCollapsed: true,
