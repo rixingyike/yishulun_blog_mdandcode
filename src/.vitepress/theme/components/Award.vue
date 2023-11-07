@@ -10,10 +10,10 @@
       <span>Courses</span>
     </h1>
     <p class="description">
-      <a href="http://gk.link/a/10AdC" target="_blank"><img style="max-width: 430px" src="/geektime-weapp.png" /></a>
+      <a href="http://gk.link/a/10AdC" target="_blank"><img style="max-width: 400px" src="/geektime-weapp.png" /></a>
     </p>
     <p class="description">
-      <a href="http://gk.link/a/10AdC" target="_blank"><img style="max-width: 430px" src="/weapp-optimize.png" /></a>
+      <a href="http://gk.link/a/10AdC" target="_blank"><img style="max-width: 400px" src="/weapp-optimize.png" /></a>
     </p>
   </div>
 </template>

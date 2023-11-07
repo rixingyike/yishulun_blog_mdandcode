@@ -5,8 +5,8 @@
       <Category />
     </template>
     <template #doc-after>
-      <AdInArticleFooter />
       <Share />
+      <AdInArticleFooter />
       <Comments />
     </template>
     <!-- Home slot-->

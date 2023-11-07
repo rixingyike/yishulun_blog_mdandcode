@@ -4,7 +4,8 @@
   --vp-c-brand-light: #a27b5c;
   --vp-c-brand-dark: #a27b5c;
   --vp-c-hover: #212121;
-  --vp-c-bg: #faf6f1;
+  --vp-c-bg: #fff;
+  /* --vp-c-bg: #faf6f1; */
   --vp-c-bg-alpha-with-backdrop: rgba(250, 246, 241, 0.7);
 
   --vp-c-color-b: #26ccff;

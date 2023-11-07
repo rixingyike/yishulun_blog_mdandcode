@@ -24,7 +24,6 @@
         </button>
       </p>
     </template>
-    <br/>
   </div>
 </template>
 
