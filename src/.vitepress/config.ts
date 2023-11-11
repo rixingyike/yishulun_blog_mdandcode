@@ -82,7 +82,7 @@ async function config() {
       docsDir: "./src/docs",
       // docsBranch: "master",
       posts: await getPosts(),
-      pageSize: 7,
+      pageSize: 10,
       postLength: await getPostLength(),
       nav: [
         {
