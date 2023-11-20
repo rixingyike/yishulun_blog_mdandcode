@@ -6,9 +6,6 @@
       <h1 class="title">
         <span>非淡泊无以明志，非宁静无以致远。</span>
       </h1>
-      <!-- <p class="description">
-        一名文化科技深入探讨者。
-      </p> -->
     </div>
   </div>
 </template>
