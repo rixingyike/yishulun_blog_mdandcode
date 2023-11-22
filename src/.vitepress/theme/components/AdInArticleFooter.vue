@@ -4,7 +4,7 @@
       <span>Recommend</span><br/>
       <ul class="list">
         <li class="link-header" v-bind:key="item.title" v-for="item in adLinks">
-          ✔<a :href="item.link">{{
+          ✔<a target="_blank" :href="item.link">{{
             item.title
           }}</a>
         </li>
@@ -18,7 +18,9 @@
 <script lang="ts" setup>
   // import { onMounted, ref } from 'vue';
 
-  const adLinks = [{
+  const adLinks = [{title:"亚马逊畅销小说TOP10",
+      link:"https://www.amazon.cn/b?_encoding=UTF8&tag=yishulun-23&linkCode=ur2&linkId=8f07f72a808f668761fc20421a456c49&camp=536&creative=3200&node=658393051"
+    }, {
     title:"明白这些道理，你也能快速学会编程",
       link:"https://mp.weixin.qq.com/s/Pt4UHmh3wO2lXBn3C2gKvA"
     }, {
