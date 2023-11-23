@@ -18,7 +18,7 @@ const members = [
   {
     avatar: 'https://yishulun.com/avatar.png',
     name: '李艺探长',
-    title: '',
+    title: '文史科技的孜孜探讨者一枚',
     links: [
       { icon: 'github', link: 'https://github.com/rixingyike' },
       { icon: 'twitter', link: 'https://twitter.com/coderliyi' }
