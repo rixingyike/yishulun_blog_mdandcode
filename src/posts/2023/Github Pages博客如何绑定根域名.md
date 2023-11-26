@@ -16,7 +16,7 @@ Godaddy 的域名不需要域名备案，这是它方便的地方，但它不充
 ```bash
 RewriteEngine on
 RewriteCond %{http_host}^yishulun.com [NC]
-RewriteRule ^(.*)$http://www.yishulun.com/$1 [L,R=301]
+RewriteRule ^(.*)$https://www.yishulun.com/$1 [L,R=301]
 ```
 
 .htaccess 是给 Apache 服务器使用的网站配置文件，如果服务器不是 Apache，这个文件是起不到任何作用的。事实上我的 Github Pages 博客是由 Node.js 驱动的，因此这一招并不好使。
