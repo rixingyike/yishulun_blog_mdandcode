@@ -4,7 +4,7 @@
       <img :src="theme.avator" width="135" height="135" class="avator" />
       <br />
       <h1 class="title">
-        <span>非淡泊无以明志，非宁静无以致远。</span>
+        <span>艺术论的哲学应用研究</span>
       </h1>
     </div>
   </div>
