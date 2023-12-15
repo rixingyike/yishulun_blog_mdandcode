@@ -37,6 +37,8 @@ const members = [
 
 - [戳此添加作者微信](https://mp.weixin.qq.com/s/E_jQezVLODaAN23_Mj5r-w)
 - 邮箱 `coderliyi@qq.com`
+- X：`https://twitter.com/coderliyi`
+- 公众号/视频号：`CoderLIYI`
 
 欢迎来信。我很高兴会收到你的电子邮件————如果你是我的博客、图书或公公众号的读者，我很乐于倾听你在使用计算机软件或学习编程时遇到的问题。我不喜欢微信、QQ等即时聊天，更喜欢邮件这种交流方式。
 
