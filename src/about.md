@@ -99,3 +99,7 @@ const members = [
 
 |   <img src="./public/wexinpaycode.jpg" alt="微信" style="zoom:25%;max-width: 800px;" />   |   <img src="./public/zhifubaopaycode.jpg" alt="支付宝" style="zoom:25%;max-width: 800px;" />   |
 | ---- | ---- | 
+
+## 快捷链接
+
+- [《微信小游戏开发》勘误](https://yishulun.com/posts/2023/02.html)
