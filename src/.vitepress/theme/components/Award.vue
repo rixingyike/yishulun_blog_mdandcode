@@ -20,7 +20,7 @@
     </h1>
     <p class="description">
       <ul>
-        <li><a href="https://yishulun.com/posts/2023/02.html" target="_blank">《微信小游戏开发》勘误列表</a></li>
+        <li><a href="/posts/2023/02.html" target="_blank">《微信小游戏开发》勘误列表</a></li>
       </ul>
     </p>
   </div>
