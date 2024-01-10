@@ -1,11 +1,8 @@
 <template>
   <div class="shareCard">
     <h1 class="title">
-      <span>李艺探长</span>
+      <span>LIYI</span>
     </h1>
-    <!-- <p class="description">
-      一名文化科技深入探讨者。
-    </p> -->
   </div>
 </template>
 

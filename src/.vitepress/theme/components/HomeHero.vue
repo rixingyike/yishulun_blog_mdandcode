@@ -4,7 +4,7 @@
       <img :src="theme.avator" width="135" height="135" class="avator" />
       <br />
       <h1 class="title">
-        <span>艺术论的哲学应用研究</span>
+        <span>艺术论哲学应用研究</span>
       </h1>
     </div>
   </div>
