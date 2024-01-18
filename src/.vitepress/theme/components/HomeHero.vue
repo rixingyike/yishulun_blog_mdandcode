@@ -3,10 +3,10 @@
     <div class="shareCard">
       <img :src="theme.avator" width="135" height="135" class="avator" />
       <br />
-      <h1 class="title">
-        <span>艺述论👋</span>
+      <div class="desc">
+        <p class="title">艺述论👋</p>
         <p class="description">艺术论哲学应用研究，网文/编程</p>
-      </h1>
+      </div>
     </div>
   </div>
 </template>
@@ -28,6 +28,9 @@ const { theme } = useData();
   flex-direction: column;
   align-items: center;
   padding: 0 15px;
+  text-align: center;
+}
+.desc{
   text-align: center;
 }
 .title {
