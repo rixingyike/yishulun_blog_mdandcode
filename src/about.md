@@ -48,7 +48,7 @@ const members = [
 
 ## 约稿与录课
 
-我在关注企业内训/演讲/专题录制/专栏撰写等机会，欢迎读者朋友介绍。
+我在关注企业内训/演讲/专题录制/专栏撰写等机会，欢迎朋友介绍。
 
 - 图文约稿、图文专栏撰写
 - 视频录制单篇、视频专题录制
@@ -56,9 +56,7 @@ const members = [
 - 企业内训
 - 公众号广告推文
 
-所有内容保留署名及出版版权。靠手艺赚取一点辛苦费，非诚勿扰。
-
-也欢迎介绍国企内训、高校演讲、高校教学等机会。
+所有内容保留署名及出版版权。也欢迎介绍国企内训、高校演讲、高校教学等机会。
 
 ## 个人简历
 
@@ -99,7 +97,3 @@ const members = [
 
 |   <img src="./public/wexinpaycode.jpg" alt="微信" style="zoom:25%;max-width: 800px;" />   |   <img src="./public/zhifubaopaycode.jpg" alt="支付宝" style="zoom:25%;max-width: 800px;" />   |
 | ---- | ---- | 
-
-## 快捷链接
-
-- [《微信小游戏开发》勘误](https://yishulun.com/posts/2023/02.html)

@@ -69,7 +69,7 @@
 .description {
   margin: 1em 0;
   word-break: break-all;
-  background-color: #FFC107;
+  /* background-color: #FFC107; */
   border-radius: 2px;
   padding: 2px 5px 2px;
 }
