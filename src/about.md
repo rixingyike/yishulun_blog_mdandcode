@@ -93,7 +93,7 @@ const members = [
 
 ## 赞赏支持
 
-欢迎老板赞赏，支持探长更新更多内容。
+欢迎老板赞赏，支持更新更多内容。
 
 |   <img src="./public/wexinpaycode.jpg" alt="微信" style="zoom:25%;max-width: 800px;" />   |   <img src="./public/zhifubaopaycode.jpg" alt="支付宝" style="zoom:25%;max-width: 800px;" />   |
 | ---- | ---- | 
