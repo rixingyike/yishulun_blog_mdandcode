@@ -1,0 +1,16 @@
+import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/.vuepress/.temp/pages/src/posts/2023/46.html.vue"
+const data = JSON.parse("{\"path\":\"/src/posts/2023/46.html\",\"title\":\"网文中金手指与背景设定的关系\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2023-11-28T14:15:50.000Z\",\"tags\":[\"网文创作\"],\"gitInclude\":[],\"description\":\"网文中金手指与背景设定的关系 在网文中，有这样一种类型，在背景设定中存在一些可以让主角的金手指突显能力的设定。下面举两个例子。 第一个例子，起点小说《诡异世界，我以肉身镇万物》，它的简介是这样的： 诡异横行，妖魔乱世，世人苦不堪言。 贪官污吏，草菅人命，世家大族，为祸一方。 陈墨身怀蜕凡珠降临此方世界，可不断脱胎换骨，无限提升肉身。 为求于这方世界自保...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/src/posts/2023/46.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"网文中金手指与背景设定的关系\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"网文中金手指与背景设定的关系 在网文中，有这样一种类型，在背景设定中存在一些可以让主角的金手指突显能力的设定。下面举两个例子。 第一个例子，起点小说《诡异世界，我以肉身镇万物》，它的简介是这样的： 诡异横行，妖魔乱世，世人苦不堪言。 贪官污吏，草菅人命，世家大族，为祸一方。 陈墨身怀蜕凡珠降临此方世界，可不断脱胎换骨，无限提升肉身。 为求于这方世界自保...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"网文创作\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2023-11-28T14:15:50.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"网文中金手指与背景设定的关系\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2023-11-28T14:15:50.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":2.19,\"words\":656},\"filePathRelative\":\"src/posts/2023/46.md\",\"localizedDate\":\"2023年11月28日\",\"excerpt\":\"\\n<p>在网文中，有这样一种类型，在背景设定中存在一些可以让主角的金手指突显能力的设定。下面举两个例子。</p>\\n<p>第一个例子，起点小说《诡异世界，我以肉身镇万物》，它的简介是这样的：</p>\\n<blockquote>\\n<p>诡异横行，妖魔乱世，世人苦不堪言。<br>\\n贪官污吏，草菅人命，世家大族，为祸一方。<br>\\n陈墨身怀蜕凡珠降临此方世界，可不断脱胎换骨，无限提升肉身。<br>\\n为求于这方世界自保，他不得不走上一条以肉身镇压诡异扫平世间的道路。</p>\\n</blockquote>\\n<p>这部小说的背景是一个妖魔诡异横行的世界，这个世界奉行的是玄幻修行的一套逻辑，而主角陈墨身怀一枚蜕凡珠，他每使用这枚珠子一次，他的肉身就可以升级一次，随着情节的推进、故事的发展，主角陈墨甚至可以靠蜕凡珠吸收天地灵气。他的金手指就是蜕凡珠，他拥有的变强的道路，不同于其它所有人。一个炼体武修的世界，有助于主角使用蜕凡珠在人群中脱颖而出。</p>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

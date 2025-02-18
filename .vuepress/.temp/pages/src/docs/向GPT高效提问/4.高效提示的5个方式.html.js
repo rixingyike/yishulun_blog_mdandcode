@@ -1,0 +1,16 @@
+import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/.vuepress/.temp/pages/src/docs/向GPT高效提问/4.高效提示的5个方式.html.vue"
+const data = JSON.parse("{\"path\":\"/src/docs/%E5%90%91GPT%E9%AB%98%E6%95%88%E6%8F%90%E9%97%AE/4.%E9%AB%98%E6%95%88%E6%8F%90%E7%A4%BA%E7%9A%845%E4%B8%AA%E6%96%B9%E5%BC%8F.html\",\"title\":\"4. 高效提示的 5 个方式\",\"lang\":\"zh-CN\",\"frontmatter\":{\"gitInclude\":[],\"description\":\"4. 高效提示的 5 个方式 提问的质量决定了 AI 回答的质量。以下是五个高效提问的方式技巧： 1，在两点之间让 AI 明确自己的需求 两点决定一条线段。如果只告诉 AI 一点信息，它会 360 度发散，是很难输出有效信息的。 例如，如果我们想了解某软件 A 的使用技巧，我们不应该笼统地问：“软件 A 怎么用？”而应该更明确地问：“我该如何用软件 A...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/src/docs/%E5%90%91GPT%E9%AB%98%E6%95%88%E6%8F%90%E9%97%AE/4.%E9%AB%98%E6%95%88%E6%8F%90%E7%A4%BA%E7%9A%845%E4%B8%AA%E6%96%B9%E5%BC%8F.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"4. 高效提示的 5 个方式\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"4. 高效提示的 5 个方式 提问的质量决定了 AI 回答的质量。以下是五个高效提问的方式技巧： 1，在两点之间让 AI 明确自己的需求 两点决定一条线段。如果只告诉 AI 一点信息，它会 360 度发散，是很难输出有效信息的。 例如，如果我们想了解某软件 A 的使用技巧，我们不应该笼统地问：“软件 A 怎么用？”而应该更明确地问：“我该如何用软件 A...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"4. 高效提示的 5 个方式\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[{\"level\":2,\"title\":\"1，在两点之间让 AI 明确自己的需求\",\"slug\":\"_1-在两点之间让-ai-明确自己的需求\",\"link\":\"#_1-在两点之间让-ai-明确自己的需求\",\"children\":[]},{\"level\":2,\"title\":\"2，提供尽可能详细的上下文信息\",\"slug\":\"_2-提供尽可能详细的上下文信息\",\"link\":\"#_2-提供尽可能详细的上下文信息\",\"children\":[]},{\"level\":2,\"title\":\"3，使用清晰且具体的词语\",\"slug\":\"_3-使用清晰且具体的词语\",\"link\":\"#_3-使用清晰且具体的词语\",\"children\":[]},{\"level\":2,\"title\":\"4，分范围、分阶段提问\",\"slug\":\"_4-分范围、分阶段提问\",\"link\":\"#_4-分范围、分阶段提问\",\"children\":[]},{\"level\":2,\"title\":\"5，追问与澄清\",\"slug\":\"_5-追问与澄清\",\"link\":\"#_5-追问与澄清\",\"children\":[]}],\"readingTime\":{\"minutes\":5.32,\"words\":1595},\"filePathRelative\":\"src/docs/向GPT高效提问/4.高效提示的5个方式.md\",\"excerpt\":\"\\n<p>提问的质量决定了 AI 回答的质量。以下是五个高效提问的方式技巧：</p>\\n<h2>1，在两点之间让 AI 明确自己的需求</h2>\\n<p>两点决定一条线段。如果只告诉 AI 一点信息，它会 360 度发散，是很难输出有效信息的。</p>\\n<p>例如，如果我们想了解某软件 A 的使用技巧，我们不应该笼统地问：“软件 A 怎么用？”而应该更明确地问：“我该如何用软件 A 达到我的某某需求？”</p>\\n<h2>2，提供尽可能详细的上下文信息</h2>\\n<p>GPT 的 token 是经过推演返回的，限制越多，推演的结果越精准。例如，我们想向 AI 询问一些建筑建议，简单的问法是：“我想采用现代简约风格进行建筑设计，你有什么建议？”更为合理、高效的问法是：“建筑面积为 1000 平方米，预算在 100 万以内，采用现代简约风格设计，你有什么建议？”</p>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
