@@ -45,7 +45,7 @@ jobs:
 
       # 上传构建结果到 GitHub Pages
       - name: Upload build artifacts
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           path: src/.vuepress/dist
 
@@ -53,15 +53,12 @@ jobs:
       - name: Deploy to external repository
         uses: cpina/github-action-push-to-another-repository@v1.7.2
         env:
-          # 使用 Personal Access Token 方式
           API_TOKEN_GITHUB: ${{ secrets.EXTERNAL_REPOSITORY_PERSONAL_ACCESS_TOKEN }}
         with:
-          # GitHub Action 输出的文件
           source-directory: src/.vuepress/dist/
           destination-github-username: rixingyike
           destination-repository-name: yishulun.com
           user-email: 9830131@qq.com
-          # 默认分支为 `main`
           target-branch: "main"
 
       # 测试获取由 push-to-another-repository 导出的变量
