@@ -41,7 +41,7 @@ jobs:
           
       - uses: actions/upload-artifact@v4
         with:
-          path: src/.vitepress/dist
+          path: src/.vuepress/dist
 
       - name: Deploy to external repository
         uses: cpina/github-action-push-to-another-repository@v1.7.2
@@ -67,7 +67,7 @@ jobs:
 
         with:
           # GitHub Action output files
-          source-directory: src/.vitepress/dist/
+          source-directory: src/.vuepress/dist/
           destination-github-username: rixingyike
           destination-repository-name: yishulun.com
           user-email: 9830131@qq.com
