@@ -1,11 +1,9 @@
-name: Deploy (部署文档)
-
+name: Deploy
 on:
   workflow_dispatch: {}
   push:
     branches:
       - main
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -17,46 +15,64 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      # 检出代码
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # 设置 Node.js
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 18
+      
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          run_install: false
 
-      # 安装依赖
-      - name: 安装依赖
-        run: npm install
-
-      # 构建 VuePress 文档
-      - name: Build (构建文档)
+      - name: Install dependencies
+        run: bun install --recursive --no-frozen-lockfile
+      
+      - name: Build(构建文档)
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: npm docs:build
-
-      # 上传构建结果到 GitHub Pages
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
+        run: |-
+          bun run docs:build
+          
+      - uses: actions/upload-pages-artifact@v4
         with:
-          path: src/.vuepress/dist
+          path: src/.vitepress/dist
 
-      # 部署到外部仓库
       - name: Deploy to external repository
         uses: cpina/github-action-push-to-another-repository@v1.7.2
         env:
+          # 🏗️ <internal repository>, run GitHub Action.
+          # 🎁 <external repository>, receiving Artifacts.
+          #
+          # Way 1: using Personal Access Token
+          # @see https://cpina.github.io/push-to-another-repository-docs/setup-using-personal-access-token.html#setup-personal-access-token
+          # 1.1 Generate Personal Access Token: <external repository>/<Avatar>/Settings/Developer settings/Personal access tokens/Generate new token
+          #     Select `No expiration` and Check `✅️ repo    Full control of private repositories`, Generate and then Copy the Token
+          # 1.2 Then make the token available to the GitHub Action: <internal repository>/Settings/Secrets/Actions/New repository secret
+          #     Name: EXTERNAL_REPOSITORY_PERSONAL_ACCESS_TOKEN, Value Paste the Token
           API_TOKEN_GITHUB: ${{ secrets.EXTERNAL_REPOSITORY_PERSONAL_ACCESS_TOKEN }}
+          # Way 2: using SSH deploy keys
+          # @see https://cpina.github.io/push-to-another-repository-docs/setup-using-ssh-deploy-keys.html#setup-ssh-deploy-keys
+          # 2.1 Generate an SSH key in terminal (Leave the passphrase empty)
+          # 2.2 Add public key in the external repository: <external repository>/Settings/Deploy keys/Add deploy key
+          #     Name: DEPLOY_PUBLIC_KEY, Value Paste the public key. Enable "✅️ Allow write access"
+          # 2.3 Add private key in the source repository: <external repository>/Settings/Secrets/Actions/New repository secret
+          #     Name: DEPLOY_PRIVATE_KEY, Value Paste the private key.
+          # SSH_DEPLOY_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+
         with:
-          source-directory: src/.vuepress/dist/
+          # GitHub Action output files
+          source-directory: src/.vitepress/dist/
           destination-github-username: rixingyike
           destination-repository-name: yishulun.com
           user-email: 9830131@qq.com
+          # It defaults to `main`
           target-branch: "main"
 
-      # 测试获取由 push-to-another-repository 导出的变量
       - name: Test get variable exported by push-to-another-repository
         run: echo $DESTINATION_CLONED_DIRECTORY
