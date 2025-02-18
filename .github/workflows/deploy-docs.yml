@@ -27,11 +27,11 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 22
 
       # 安装 pnpm
       - name: 安装 pnpm
-        run: npm install -g pnpm
+        run: npm install -g pnpm@8.7.6
 
       # 安装依赖
       - name: 安装依赖
