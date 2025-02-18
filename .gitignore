@@ -2,6 +2,7 @@
 node_modules
 src/.vitepress/dist
 src/.vitepress/cache
+src/.vitepress/temp
 .DS_Store
 .vscode
 pnpm-lock.yaml

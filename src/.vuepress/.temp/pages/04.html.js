@@ -1,0 +1,31 @@
+import comp from "C:/Users/98301/work/yishulun_com_blog/src/.vuepress/.temp/pages/04.html.vue"
+const data = JSON.parse("{\"path\":\"/04.html\",\"title\":\"ChatGPT 发布对插件的支持\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"ChatGPT 发布对插件的支持\",\"date\":\"2023-03-24T11:37:40.000Z\",\"gitInclude\":[],\"description\":\"ChatGPT 发布对插件的支持，告诉 ChatGPT 你可以提供什么在线服务，由它作为“前端”向用户提供 目录 2023 年北京时间 3 月 24 凌晨，OpneAI 在推特上官宣： image-20230324114533386image-20230324114533386 指向的链接是：https://openai.com/blog/chatgp...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/04.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"ChatGPT 发布对插件的支持\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"ChatGPT 发布对插件的支持，告诉 ChatGPT 你可以提供什么在线服务，由它作为“前端”向用户提供 目录 2023 年北京时间 3 月 24 凌晨，OpneAI 在推特上官宣： image-20230324114533386image-20230324114533386 指向的链接是：https://openai.com/blog/chatgp...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://cdn.jsdelivr.net/gh/rixingyike/images@master/2023/202303241145523.png\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2023-03-24T11:37:40.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"ChatGPT 发布对插件的支持\\\",\\\"image\\\":[\\\"https://cdn.jsdelivr.net/gh/rixingyike/images@master/2023/202303241145523.png\\\"],\\\"datePublished\\\":\\\"2023-03-24T11:37:40.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[{\"level\":2,\"title\":\"插件可以干什么事？\",\"slug\":\"插件可以干什么事\",\"link\":\"#插件可以干什么事\",\"children\":[]},{\"level\":2,\"title\":\"什么是 API？\",\"slug\":\"什么是-api\",\"link\":\"#什么是-api\",\"children\":[]},{\"level\":2,\"title\":\"如何申请？\",\"slug\":\"如何申请\",\"link\":\"#如何申请\",\"children\":[]},{\"level\":2,\"title\":\"如何开发ChatGPT Plugins(插件)？\",\"slug\":\"如何开发chatgpt-plugins-插件\",\"link\":\"#如何开发chatgpt-plugins-插件\",\"children\":[{\"level\":3,\"title\":\"第 1 步\",\"slug\":\"第-1-步\",\"link\":\"#第-1-步\",\"children\":[]},{\"level\":3,\"title\":\"第 2 步\",\"slug\":\"第-2-步\",\"link\":\"#第-2-步\",\"children\":[]},{\"level\":3,\"title\":\"第 3 步\",\"slug\":\"第-3-步\",\"link\":\"#第-3-步\",\"children\":[]}]},{\"level\":2,\"title\":\"什么是 OpenAI 规范？\",\"slug\":\"什么是-openai-规范\",\"link\":\"#什么是-openai-规范\",\"children\":[]},{\"level\":2,\"title\":\"如何由 OpenAI 规范文件生成代码？\",\"slug\":\"如何由-openai-规范文件生成代码\",\"link\":\"#如何由-openai-规范文件生成代码\",\"children\":[{\"level\":3,\"title\":\"第 1 步，安装工具\",\"slug\":\"第-1-步-安装工具\",\"link\":\"#第-1-步-安装工具\",\"children\":[]},{\"level\":3,\"title\":\"第 2 步，由规范生成代码\",\"slug\":\"第-2-步-由规范生成代码\",\"link\":\"#第-2-步-由规范生成代码\",\"children\":[]}]},{\"level\":2,\"title\":\"小结\",\"slug\":\"小结\",\"link\":\"#小结\",\"children\":[]}],\"readingTime\":{\"minutes\":6.96,\"words\":2089},\"filePathRelative\":\"posts/2023/04.md\",\"localizedDate\":\"2023年3月24日\",\"excerpt\":\"\\n<p>目录</p>\\n\\n<p>2023 年北京时间 3 月 24 凌晨，OpneAI 在推特上官宣：</p>\\n<figure><img src=\\\"https://cdn.jsdelivr.net/gh/rixingyike/images@master/2023/202303241145523.png\\\" alt=\\\"image-20230324114533386\\\" tabindex=\\\"0\\\" loading=\\\"lazy\\\"><figcaption>image-20230324114533386</figcaption></figure>\\n<p>指向的链接是：<a href=\\\"https://openai.com/blog/chatgpt-plugins\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">https://openai.com/blog/chatgpt-plugins</a></p>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
+此有了这篇教程。</p>\\n<h2><strong>1，使用git bash代替cmd</strong></h2>\\n<p>windows读者按照书上第96页，第7.1.2小节“安装仓库管理工具git”的说明，完成了git的安装之后，就不要再使用系统自带的终端工具cmd了，要使用git bash。在任何目录空白处，右键单击，就可以看到“Git Bash Here”的菜单。</p>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

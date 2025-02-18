@@ -1,0 +1,384 @@
+<template><div><h1 id="gitbook简易上手教程" tabindex="-1"><a class="header-anchor" href="#gitbook简易上手教程"><span>Gitbook简易上手教程</span></a></h1>
+<p>Gitbok是一个本地写书工具，基于md语法，使用简单，易于上手。</p>
+<h2 id="_1-1-如何使用gitbook" tabindex="-1"><a class="header-anchor" href="#_1-1-如何使用gitbook"><span>1.1 如何使用gitbook</span></a></h2>
+<h3 id="安装使用说明" tabindex="-1"><a class="header-anchor" href="#安装使用说明"><span>安装使用说明</span></a></h3>
+<p>安装：</p>
+<p>npm install -g gitbook-cli --force</p>
+<p>初始化目录：</p>
+<p>mkdir gitbook &amp;&amp; cd gitbook<br>
+gitbook init</p>
+<p>开始编辑目录：</p>
+<p>vim <code v-pre>summary.md</code></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span># Summary</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>* [前言](README.md)</span></span>
+<span class="line"><span>* [第一章](1/README.md)</span></span>
+<span class="line"><span>    * [1.1，基本语法](1/基本语法.md)</span></span>
+<span class="line"><span>* [第二章](2/README.md)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="重建目录" tabindex="-1"><a class="header-anchor" href="#重建目录"><span>重建目录</span></a></h3>
+<p>添加相应手段后，执行<code v-pre>book sm</code>，即可自动生成相关章节。当然也可以手动添加章节文件。</p>
+<h3 id="发布静态文件" tabindex="-1"><a class="header-anchor" href="#发布静态文件"><span>发布静态文件</span></a></h3>
+<p>gitbook build . ../../static/books/$dir</p>
+<p><a href="http://xn--build-bi1hv64hwefdy4ch4ak11l.sh" target="_blank" rel="noopener noreferrer">执行目录下的build.sh</a></p>
+<h3 id="输出pdf" tabindex="-1"><a class="header-anchor" href="#输出pdf"><span>输出PDF</span></a></h3>
+<p>输出为PDF文件，需要先安装gitbook pdf</p>
+<p>$ npm install gitbook-pdf -g</p>
+<p>然后，用下面的命令就可以生成PDF文件了。</p>
+<p book_name="">$ gitbook pdf</p>
+<p>如果，你已经在编写的gitbook当前目录，也可以使用相对路径。</p>
+<p>$ gitbook pdf .</p>
+<p>然后，你就会发现，你的目录中多了一个名为book.pdf的文件。</p>
+<h2 id="_1-2-解决installing-gitbook的错误" tabindex="-1"><a class="header-anchor" href="#_1-2-解决installing-gitbook的错误"><span>1.2 解决Installing GitBook的错误</span></a></h2>
+<blockquote>
+<p>我是在win10 64位系统上遇到的这个问题。</p>
+</blockquote>
+<p>使用如下指令安装gitook：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>sudo npm install -g gitbook-cli</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>可能会出现一个错误：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>$ gitbook serve .</span></span>
+<span class="line"><span>Installing GitBook 3.2.3</span></span>
+<span class="line"><span>C:\Users\LIYI\AppData\Roaming\npm\node_modules\gitbook-cli\node_modules\npm\node_modules\graceful-fs\polyfills.js:287</span></span>
+<span class="line"><span>      if (cb) cb.apply(this, arguments)</span></span>
+<span class="line"><span>                 ^</span></span>
+<span class="line"><span>TypeError: cb.apply is not a function</span></span>
+<span class="line"><span>    at C:\Users\LIYI\AppData\Roaming\npm\node_modules\gitbook-cli\node_modules\npm\node_modules\graceful-fs\polyfills.js:287:18</span></span>
+<span class="line"><span>    at FSReqCallback.oncomplete (fs.js:184:5)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这个过程可能会很长，你可能需要先干别的事，过一段时间回来看，必现报错了。</p>
+<p>我的node版本号是v14.15.5：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>$ node -v</span></span>
+<span class="line"><span>v14.15.5</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>有人说是由于版本太高造成的错误，降低版本就可以了。</p>
+<h3 id="使用nvm降低node版本" tabindex="-1"><a class="header-anchor" href="#使用nvm降低node版本"><span>使用nvm降低node版本</span></a></h3>
+<p>nvm与n的区别是，n是一个node模块，nvm是node之外的脚本。</p>
+<p>下载与安装nvm：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>https://github.com/coreybutler/nvm-windows/releases</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p><code v-pre>nvm -v</code>有输出，代表安装成功了。</p>
+<p>nvm常用指令：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>nvm install 10.22   // 选择安装node 版本</span></span>
+<span class="line"><span>nvm use 14.15       // 切换使用的node版本  </span></span>
+<span class="line"><span>nvm list            // 查看已安装的 node 版本</span></span>
+<span class="line"><span>nvm uninstall 6.2.0 // 卸载对应的版本</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="解决nvm安装失败问题" tabindex="-1"><a class="header-anchor" href="#解决nvm安装失败问题"><span>解决nvm安装失败问题</span></a></h4>
+<p>听说10.22好使，使用nvm install 10.22时，出现一个错误：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>Could not retrieve https://nodejs.org/dist/latest/SHASUMS256.txt.</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>这是由墙造成的，是下载源的问题。去nvm的安装目录：</p>
+<p>C:\Users\LIYI\AppData\Roaming\nvm</p>
+<p>找到一个settings.txt文件，添加最后两行：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>root: C:\Users\LIYI\AppData\Roaming\nvm</span></span>
+<span class="line"><span>path: C:\Program Files\nodejs</span></span>
+<span class="line"><span>node_mirror:npm.taobao.org/mirrors/node/</span></span>
+<span class="line"><span>npm_mirror:npm.taobao.org/mirrors/npm/</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>配置好以后，重新安装nvm install 10.22就好使了。</p>
+<p>安装好以后就是使用use指令切换：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>$ nvm use 10.22.0</span></span>
+<span class="line"><span>Now using node v10.22.0 (64-bit)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>注意，这个切换必须在管理员模式下完成。还有，node版本的切换可能会对其它程序造成负面影响。</p>
+<h3 id="重新安装gitbook" tabindex="-1"><a class="header-anchor" href="#重新安装gitbook"><span>重新安装gitbook</span></a></h3>
+<p>可以使用node -v查看降低后的版本。现在可以重装gitbook了：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>npm install -g gitbook-cli --force</span></span>
+<span class="line"><span>npm install -g gitbook --force</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>切换到普通指令模式下，再执行serve指令就可以了：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>$ gitbook serve .</span></span>
+<span class="line"><span>Installing GitBook 3.2.3</span></span>
+<span class="line"><span>gitbook@3.2.3 C:\Users\LIYI\AppData\Local\Temp\tmp-19328QAP4WZytuKh5\node_modules\gitbook</span></span>
+<span class="line"><span>...</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_1-3-如何自动生成目录" tabindex="-1"><a class="header-anchor" href="#_1-3-如何自动生成目录"><span>1.3 如何自动生成目录</span></a></h2>
+<p>先全局安装一个模块：</p>
+<p>npm install -g gitbook-summary</p>
+<p>然后在图书目录下执行：</p>
+<p>book sm -i _book</p>
+<p>-i参数用于忽略目录。_book是gitbook自动生成的输出目录，它是应该被忽略的。</p>
+<p>如果有多个目录需要忽略，可以这样设置参数：</p>
+<p>book sm -i [_book,node_modules, styles]</p>
+<p>如果书籍目录下有book.json文件，就是配置文件在起作用了：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>  "ignores": ["_book","styles","node_modules"],</span></span>
+<span class="line"><span>  ...</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>配置文件优先级更高。</p>
+<h2 id="_1-4-gitbook能不能自定义样式" tabindex="-1"><a class="header-anchor" href="#_1-4-gitbook能不能自定义样式"><span>1.4 Gitbook能不能自定义样式?</span></a></h2>
+<p>通过books.json自定义样式：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>  "styles": {</span></span>
+<span class="line"><span>    "website": "styles/website.css"</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  ...</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>style code in styles/website.css:</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>.copyright{</span></span>
+<span class="line"><span>  color: white;</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果样式未起作用，要注意检查样式语法，还有在.bookignore文件中，不能将styles目录忽略。</p>
+<h2 id="_1-5-安装常用插件" tabindex="-1"><a class="header-anchor" href="#_1-5-安装常用插件"><span>1.5 安装常用插件</span></a></h2>
+<p>在book.json中可以配置插件。</p>
+<p>GitBook 默认自带5个插件：</p>
+<ul>
+<li>highlight： 代码高亮</li>
+<li>search： 导航栏查询功能，据说默认不支持中文</li>
+<li>sharing：右上角分享功能</li>
+<li>font-settings：字体设置，最上方的&quot;A&quot;符号</li>
+<li>livereload：为GitBook实时重新加载</li>
+</ul>
+<p>如果要替换默认插件，需要在book.json中将默认插件使用“-”号“减”去。</p>
+<p>这是我用到的插件及插件配置：</p>
+<div class="language-json line-numbers-mode" data-highlighter="shiki" data-ext="json" data-title="json" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">  ...</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "plugins"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: [</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "auto-scroll-table"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "sidebar-style"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "click-reveal"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "-lunr"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "-search"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "search-pro"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "back-to-top-button"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "insert-logo-link"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "chapter-fold"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "code"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "advanced-emoji"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "emphasize"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "splitter"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "expandable-chapters-small"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "page-toc-button"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "klipse"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "donate"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "alerts"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  ],</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "pluginsConfig"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "sidebar-style"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "title"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"艺术论"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "author"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"LIYI"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "donate"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "wechat"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"images/wxpaycode.jpg"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "alipay"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"images/alipaycode.jpg"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "title"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">""</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "button"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"打赏"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "alipayText"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"支付宝打赏"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "wechatText"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"微信打赏"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "page-toc-button"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "maxTocDepth"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "minTocSize"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "insert-logo-link"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "src"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://yishulun.com/avatar.png"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "url"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://yishulun.com"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "style"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"background: none; max-height: 50px; border-radius: 50%;"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="back-to-top-button-回到顶部按钮" tabindex="-1"><a class="header-anchor" href="#back-to-top-button-回到顶部按钮"><span>back-to-top-button 回到顶部按钮</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>         "back-to-top-button"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="code-代码添加行号-复制按钮" tabindex="-1"><a class="header-anchor" href="#code-代码添加行号-复制按钮"><span>code 代码添加行号&amp;复制按钮</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins" : [ "code" ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果想去掉复制按钮，可配置</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>"pluginsConfig": {</span></span>
+<span class="line"><span>      "code": {</span></span>
+<span class="line"><span>        "copyButtons": false</span></span>
+<span class="line"><span>      }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="insert-logo-link-插入logo和链接" tabindex="-1"><a class="header-anchor" href="#insert-logo-link-插入logo和链接"><span>insert-logo-link 插入logo和链接</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [ "insert-logo-link" ]</span></span>
+<span class="line"><span>    "pluginsConfig": {</span></span>
+<span class="line"><span>      "insert-logo": {</span></span>
+<span class="line"><span>        "src": "https://yishulun.com",</span></span>
+<span class="line"><span>        "url": "avator.jpg"</span></span>
+<span class="line"><span>      }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果插入的图片过大，样式不匹配，可以在styles/website.css中通过样式控制。</p>
+<h3 id="search-pro-高级搜索" tabindex="-1"><a class="header-anchor" href="#search-pro-高级搜索"><span>search-pro 高级搜索</span></a></h3>
+<p>在使用此插件之前，需要将默认的search和lunr 插件去掉；在搜索结果中，关键字会高亮；自带的 search 插件，关键字不会高亮</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>          "-lunr", </span></span>
+<span class="line"><span>          "-search", </span></span>
+<span class="line"><span>          "search-pro"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="emphasize-为文字加上底色" tabindex="-1"><a class="header-anchor" href="#emphasize-为文字加上底色"><span>emphasize 为文字加上底色</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>        "emphasize"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后在markdown / asciidoc内容中，使用以下内容突出显示一些文本：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>This text is {% em %}highlighted !{% endem %}</span></span>
+<span class="line"><span>This text is {% em %}highlighted with **markdown**!{% endem %}</span></span>
+<span class="line"><span>This text is {% em type="green" %}highlighted in green!{% endem %}</span></span>
+<span class="line"><span>This text is {% em type="red" %}highlighted in red!{% endem %}</span></span>
+<span class="line"><span>This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果：</p>
+<p>:<VPIcon icon="This text is {% em %}highlighted !{% endem %}
+This text is {% em %}highlighted with **markdown**!{% endem %}
+This text is {% em %}highlighted in green!{% endem %}
+This text is {% em %}highlighted in red!{% endem %}
+This text is {% em %}highlighted with a custom color!{% endem %}" type="red" color="#ff0000" />:</p>
+<h3 id="splitter-侧边栏宽度可调节" tabindex="-1"><a class="header-anchor" href="#splitter-侧边栏宽度可调节"><span>splitter 侧边栏宽度可调节</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>        "splitter"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="page-toc-button-悬浮目录" tabindex="-1"><a class="header-anchor" href="#page-toc-button-悬浮目录"><span>page-toc-button 悬浮目录</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins" : [ "page-toc-button" ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>可选配置项：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>"pluginsConfig": {</span></span>
+<span class="line"><span>        "page-toc-button": {</span></span>
+<span class="line"><span>            "maxTocDepth": 2,</span></span>
+<span class="line"><span>            "minTocSize": 2</span></span>
+<span class="line"><span>       }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>maxTocDept 标题的最大深度（2 = h1 + h2 + h3）。不支持值&gt; 2。 默认2<br>
+minTocSize 显示toc按钮的最小toc条目数。 默认 2</p>
+<h3 id="打赏按钮-reward" tabindex="-1"><a class="header-anchor" href="#打赏按钮-reward"><span>打赏按钮 reward</span></a></h3>
+<p>这是国人铭哥开发的插件，配置：</p>
+<pre><code>&quot;pluginsConfig&quot;: ['
+    &quot;reward&quot;: {
+        &quot;wechat&quot;: &quot;http://unclealan.cn/usr/themes/seventeen/dist/images/weixin.JPG&quot;,
+        &quot;alipay&quot;: &quot;http://unclealan.cn/usr/themes/seventeen/dist/images/alipay.JPG&quot;,
+        &quot;button&quot;: &quot;打赏&quot;,
+        &quot;alipayText&quot;: &quot;支付宝&quot;,
+        &quot;wechatText&quot;: &quot;微信&quot;
+    },
+]
+</code></pre>
+<h3 id="klipse-嵌入类似ide的功能" tabindex="-1"><a class="header-anchor" href="#klipse-嵌入类似ide的功能"><span>klipse 嵌入类似IDE的功能</span></a></h3>
+<p>Klipse配置:</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": ["klipse"]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>用法，在 markdown 中：</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [x </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> x </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> range</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">10</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)]</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>js:</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>1+2</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="auto-scroll-table-表格滚动条" tabindex="-1"><a class="header-anchor" href="#auto-scroll-table-表格滚动条"><span>auto-scroll-table 表格滚动条</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>  "plugins": ["auto-scroll-table"]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>默认不够宽也是没有滚动条的。</p>
+<h3 id="click-reveal-点击显示" tabindex="-1"><a class="header-anchor" href="#click-reveal-点击显示"><span>click-reveal 点击显示</span></a></h3>
+<p>默认隐藏，点击可显示。</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>        "click-reveal"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用方式，markdown中。</p>
+<p>代码：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{% reveal %}</span></span>
+<span class="line"><span>要被隐藏的内容</span></span>
+<span class="line"><span>{% endreveal %}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果：</p>
+<p>:<VPIcon icon="{% reveal %}
+要被隐藏的内容
+{% endreveal %}" />:</p>
+<p>默认显示的文字是 Click to show , 使用text自定义显示文字。代码：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{% reveal text="点击显示" %}</span></span>
+<span class="line"><span>要被隐藏的内容</span></span>
+<span class="line"><span>{% endreveal %}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果：</p>
+<p>:<VPIcon icon="{% reveal %}
+要被隐藏的内容
+{% endreveal %}" text="点击显示" />:</p>
+<p>支持html语法：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>&#x3C;div class="click_reveal"></span></span>
+<span class="line"><span>    &#x3C;span> 点击显示html &#x3C;/span></span></span>
+<span class="line"><span>    &#x3C;div>&#x3C;pre>&#x3C;code>隐藏的文字&#x3C;/code>&#x3C;/pre>&#x3C;/div></span></span>
+<span class="line"><span>&#x3C;/div></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果：</p>
+<p>:::</p>
+<div class="click_reveal">
+    <span> 点击显示html </span>
+    <div><pre><code>隐藏的文字</code></pre></div>
+</div>
+:::
+<h3 id="使用npm安装单个插件" tabindex="-1"><a class="header-anchor" href="#使用npm安装单个插件"><span>使用npm安装单个插件</span></a></h3>
+<p>如果觉得使用gitbook install安装有点慢，可以单个下载、安装插件，例如：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>npm i gitbook-plugin-insert-logo-link</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2 id="_1-6-如何上传图片" tabindex="-1"><a class="header-anchor" href="#_1-6-如何上传图片"><span>1.6 如何上传图片</span></a></h2>
+<p>上传图片是在typora中，间接使用Picgo上传到图床的。</p>
+<p>推荐使用Picgo core，而非Picgo App。后者需要在本地启动一个web server，相当于往本地一个图片上传接口提交。显然Picgo core通过进程直接调用，效果更好。</p>
+<p>推荐Picgo core配置：</p>
+<div class="language-json line-numbers-mode" data-highlighter="shiki" data-ext="json" data-title="json" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picBed"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "current"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"githubPlus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "githubPlus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "branch"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"master"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "customUrl"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://cdn.jsdelivr.net/gh/rixingyike/images"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "origin"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"github"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "path"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2021"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "repo"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"rixingyike/images"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "token"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"在github上获取"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "uploader"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"githubPlus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "transformer"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"path"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "settings"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "showUpdateTip"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "rename"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "autoRename"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "uploadNotification"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">true</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picgoPlugins"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-github-plus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">true</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-super-prefix"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">true</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-compress"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">true</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-gitee"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-gitee-uploader"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picgo-plugin-super-prefix"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "prefixFormat"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"YYYYMMDDHHmmss"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picgo-plugin-github-plus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "lastSync"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2021-03-28 02:27:30"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picgo-plugin-compress"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "compress"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"imagemin"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "key"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">null</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "nameType"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"none"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>对该配置的说明：</p>
+<ul>
+<li>jsdelivr是用于cdn加速的，加速图片被用户快速访问到。</li>
+<li>&quot;picgo-plugin-super-prefix&quot;这个插件是用于上传前重命名文件的，因为重名文件不允许上传，会报一个“sha不支持”的错误。使用这个插件，须确保默认配置&quot;autoRename&quot;为false。</li>
+<li>上传使用&quot;picgo-plugin-github-plus&quot;插件，该插件在上传上优先默认上传功能及其它插件。它同时支持上传github、gitee两个图床。注意，当启用它时，需要将&quot;picgo-plugin-gitee&quot;和&quot;picgo-plugin-gitee-uploader&quot;都置为false。</li>
+</ul>
+<h2 id="_1-7-在vscode中定义markodwn代码版本" tabindex="-1"><a class="header-anchor" href="#_1-7-在vscode中定义markodwn代码版本"><span>1.7 在vscode中定义markodwn代码版本</span></a></h2>
+<p>有些内容是重复的，可以借助snippets功能快捷创建。共有两个配置需要完成。</p>
+<p>现在假设我们需要一个与hugo对应的snippet，首先需要选择文件-&gt;用户片断，新建一个markdown.json文件：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>  "new hugo post header": {</span></span>
+<span class="line"><span>    "prefix": "hugo",</span></span>
+<span class="line"><span>    "body": [</span></span>
+<span class="line"><span>      "---",</span></span>
+<span class="line"><span>      "title: $TM_FILENAME_BASE",</span></span>
+<span class="line"><span>      "sidebar: false</span></span>
+<span class="line"><span>date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",</span></span>
+<span class="line"><span>      "---"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>因为vscode默认没有这个模板，不像其它c、cpp片断，单是完成这一步好不好使。还需要在用户的settings.json文件中添加：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>"[markdown]": {</span></span>
+<span class="line"><span>    "editor.formatOnSave": true,</span></span>
+<span class="line"><span>    "editor.renderWhitespace": "all",</span></span>
+<span class="line"><span>    "editor.quickSuggestions": {</span></span>
+<span class="line"><span>        "other": true,</span></span>
+<span class="line"><span>        "comments": true,</span></span>
+<span class="line"><span>        "strings": true</span></span>
+<span class="line"><span>    },</span></span>
+<span class="line"><span>    "editor.acceptSuggestionOnEnter": "on"</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+
+

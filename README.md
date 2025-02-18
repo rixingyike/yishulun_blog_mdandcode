@@ -1,50 +1,15 @@
-# 博客
+# 艺术论博客源码
 
-由vitepress & vitepress-blog-zaun 改造。
+## 编译指令
 
-- 文章底部添加了引用信息；
-- 支持生成sitemap.txt；
-- 支持社交分享；
-- 支持生成feed.atom/json/xml；
-- 支持评论；
-- 支持搜索。
+pnpm docs:dev 启动开发服务器
+pnpm docs:build 构建项目并输出
+pnpm docs:clean-dev 清除缓存并启动开发服务器
 
-## 修改记录
+## 配置
 
-遇到了错误 ReferenceError: window is not defined
+theme的源码在node_modules/vuepress-theme-hope目录下。全局配置在这里：src\.vuepress\global_config.js。
 
-原因在于vitepress是SSR框架，在服务器端取不到window对象，将用到window的代码封闭在onMounted之内即可。
+可用的图标：https://icon-sets.iconify.design/fa6-solid/，所有的图标从这里查找可用名称。在站里面，会自动加上fa6-solid前缀，这个配置在theme.config里面。
 
-## Detail
-
-This is a blog theme used vitepress to build. You could [click here](https://visionary-sunflower-dc7ae3.netlify.app/) to see what it looks like.
-
-## Highlights
-
-- [x] pagination
-- [x] dark mode
-- [x] archives
-- [x] tags
-- [x] content level
-- [x] comments
-- [x] lastUpdated
-- [x] github actions
-- [x] mobile + desktop
-- [x] RSS
-- [x] Local Search
-- [x] Math Equation(markdown-it-mathjax3)
-## Start
-
-```shell
-npx degit clark-cui/vitepress-blog-zaun my-vitepress-blog
-cd my-vitepress-blog
-pnpm i # If you didn't install pnpm,you can run: npm install -g pnpm
-pnpm dev
-```
-
-If you want to view rss result or use local search in development mode, you should run
-
-```shell
-pnpm run build
-pnpm run serve
-```
+所有静态资源文件在.vuepress/public目录下。

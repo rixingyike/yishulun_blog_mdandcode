@@ -1,0 +1,16 @@
+import comp from "C:/Users/98301/work/yishulun_com_blog/src/.vuepress/.temp/pages/27.html.vue"
+const data = JSON.parse("{\"path\":\"/27.html\",\"title\":\"印泥的种类、起源、使用与保养\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2023-11-08T07:19:30.000Z\",\"tags\":[\"篆刻\"],\"gitInclude\":[],\"description\":\"印泥印泥 印泥的种类、起源、使用与保养 你好，今天聊一下鱼汤，不是，是印泥。 种类 种类繁多，以下是双维印泥厂子生产的品类。我用过的有堆朱、朱砂、朱磦（piao）、黄磦印泥，它们颜色的亮度也是按我给出的顺序依次拔高的，其中黄磦印泥最喜欢，目前主要使用的也是这一款。 种类种类 印泥的起源 据考古和史书记载，印泥的发展已有两千多年的历史。 早在春秋期就已经...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/27.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"印泥的种类、起源、使用与保养\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"印泥印泥 印泥的种类、起源、使用与保养 你好，今天聊一下鱼汤，不是，是印泥。 种类 种类繁多，以下是双维印泥厂子生产的品类。我用过的有堆朱、朱砂、朱磦（piao）、黄磦印泥，它们颜色的亮度也是按我给出的顺序依次拔高的，其中黄磦印泥最喜欢，目前主要使用的也是这一款。 种类种类 印泥的起源 据考古和史书记载，印泥的发展已有两千多年的历史。 早在春秋期就已经...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"篆刻\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2023-11-08T07:19:30.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"印泥的种类、起源、使用与保养\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2023-11-08T07:19:30.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[{\"level\":2,\"title\":\"种类\",\"slug\":\"种类\",\"link\":\"#种类\",\"children\":[]},{\"level\":2,\"title\":\"印泥的起源\",\"slug\":\"印泥的起源\",\"link\":\"#印泥的起源\",\"children\":[{\"level\":3,\"title\":\"朱砂\",\"slug\":\"朱砂\",\"link\":\"#朱砂\",\"children\":[]},{\"level\":3,\"title\":\"蓖麻油\",\"slug\":\"蓖麻油\",\"link\":\"#蓖麻油\",\"children\":[]},{\"level\":3,\"title\":\"艾绒\",\"slug\":\"艾绒\",\"link\":\"#艾绒\",\"children\":[]}]},{\"level\":2,\"title\":\"使用说明\",\"slug\":\"使用说明\",\"link\":\"#使用说明\",\"children\":[]},{\"level\":2,\"title\":\"保养\",\"slug\":\"保养\",\"link\":\"#保养\",\"children\":[]}],\"readingTime\":{\"minutes\":4.76,\"words\":1427},\"filePathRelative\":\"posts/2023/27.md\",\"localizedDate\":\"2023年11月8日\",\"excerpt\":\"<figure><figcaption>印泥</figcaption></figure>\\n<h1>印泥的种类、起源、使用与保养</h1>\\n<p>你好，今天聊一下鱼汤，不是，是印泥。</p>\\n<h2>种类</h2>\\n<p>种类繁多，以下是双维印泥厂子生产的品类。我用过的有堆朱、朱砂、朱磦（piao）、黄磦印泥，它们颜色的亮度也是按我给出的顺序依次拔高的，其中黄磦印泥最喜欢，目前主要使用的也是这一款。</p>\\n<figure><figcaption>种类</figcaption></figure>\\n<h2>印泥的起源</h2>\\n<p>据考古和史书记载，印泥的发展已有两千多年的历史。</p>\\n<p>早在春秋期就已经出现了印泥。不过那时候的印泥和现在不同，它是用由多种物质配制的黏土做的，平时搓成泥丸子，临用时用水湿透。因为当时的公文和书信是用漆书写在竹简木牍上的，为了防上泄密或传递过程中的私拆，在写好了的简牍外面加上一块挖有方槽的木块，再用绳子把它们捆在一起，然后把绳结放入方槽内，加上一丸湿泥封上，再用铜印章铃上印记，作为封检的标记发出去。这种泥丸称为“封泥”可以视为印泥的始祖，这种封泥工艺一直沿用到了魏晋南北朝。</p>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

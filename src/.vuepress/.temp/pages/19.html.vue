@@ -1,0 +1,336 @@
+<template><div><figure><img src="@source/posts/2023/assets/image-20231031201628678.png" alt="image-20231031201628678" tabindex="0" loading="lazy"><figcaption>image-20231031201628678</figcaption></figure>
+<h1 id="我们如何使用-chatgpt、claude-和-google-bard" tabindex="-1"><a class="header-anchor" href="#我们如何使用-chatgpt、claude-和-google-bard"><span>我们如何使用 ChatGPT、Claude 和 Google Bard？</span></a></h1>
+<p>你好，今天聊一下如何使用 ChatGPT。</p>
+<p>ChatGPT 很强大，且 ChatGPT 3.5 版本是公开与免费的，但并不是所有地方都可以使用它。有些地方甚至抵制使用。</p>
+<p>2023 年 3 月 31 日，意大利个人数据保护局（Garante per la ProtezionedeiDatiPersonali）发表声明，宣布禁止意大利人使用 ChatGPT，同时限制 OpenAI 收集和处理意大利用户信息。意大利由此成为了第一个官方禁用 ChatGPT 的国家。</p>
+<p>意大利作出这一项决定，主要理由是 ChatGPT 存在数据泄露、隐私窃取等安全隐患，目前 ChatGPT 的发展尚不成熟，出于对人民的善意保护，所以将 ChatGPT 禁止了。</p>
+<p>大陆目前没有明确的法律规定禁止人们使用 ChatGPT。2023 年 2 月发布的《生成式人工智能服务管理办法（征求意见稿）》，只是限定了使用 ChatGPT 向他人提供人工智能服务的条件，主要有以下三条：</p>
+<ul>
+<li>体现社会主义核心价值观；</li>
+<li>不得发布违反法律法规、有害于社会秩序、危害国家安全、损害公共利益的信息；</li>
+<li>不得利用生成式人工智能生成虚假信息、误导公众。</li>
+</ul>
+<p>ChatGPT 是允许使用的。只是 ChatGPT 在大陆，如果使用者直接访问它的官网（<a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer">https://chat.openai.com</a>），网站是打不开的。</p>
+<p>怎么办？难道我们求学向道的心就此被阻止了吗？</p>
+<p>显然不会，否则探长在这里也没有写这个专栏的意义了。在大陆，不仅有办法访问和使用 ChatGPT 3.5 版本，就是需要付费的 GPT-4 也是可以使用的。</p>
+<h2 id="如何注册-chatgpt" tabindex="-1"><a class="header-anchor" href="#如何注册-chatgpt"><span>如何注册 ChatGPT？</span></a></h2>
+<p>首先，我们需要解决网络访问的问题。</p>
+<p>对这个问题，有人第一时间想到使用梯子。探长想说，不要使用梯子，墙内擅自使用梯子突破防火墙属于不规范甚至违法行为。</p>
+<p>有人说，可以使用某类袋装 wifi 移动上网设备。此类设备并不是没有使用梯子，而是设备内隐含了梯子，这种行为也是不规范的。还有人推荐购买香港的 SIM 卡，在大陆漫游使用，但办理费用及 3GB 贵达 88 美金的漫游费用并不低，且办理流程麻烦，所以也不推荐。</p>
+<figure><img src="@source/posts/2023/assets/image-20231031154722559.png" alt="香港卡漫游资费" tabindex="0" loading="lazy"><figcaption>香港卡漫游资费</figcaption></figure>
+<p>最简单、最便宜的方式，同时也是合法的方式，是在腾讯云等云厂商平台上购买一台海外云主机。以腾讯云为例，一个美区包月云主机不到 50 元，并且流量不封顶。</p>
+<figure><img src="@source/posts/2023/assets/image-20231031155526336.png" alt="美区包月云主机不足50元" tabindex="0" loading="lazy"><figcaption>美区包月云主机不足50元</figcaption></figure>
+<p>购买云主机以后，使用微软远程桌面登录软件（Microsoft Remote Desktop Manager），既可以在 PC 电脑上登录云主机，也可以在手机上登录与使用。关于这个软件的相关教程，在网上都有，一搜便知，或者直接问 AI，它也能告诉你使用方法。</p>
+<p>登录云主机以后，网络通了，接下来注册就简单了。</p>
+<p>可以先注册一个 Gmail，然后用 Gmail 打开 ChatGPT 网站（<a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer">https://chat.openai.com</a>）进行注册与登录。由于服务器在境外美区，网站都是可以直接访问的。你相当于是入侵到美国境内上网，ChatGPT对美国人民没有任何限制，注册与登录、使用都是自由的，你在美国操作也是自由的。</p>
+<h2 id="购买-gpt-4-月租服务" tabindex="-1"><a class="header-anchor" href="#购买-gpt-4-月租服务"><span>购买 GPT-4 月租服务</span></a></h2>
+<p>接下来再说一下 GPT-4 的付费购买。</p>
+<p>GPT-4 的功能相比 ChatGPT 3.5 强太多了，但它是付费服务，每月需要支付 20 美元。不过这个费用是物超所值的。</p>
+<p>那么，怎么购买呢？</p>
+<p>由于 OpenAI 并没有将 ChatGPT 开放给中国大陆及香港地区，所以，即使我们想把这 20 美金付给人家，人家都不肯收。</p>
+<p>这也是有办法解决的，我们求学问道的心是不可能就此被阻止的。</p>
+<p>有人说，可以使用美区的苹果 Apple Store 帐号绑定美区的信用卡或 PayPal，在手机上支付。首先美区信用卡一般人不会有，其实 PayPal 帐号注册以后也要绑卡才能消费，没有合适的 MasterCard、Visa 或 American Express 信用卡也不行。这种方式比较麻烦，一般人不推荐。</p>
+<p>还有人建议先办理一张香港汇丰的 HSBC 银行卡，或新加坡的 OCBC 银行卡，等卡办好以后再进行绑卡支付。这条道路是能走通的，但是资金成本和时间成本也不低，并非优选方式。</p>
+<p>甚至还有人推荐在网上购买临时的手机号验证码及办理境外 Depay 或 vvacard 虚拟卡服务，这也是一种渠道，但如果没有经验，英文不通，一会是比特币，一会又是波场，很容易把自己搞疲惫。</p>
+<p>我们就是想花钱购买一个 ChatGPT 的月租服务，然后使用它进行科学研究与学习，怎么搞这么复杂呢？</p>
+<p>探长推荐的方式是使用礼品卡。直接在国内某宝上购买美区的礼品卡，然后登陆苹果官网给自己的美区帐号充值，接着打开苹果手机上的 ChatGPT App，选择为 GPT-4 付费升级，App 会自动选择手机上的礼品卡余额进行支付，整个过程不需要绑卡。</p>
+<p>就是这么简单！在手机上购买月租成功以后，在 Web 上仍然可以使用。对部分读者唯一可能有困难的地方是，需要一部苹果手机，这不是什么难事，可以问朋友或同事临时借用一下。</p>
+<p>对于使用礼品卡充值或使用信用卡充值的读者，探长额外有一个小提醒。在美区的 App Stoe 帐号设置中，有一个关于地区的选择，建议选择美国五大免税洲之一，这个免税洲是：俄勒冈（Oregon）、阿拉斯加（Alaska）、特拉华（Delaware）、蒙大拿（Montana）和新罕布什尔（New Hampshire）。</p>
+<p>如果你选择了其它地区，在付款时苹果公司会收取一款消费税；如果你的礼品卡购买的储值金额恰好是 20 美金，那么你在支付时将因消费税而遭遇余额不足的尴尬。</p>
+<h2 id="在-bing-上使用-gpt-4" tabindex="-1"><a class="header-anchor" href="#在-bing-上使用-gpt-4"><span>在 Bing 上使用 GPT-4</span></a></h2>
+<p>除了在 OpenAI 官网使用 ChatGPT，还有其它方式使用 ChatGPT，甚至是收费的 GPT-4。</p>
+<p>第一个推荐的免费平台是微软的 New Bing，直接访问这个微软网址（<a href="https://www.bing.com/new%EF%BC%89%EF%BC%8C%E6%B3%A8%E5%86%8C%E4%B8%80%E4%B8%AA%E5%BE%AE%E8%BD%AF%E5%B8%90%E5%8F%B7%E7%84%B6%E5%90%8E%E7%99%BB%E5%BD%95%EF%BC%8C%E7%84%B6%E5%90%8E%E5%B0%B1%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E5%85%8D%E8%B4%B9%E7%9A%84GPT-4%E6%9C%8D%E5%8A%A1%E4%BA%86%EF%BC%8C%E5%B9%B6%E4%B8%94%E5%A4%A9%E7%84%B6%E6%9C%89%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%E5%8A%A0%E6%8C%81%E3%80%82" target="_blank" rel="noopener noreferrer">https://www.bing.com/new），注册一个微软帐号然后登录，然后就可以使用免费的GPT-4服务了，并且天然有搜索功能加持。</a></p>
+<figure><img src="@source/posts/2023/assets/image-20231031163728574.png" alt="ChatGPT on Bing" tabindex="0" loading="lazy"><figcaption>ChatGPT on Bing</figcaption></figure>
+<p>原来微软限制用户只能在自家的 Edge 浏览器上使用 New Bing，现在条件放宽了，在 Chrome 浏览器上也可以登录和使用。在 Bing 搜索中使用 GPT-4 是免费的，虽然微软对每个用户限定了每轮对话只能使用 20 次，每天总共限定使用 200 次，但这对于不常使用 AI 的用户来讲，已经足够用了。</p>
+<p>用户还可以在手机上下载微软的 Skype 或 Bing App，在这两款 App 上也可以免费使用 GPT-4，<strong>并且没有次数限制</strong>。</p>
+<p>微软作为 OpenAI 的大股东，曾在 2019 年 7 月向 OpenAI 投资了 10 亿美金，并且用自家的 Azure 云计算服务集群为 OpenAI 提供磅礴的算力，微软与 OpenAI 是合作关系，在 OpenAI 的火爆崛起中，微软被视为是传统搜索企业中最大的赢家。微软是率先在自家搜索引擎平台上免费提供 GPT-4 服务的，这一举措大大提升了 Bing 在搜索市场中的份额。</p>
+<p>用户在微软与竞争对手的角逐过程中得到了充分的实惠，特别在 2023 年 3 月 22 日谷歌推出了 Google Bard 以后，微软更是加大了免费力度。2023 年 3 月 26 日微软宣布在 Bing App 上提供免费的 GPT-4 功能，且没有次数限制。</p>
+<p>也就是说，用户只要下载承载了必应搜索功能的 Bing App，就可以免费使用 GPT-4 服务了。</p>
+<h2 id="在-poe-上使用-chatgpt" tabindex="-1"><a class="header-anchor" href="#在-poe-上使用-chatgpt"><span>在 poe 上使用 ChatGPT</span></a></h2>
+<p>poe（<a href="https://poe.com/%EF%BC%89%E6%98%AF%E4%B8%80%E4%B8%AAAI%E9%9B%86%E5%90%88%E5%B9%B3%E5%8F%B0%EF%BC%8C%E5%AE%83%E6%8A%8A%E5%B8%B8%E8%A7%81%E7%9A%84AI%E9%83%BD%E9%9B%86%E5%90%88%E5%9C%A8%E4%BA%86%E5%AE%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B9%B3%E5%8F%B0%E4%B9%8B%E4%B8%8A%EF%BC%8C%E4%BB%A5%E4%B8%80%E4%B8%AA%E4%BD%8E%E5%BB%89%E7%9A%84%E6%80%BB%E5%8C%85%E4%BB%B7%E6%A0%BC%E2%80%94%E2%80%94%E5%A4%A7%E7%BA%A6" target="_blank" rel="noopener noreferrer">https://poe.com/）是一个AI集合平台，它把常见的AI都集合在了它自己的平台之上，以一个低廉的总包价格——大约</a> 20 美金，让用户一站使用多款著名的 AI 工具，例如 GPT-4、Claude2、Midjourney 等。</p>
+<figure><img src="@source/posts/2023/assets/image-20231031171243959.png" alt="poe订阅面板" tabindex="0" loading="lazy"><figcaption>poe订阅面板</figcaption></figure>
+<p>**使用 poe 的好处是，在大陆它你可以直接访问与使用它，没有什么限制。**你不需要梯子，也不需要购买云主机。在 poe 上，ChatGPT 3.5 版本是免费的，只有你想使用更为强大的 GPT-4 时，才需要付费。</p>
+<h2 id="使用-claude" tabindex="-1"><a class="header-anchor" href="#使用-claude"><span>使用 Claude</span></a></h2>
+<p>Claude（<a href="https://claude.ai" target="_blank" rel="noopener noreferrer">https://claude.ai</a>）是与 ChatGPT 几乎齐名的另一款大语言模型（LLM，Large Language Model）AI，我们不得不提。它有两个版本，一个是默认的免费版本，另一个是收费的 Pro 版本，它的收费标准仍然是每月 20 美元。</p>
+<p>Claude 对大陆是访问+注册同时开放的，没有任何限制；并且，它的收费限制与 ChatGPT 还不同，ChatGPT 的免费版本是低级的 3.5 版本，功能不比付费的 GPT-4 强大，而 Claude 无论是免费版本，还是收费版本，都是强大的最新的 Claude2 版本，它只是在使用次数和每日字节吞吐量上做了限制，功能是一样的。</p>
+<p>这一点 Claude 与微软最初的 New Bing 的 Web 版本很像，只是限制使用次数，并不对自家可以提供的强大功力有所隐藏。</p>
+<p>在 Claude 的网站上，平台对 Pro 版本的收费做了这样的解释：</p>
+<blockquote>
+<p>像 Claude2 这样强大的模型，需要消耗大量强大的计算机算力，尤其是在响应大型附件和长时间对话的时候。我们设置免费版本的使用限制，以及对 Pro 版本收费，是为了确保 Claude2 可以被更多人免费试用。</p>
+</blockquote>
+<p>这一理由非常正当，探长由衷赞同。</p>
+<p>看到这里，有人可能有疑问，既然 ChatGPT 在 AI 大语言模型领域处于领先地位，我们只使用最先进的 GPT-4 就可以了，为什么这里还要介绍 Claude 呢？</p>
+<p>Anthropic 是 Claude 的开发商，它是由一群来自 Google Brain、OpenAI 和 DeepMind 的人工智能工程师联合创立的。其中 Dario Amodei 是 Claude 的开发负责人，他是 OpenAI 的前研究副总裁，在他 2021 年 12 月从 OpenAI 离开时，OpenAI 在大语言模型 AI 上已经取得了突破性的进展，但是他的开发理念与上司发生了冲突，他不得不离开。</p>
+<p>Dario Amodei 认为，人工智能安全是人工智能发展的关键，OpenAI 应该更加重视人工智能安全方面的研究和开发。然而，OpenAI 的首席执行官 Sam Altman 认为，OpenAI 应该把重点放在人工智能技术的开发上——至少当时应该如此，至于人工智能安全方面的研究，只能以后由其他组织来承担。</p>
+<p>Dario Amodei 和他的一些同事一起离开了 OpenAI，创立了 Anthropic 公司，并在 2022 年 12 月对外发布了 Claude。Claude 并不比 ChatGPT 差，因为打造它的核心人员，与 ChatGPT 是同一班人马。</p>
+<p>在实践中我们也发现，OpenAI 的 ChatGPT，即使是 GPT-4 版本，<strong>在处理小说故事创作等创意工作时，总是急于完成工作而让输出结果的结尾显得仓促草率</strong>，这让文字结果的结尾看起来不甚完美甚至糟糕，有一种甘蔗啃到了末梢突然不甜的感觉。而 Claude，尤其是 Claude2，擅长处理大文本、长问题，尤其在创意故事生成这类问题上，它的表现明显优于 GPT-4。</p>
+<p>但我们并不能说 GPT-4 就比 Claude2 弱，就因此要放弃 GPT-4 而改用 Claude2，这也是不合适的。事实上 <strong>GPT-4 的 Data Analytics 功能非常强大，它用生成现实世界中可以真实运行的代码这一形式，规避或减轻了大语言模型 AI 的一个共同缺点——对不甚了解的问题一本正经地胡说八道</strong>。</p>
+<p>出于同一班人马之手的两个强大 AI，它们只是在优化方向上有所不同，属于各有所长，我们各取所长即可，不必厚此薄彼。</p>
+<p>读到这里，你有没有发现我为什么要特意介绍 poe ，虽然它只是一个 AI 集合，并不是一个独立而强大的 AI？因为对于 Claude2 Pro 和 GPT-4，分别购买需要 40 美元，在 poe 上购买，20 美元就够了。</p>
+<h2 id="使用-google-bard" tabindex="-1"><a class="header-anchor" href="#使用-google-bard"><span>使用 Google Bard</span></a></h2>
+<p>如果我们在 GPT-4 之外可以考虑使用 Claude，那么另外一款大语言模型 AI——Google Bard 也不得不考虑。</p>
+<p>OpenAI 的 ChatGPT 之所以能够取得成功，这与 OpenAI 在获得了微软的投资以后，疯狂加大模型的参数量是分不开的。</p>
+<p>2019 年 2 月，OpenAI 发布的 GPT-2 参数量仅为 15 亿，预训练数据量只有 40GB，能力表现平平。2019 年 7 月，OpenAI 拿到微软的 10 亿美金投资及庞大的 Azure 云计算资源，开始实施“大力出奇迹”的训练策略，2020 年 5 月发布的 GPT-3，其参数量达到了 1750 亿，预训练数据量达到了 45TB，效果开始突显。</p>
+<p>2022 年 11 月 30 日，OpenAI 公开发布的 ChatGPT，也被称为 GPT-3.5，参数量和 GPT-3 一样，也是 1750 亿，但它是一个在 GPT-3 的基础上经过指令调优和 RLHF（人类反馈强化学习，Reinforcement Learning from Human Feedback）调优而得到的产品，效果可谓石破天惊。</p>
+<p>2023 年 1 月，微软马上又向 OpenAI 追加了 100 亿投资，OpenAI 用这笔钱加快新模型的训练，同年 3 月 14 日 OpenAI 发布了 GPT-4，从而夯实了 OpenAI 在大语言模型领域的领先地位及“大力出奇迹”策略的正确性。</p>
+<p>OpenAI 用 GPT-4 的通用智能彻底折服了众生，OpenAI 没有公开 GPT-4 的参数量，据权威人士推测，GPT-4 的模型参数量达到了惊人的 1.8 万亿。OpenAI 在尝到了“大力”带来的好处之后，以及微软及时送上的&quot;子弹&quot;，它是把“大力出奇迹”这一招发挥到了极致。</p>
+<p>但是，我们要明白，GPT 是什么？是 Generative Pre-trained Transformer 的缩写，是基于 Transformer 的生成式预训练大语言模型，而 Transformer 又是什么？</p>
+<p>Transformer 模型是一种用于序列到序列任务的神经网络架构，Transformer 模型的核心思想及主要贡献解决了是注意力机制 (Attention Mechanism)。注意力机制允许模型同时关注输入序列的不同位置，这使得模型能够更好地理解输入序列的语义，ChatGPT 之所以在加大模型参数量及训练语料数据量之后可以获得成功，与 Transformer 解决的注意力机制密不可分。</p>
+<p>而 Transformer 正是谷歌大脑的 AI 研究人员于 2017 年 6 月，在论文《Attention is All You Need》中公开提出的。谷歌将自己在 NLP（自然语言处理，Natural Language Processing）领域的研究成果免费共享给了全世界，但却被它的学生 OpenAI 后来居上超越了自己，并且 OpenAI 还是与微软合作，让谷歌的搜索市场受到了强大的冲击。</p>
+<p>论技术，谷歌本身就是发源地，论金钱和算力，谷歌也不缺。2023 年 3 月 22 日，谷歌发布了自己的大语言模型——Google Bard，经过几番更新，Google Bard 已经非常完善，支持连接最新的网络数据，与其搜索服务结合起来，共同为用户提供更加精准有用的问答服务。目前 Google Bard 已经完全支持中文，并且是完全免费的，大陆用户只需要一个 Gmail 帐号就可以使用。</p>
+<p>根据 OpenAI 的技术报告，GPT-4 的训练数据截止日期是 2021 年 9 月，在此之后的信息 GPT-4 是不知道的。而 Google Bard，在实践中发现，它像海浪一样，与它的全网索引是结合起来的，数据是不断更新的，在涉及新闻及最新的消息查询时，Google Bard 是非常值得考虑的。</p>
+<h2 id="回顾" tabindex="-1"><a class="header-anchor" href="#回顾"><span>回顾</span></a></h2>
+<p>最后回顾一下。</p>
+<p>我们有如下五种方式直接使用出色的大语言模型 AI 服务：</p>
+<ul>
+<li>一，使用 GPT-4，网站是<a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer">https://chat.openai.com</a>，使用礼品卡充值付费；</li>
+<li>二，在 New Bing 或 Bing App 上使用免费的 GPT-4；</li>
+<li>三，在 AI 集合平台 poe 上使用 GPT-4 或 Claude2，网站是<a href="https://poe.com" target="_blank" rel="noopener noreferrer">https://poe.com</a>；</li>
+<li>四，使用 Claude2，网站是<a href="https://claude.ai" target="_blank" rel="noopener noreferrer">https://claude.ai</a>；</li>
+<li>五，使用 Google Bard，网址是<a href="https://bard.google.com" target="_blank" rel="noopener noreferrer">https://bard.google.com</a>。</li>
+</ul>
+<p><strong>参考链接</strong></p>
+<ul>
+<li><a href="https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage" target="_blank" rel="noopener noreferrer">https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage</a></li>
+<li><a href="https://blog.infuseai.io/gpt-model-past-introduction-1e2558462e41" target="_blank" rel="noopener noreferrer">https://blog.infuseai.io/gpt-model-past-introduction-1e2558462e41</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/620494604" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/620494604</a></li>
+<li><a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/1706.03762</a></li>
+</ul>
+</div></template>
+
+
+-shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "wechat"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"images/wxpaycode.jpg"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "alipay"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"images/alipaycode.jpg"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "title"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">""</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "button"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"打赏"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "alipayText"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"支付宝打赏"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "wechatText"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"微信打赏"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "page-toc-button"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "maxTocDepth"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "minTocSize"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "insert-logo-link"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "src"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://yishulun.com/avatar.png"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "url"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://yishulun.com"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "style"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"background: none; max-height: 50px; border-radius: 50%;"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="back-to-top-button-回到顶部按钮" tabindex="-1"><a class="header-anchor" href="#back-to-top-button-回到顶部按钮"><span>back-to-top-button 回到顶部按钮</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>         "back-to-top-button"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="code-代码添加行号-复制按钮" tabindex="-1"><a class="header-anchor" href="#code-代码添加行号-复制按钮"><span>code 代码添加行号&amp;复制按钮</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins" : [ "code" ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果想去掉复制按钮，可配置</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>"pluginsConfig": {</span></span>
+<span class="line"><span>      "code": {</span></span>
+<span class="line"><span>        "copyButtons": false</span></span>
+<span class="line"><span>      }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="insert-logo-link-插入logo和链接" tabindex="-1"><a class="header-anchor" href="#insert-logo-link-插入logo和链接"><span>insert-logo-link 插入logo和链接</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [ "insert-logo-link" ]</span></span>
+<span class="line"><span>    "pluginsConfig": {</span></span>
+<span class="line"><span>      "insert-logo": {</span></span>
+<span class="line"><span>        "src": "https://yishulun.com",</span></span>
+<span class="line"><span>        "url": "avator.jpg"</span></span>
+<span class="line"><span>      }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果插入的图片过大，样式不匹配，可以在styles/website.css中通过样式控制。</p>
+<h3 id="search-pro-高级搜索" tabindex="-1"><a class="header-anchor" href="#search-pro-高级搜索"><span>search-pro 高级搜索</span></a></h3>
+<p>在使用此插件之前，需要将默认的search和lunr 插件去掉；在搜索结果中，关键字会高亮；自带的 search 插件，关键字不会高亮</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>          "-lunr", </span></span>
+<span class="line"><span>          "-search", </span></span>
+<span class="line"><span>          "search-pro"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="emphasize-为文字加上底色" tabindex="-1"><a class="header-anchor" href="#emphasize-为文字加上底色"><span>emphasize 为文字加上底色</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>        "emphasize"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后在markdown / asciidoc内容中，使用以下内容突出显示一些文本：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>This text is {% em %}highlighted !{% endem %}</span></span>
+<span class="line"><span>This text is {% em %}highlighted with **markdown**!{% endem %}</span></span>
+<span class="line"><span>This text is {% em type="green" %}highlighted in green!{% endem %}</span></span>
+<span class="line"><span>This text is {% em type="red" %}highlighted in red!{% endem %}</span></span>
+<span class="line"><span>This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果：</p>
+<p>:<VPIcon icon="This text is {% em %}highlighted !{% endem %}
+This text is {% em %}highlighted with **markdown**!{% endem %}
+This text is {% em %}highlighted in green!{% endem %}
+This text is {% em %}highlighted in red!{% endem %}
+This text is {% em %}highlighted with a custom color!{% endem %}" type="red" color="#ff0000" />:</p>
+<h3 id="splitter-侧边栏宽度可调节" tabindex="-1"><a class="header-anchor" href="#splitter-侧边栏宽度可调节"><span>splitter 侧边栏宽度可调节</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>        "splitter"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="page-toc-button-悬浮目录" tabindex="-1"><a class="header-anchor" href="#page-toc-button-悬浮目录"><span>page-toc-button 悬浮目录</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins" : [ "page-toc-button" ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>可选配置项：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>"pluginsConfig": {</span></span>
+<span class="line"><span>        "page-toc-button": {</span></span>
+<span class="line"><span>            "maxTocDepth": 2,</span></span>
+<span class="line"><span>            "minTocSize": 2</span></span>
+<span class="line"><span>       }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>maxTocDept 标题的最大深度（2 = h1 + h2 + h3）。不支持值&gt; 2。 默认2<br>
+minTocSize 显示toc按钮的最小toc条目数。 默认 2</p>
+<h3 id="打赏按钮-reward" tabindex="-1"><a class="header-anchor" href="#打赏按钮-reward"><span>打赏按钮 reward</span></a></h3>
+<p>这是国人铭哥开发的插件，配置：</p>
+<pre><code>&quot;pluginsConfig&quot;: ['
+    &quot;reward&quot;: {
+        &quot;wechat&quot;: &quot;http://unclealan.cn/usr/themes/seventeen/dist/images/weixin.JPG&quot;,
+        &quot;alipay&quot;: &quot;http://unclealan.cn/usr/themes/seventeen/dist/images/alipay.JPG&quot;,
+        &quot;button&quot;: &quot;打赏&quot;,
+        &quot;alipayText&quot;: &quot;支付宝&quot;,
+        &quot;wechatText&quot;: &quot;微信&quot;
+    },
+]
+</code></pre>
+<h3 id="klipse-嵌入类似ide的功能" tabindex="-1"><a class="header-anchor" href="#klipse-嵌入类似ide的功能"><span>klipse 嵌入类似IDE的功能</span></a></h3>
+<p>Klipse配置:</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": ["klipse"]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>用法，在 markdown 中：</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [x </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> x </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> range</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">10</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)]</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>js:</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>1+2</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="auto-scroll-table-表格滚动条" tabindex="-1"><a class="header-anchor" href="#auto-scroll-table-表格滚动条"><span>auto-scroll-table 表格滚动条</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>  "plugins": ["auto-scroll-table"]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>默认不够宽也是没有滚动条的。</p>
+<h3 id="click-reveal-点击显示" tabindex="-1"><a class="header-anchor" href="#click-reveal-点击显示"><span>click-reveal 点击显示</span></a></h3>
+<p>默认隐藏，点击可显示。</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>    "plugins": [</span></span>
+<span class="line"><span>        "click-reveal"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用方式，markdown中。</p>
+<p>代码：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{% reveal %}</span></span>
+<span class="line"><span>要被隐藏的内容</span></span>
+<span class="line"><span>{% endreveal %}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果：</p>
+<p>:<VPIcon icon="{% reveal %}
+要被隐藏的内容
+{% endreveal %}" />:</p>
+<p>默认显示的文字是 Click to show , 使用text自定义显示文字。代码：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{% reveal text="点击显示" %}</span></span>
+<span class="line"><span>要被隐藏的内容</span></span>
+<span class="line"><span>{% endreveal %}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果：</p>
+<p>:<VPIcon icon="{% reveal %}
+要被隐藏的内容
+{% endreveal %}" text="点击显示" />:</p>
+<p>支持html语法：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>&#x3C;div class="click_reveal"></span></span>
+<span class="line"><span>    &#x3C;span> 点击显示html &#x3C;/span></span></span>
+<span class="line"><span>    &#x3C;div>&#x3C;pre>&#x3C;code>隐藏的文字&#x3C;/code>&#x3C;/pre>&#x3C;/div></span></span>
+<span class="line"><span>&#x3C;/div></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果：</p>
+<p>:::</p>
+<div class="click_reveal">
+    <span> 点击显示html </span>
+    <div><pre><code>隐藏的文字</code></pre></div>
+</div>
+:::
+<h3 id="使用npm安装单个插件" tabindex="-1"><a class="header-anchor" href="#使用npm安装单个插件"><span>使用npm安装单个插件</span></a></h3>
+<p>如果觉得使用gitbook install安装有点慢，可以单个下载、安装插件，例如：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>npm i gitbook-plugin-insert-logo-link</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2 id="_1-6-如何上传图片" tabindex="-1"><a class="header-anchor" href="#_1-6-如何上传图片"><span>1.6 如何上传图片</span></a></h2>
+<p>上传图片是在typora中，间接使用Picgo上传到图床的。</p>
+<p>推荐使用Picgo core，而非Picgo App。后者需要在本地启动一个web server，相当于往本地一个图片上传接口提交。显然Picgo core通过进程直接调用，效果更好。</p>
+<p>推荐Picgo core配置：</p>
+<div class="language-json line-numbers-mode" data-highlighter="shiki" data-ext="json" data-title="json" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picBed"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "current"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"githubPlus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "githubPlus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "branch"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"master"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "customUrl"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://cdn.jsdelivr.net/gh/rixingyike/images"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "origin"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"github"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "path"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2021"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "repo"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"rixingyike/images"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "token"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"在github上获取"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "uploader"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"githubPlus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "transformer"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"path"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "settings"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "showUpdateTip"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "rename"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "autoRename"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "uploadNotification"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">true</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picgoPlugins"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-github-plus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">true</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-super-prefix"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">true</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-compress"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">true</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-gitee"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "picgo-plugin-gitee-uploader"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">false</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picgo-plugin-super-prefix"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "prefixFormat"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"YYYYMMDDHHmmss"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picgo-plugin-github-plus"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "lastSync"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2021-03-28 02:27:30"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "picgo-plugin-compress"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "compress"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"imagemin"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "key"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">null</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "nameType"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"none"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>对该配置的说明：</p>
+<ul>
+<li>jsdelivr是用于cdn加速的，加速图片被用户快速访问到。</li>
+<li>&quot;picgo-plugin-super-prefix&quot;这个插件是用于上传前重命名文件的，因为重名文件不允许上传，会报一个“sha不支持”的错误。使用这个插件，须确保默认配置&quot;autoRename&quot;为false。</li>
+<li>上传使用&quot;picgo-plugin-github-plus&quot;插件，该插件在上传上优先默认上传功能及其它插件。它同时支持上传github、gitee两个图床。注意，当启用它时，需要将&quot;picgo-plugin-gitee&quot;和&quot;picgo-plugin-gitee-uploader&quot;都置为false。</li>
+</ul>
+<h2 id="_1-7-在vscode中定义markodwn代码版本" tabindex="-1"><a class="header-anchor" href="#_1-7-在vscode中定义markodwn代码版本"><span>1.7 在vscode中定义markodwn代码版本</span></a></h2>
+<p>有些内容是重复的，可以借助snippets功能快捷创建。共有两个配置需要完成。</p>
+<p>现在假设我们需要一个与hugo对应的snippet，首先需要选择文件-&gt;用户片断，新建一个markdown.json文件：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{</span></span>
+<span class="line"><span>  "new hugo post header": {</span></span>
+<span class="line"><span>    "prefix": "hugo",</span></span>
+<span class="line"><span>    "body": [</span></span>
+<span class="line"><span>      "---",</span></span>
+<span class="line"><span>      "title: $TM_FILENAME_BASE",</span></span>
+<span class="line"><span>      "sidebar: false</span></span>
+<span class="line"><span>date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",</span></span>
+<span class="line"><span>      "---"</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>因为vscode默认没有这个模板，不像其它c、cpp片断，单是完成这一步好不好使。还需要在用户的settings.json文件中添加：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>"[markdown]": {</span></span>
+<span class="line"><span>    "editor.formatOnSave": true,</span></span>
+<span class="line"><span>    "editor.renderWhitespace": "all",</span></span>
+<span class="line"><span>    "editor.quickSuggestions": {</span></span>
+<span class="line"><span>        "other": true,</span></span>
+<span class="line"><span>        "comments": true,</span></span>
+<span class="line"><span>        "strings": true</span></span>
+<span class="line"><span>    },</span></span>
+<span class="line"><span>    "editor.acceptSuggestionOnEnter": "on"</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+
+

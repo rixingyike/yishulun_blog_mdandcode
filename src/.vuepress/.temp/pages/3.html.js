@@ -1,0 +1,31 @@
+import comp from "C:/Users/98301/work/yishulun_com_blog/src/.vuepress/.temp/pages/3.html.vue"
+const data = JSON.parse("{\"path\":\"/3.html\",\"title\":\"香蕉 3\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"pen-to-square\",\"date\":\"2022-01-07T00:00:00.000Z\",\"category\":[\"香蕉\"],\"tag\":[\"黄\",\"弯曲的\",\"长\"],\"gitInclude\":[],\"description\":\"香蕉 3 标题 2 这里是内容。 标题 3 这里是内容。\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/3.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"香蕉 3\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"香蕉 3 标题 2 这里是内容。 标题 3 这里是内容。\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"黄\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"弯曲的\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"长\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-01-07T00:00:00.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"香蕉 3\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2022-01-07T00:00:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[{\"level\":2,\"title\":\"标题 2\",\"slug\":\"标题-2\",\"link\":\"#标题-2\",\"children\":[{\"level\":3,\"title\":\"标题 3\",\"slug\":\"标题-3\",\"link\":\"#标题-3\",\"children\":[]}]}],\"readingTime\":{\"minutes\":0.12,\"words\":36},\"filePathRelative\":\"posts/banana/3.md\",\"localizedDate\":\"2022年1月7日\",\"excerpt\":\"\\n<h2>标题 2</h2>\\n<p>这里是内容。</p>\\n<h3>标题 3</h3>\\n<p>这里是内容。</p>\\n\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
+tps://yishulun.com\\\"}]}\"]]},\"headers\":[{\"level\":2,\"title\":\"一、独立思考三步：观察➜思考➜提问\",\"slug\":\"一、独立思考三步-观察➜思考➜提问\",\"link\":\"#一、独立思考三步-观察➜思考➜提问\",\"children\":[]},{\"level\":2,\"title\":\"二、如何训练发现新规则的创造力？\",\"slug\":\"二、如何训练发现新规则的创造力\",\"link\":\"#二、如何训练发现新规则的创造力\",\"children\":[]},{\"level\":2,\"title\":\"三、解决复杂问题第一步：找到问题本质\",\"slug\":\"三、解决复杂问题第一步-找到问题本质\",\"link\":\"#三、解决复杂问题第一步-找到问题本质\",\"children\":[]},{\"level\":2,\"title\":\"四、训练批判性思维，第二步：发现无懈可击的依据\",\"slug\":\"四、训练批判性思维-第二步-发现无懈可击的依据\",\"link\":\"#四、训练批判性思维-第二步-发现无懈可击的依据\",\"children\":[]},{\"level\":2,\"title\":\"五、锤炼语言表达能力，第三步：表达出来\",\"slug\":\"五、锤炼语言表达能力-第三步-表达出来\",\"link\":\"#五、锤炼语言表达能力-第三步-表达出来\",\"children\":[]},{\"level\":2,\"title\":\"六、保持怀疑常识的习惯\",\"slug\":\"六、保持怀疑常识的习惯\",\"link\":\"#六、保持怀疑常识的习惯\",\"children\":[]}],\"readingTime\":{\"minutes\":1.42,\"words\":425},\"filePathRelative\":\"posts/2024/3.md\",\"localizedDate\":\"2024年1月20日\",\"excerpt\":\"\\n<p>这是由日本某位大学讲师撰写的一本书，内容不厚，观点很是新颖，翻了几页就被吸引了。我不会因为日本在近代侵略过我们，就不读日本人写的东西。相反，对于我们的敌人，我们更应该了解。相信你看了此书之后，也会对作者产生一丝佩服，日本确实是一个很擅长自省的民族。</p>\\n<p>首先，作者提出，优秀的定义，在 AI 诞生后，将会被重新定义。现在，全世界最推崇的能力是：</p>\\n<p>解决复杂问题的能力！</p>\\n<p>什么是复杂问题？这是与简单问题相对立的，指哪些跨域的、跨学科的、没有出现过的问题。</p>\\n<p>人最富贵的能力是什么？</p>\\n<p>是提出不一样见解的创造力。</p>\\n<p>本书作者撰写的是批判性思维，由这种思维驱动，人可以得出不一样的、合理的、富有创造力的新见解。这是作者撰写本书的目的。</p>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
