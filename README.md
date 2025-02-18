@@ -16,3 +16,4 @@ theme的源码在node_modules/vuepress-theme-hope目录下。全局配置在这�
 
 发布时，使用了Git Actions在线自动编译，然后将编译后的`src/.vuepress/dist`目录推到了线上rixingyike.github.com仓库。
 
+robot.txt会自动生成，在public下面不需要手写放置。
