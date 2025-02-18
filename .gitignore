@@ -5,4 +5,3 @@ src/.vuepress/.cache
 src/.vuepress/.temp
 .DS_Store
 .vscode
-pnpm-lock.yaml
