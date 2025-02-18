@@ -25,18 +25,19 @@ jobs:
         with:
           node-version: 22
       
-      # 安装 pnpm
-      - name: 安装 pnpm
-        run: npm install -g pnpm
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          run_install: false
 
       - name: Install dependencies
-        run: pnpm install --recursive --no-frozen-lockfile --force
+        run: bun install --recursive --no-frozen-lockfile --force
       
       - name: Build(构建文档)
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          pnpm docs:build
+          bun docs:build
           
       # 上传构建结果到 GitHub Pages
       - name: Upload build artifacts
@@ -50,7 +51,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.EXTERNAL_REPOSITORY_PERSONAL_ACCESS_TOKEN }}
         with:
-          source-directory: src/.vuepress/dist/
+          source-directory: .vuepress/dist/
           destination-github-username: rixingyike
           destination-repository-name: yishulun.com
           user-email: 9830131@qq.com
