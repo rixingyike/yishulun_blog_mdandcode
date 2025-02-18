@@ -1,8 +1,8 @@
 # Build and Release Folders
 node_modules
 src/.vuepress/dist
-src/.vuepress/cache
-src/.vuepress/temp
+src/.vuepress/.cache
+src/.vuepress/.temp
 .DS_Store
 .vscode
 pnpm-lock.yaml
