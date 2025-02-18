@@ -1,7 +1,7 @@
 # Build and Release Folders
 node_modules
-src/.vuepress/dist
-src/.vuepress/.cache
-src/.vuepress/.temp
+.vuepress/dist
+.vuepress/.cache
+.vuepress/.temp
 .DS_Store
 .vscode
