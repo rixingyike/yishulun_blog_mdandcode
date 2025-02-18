@@ -8,7 +8,7 @@ pnpm docs:clean-dev 清除缓存并启动开发服务器
 
 ## 配置
 
-theme的源码在node_modules/vuepress-theme-hope目录下。全局配置在这里：src\.vuepress\global_config.js。
+theme的源码在node_modules/vuepress-theme-hope目录下。全局配置在这里：src/.vuepress/global_config.js。
 
 可用的图标：https://icon-sets.iconify.design/fa6-solid/，所有的图标从这里查找可用名称。在站里面，会自动加上fa6-solid前缀，这个配置在theme.config里面。
 
