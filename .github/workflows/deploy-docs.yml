@@ -41,7 +41,7 @@ jobs:
       - name: Build (构建文档)
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm run docs:build > src/.vuepress/dist/
+        run: pnpm run docs:build
 
       # 上传构建结果到 GitHub Pages
       - name: Upload build artifacts
