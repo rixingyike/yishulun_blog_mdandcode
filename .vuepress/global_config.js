@@ -75,13 +75,8 @@ export default {
     url: blog_url,
   },
 
-  bundlerConfig: {
-    viteOptions: {
-      plugins: [vueJsx()]
-    }
-  },
-
   plugins: [
+    vueJsx(),
     ["md-enhance", { 
       tex: false, // 启用 Tex 语法（可选）
       container: true // 启用容器解析，避免误解析 HTML

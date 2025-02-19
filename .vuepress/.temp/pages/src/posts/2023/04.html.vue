@@ -238,7 +238,6 @@
 <h2 id="小结" tabindex="-1"><a class="header-anchor" href="#小结"><span>小结</span></a></h2>
 <p>1946年电子计算机被发明出来的时候，当时没有多少人意识到它将发挥多大作用，我们现在知道的信息革命其实是我们后来总结的。今天开始的智能革命，其实具有同样的特征，如果说ChatGPT的发布还不能让你感到震撼的话，那么今天它发布的ChatGPT Plugins，应该能够引起你足够的重视了。一个联网的智能机器人，无穷的数据+无穷的算力，谁也不知道将产生怎样的结果。<strong>智能革命</strong>已经到来，AI或许不会取代的人，但会使用AI的人，一定会把不会使用AI的人取代。</p>
 <p>你对ChatGPT了解多少，开始试用了吗？如果你是一名程序员，开始研究它的API文档了吗？</p>
-<p>新人从0到1编程自学经典<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">《微信小游戏开发》</a>全套书籍已经在京东、当当上架，需要签名版及1v1辅导的读者请与作者联系。作者博客：<a href="https://yishulun.com/" target="_blank" rel="noopener noreferrer">艺述论</a>。</p>
 </div></template>
 
 

@@ -3,7 +3,7 @@
 <figure><img src="@source/src/posts/2022/assets/image-20221222105336458.png" alt="image-20221222105336458" tabindex="0" loading="lazy"><figcaption>image-20221222105336458</figcaption></figure>
 <p>这个测试仅是一家云商服务器的结果，可能换一家云商，结果就不一样了，数据仅供参考。</p>
 <p>那么解决Github仓库不能送拉的问题呢？</p>
-<p>使用这个网址工具（<a href="https://ping.chinaz.com/%EF%BC%89%E4%BE%9D%E6%AC%A1%E6%B5%8B%E8%AF%95%E4%B8%8B%E9%9D%A2%E4%B8%89%E4%B8%AA%E5%9F%9F%E5%90%8D%E7%9A%84%E5%8F%AF%E7%94%A8IP%EF%BC%9A" target="_blank" rel="noopener noreferrer">https://ping.chinaz.com/）依次测试下面三个域名的可用IP：</a></p>
+<p>使用这个网址工具（<a href="https://ping.chinaz.com" target="_blank" rel="noopener noreferrer">https://ping.chinaz.com</a>）依次测试下面三个域名的可用IP：</p>
 <ul>
 <li><a href="http://github.com" target="_blank" rel="noopener noreferrer">github.com</a></li>
 <li><a href="http://github.global.ssl.fastly.net" target="_blank" rel="noopener noreferrer">github.global.ssl.fastly.net</a></li>
@@ -26,17 +26,13 @@
 <p>这与具体指令要做的事情有关，在进行git操作时，github.com域名是必连的，github.global.ssl.fastly.net域名是为了处理ssl安全连接的，而assets-cdn.github.com域名是cdn加速域名，在github提交中暂时用不到。</p>
 <p>除了分析指令本身的功能或源码之外，还可以在本地使用网络监测工具。例如netstat指令：</p>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>$ netstat -a | grep "github"</span></span>
-<span class="line"><span>tcp4       0      0  192.168.31.224.50744   github.com.ssh         SYN_SENT</span></span></code></pre>
+<span class="line"><span>tcp4   0   0  192.168.31.224.50744   github.com.ssh   SYN_SENT</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="有没有防墙提交工具" tabindex="-1"><a class="header-anchor" href="#有没有防墙提交工具"><span>有没有防墙提交工具？</span></a></h2>
 <p>有没有一个自动防墙提交的工具呢？这个工具最好可以封装成一个指令，例如github_safe_push。github自有的CLI工具指令gh并不能担负这个职责。</p>
 <p>在网络上搜索了一下，暂时没有找到具有这样功能的工具。从理念上讲，这样的工具应该是可以实现的，使用Python代码先查询可用域名，继而进行网络设置，最后调用原生的git push指令提交代码。</p>
 <h2 id="使用国内csdn的缓存服务" tabindex="-1"><a class="header-anchor" href="#使用国内csdn的缓存服务"><span>使用国内CSDN的缓存服务</span></a></h2>
 <p>2022-12-24更新：</p>
-<p>CSDN为国内程序员提供了一项Github缓存、加速服务</p>
-<blockquote>
-<p>GitHub 缓存服务是 CSDN 为开发者提供的一项代码仓库加速服务。</p>
-</blockquote>
-<p>如果感兴趣，可以从这里了解：<a href="https://gitcode.net/gitcode/help-docs/-/wikis/docs/user/project/repo/repo-mirror" target="_blank" rel="noopener noreferrer">https://gitcode.net/gitcode/help-docs/-/wikis/docs/user/project/repo/repo-mirror</a></p>
+<p>CSDN为国内程序员提供了一项Github缓存、加速服务，它是 CSDN 为开发者提供的一项代码仓库加速服务。感兴趣可以从这里了解：<a href="https://gitcode.net/gitcode/help-docs/-/wikis/docs/user/project/repo/repo-mirror%E3%80%82" target="_blank" rel="noopener noreferrer">https://gitcode.net/gitcode/help-docs/-/wikis/docs/user/project/repo/repo-mirror。</a></p>
 </div></template>
 
 
