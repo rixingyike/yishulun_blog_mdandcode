@@ -13,7 +13,6 @@
   },
   "devDependencies": {
     "@shikijs/twoslash": "^3.0.0",
-    "@vitejs/plugin-vue-jsx": "^4.1.1",
     "@vuepress/bundler-vite": "2.0.0-rc.19",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.74",
     "eslint": "^9.20.1",

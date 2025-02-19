@@ -1,5 +1,4 @@
 // src\.vuepress\global_config.js
-import vueJsx from "@vitejs/plugin-vue-jsx";
 
 // 博客配置信息在这里定义
 const blog_url = "https://yishulun.com"
@@ -76,7 +75,6 @@ export default {
   },
 
   plugins: [
-    vueJsx(),
     ["md-enhance", { 
       tex: false, // 启用 Tex 语法（可选）
       container: true // 启用容器解析，避免误解析 HTML
