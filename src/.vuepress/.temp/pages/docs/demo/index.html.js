@@ -1,3 +1,16 @@
 import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/demo/index.html.vue"
-const data = JSON.parse("{\"path\":\"/docs/demo/\",\"title\":\"博客如何使用\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"博客如何使用\",\"index\":false,\"sidebar\":false,\"category\":[\"使用指南\"],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/docs/demo/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"博客如何使用\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-02-18T01:31:33.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-02-18T01:31:33.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"博客如何使用\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-02-18T01:31:33.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1739842293000,\"updatedTime\":1739842293000,\"contributors\":[{\"name\":\"LIYI\",\"username\":\"LIYI\",\"email\":\"9830131@qq.com\",\"commits\":1,\"url\":\"https://github.com/LIYI\"}]},\"readingTime\":{\"minutes\":0.07,\"words\":21},\"filePathRelative\":\"docs/demo/README.md\",\"localizedDate\":\"2025年2月18日\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/docs/demo/\",\"title\":\"博客如何使用\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"博客如何使用\",\"index\":false,\"sidebar\":false,\"category\":[\"使用指南\"],\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/docs/demo/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"博客如何使用\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"博客如何使用\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.07,\"words\":21},\"filePathRelative\":\"docs/demo/README.md\",\"excerpt\":\"\"}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

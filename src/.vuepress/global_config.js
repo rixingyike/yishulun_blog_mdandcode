@@ -1,4 +1,5 @@
 // src\.vuepress\global_config.js
+import { feedPlugin } from '@vuepress/plugin-feed'
 
 // 博客配置信息在这里定义
 const blog_url = "https://yishulun.com"
@@ -75,6 +76,10 @@ export default {
   },
 
   plugins: [
+    feedPlugin({
+      hostname: blog_url,
+      rss: true,
+    }),
     ["md-enhance", { 
       tex: false, // 启用 Tex 语法（可选）
       container: true // 启用容器解析，避免误解析 HTML
