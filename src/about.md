@@ -1,13 +1,6 @@
 ---
-editLink: false
-comment: false
-pageInfo: false
-date: 2002-12-22 10:50:22
-footer: false
+date: 2002-12-23
 sidebar: false
-aside: false
-hideComment: true
-hideShare: true
 cover: /assets/images/cover3.jpg
 ---
 # 关于作者
