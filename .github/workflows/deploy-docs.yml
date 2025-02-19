@@ -23,7 +23,7 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 18
       
       # 安装 pnpm
       - name: 安装 pnpm
@@ -42,7 +42,7 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
-          path: .vuepress/dist
+          path: src/.vuepress/dist
 
       # 部署到外部仓库
       - name: Deploy to external repository
@@ -50,7 +50,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.EXTERNAL_REPOSITORY_PERSONAL_ACCESS_TOKEN }}
         with:
-          source-directory: .vuepress/dist/
+          source-directory: src/.vuepress/dist/
           destination-github-username: rixingyike
           destination-repository-name: yishulun.com
           user-email: 9830131@qq.com

@@ -52,7 +52,7 @@ background: rgba(7, 248, 236, 0.15)
 
 ## 赞赏
 
-感谢赞赏，支持创新更多内容。
+感谢赞赏，支持创作更多内容。
 
 |   <img src="./assets/wexinpaycode.jpg" alt="微信" style="zoom:25%;max-width: 800px;" />   |   <img src="./assets/zhifubaopaycode.jpg" alt="支付宝" style="zoom:25%;max-width: 800px;" />   |
 | ---- | ---- | 

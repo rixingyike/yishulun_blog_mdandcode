@@ -2,8 +2,6 @@
 home: true
 layout: BlogHome
 icon: house
-title: 艺述论
-# footer: false
 heroImage: /avatar.png
 bgImage: /hero_home_bg.jpg
 heroText: 艺述论
@@ -30,5 +28,6 @@ projects:
     desc: 京东商城在售，套装共2册
     link: https://item.jd.com/13728755.html
 
-# footer: 自定义你的页脚文字
 ---
+
+Welcome。

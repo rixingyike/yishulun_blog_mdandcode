@@ -1,0 +1,16 @@
+import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2022/31.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/2022/31.html\",\"title\":\"只有一个程序员开发和运营，BuiltWith网站年入1400万美元是怎么做到的？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"date\":\"2022-12-23T00:00:00.000Z\",\"gitInclude\":[],\"description\":\"只有一个程序员开发和运营，BuiltWith网站年入1400万美元是怎么做到的？ Gary Brewer和他的BuiltWith公司Gary Brewer和他的BuiltWith公司 国外有一位程序员叫 Gary Brewer，他一人撑起了一个公司，这个公司还年入 1400 万美元，约人民币 1 亿元。 对此，你是啥想法？先别着急说不可能，这事儿确实是...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/posts/2022/31.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"只有一个程序员开发和运营，BuiltWith网站年入1400万美元是怎么做到的？\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"只有一个程序员开发和运营，BuiltWith网站年入1400万美元是怎么做到的？ Gary Brewer和他的BuiltWith公司Gary Brewer和他的BuiltWith公司 国外有一位程序员叫 Gary Brewer，他一人撑起了一个公司，这个公司还年入 1400 万美元，约人民币 1 亿元。 对此，你是啥想法？先别着急说不可能，这事儿确实是...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-12-23T00:00:00.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"只有一个程序员开发和运营，BuiltWith网站年入1400万美元是怎么做到的？\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2022-12-23T00:00:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[{\"level\":2,\"title\":\"逆向思维，建立企业技术信息数据库\",\"slug\":\"逆向思维-建立企业技术信息数据库\",\"link\":\"#逆向思维-建立企业技术信息数据库\",\"children\":[]},{\"level\":2,\"title\":\"与AboutUs合作开始飞起\",\"slug\":\"与aboutus合作开始飞起\",\"link\":\"#与aboutus合作开始飞起\",\"children\":[]},{\"level\":2,\"title\":\"启示\",\"slug\":\"启示\",\"link\":\"#启示\",\"children\":[]}],\"readingTime\":{\"minutes\":5.59,\"words\":1676},\"filePathRelative\":\"posts/2022/31.md\",\"localizedDate\":\"2022年12月23日\",\"excerpt\":\"\\n<figure><figcaption>Gary Brewer和他的BuiltWith公司</figcaption></figure>\\n<p>国外有一位程序员叫 Gary Brewer，他一人撑起了一个公司，这个公司还年入 1400 万美元，约人民币 1 亿元。</p>\\n<p>对此，你是啥想法？先别着急说不可能，这事儿确实是真的：这名程序员名为 Gary Brewer，他创建的 BuiltWith 背后没有销售团队，没有服务团队，也没有工程师。</p>\\n<p>啥都没有，这公司做什么能年入 1400 万美元？这又是一家什么公司？它的商业模式是什么？</p>\\n<h2>逆向思维，建立企业技术信息数据库</h2>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

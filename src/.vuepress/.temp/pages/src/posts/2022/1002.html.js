@@ -1,0 +1,16 @@
+import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/.vuepress/.temp/pages/src/posts/2022/1002.html.vue"
+const data = JSON.parse("{\"path\":\"/src/posts/2022/1002.html\",\"title\":\"为什么技术初创团队和大厂都选择开源？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"date\":\"2022-10-02T00:00:00.000Z\",\"category\":[\"编程\",\"创业\"],\"gitInclude\":[],\"description\":\"开源不就是把辛辛苦苦写出来的代码免费分享给所有人吗？你会不会觉得这样做的人是傻子，为什么大厂和初创团队还争相恐后去做这件事情？2022年了，国内程序员如果看不懂这个想象，就不要盲目去创业。\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/src/posts/2022/1002.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"为什么技术初创团队和大厂都选择开源？\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"开源不就是把辛辛苦苦写出来的代码免费分享给所有人吗？你会不会觉得这样做的人是傻子，为什么大厂和初创团队还争相恐后去做这件事情？2022年了，国内程序员如果看不懂这个想象，就不要盲目去创业。\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-10-02T00:00:00.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"为什么技术初创团队和大厂都选择开源？\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2022-10-02T00:00:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":2.4,\"words\":721},\"filePathRelative\":\"src/posts/2022/1002.md\",\"localizedDate\":\"2022年10月2日\",\"excerpt\":\"\\n<p>开源不就是把辛辛苦苦写出来的代码免费分享给所有人吗？你会不会觉得这样做的人是傻子，为什么大厂和初创团队还争相恐后去做这件事情？2022年了，国内程序员如果看不懂这个想象，就不要盲目去创业。</p>\\n\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

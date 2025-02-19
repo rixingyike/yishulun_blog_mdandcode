@@ -1,0 +1,16 @@
+import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/.vuepress/.temp/pages/src/posts/2022/1013.html.vue"
+const data = JSON.parse("{\"path\":\"/src/posts/2022/1013.html\",\"title\":\"JavaScript到底是不是面向对象语言？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"date\":\"2022-10-13T00:00:00.000Z\",\"category\":[\"编程\"],\"tags\":[\"语言\"],\"gitInclude\":[],\"description\":\"JavaScript到底是不是面向对象语言？ 当然是。 为了讲清楚这个问题，我们需要先看一看「什么是面向对象编程」和「什么是面向对象语言」。 什么是面向对象编程？使用面向对象语言进行的编程就是面向对象编程。 什么是面向对象语言？在面向对象编程中使用的编程语言就是编程语言。 好吧，是不是感觉我说了两句废话，确实，编程语言可以自举，但是概念不可以。在讨论面...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://yishulun.com/src/posts/2022/1013.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"艺述论\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"JavaScript到底是不是面向对象语言？\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"JavaScript到底是不是面向对象语言？ 当然是。 为了讲清楚这个问题，我们需要先看一看「什么是面向对象编程」和「什么是面向对象语言」。 什么是面向对象编程？使用面向对象语言进行的编程就是面向对象编程。 什么是面向对象语言？在面向对象编程中使用的编程语言就是编程语言。 好吧，是不是感觉我说了两句废话，确实，编程语言可以自举，但是概念不可以。在讨论面...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"语言\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-10-13T00:00:00.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"JavaScript到底是不是面向对象语言？\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2022-10-13T00:00:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"李艺\\\",\\\"url\\\":\\\"https://yishulun.com\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":3.34,\"words\":1003},\"filePathRelative\":\"src/posts/2022/1013.md\",\"localizedDate\":\"2022年10月13日\",\"excerpt\":\"\\n<p>当然是。</p>\\n<p>为了讲清楚这个问题，我们需要先看一看「什么是面向对象编程」和「什么是面向对象语言」。</p>\\n<p>什么是面向对象编程？使用面向对象语言进行的编程就是面向对象编程。</p>\\n<p>什么是面向对象语言？在面向对象编程中使用的编程语言就是编程语言。</p>\\n<p>好吧，是不是感觉我说了两句废话，确实，编程语言可以自举，但是概念不可以。在讨论面向对象语言的时候，一般要界定这门语言的三个面向对象特征：封装、继承和多态。凡具有这三个特征，就是面向对象语言；不具有，就不是。</p>\\n<p>也有人讲过，面向对象特征有四个：封装、抽象、继承和多态，比一般的说法多了一个抽象。其实抽象不能算是面向对象的基本特征，因为在面向过程编程中，也有抽象；本质上编程就是抽象，就是将现实世界中一个或几个层面的东西剥离出来，用编程语言表达出来及进行交互控制。</p>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
