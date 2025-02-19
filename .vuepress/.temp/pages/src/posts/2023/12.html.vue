@@ -59,7 +59,7 @@
 </blockquote>
 <p>全世界公认最快的学习方法是费曼学习法，即把学到的内容及时用自己的方式和语言输出一遍。形式多种多种，可以是文字、语音，或者视频。</p>
 <p>为了方便学习者做笔记，我为学习者专门在书外又编写了一套自学讲义，一共是 90 个 PDF，正好一课对应一个。在学习的时候，你可以以此讲义为基础，独立编写自己的学习心得，以加深理解和记忆。</p>
-<img src="/posts/2023/assets/image-20231015223235532.png" alt="image-20231015223235532" style="zoom: 50%;" />
+<img src="@source/src/posts/2023/assets/image-20231015223235532.png" alt="image-20231015223235532" style="zoom: 50%;" />
 <h2 id="_6-多久能学会编程" tabindex="-1"><a class="header-anchor" href="#_6-多久能学会编程"><span>6，多久能学会编程？</span></a></h2>
 <p>二胖：</p>
 <blockquote>

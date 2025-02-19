@@ -1,5 +1,5 @@
 <template><div><h1 id="_03《坠落》观后感" tabindex="-1"><a class="header-anchor" href="#_03《坠落》观后感"><span>03《坠落》观后感</span></a></h1>
-<center><img src="@source/src/posts/2022/assets/image-20220908174157388.png" style="zoom:50%;" /></center>
+<img src="@source/src/posts/2022/assets/image-20220908174157388.png" style="zoom:50%;text-align: center;" />
 <p>我的天，恐高勿看！（注意：影评都含有一定的剧透，介意请马上关上！）</p>
 <!-- more -->
 <ul>

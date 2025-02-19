@@ -1,52 +1,37 @@
 {
-  "hash": "95bbcc5f",
-  "configHash": "2fda3ed3",
-  "lockfileHash": "cf47405b",
-  "browserHash": "9266d560",
+  "hash": "cce4c528",
+  "configHash": "6b624bb8",
+  "lockfileHash": "11e531f5",
+  "browserHash": "cc4a599d",
   "optimized": {
-    "slimsearch": {
-      "src": "../../../node_modules/slimsearch/dist/index.mjs",
-      "file": "slimsearch.js",
-      "fileHash": "a238de1e",
-      "needsInterop": false
-    },
-    "@vueuse/core": {
-      "src": "../../../node_modules/@vueuse/core/index.mjs",
-      "file": "@vueuse_core.js",
-      "fileHash": "cdd319e9",
-      "needsInterop": false
-    },
     "@vue/devtools-api": {
-      "src": "../../../node_modules/@vuepress/client/node_modules/@vue/devtools-api/dist/index.js",
+      "src": "../../../node_modules/.pnpm/@vue+devtools-api@7.7.2/node_modules/@vue/devtools-api/dist/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "92431f2f",
+      "fileHash": "57ce5d2f",
       "needsInterop": false
     },
     "@vuepress/shared": {
-      "src": "../../../node_modules/@vuepress/shared/dist/index.js",
+      "src": "../../../node_modules/.pnpm/@vuepress+shared@2.0.0-rc.19/node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "a42fe230",
+      "fileHash": "58476574",
       "needsInterop": false
     },
     "vue": {
-      "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../node_modules/.pnpm/vue@3.5.13_typescript@5.7.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "219fd681",
+      "fileHash": "9c0727a3",
       "needsInterop": false
     },
     "vue-router": {
-      "src": "../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "src": "../../../node_modules/.pnpm/vue-router@4.5.0_vue@3.5.13/node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "f489cb1e",
+      "fileHash": "03ea009f",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-VJWGEPT5": {
-      "file": "chunk-VJWGEPT5.js"
-    },
-    "chunk-V6TY7KAL": {
-      "file": "chunk-V6TY7KAL.js"
+    "chunk-NVMLSRCO": {
+      "file": "chunk-NVMLSRCO.js"
     }
   }
 }

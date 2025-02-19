@@ -25,19 +25,18 @@ jobs:
         with:
           node-version: 22
       
-      - name: Install bun
-        uses: oven-sh/setup-bun@v1
-        with:
-          run_install: false
+      # 安装 pnpm
+      - name: 安装 pnpm
+        run: npm install -g pnpm
 
       - name: Install dependencies
-        run: bun install --recursive --no-frozen-lockfile --force
+        run: pnpm install --recursive --no-frozen-lockfile --force
       
       - name: Build(构建文档)
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          bun docs:build
+          pnpm docs:build
           
       # 上传构建结果到 GitHub Pages
       - name: Upload build artifacts

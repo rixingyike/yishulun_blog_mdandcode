@@ -10,6 +10,7 @@ pnpm docs:clean-dev 清除缓存并启动开发服务器</p>
 <p>发布时，使用了Git Actions在线自动编译，然后将编译后的<code v-pre>.vuepress/dist</code>目录推到了线上rixingyike.github.com仓库。</p>
 <p>robot.txt会自动生成，在public下面不需要手写放置。</p>
 <p>.viepress目录是程序所在目录，从这里执行，是从启动命令指定的，例如vuepress-vite build .指定了项目根目录，该目录下的.vuepress就是程序目录。</p>
+<p>这样的写法：<code v-pre>{{文本在这里}}</code>，一定要加上单引号，不然程序会当作vue组件处理了。</p>
 </div></template>
 
 

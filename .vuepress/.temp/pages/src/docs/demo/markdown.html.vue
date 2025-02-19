@@ -74,7 +74,7 @@ $$</p>
 </ul>
 <h4 id="提示容器" tabindex="-1"><a class="header-anchor" href="#提示容器"><span>提示容器</span></a></h4>
 <div v-pre>
-<p>安全的在 Markdown 中使用 {{ variable }}。</p>
+<p>安全的在 Markdown 中使用 <code v-pre>{{ variable }}</code>。</p>
 </div>
 <div class="hint-container info">
 <p class="hint-container-title">自定义标题</p>

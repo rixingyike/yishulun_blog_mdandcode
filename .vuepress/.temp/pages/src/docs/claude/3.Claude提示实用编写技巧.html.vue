@@ -37,7 +37,7 @@
 <p>Claude 在由多个子任务组成的“复杂”任务上表现较差，如果你已经知道这些子任务是什么，你可以通过将提示分解为步骤来帮助 Claude。</p>
 <p>下面举例，这是一个提示：</p>
 <blockquote>
-<p>我想让你写一篇关于命题{{statement}}的文章，用三个主题句来支持这个命题，三个主题句来反对这个命题，最后有一个结论。</p>
+<p>我想让你写一篇关于命题<code v-pre>{{statement}}</code>的文章，用三个主题句来支持这个命题，三个主题句来反对这个命题，最后有一个结论。</p>
 </blockquote>
 <p>这个提示至少让 AI 干了三个步骤，更好的写法是把任务拆分，下面是一个更好的写法：</p>
 <div class="language-xml line-numbers-mode" data-highlighter="shiki" data-ext="xml" data-title="xml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">请遵循以下步骤：</span></span>
@@ -108,7 +108,7 @@
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{{OUTLINE}}</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">请把提纲中的每个句子展开成一个段落。将每个句子逐字逐句地作为相应段落的第一句。请确保在适合此类型读取器的级别上编写：{{type}}</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这里的{{OUTLINE}}是上一个提示的输出，我们在拿到第一个提示的输出结果后，再来串行调用第二个提示。</p>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这里的<code v-pre>{{OUTLINE}}</code>是上一个提示的输出，我们在拿到第一个提示的输出结果后，再来串行调用第二个提示。</p>
 <h2 id="_8-问-ai-听懂没有-你明白了吗" tabindex="-1"><a class="header-anchor" href="#_8-问-ai-听懂没有-你明白了吗"><span>8，问 AI 听懂没有：你明白了吗？</span></a></h2>
 <blockquote>
 <p>【提示】</p>

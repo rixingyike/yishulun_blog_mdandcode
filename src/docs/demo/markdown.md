@@ -120,7 +120,7 @@ background: rgba(7, 248, 236, 0.15)
 
 ::: v-pre
 
-安全的在 Markdown 中使用 {{ variable }}。
+安全的在 Markdown 中使用 `{{ variable }}`。
 
 :::
 
