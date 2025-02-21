@@ -1,6 +1,5 @@
 ---
 createTime: 2002-12-23
-cover: /cover3.jpg
 comments: false
 title: '关于作者'
 ---
@@ -47,7 +46,16 @@ title: '关于作者'
 
 感谢赞赏，支持创作更多内容。
 
-|   <img src="./assets/wexinpaycode.jpg" alt="微信" style="zoom:25%;max-width: 800px;" />   |   <img src="./assets/zhifubaopaycode.jpg" alt="支付宝" style="zoom:25%;max-width: 800px;" />   |
-| ---- | ---- | 
+:::: card-grid
+::: card title="微信"
+
+<img src="./assets/wexinpaycode.jpg" alt="微信" style="zoom:25%;max-width: 800px;" /> 
+:::
+
+::: card title="支付宝"
+
+<img src="./assets/zhifubaopaycode.jpg" alt="支付宝" style="zoom:25%;max-width: 800px;" />
+:::
+::::
 
 2025年2月18日

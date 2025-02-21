@@ -1,6 +1,5 @@
 ---
 friends: true
-cover: /cover2.jpg
 title: 友情链接
 description: 申请加友链的朋友，请发邮件传送name、link、avatar、desc信息过来，并将我的博客在你的友链列表中加好。
 list:

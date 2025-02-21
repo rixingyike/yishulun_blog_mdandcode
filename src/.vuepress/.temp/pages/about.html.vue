@@ -29,15 +29,9 @@
 <img src="https://yishulun.com/yslqrcode.jpg" style="zoom: 50%;" />
 <h2 id="赞赏" tabindex="-1"><a class="header-anchor" href="#赞赏"><span>赞赏</span></a></h2>
 <p>感谢赞赏，支持创作更多内容。</p>
-<table>
-<thead>
-<tr>
-<th><img src="@source/assets/wexinpaycode.jpg" alt="微信" style="zoom:25%;max-width: 800px;" /></th>
-<th><img src="@source/assets/zhifubaopaycode.jpg" alt="支付宝" style="zoom:25%;max-width: 800px;" /></th>
-</tr>
-</thead>
-</table>
-<p>2025年2月18日</p>
+<VPCardGrid><VPCard title="微信"><img src="@source/assets/wexinpaycode.jpg" alt="微信" style="zoom:25%;max-width: 800px;" /> 
+</VPCard><VPCard title="支付宝"><img src="@source/assets/zhifubaopaycode.jpg" alt="支付宝" style="zoom:25%;max-width: 800px;" />
+</VPCard></VPCardGrid><p>2025年2月18日</p>
 </div></template>
 
 

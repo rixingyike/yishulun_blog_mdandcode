@@ -1,9 +1,14 @@
 ---
 pageLayout: 'home'
 comment: false
-cover: /cover1.jpg
 
 config:
+  -
+    type: profile
+    name: 李艺
+    description: 分享技术，论述艺术感悟。
+    avatar: /avatar.png
+    
   -
     type: features
     features:
@@ -23,9 +28,4 @@ config:
         details: ""
         link: /docs/claude/
 
-  -
-    type: profile
-    name: 李艺
-    description: 分享技术，论述艺术感悟。
-    avatar: /avatar.png
 ---

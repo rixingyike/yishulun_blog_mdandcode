@@ -3,11 +3,14 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
-    full: true
-    background: tint-plate
+    type: banner
+    banner: /hero_home_bg.jpg
+    bannerMask:
+      light: 0.1
+      dark: 0.3
     hero:
       name: 艺述论
+      full: false
       tagline: 分享技术，论述艺术感悟
       text: 一枚喜受艺术的程序员's blog
       actions:
