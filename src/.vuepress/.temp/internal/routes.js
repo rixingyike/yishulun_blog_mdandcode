@@ -108,10 +108,6 @@ export const routes = Object.fromEntries([
   ["/posts/2022/32.html", { loader: () => import(/* webpackChunkName: "posts_2022_32.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2022/32.html.js"), meta: {"title":"32《断刀客》观后感"} }],
   ["/posts/2022/33.html", { loader: () => import(/* webpackChunkName: "posts_2022_33.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2022/33.html.js"), meta: {"title":"JS如何返回异步调用的结果？"} }],
   ["/posts/2022/34.html", { loader: () => import(/* webpackChunkName: "posts_2022_34.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2022/34.html.js"), meta: {"title":"如何不移除<p>标签而将段落连接起来？"} }],
-  ["/posts/2024/1.html", { loader: () => import(/* webpackChunkName: "posts_2024_1.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2024/1.html.js"), meta: {"title":"如何写好人物对话？"} }],
-  ["/posts/2024/2.html", { loader: () => import(/* webpackChunkName: "posts_2024_2.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2024/2.html.js"), meta: {"title":"体验世界单体最大北京城市图书馆，看到桌子的脑残设计，我不禁骂了一句：傻逼！"} }],
-  ["/posts/2024/3.html", { loader: () => import(/* webpackChunkName: "posts_2024_3.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2024/3.html.js"), meta: {"title":"《批判性思维》读书笔记"} }],
-  ["/posts/2024/4.html", { loader: () => import(/* webpackChunkName: "posts_2024_4.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2024/4.html.js"), meta: {"title":"如何刻画人物？一个简单的人物刻画公式和有效的 AI 提示语"} }],
   ["/posts/2023/02.html", { loader: () => import(/* webpackChunkName: "posts_2023_02.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2023/02.html.js"), meta: {"title":"《微信小游戏开发》勘误"} }],
   ["/posts/2023/0228.html", { loader: () => import(/* webpackChunkName: "posts_2023_0228.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2023/0228.html.js"), meta: {"title":"你的下一个项目应该使用 Rust 编程的 7 个理由"} }],
   ["/posts/2023/03.html", { loader: () => import(/* webpackChunkName: "posts_2023_03.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2023/03.html.js"), meta: {"title":"Rust：为什么不能在同一个结构体中存储一个值和对该值的引用？"} }],
@@ -168,11 +164,16 @@ export const routes = Object.fromEntries([
   ["/posts/2023/Github%20Pages%E5%8D%9A%E5%AE%A2%E5%A6%82%E4%BD%95%E7%BB%91%E5%AE%9A%E6%A0%B9%E5%9F%9F%E5%90%8D.html", { loader: () => import(/* webpackChunkName: "posts_2023_Github Pages博客如何绑定根域名.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2023/Github Pages博客如何绑定根域名.html.js"), meta: {"title":"Github Pages 博客如何绑定根域名？"} }],
   ["/posts/2023/%E5%88%9B%E4%BD%9C%E5%B0%8F%E8%AF%B4%E7%9A%84%E7%9B%B8%E5%85%B3%E6%8F%90%E7%A4%BA%E8%AF%AD.html", { loader: () => import(/* webpackChunkName: "posts_2023_创作小说的相关提示语.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2023/创作小说的相关提示语.html.js"), meta: {"title":"创作小说的相关提示语"} }],
   ["/posts/2023/%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E5%90%91github%20pages%20blog%20%E5%86%99%E4%BD%9C.html", { loader: () => import(/* webpackChunkName: "posts_2023_在手机上向github pages blog 写作.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2023/在手机上向github pages blog 写作.html.js"), meta: {"title":"在手机上向github pages blog 写作"} }],
+  ["/posts/2024/1.html", { loader: () => import(/* webpackChunkName: "posts_2024_1.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2024/1.html.js"), meta: {"title":"如何写好人物对话？"} }],
+  ["/posts/2024/2.html", { loader: () => import(/* webpackChunkName: "posts_2024_2.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2024/2.html.js"), meta: {"title":"体验世界单体最大北京城市图书馆，看到桌子的脑残设计，我不禁骂了一句：傻逼！"} }],
+  ["/posts/2024/3.html", { loader: () => import(/* webpackChunkName: "posts_2024_3.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2024/3.html.js"), meta: {"title":"《批判性思维》读书笔记"} }],
+  ["/posts/2024/4.html", { loader: () => import(/* webpackChunkName: "posts_2024_4.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2024/4.html.js"), meta: {"title":"如何刻画人物？一个简单的人物刻画公式和有效的 AI 提示语"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
   ["/blog/", { loader: () => import(/* webpackChunkName: "blog_index.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/blog/index.html.js"), meta: {"title":"博客"} }],
   ["/tags.html", { loader: () => import(/* webpackChunkName: "tags.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/tags.html.js"), meta: {"title":"标签"} }],
   ["/archives.html", { loader: () => import(/* webpackChunkName: "archives.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/archives.html.js"), meta: {"title":"归档"} }],
   ["/categories.html", { loader: () => import(/* webpackChunkName: "categories.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/categories.html.js"), meta: {"title":"分类"} }],
+  ["/blog/2025/2.html", { loader: () => import(/* webpackChunkName: "blog_2025_2.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/blog/2025/2.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {

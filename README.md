@@ -4,11 +4,11 @@
 
 ## 如何进行个性化配置&写作
 
-docs目录下，posts与docs是旧目录，是为了兼容旧随笔而存在的。notes是随笔/专栏，完成的专栏要发布，需要在global_config.js中加一个公开配置；blog是日常随笔，仍以年分组，但会自动生成permalink。
+在src目录下，posts与docs是旧目录，是为了兼容旧随笔而存在的。notes是随笔/专栏，完成的专栏要发布，需要在global_config.js的notes中加一个公开配置；blog是日常随笔，仍以年分组。
 
 使用图标，包括在文章中使用，从这里查找：https://icon-sets.iconify.design/。
 
-
+notes的侧边栏目录是如何保证生成的？
 
 
 ## Install
