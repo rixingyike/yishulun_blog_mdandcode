@@ -1,7 +1,7 @@
 ---
 pageLayout: 'home'
 comment: false
-cover: /images/cover1.jpg
+cover: /cover1.jpg
 
 config:
   -
@@ -27,5 +27,5 @@ config:
     type: profile
     name: 李艺
     description: 分享技术，论述艺术感悟。
-    avatar: /images/avatar.png
+    avatar: /avatar.png
 ---

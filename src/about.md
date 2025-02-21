@@ -1,10 +1,10 @@
 ---
 createTime: 2002-12-23
-cover: /assets/images/cover3.jpg
+cover: /cover3.jpg
 comments: false
 title: '关于作者'
 ---
-![作者](/images/avatar.png)
+![作者](/avatar.png)
 
 ## 简介
 
