@@ -8,7 +8,9 @@
 
 使用图标，包括在文章中使用，从这里查找：https://icon-sets.iconify.design/。
 
-notes的侧边栏目录是如何保证生成的？
+notes的侧边栏目录是如何保证生成的？让每个子note专栏的链接从/notes/开始，侧边栏自然就有了。可以在本地撰写一个note专栏，待完成后，再修改global_config.js中的notes配置，对外发布。
+
+如果撰写文章？在blog目录下，按年撰写即可，文件名是数字，从1开始递增。关闭了所有的permalink链接生成，自动生成的permalink会破坏目录结构的清晰性，所以弃用了。
 
 
 ## Install
