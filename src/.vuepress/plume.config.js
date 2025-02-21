@@ -35,7 +35,7 @@ export default defineThemeConfig({
   outline: [2, 3, 4], // 页内大纲， 默认显示 h2, h3, h4
   // permalink: "/article/:slug.html", // 错误的配置，不顶事
 
-  //copyright: true,
+  copyright: true,
 
   prevPage: true,   // 是否启用上一页链接
   nextPage: true,   // 是否启用下一页链接

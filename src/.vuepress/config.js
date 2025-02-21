@@ -9,12 +9,6 @@ export default defineUserConfig({
   title: gc.title, // 从全局配置中引用
   description: gc.description, // 从全局配置中引用
 
-  /**
-   * 文章版权信息
-   * @see https://theme-plume.vuejs.press/guide/features/copyright/
-   */
-  copyright: "CC-BY-NC-SA-4.0",
-
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: gc.site_favicon }], // 从全局配置中引用
     ['meta', { name: 'og:author', content: gc.author }], // 添加 author 信息
@@ -30,8 +24,14 @@ export default defineUserConfig({
   shouldPrefetch: false,
 
   theme: plumeTheme({
+    /**
+     * 文章版权信息
+     * @see https://theme-plume.vuejs.press/guide/features/copyright/
+     */
+    copyright: "CC-BY-NC-4.0",
+
     hostname: gc.hostname,
-    permalink: ":slug.html",
+    // permalink: ":slug.html",
 
     // 自动生成文章的permalinks，只有新创作的article和notes目录下的文章才会生成
     // 生成的文章地址均会以/article/开头，与它在哪个目录下无关
