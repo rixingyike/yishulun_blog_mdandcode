@@ -32,20 +32,21 @@ export let navbar = defineNavbarConfig([
 export let notes = defineNotesConfig({
     dir: 'notes',
     link: '/',
-    notes: [
-        {
-            dir: 'typescript',
-            link: '/notes/typescript',
-            sidebar: "auto",
-        }, {
-            dir: 'demo',
-            link: '/notes/demo',
-            sidebar: "auto",
-        }, {
-            dir: 'rust',
-            link: '/notes/rust',
-            sidebar: "auto",
-        }],
+    notes: [],
+    // notes: [
+    //     {
+    //         dir: 'typescript',
+    //         link: '/notes/typescript',
+    //         sidebar: "auto",
+    //     }, {
+    //         dir: 'demo',
+    //         link: '/notes/demo',
+    //         sidebar: "auto",
+    //     }, {
+    //         dir: 'rust',
+    //         link: '/notes/rust',
+    //         sidebar: "auto",
+    //     }],
 })
 
 export default {

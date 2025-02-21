@@ -31,9 +31,9 @@ export const routes = Object.fromEntries([
   ["/posts/2008/04.html", { loader: () => import(/* webpackChunkName: "posts_2008_04.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2008/04.html.js"), meta: {"title":"AS3中的一些基本定义，Function与Method的区别"} }],
   ["/posts/2008/05.html", { loader: () => import(/* webpackChunkName: "posts_2008_05.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2008/05.html.js"), meta: {"title":"E4X用法简要"} }],
   ["/posts/2008/06.html", { loader: () => import(/* webpackChunkName: "posts_2008_06.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2008/06.html.js"), meta: {"title":"Flash Player的垃圾内存回收机制：能否强制回收？"} }],
-  ["/posts/2009/01.html", { loader: () => import(/* webpackChunkName: "posts_2009_01.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2009/01.html.js"), meta: {"title":"AS3事件机制概述"} }],
   ["/posts/2010/01.html", { loader: () => import(/* webpackChunkName: "posts_2010_01.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2010/01.html.js"), meta: {"title":"命名空间：如何控制未知方法的调用"} }],
   ["/posts/2010/02.html", { loader: () => import(/* webpackChunkName: "posts_2010_02.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2010/02.html.js"), meta: {"title":"十个Flex/Air疑难杂症及解决方案简略"} }],
+  ["/posts/2009/01.html", { loader: () => import(/* webpackChunkName: "posts_2009_01.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2009/01.html.js"), meta: {"title":"AS3事件机制概述"} }],
   ["/posts/2018/01.html", { loader: () => import(/* webpackChunkName: "posts_2018_01.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2018/01.html.js"), meta: {"title":"小程序从0到1：1月9日群问题集锦"} }],
   ["/posts/2018/02.html", { loader: () => import(/* webpackChunkName: "posts_2018_02.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2018/02.html.js"), meta: {"title":"小程序从0到1：1月23日群问题集锦"} }],
   ["/posts/2018/03.html", { loader: () => import(/* webpackChunkName: "posts_2018_03.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/posts/2018/03.html.js"), meta: {"title":"小程序从0到1：1月25日群问题集锦"} }],
@@ -173,7 +173,6 @@ export const routes = Object.fromEntries([
   ["/tags.html", { loader: () => import(/* webpackChunkName: "tags.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/tags.html.js"), meta: {"title":"标签"} }],
   ["/archives.html", { loader: () => import(/* webpackChunkName: "archives.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/archives.html.js"), meta: {"title":"归档"} }],
   ["/categories.html", { loader: () => import(/* webpackChunkName: "categories.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/categories.html.js"), meta: {"title":"分类"} }],
-  ["/blog/2025/2.html", { loader: () => import(/* webpackChunkName: "blog_2025_2.html" */"C:/Users/Admin/work/yishulun_blog/src/.vuepress/.temp/pages/blog/2025/2.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {

@@ -15,10 +15,10 @@ export default defineUserConfig({
     ['meta', { name: 'og:author', content: gc.author }], // 添加 author 信息
     ['meta', { property: 'og:description', content: gc.description }], // 添加 og:description 信息
     // 添加 Google Analytics
-    ['script', { async: true, src: `//www.googletagmanager.com/gtag/js?id=${gc.googleAnalyticsId}` }], // 从全局配置中引用
+    ['script', { defer: true, crossorigin: 'anonymous', src: `//www.googletagmanager.com/gtag/js?id=${gc.googleAnalyticsId}` }], // 从全局配置中引用
     ['script', {}, `window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', '${gc.googleAnalyticsId}');`], // 从全局配置中引用
     // 添加 Google Ads
-    ['script', { async: true, crossorigin: 'anonymous', src: `//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${gc.googleAdsClient}` }], // 从全局配置中引用
+    ['script', { defer: true, crossorigin: 'anonymous', src: `//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${gc.googleAdsClient}` }], // 从全局配置中引用
   ],
 
   bundler: viteBundler(),
