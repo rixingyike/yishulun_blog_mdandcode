@@ -7,18 +7,9 @@ import { navbar, notes, default as gc } from './global_config' // 引用全局�
 export default defineThemeConfig({
   navbar,
   notes,
-  /**
-   * 公告板
-   * @see https://theme-plume.vuejs.press/guide/features/bulletin/
-   */
+
   // 公告板
-  bulletin: {
-    layout: 'top-right',
-    contentType: 'markdown',
-    lifetime: "once",
-    title: '公告',
-    content: gc.bulletin_content, // 从全局配置中引用
-  },
+  bulletin: gc.bulletin,
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile

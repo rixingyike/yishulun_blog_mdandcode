@@ -6,6 +6,8 @@ const currentYear = new Date().getFullYear();
 const author = "李艺";
 const blog_url = "https://yishulu.com"
 
+const bulletin_content = ""
+
 //   导航栏
 export let navbar = defineNavbarConfig([
     { text: '首页', link: '/' },
@@ -49,7 +51,7 @@ export let notes = defineNotesConfig({
 export default {
     author, // 合并 profileName 和 author
     hostname: blog_url,
-    avatar: '/images/avatar.png', // 更名为 avatar
+    avatar: '/avatar.png', // 更名为 avatar
     title: '艺述论',
     description: '分享技术，论述艺术感悟', // 合并 profileDescription 和 description
 
@@ -61,22 +63,25 @@ export default {
     article: '/blog/',//它决定了自动生成的文章链接的前缀
     devServer: process.env.NODE_ENV === 'development', // 有些配置例如feed和sitemap需要在devServer下才能生效
     devHostname: 'http://localhost:8080',
-    site_favicon: '/images/favicon.ico',
-    site_logo: '/images/logo.png', // 更名为 site_logo
+    site_favicon: '/favicon.ico',
+    site_logo: '/logo.png', // 更名为 site_logo
     appearance: 'dark', // 添加 appearance 信息
     footerMessage: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>', // 添加 footerMessage 信息
     footerCopyright: `&copy 2002-${currentYear} ${author}`, // 动态获取年份和作者名称
     googleAnalyticsId: 'G-8N64Q25EK9', // 添加 Google Analytics ID
     googleAdsClient: 'ca-pub-2139303336591479', // 添加 Google Ads Client ID
 
-    // 公告板内容
-    bulletin_content: '',
-    // bulletin_content: `\
-    // **更新说明**
-
-    // - 新增了一些功能
-    // - 修复了一些 bugs
-    // `,
+    /**
+     * 公告板
+     * @see https://theme-plume.vuejs.press/guide/features/bulletin/
+     */
+    bulletin: (bulletin_content ? {
+        layout: 'top-right',
+        contentType: 'markdown',
+        lifetime: "once",
+        title: '公告',
+        content: bulletin_content,
+    } : false),
 
     // social links
     social: [
