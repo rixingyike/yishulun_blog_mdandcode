@@ -1,6 +1,6 @@
 <template><div><h1 id="linux会因为开源而失败吗" tabindex="-1"><a class="header-anchor" href="#linux会因为开源而失败吗"><span>Linux会因为开源而失败吗？</span></a></h1>
 <p>我不确定当你看到这张图时，是不是和我一样感到震惊？</p>
-<figure><img src="@source/posts/2022/assets/main-qimg-effa76a1eff52868e3b4459a1a5b5936.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p><img src="@source/posts/2022/assets/main-qimg-effa76a1eff52868e3b4459a1a5b5936.png" alt="img"></p>
 <p>这行图大致描绘了三个主要 Linux 发行版 Debian、Fedora 和 Slackware 的分支演化情况，三个分支下，每个分支背后都隐藏着一个绝顶聪明的开发者或一个精英团队在维护。</p>
 <p>这张图来自<a href="https://www.quora.com/profile/Tomislav-Turalija" target="_blank" rel="noopener noreferrer">托米斯拉夫·图拉利亚</a>，他认为 Linux 发行版之所以出现这种过度野蛮的生长——产生了一百多种不同的 Linux 发行版，完全是由于开发者的自负（BIG EGO）。</p>
 <p>下面以 Debian 路线的分支演化举例，看一看这种来自开发者的自负是如何体现的，其他两个分支的情况与其类似。</p>
@@ -28,8 +28,8 @@
 <p>我不确定当你看到这张图时，是不是和我一样感到震惊？</p>
 <p>参考链接</p>
 <ul>
-<li><a href="https://www.quora.com/Does-Linux-really-fail-because-it-is-open-source/answer/Tomislav-Turalija" target="_blank" rel="noopener noreferrer">https://www.quora.com/Does-Linux-really-fail-because-it-is-open-source/answer/Tomislav-Turalija</a></li>
-<li><a href="https://zh.wikipedia.org/zh-tw/Knoppix" target="_blank" rel="noopener noreferrer">https://zh.wikipedia.org/zh-tw/Knoppix</a></li>
+<li>https://www.quora.com/Does-Linux-really-fail-because-it-is-open-source/answer/Tomislav-Turalija</li>
+<li>https://zh.wikipedia.org/zh-tw/Knoppix</li>
 </ul>
 </div></template>
 

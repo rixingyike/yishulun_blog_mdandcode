@@ -1,4 +1,4 @@
-<template><div><figure><img src="@source/posts/2023/assets/image-20231110170750816.png" alt="龙空" tabindex="0" loading="lazy"><figcaption>龙空</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/image-20231110170750816.png" alt="龙空"></p>
 <h1 id="龙空工作室大佬分享飞卢都市爽文写作秘籍-爽点写得好不好关键在两点" tabindex="-1"><a class="header-anchor" href="#龙空工作室大佬分享飞卢都市爽文写作秘籍-爽点写得好不好关键在两点"><span>龙空工作室大佬分享飞卢都市爽文写作秘籍，爽点写得好不好关键在两点</span></a></h1>
 <blockquote>
 <p>你好，今天聊一下如何写都市爽文的爽点，为什么同样俗套的情节大神能写好你写不好，关键点是铺垫与逻辑性。</p>

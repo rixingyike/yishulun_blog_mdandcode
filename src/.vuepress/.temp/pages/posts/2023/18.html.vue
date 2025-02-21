@@ -1,15 +1,15 @@
-<template><div><figure><img src="@source/posts/2023/assets/image-20231031081339847.png" alt="image-20231031081339847" tabindex="0" loading="lazy"><figcaption>image-20231031081339847</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/image-20231031081339847.png" alt="image-20231031081339847"></p>
 <h1 id="我们为什么选择-chatgpt" tabindex="-1"><a class="header-anchor" href="#我们为什么选择-chatgpt"><span>我们为什么选择 ChatGPT？</span></a></h1>
 <p>你好，今天开始聊一下 ChatGPT。</p>
 <p>ChatGPT 全名 Chat Generative Pre-trained Transformer，是 OpenAI 于 2022 年 11 月 30 日发布的一款聊天机器人程序。它在自然语言理解、语音互动、数据分析、多模态等方面表现出色，是目前最值得选择的 AI 大语言模型（Large Language Model，简称 LLM）之一。</p>
 <p>2023 年 3 月 14 日，OpenAI 在 ChatGPT（GPT 3.5）的基础上，又发布了新版本 GPT-4，一举奠定了 OpenAI 在大语言模型领域的领先地位。</p>
-<figure><img src="@source/posts/2023/assets/image-20231031073332893.png" alt="ChatGPG Web" tabindex="0" loading="lazy"><figcaption>ChatGPG Web</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231031073332893.png" alt="ChatGPG Web"></p>
 <p>一个应用发布后，最快多久能够拥有 1 亿用户？</p>
 <p>Instagram 用了 2.5 年，微信用了 1.2 年，TikTok 用了 9 个月，而 ChatGPT 只用了 2 个月。</p>
 <p>ChatGPT 的迅速火爆迅速引起了人们的广泛关注，就连火星移民专家埃隆·马斯克都发推称：“ChatGPT 厉害得可怕，我们距离危险而强大的 AI 不远了（ChatGPT is scary good，We are not far from dangerously strong Al）。”</p>
-<figure><img src="@source/posts/2023/assets/tlajnjYPToiJMOw84KXGF7YMWvXIDhAn29OUgfho9IdyPoD8x9Pvt0sxUotPBDLgqIy2vy1YrI8os0JqMSVf34i9nMY3snNP1RtmKGqiesZAeF-tfRwYpyYjhlFMtPV--yaBweE_JbbkpgkXAFVu5GI.png" alt="埃隆·马斯克的推" tabindex="0" loading="lazy"><figcaption>埃隆·马斯克的推</figcaption></figure>
+<p><img src="@source/posts/2023/assets/tlajnjYPToiJMOw84KXGF7YMWvXIDhAn29OUgfho9IdyPoD8x9Pvt0sxUotPBDLgqIy2vy1YrI8os0JqMSVf34i9nMY3snNP1RtmKGqiesZAeF-tfRwYpyYjhlFMtPV--yaBweE_JbbkpgkXAFVu5GI.png" alt="埃隆·马斯克的推"></p>
 <blockquote>
-<p>截图来源：<a href="https://twitter.com/elonmusk/status/1599128577068650498" target="_blank" rel="noopener noreferrer">https://twitter.com/elonmusk/status/1599128577068650498</a></p>
+<p>截图来源：https://twitter.com/elonmusk/status/1599128577068650498</p>
 </blockquote>
 <p>ChatGPT 究竟有多强大？为什么它可以迅速获得获得如此广泛的关注？</p>
 <p>ChatGPT 是第一个在大型图灵测试数据集上，取得超过 50%通过率成绩的 AI。图灵测试是英国计算机科学家艾伦·图灵于 1950 年提出的思想实验，目的是测试智能机器能否表现出与人一样的智力水准。在测试中，如果测试者分别与智能机器和人进行对话时，无法判断出与自己对话的对象是智能机器还是人，那么就认为该智能机器通过了图灵测试。</p>
@@ -80,8 +80,8 @@
 <p>我们为什么不能了解、学习和利用它们呢？它们就像钢铁侠的战甲一样，每个人武装以后，都能在精神上变成一名强大的全能六边形战士。</p>
 <h2 id="参考链接" tabindex="-1"><a class="header-anchor" href="#参考链接"><span>参考链接</span></a></h2>
 <ul>
-<li><a href="https://twitter.com/elonmusk/status/1599128577068650498" target="_blank" rel="noopener noreferrer">https://twitter.com/elonmusk/status/1599128577068650498</a></li>
-<li><a href="https://www.nature.com/articles/d41586-023-02361-7" target="_blank" rel="noopener noreferrer">https://www.nature.com/articles/d41586-023-02361-7</a></li>
+<li>https://twitter.com/elonmusk/status/1599128577068650498</li>
+<li>https://www.nature.com/articles/d41586-023-02361-7</li>
 </ul>
 </div></template>
 

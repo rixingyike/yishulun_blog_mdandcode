@@ -16,20 +16,21 @@
 <li>返回顶部按钮</li>
 </ul>
 <p>禁用代码：</p>
-<div class="language-toml line-numbers-mode" data-highlighter="shiki" data-ext="toml" data-title="toml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">navbar: false</span></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">sidebar: false</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">breadcrumb: false</span></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">pageInfo: false</span></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">contributors: false</span></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">editLink: false</span></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">lastUpdated: false</span></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">prev: false</span></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">next: false</span></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">comment: false</span></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">footer: false</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">backtotop: false</span></span></code></pre>
+<div class="language-toml line-numbers-mode" data-ext="toml" data-title="toml"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>navbar:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span>sidebar:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>breadcrumb:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span>pageInfo:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span>contributors:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span>editLink:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span>lastUpdated:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span>prev:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span>next:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span>comment:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span>footer:</span><span class="space"> </span><span>false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>backtotop:</span><span class="space"> </span><span>false</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
 
 

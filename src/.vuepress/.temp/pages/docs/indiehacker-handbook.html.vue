@@ -1,20 +1,20 @@
 <template><div><h1 id="独立黑客成长手册" tabindex="-1"><a class="header-anchor" href="#独立黑客成长手册"><span>独立黑客成长手册</span></a></h1>
-<p>以下内容由作者<a href="https://twitter.com/coderliyi" target="_blank" rel="noopener noreferrer">@coderliyi</a>的帖子内容生成，你也可以访问原地址：<br>
-<a href="https://twitter.com/coderliyi/thread/1707997856534007813" target="_blank" rel="noopener noreferrer">https://twitter.com/coderliyi/thread/1707997856534007813</a></p>
+<p>以下内容由作者<a href="https://twitter.com/coderliyi" target="_blank" rel="noopener noreferrer">@coderliyi</a>的帖子内容生成，你也可以访问原地址：
+https://twitter.com/coderliyi/thread/1707997856534007813</p>
 <p>通过对这些内容的阅读和学习，相信你和我一样，也能全面理解独立黑客，并知悉如何做为一名独立黑客开发独立产品。有许多个性崇尚自由的工程师，他们靠发布独立产品，轻松实现了每月上万美刀的睡后收入。希望你从中学到精髓，该手册价值连城，且完全免费与公开。</p>
 <p><strong>什么是独立黑客？</strong></p>
 <p>独立黑客也称为独立开发者，或许因为开发者不够份量，这里用了黑客一词，意指十分有经验的技术开发者，通过创建可以盈利的在线应用赢取经济独立，创作自由，以及一个自己可以作主的行事时间表。</p>
 <p>从独立的项目中赚取收入比以往任何时代都更加容易，但如果没有任何指导，可能根本无法开始。学是第一步。</p>
 <h2 id="总目录" tabindex="-1"><a class="header-anchor" href="#总目录"><span>总目录</span></a></h2>
-<p>这分为 4 部分：<br>
-1，了解什么能做<br>
-2，迈出第一步<br>
-3，公开建造与发布（在上线的第 1 天就争取获得关注？）<br>
+<p>这分为 4 部分：
+1，了解什么能做
+2，迈出第一步
+3，公开建造与发布（在上线的第 1 天就争取获得关注？）
 4，保持成长，进化与演进</p>
 <h2 id="_1-了解什么能做" tabindex="-1"><a class="header-anchor" href="#_1-了解什么能做"><span>1，了解什么能做</span></a></h2>
-<p>第 1 部分又分为 3 部分：<br>
-1，从别人的故事得到启发<br>
-2，打造独立应用的基础知识<br>
+<p>第 1 部分又分为 3 部分：
+1，从别人的故事得到启发
+2，打造独立应用的基础知识
 3，具体可以做细分领域</p>
 <p>作者自称是一位独立潜伏者，这是他自己从潜伏者向独立黑客进化的故事。很了不起，也非常激励人心。</p>
 <p>主要分享了这些经验：</p>
@@ -33,83 +33,83 @@
 <p>每个人如何找到自己的受众呢？如果每个人都有自己的一万受众，每个人都可以直接发行付费的虚拟电子产品。</p>
 <p>这篇关于独立黑客的文章干货很多，很值得一读，特别是程序员。👍</p>
 <p>这位程序员仅用两年时间，就在 Twitter 上获得了 10w 粉丝，以及通过独立订阅产品每月稳定获取了 4.5w 美金的收入。这是非常鼓舞人心的。</p>
-<p>关于 X 的运营，有以下几点值得注意：<br>
-1，做一个有趣的人，分享有趣的内容；👋<br>
-2，热切与他人互动，做一个友善的人；<br>
-3，多使用表情，多写笑话，多写故事；<br>
+<p>关于 X 的运营，有以下几点值得注意：
+1，做一个有趣的人，分享有趣的内容；👋
+2，热切与他人互动，做一个友善的人；
+3，多使用表情，多写笑话，多写故事；
 4，使用 thread。</p>
-<p>关于独立产品，有以下几点值得学习：<br>
-1，少发布、频繁发布、小步快跑，快速建立反馈；<br>
-2，在 X、Reddit 上建立自己的受众；<br>
-3，多实践，可能会失败，但也可能会成功。作者先是尝试开发一个大而全的读取 MacOS 日志的应用，扑街了；后来写了 DevUtils、Black Magic、TyingMind 等产品，其中与当下潮流合势的 TyingMind 最为成功；<br>
+<p>关于独立产品，有以下几点值得学习：
+1，少发布、频繁发布、小步快跑，快速建立反馈；
+2，在 X、Reddit 上建立自己的受众；
+3，多实践，可能会失败，但也可能会成功。作者先是尝试开发一个大而全的读取 MacOS 日志的应用，扑街了；后来写了 DevUtils、Black Magic、TyingMind 等产品，其中与当下潮流合势的 TyingMind 最为成功；
 4，不要从自己的角度思考，要从用户的角度思考，从他们的角度思考。😀</p>
 <p>这篇文章我没能学到更有价值的内容，没有学到作者是如何聚集有效目标用户的，或许作者仅是在 7 年前因为爱好创建了这个音乐博客，并不断聚集了人气。</p>
-<p>我主要从中学习到了这几点：<br>
-1，越来越多的人选择投递 Indie shuffle，说明有越来越多的用户知道这个音乐博客平台，而用户越多，会有更多的音乐人或公司这个平台。这是一个正向循环，建立一个这样的循环，才可以保证独立品牌不断增值。<br>
-2，作者使用 meteor 和 React 技术构建自己的博客辅助工具，作者选择的是最省力、最快速的方式，这是一种最聪明的做法。<br>
+<p>我主要从中学习到了这几点：
+1，越来越多的人选择投递 Indie shuffle，说明有越来越多的用户知道这个音乐博客平台，而用户越多，会有更多的音乐人或公司这个平台。这是一个正向循环，建立一个这样的循环，才可以保证独立品牌不断增值。
+2，作者使用 meteor 和 React 技术构建自己的博客辅助工具，作者选择的是最省力、最快速的方式，这是一种最聪明的做法。
 3，作者在构建程序时，每天工作 8 小时，连续 1 个月，没有休息日，才完成自己想要的功能。作者的需求是明确的，他不需要在需求取舍时纠结，但完成他不擅长的这项工作也付出了巨大的努力。</p>
 <p>现在学习 1.2 部分，对基本技能的学习</p>
 <p>这篇文章主要列了一些问题，这些问题许多我都没有确切的答案。或许它们存在的意义不是让人回答，而是引导人思考，思考的终点就是做一名独立黑客，开发独立产品。</p>
-<p>我过去喜欢从事哪些工作？<br>
-过去什么样的工作让我发疯？<br>
-我热衷于什么？<br>
-上一次我如此兴奋得几乎无法控制自己是什么时候？<br>
-上次我因为某件事而非常生气呢？<br>
-我通常是独自工作更快乐还是与其他人一起工作更快乐？<br>
-我希望生活中有多少空闲时间？<br>
-我最喜欢告诉别人什么？<br>
-我一生中花最多时间学习的是什么？<br>
-我相信大多数人不相信的是什么？<br>
-我想赚多少钱？<br>
-我想结识什么样的人并与他们互动？<br>
-我特别擅长什么？<br>
-我有什么不好？<br>
-我过去获得过哪些赞扬和荣誉？<br>
-人们对我的什么评价让我感觉最好？<br>
-我什么时候善于激励自己，什么时候需要别人对我负责？<br>
-什么事情即使变得很困难，我也永远不会感到厌倦？<br>
-什么给我能量？<br>
-是什么让我感到压力？<br>
-我过去容易犯哪些错误？<br>
-我想了解什么或想变得更好？<br>
-我尊重谁？<br>
-我嫉妒谁的生活？<br>
-我希望我被迫定期做什么？<br>
-我希望和什么样的人（如果有的话）一起工作？有具体的个人吗？<br>
-无论如何，我希望保持生活中的哪些方面完好无损？<br>
-在理想的世界里，我想要过什么样的生活，成为什么样的人？<br>
-我想改变我周围的世界什么？<br>
+<p>我过去喜欢从事哪些工作？
+过去什么样的工作让我发疯？
+我热衷于什么？
+上一次我如此兴奋得几乎无法控制自己是什么时候？
+上次我因为某件事而非常生气呢？
+我通常是独自工作更快乐还是与其他人一起工作更快乐？
+我希望生活中有多少空闲时间？
+我最喜欢告诉别人什么？
+我一生中花最多时间学习的是什么？
+我相信大多数人不相信的是什么？
+我想赚多少钱？
+我想结识什么样的人并与他们互动？
+我特别擅长什么？
+我有什么不好？
+我过去获得过哪些赞扬和荣誉？
+人们对我的什么评价让我感觉最好？
+我什么时候善于激励自己，什么时候需要别人对我负责？
+什么事情即使变得很困难，我也永远不会感到厌倦？
+什么给我能量？
+是什么让我感到压力？
+我过去容易犯哪些错误？
+我想了解什么或想变得更好？
+我尊重谁？
+我嫉妒谁的生活？
+我希望我被迫定期做什么？
+我希望和什么样的人（如果有的话）一起工作？有具体的个人吗？
+无论如何，我希望保持生活中的哪些方面完好无损？
+在理想的世界里，我想要过什么样的生活，成为什么样的人？
+我想改变我周围的世界什么？
 经营企业的哪些部分让我感到害怕或担心？哪些部分让我兴奋？</p>
-<p>一个人如何不需要运气而获得成功？<br>
+<p>一个人如何不需要运气而获得成功？
 下面这些话值得反复阅读与思考：</p>
-<p>追求财富，而不是金钱或地位。财富就是拥有可以在睡觉时赚取的资产。金钱是我们转移时间和财富的方式。地位是你在社会等级制度中的位置。<br>
-了解道德财富创造是可能的。如果你暗自鄙视财富，财富就会远离你。<br>
-忽略那些玩地位游戏的人。他们通过攻击玩财富创造游戏的人来获得地位。<br>
-出租时间是不会致富的。您必须拥有股权（企业的一部分）才能获得财务自由。<br>
-通过给予社会想要但尚不知道如何获得的东西，你就会变得富有。规模化。<br>
-选择一个可以与长期人员进行长期博弈的行业。<br>
-互联网极大地拓宽了职业的可能空间。大多数人还没有弄清楚这一点。<br>
-玩迭代游戏。生活中的所有回报，无论是财富、人际关系还是知识，都来自复利。<br>
-选择智力高、精力充沛、最重要的是诚信的商业伙伴。<br>
-不要与愤世嫉俗者和悲观主义者合作。他们的信念是自我实现的。<br>
-学习销售。学习建造。如果你能做到这两点，你将势不可挡。<br>
-用特定的知识、责任感和影响力武装自己。<br>
-特定知识是你无法通过培训获得的知识。如果社会可以训练你，它也可以训练其他人，并取代你。<br>
-通过追求真正的好奇心和热情，而不是现在热门的东西，来找到特定的知识。<br>
-积累特定的知识对你来说就像玩耍，但对其他人来说却像是工作。当教授特定知识时，是通过学徒而不是学校进行的。<br>
-特定知识通常具有很强的技术性或创造性。它不能外包或自动化。<br>
-承担责任，以自己的名义承担商业风险。社会将回报你责任、公平和影响力。<br>
-最负责任的人拥有独特的、公开的、有风险的品牌。<br>
-“给我一根足够长的杠杆和一个站立的地方，我就能撬动地球。” 阿基米德说。<br>
-财富需要杠杆。业务杠杆来自资本、人员和产品，没有边际复制成本（代码和媒体）。<br>
-资本意味着金钱。为了筹集资金，请运用您的专业知识，承担责任，并表现出良好的判断力。<br>
-劳动力是指为你工作的人。这是最古老、最具争议的杠杆形式。劳动力杠杆会给你的父母留下深刻的印象，但不要浪费你的生命去追逐它。<br>
-资本和劳动力是被许可的杠杆。每个人都在追逐资本，但总得有人给你。每个人都试图领导，但必须有人跟随你。<br>
-代码和媒体是无需许可的杠杆。他们是新富背后的杠杆。您可以创建适合您睡觉时使用的软件和媒体。<br>
-机器人大军是免费提供的——它们只是被装在数据中心内以提高热量和空间效率。用它。<br>
-如果您不会编码，请写书和博客、录制视频和播客。杠杆是你判断力的倍增器。<br>
-判断力需要经验，但可以通过学习基础技能来更快地建立。<br>
-没有一种技能叫做“生意”。避免阅读商业杂志和商务课程。<br>
+<p>追求财富，而不是金钱或地位。财富就是拥有可以在睡觉时赚取的资产。金钱是我们转移时间和财富的方式。地位是你在社会等级制度中的位置。
+了解道德财富创造是可能的。如果你暗自鄙视财富，财富就会远离你。
+忽略那些玩地位游戏的人。他们通过攻击玩财富创造游戏的人来获得地位。
+出租时间是不会致富的。您必须拥有股权（企业的一部分）才能获得财务自由。
+通过给予社会想要但尚不知道如何获得的东西，你就会变得富有。规模化。
+选择一个可以与长期人员进行长期博弈的行业。
+互联网极大地拓宽了职业的可能空间。大多数人还没有弄清楚这一点。
+玩迭代游戏。生活中的所有回报，无论是财富、人际关系还是知识，都来自复利。
+选择智力高、精力充沛、最重要的是诚信的商业伙伴。
+不要与愤世嫉俗者和悲观主义者合作。他们的信念是自我实现的。
+学习销售。学习建造。如果你能做到这两点，你将势不可挡。
+用特定的知识、责任感和影响力武装自己。
+特定知识是你无法通过培训获得的知识。如果社会可以训练你，它也可以训练其他人，并取代你。
+通过追求真正的好奇心和热情，而不是现在热门的东西，来找到特定的知识。
+积累特定的知识对你来说就像玩耍，但对其他人来说却像是工作。当教授特定知识时，是通过学徒而不是学校进行的。
+特定知识通常具有很强的技术性或创造性。它不能外包或自动化。
+承担责任，以自己的名义承担商业风险。社会将回报你责任、公平和影响力。
+最负责任的人拥有独特的、公开的、有风险的品牌。
+“给我一根足够长的杠杆和一个站立的地方，我就能撬动地球。” 阿基米德说。
+财富需要杠杆。业务杠杆来自资本、人员和产品，没有边际复制成本（代码和媒体）。
+资本意味着金钱。为了筹集资金，请运用您的专业知识，承担责任，并表现出良好的判断力。
+劳动力是指为你工作的人。这是最古老、最具争议的杠杆形式。劳动力杠杆会给你的父母留下深刻的印象，但不要浪费你的生命去追逐它。
+资本和劳动力是被许可的杠杆。每个人都在追逐资本，但总得有人给你。每个人都试图领导，但必须有人跟随你。
+代码和媒体是无需许可的杠杆。他们是新富背后的杠杆。您可以创建适合您睡觉时使用的软件和媒体。
+机器人大军是免费提供的——它们只是被装在数据中心内以提高热量和空间效率。用它。
+如果您不会编码，请写书和博客、录制视频和播客。杠杆是你判断力的倍增器。
+判断力需要经验，但可以通过学习基础技能来更快地建立。
+没有一种技能叫做“生意”。避免阅读商业杂志和商务课程。
 如果要读书，首先应该阅读《无限的开始》和《现实的结构》。</p>
 <p>这篇文章讲述的是如何创办一家公司，而不是作为一名独立黑客打造独立产品。在这篇文章中，这些内容让人印象深刻：</p>
 <p>1，想法并不重要，创办企业从来不靠一个天才的想法成功。 一方面，很多细分领域，即使已经存在竞争对象，只要有改进的解决方案和不同角度对某部分人更好的解决方案，都值得一试。另一方面，很多企业在发展起来后都背离了它们当初创建时拟定的想法，例如微软在开始时想以贩卖编程语言的方式赚钱。</p>
@@ -120,58 +120,58 @@
 <p>兴趣+技能+需要</p>
 <p>如果能找到三个圆交叉的五星区域，将值得我们一直持续地投入。一个人一辈子不需要做很多事，只做一件事就足够了。</p>
 <p>完全匹配的情况很少见，大多数时候是三缺一，甚至更少。文章中举了三种缺失的病状情况：</p>
-<p>1，Joy + Skill - Need<br>
-这种情况如何首席技术官窝起来研究技术，而不是处理公司网站上的 Bug。<br>
-2，Joy + Need - Skill<br>
-冒然做自己不擅长的事情而把时机白白错失。例如一个并不懂得 adWords 的首席执行官非要自己研究并制订广告计划，结果三个月后，计划出来了，时间投入了很多，但却不知道计划是不是合理的。<br>
-3，Skill + Need - Joy<br>
+<p>1，Joy + Skill - Need
+这种情况如何首席技术官窝起来研究技术，而不是处理公司网站上的 Bug。
+2，Joy + Need - Skill
+冒然做自己不擅长的事情而把时机白白错失。例如一个并不懂得 adWords 的首席执行官非要自己研究并制订广告计划，结果三个月后，计划出来了，时间投入了很多，但却不知道计划是不是合理的。
+3，Skill + Need - Joy
 这种情况最为常见，它普遍以倦怠存在。员工机械地应付工作，而不是主动完成任务。</p>
 <p>一个人如何找到自己三圆中心呢？文中列举了一些辅助问题（老外不擅于直接给出答案，而是启发，让读者自行发现答案）：</p>
-<p>即使当我还是个孩子的时候，我也会**__<strong>，而且我仍然发现自己被它所吸引。<br>
-最近我发现每当</strong>__<strong>的时候我就喜欢它，这会让十年前的我感到惊讶。<br>
-如果我能回到过去，我会告诉自己少担心</strong>__<strong>，多担心</strong>__<strong>。<br>
-当我放长假时，我很想</strong>__<strong>；我就是忍不住。<br>
-当我开始谈论</strong>__<strong>时，我的父母/朋友总是笑，因为我太兴奋了，无法停止谈论它。<br>
-我的父母总是说我会成为一个</strong>__<strong>，因为即使我三岁......<br>
-每当我</strong>__<strong>时，我都会沉浸在工作中，并且在工作结束时感到精力充沛（而不是精疲力尽！）。<br>
-如果我能（回到）大学，我会获得</strong>__<strong>学位。<br>
-我真正喜欢的最后一个项目是</strong>__<strong>。<br>
-当我</strong>__<strong>时，我很惊讶我的同事对我的工作如此赞赏；也许我比我想象的更擅长这一点。<br>
-最近，我在做</strong>__<strong>时完全沉浸、投入、兴奋和快乐。<br>
+<p>即使当我还是个孩子的时候，我也会**__<strong>，而且我仍然发现自己被它所吸引。
+最近我发现每当</strong>__<strong>的时候我就喜欢它，这会让十年前的我感到惊讶。
+如果我能回到过去，我会告诉自己少担心</strong>__<strong>，多担心</strong>__<strong>。
+当我放长假时，我很想</strong>__<strong>；我就是忍不住。
+当我开始谈论</strong>__<strong>时，我的父母/朋友总是笑，因为我太兴奋了，无法停止谈论它。
+我的父母总是说我会成为一个</strong>__<strong>，因为即使我三岁......
+每当我</strong>__<strong>时，我都会沉浸在工作中，并且在工作结束时感到精力充沛（而不是精疲力尽！）。
+如果我能（回到）大学，我会获得</strong>__<strong>学位。
+我真正喜欢的最后一个项目是</strong>__<strong>。
+当我</strong>__<strong>时，我很惊讶我的同事对我的工作如此赞赏；也许我比我想象的更擅长这一点。
+最近，我在做</strong>__<strong>时完全沉浸、投入、兴奋和快乐。
 我问了一些认识我的人，以及我相信谁是深思熟虑和善于观察的人，他们说我的特殊优势是</strong>__**。</p>
-<p>下面是一些反向问题：<br>
-我非常害怕任何我们**__<strong>的会议。<br>
-上次我不得不</strong>__<strong>时，我做了一件令人尴尬的微不足道的工作，因为我无法让自己做得更好。<br>
-如果我的工作开始要求我用 10% 的时间</strong>__<strong>，我至少会考虑换工作。<br>
-当我面对</strong>__<strong>时，我的身体感觉“我的胃”在下降。<br>
-当我面临</strong>__<strong>时，我甚至会拖延去做我不喜欢且通常会避免的家务。<br>
-老实说，虽然我真的很想擅长</strong>__<strong>，但事实是我永远不会擅长这件事。<br>
-每当我整天</strong>__<strong>时，我知道我做得很好，但我绝对精疲力尽；晚上剩下的时间就会在沙发上进行无意识的娱乐。<br>
+<p>下面是一些反向问题：
+我非常害怕任何我们**__<strong>的会议。
+上次我不得不</strong>__<strong>时，我做了一件令人尴尬的微不足道的工作，因为我无法让自己做得更好。
+如果我的工作开始要求我用 10% 的时间</strong>__<strong>，我至少会考虑换工作。
+当我面对</strong>__<strong>时，我的身体感觉“我的胃”在下降。
+当我面临</strong>__<strong>时，我甚至会拖延去做我不喜欢且通常会避免的家务。
+老实说，虽然我真的很想擅长</strong>__<strong>，但事实是我永远不会擅长这件事。
+每当我整天</strong>__<strong>时，我知道我做得很好，但我绝对精疲力尽；晚上剩下的时间就会在沙发上进行无意识的娱乐。
 我知道我应该喜欢/做</strong>__**，但事实是我永远不会对此感到兴奋。</p>
 <p>这真是一篇好文章！👋</p>
 <p>找到一个自己能做的、擅长做的、喜欢做的、社会需要的独立事业，是一个人一生的追求。如果你在年轻人就找到了，那么请欢呼并坚持做它吧！👍</p>
-<figure><a href="https://pbs.twimg.com/media/F7aN9f3a4AAvuuh.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F7aN9f3a4AAvuuh.png" alt="Image" tabindex="0" loading="lazy"></a><figcaption>Image</figcaption></figure>
+<p><a href="https://pbs.twimg.com/media/F7aN9f3a4AAvuuh.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F7aN9f3a4AAvuuh.png" alt="Image"></a></p>
 <p>这位作者绝对是一位聪明的独立开发者，是一名真正的独立黑客，因为他在文章这样说道：</p>
-<p>1，哎，你要开发独立产品需要编程，干吗要去编程学院学习，使用谷歌自学就可以了！<br>
+<p>1，哎，你要开发独立产品需要编程，干吗要去编程学院学习，使用谷歌自学就可以了！
 2，他认为，与人合作做项目，不如一个人做更得心应手。的确，一个人跑得更快。他在一年内创建了 12 个独立应用！</p>
-<p>他将一个独立应用的开发周期划分为：<br>
-1，想法<br>
-2，构建与发布<br>
-3，成长<br>
-4，货币化<br>
-5，机器化<br>
+<p>他将一个独立应用的开发周期划分为：
+1，想法
+2，构建与发布
+3，成长
+4，货币化
+5，机器化
 6，脱手</p>
 <p>作者认为雇佣人干活，不如写个机器人干活，因此在他的服务器上有许多机器人日夜不停地在为他干活。（但他也承认，雇佣一个自然人看着这些机器人可能是必要的，因为有时候机器人会宕机。）</p>
 <p>他在线撰写了一本《独立黑客手册》，每天都有不俗的销量。这种以独立页面存在的产品，是一种非常非常好的形式，它通过 API 在线销售与验证，并提供阅读服务。这看起来真的很不错。作者让潜在的买家看到目录、看到销量、甚至看到加密后的内容，这可能是一种不错的销量方式。作者在他的单页面产品底部，一直展示了一个折扣购买按钮。</p>
-<figure><a href="https://pbs.twimg.com/media/F7bm_uya4AASmmN.jpg" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F7bm_uya4AASmmN.jpg" alt="Image" tabindex="0" loading="lazy"></a><figcaption>Image</figcaption></figure>
+<p><a href="https://pbs.twimg.com/media/F7bm_uya4AASmmN.jpg" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F7bm_uya4AASmmN.jpg" alt="Image"></a></p>
 <p>这时候，我们经常在上述资料中看到 MRR，什么是 MRR？</p>
 <p>独立黑客口中讲的 MRR 指的是 Monthly Recurring Revenue，即每月经常性收入。</p>
 <p>独立黑客@levelsio 讲，他创造的 70 多个项目中，只有 4 个盈利了，良品率只有 5%。所以想做独立黑客的新手，遇到困难不要灰心。有人靠快速迭代快速试错获得了成功，有人靠坚守阵地结硬寨打呆仗获得了成功，成功没有定式，任何一种策略做到极致都有可能成功，做自己就好，不要在模仿他人中左右摇摆。</p>
 <p>这篇文章主要讲了一个决定初创产品生死的一个很重要的概念：产品市场契合度。</p>
 <p>或许没有 100%完美的团队，因为完美的团队都退休了。真正好的团队可能就是与市场一同成长的团队，就像微软那样，即使开始设定的目标需要改变也没有关系，找到新的市场，打造新的产品磨砺团队就可以了。</p>
-<p>特意记录几个独立黑客用于发布产品的广播渠道：<br>
-1，Product Hunt<br>
-2，Hacker News<br>
+<p>特意记录几个独立黑客用于发布产品的广播渠道：
+1，Product Hunt
+2，Hacker News
 3，Reddit</p>
 <p>great！👋</p>
 <p>这篇文章主要列举了 15 种适宜新手快速构建的独立产品（以下内容中的我即作者）：</p>
@@ -196,22 +196,22 @@
 <p>我个人喜欢研究性质的东西，其中电子书、编程课程、读书笔记比较适合我。Newsletters 是一种不错的方式，可惜目前不知道如何将它货币化。</p>
 <p>听说是一个将时事通讯货币化很好的平台之一。它在上个月有 4600 万读者，世界排名前 2000 名之内，是一个绝对不容小觑的平台。</p>
 <p>这篇文章劝我们以“教学”为创建独立产品的开始，首先创建课程、教程之类的产品。主要理由有：</p>
-<p>1，这个市场足够大，人们的学习方式和学习品类足够丰富而不必担心竞争太多而无法获取到用户。<br>
-2，每个人都有成就，都可以在一件或几件事上成为别人的老师。在有成就感的前提下，事情就容易继续。<br>
+<p>1，这个市场足够大，人们的学习方式和学习品类足够丰富而不必担心竞争太多而无法获取到用户。
+2，每个人都有成就，都可以在一件或几件事上成为别人的老师。在有成就感的前提下，事情就容易继续。
 3，这种类型的在线产品容易建立受众。</p>
 <p>上面那篇文章中提到了一个编程教学领域的大 V——Wes bos，他太历害了，他有一个博客网站，上面有不少他创建的课程，并且销量很好。</p>
-<figure><a href="https://wesbos.com/" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/ogimagetitlewesbos.png" alt="img" tabindex="0" loading="lazy"></a><figcaption>img</figcaption></figure>
-<p><a href="https://wesbos.com/" target="_blank" rel="noopener noreferrer"><strong>Wes Bos</strong></a><a href="https://wesbos.com/" target="_blank" rel="noopener noreferrer">https://wesbos.com/</a></p>
+<p><a href="https://wesbos.com/" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/ogimagetitlewesbos.png" alt="img"></a></p>
+<p><a href="https://wesbos.com/" target="_blank" rel="noopener noreferrer"><strong>Wes Bos</strong></a>https://wesbos.com/</p>
 <p>这篇讲了产品化的技巧，我得到的启示主要是：</p>
-<p>1，先确定你能提供的产品/服务是什么？别人曾经找你问过什么问题，你为他们提供过什么样的有效的帮助？<br>
-2，确定哪些人会使用你的产品/服务，用户画像越精准越好。最好可以由一个人的需求开始打造产品，而不是生产一个产品然后去找这个用户。要找好自己的产品契合度。<br>
+<p>1，先确定你能提供的产品/服务是什么？别人曾经找你问过什么问题，你为他们提供过什么样的有效的帮助？
+2，确定哪些人会使用你的产品/服务，用户画像越精准越好。最好可以由一个人的需求开始打造产品，而不是生产一个产品然后去找这个用户。要找好自己的产品契合度。
 3，最后便是实现货币化，自动化和机器化，使产品/服务像超市货架上的物品一样销量。要有销量反馈，要随时有数据可以支持自己调整策略。</p>
 <p>以上就是关于第一部分“认识什么是可能的”的所有内容了。它们的作用可能仅是认识上的了解，我阅读到目前为止，知道了独立黑客是干什么的、他们在创作什么类型的产品（小而美）、他们是如何不易（5%的良品率）、他们像英雄一样（一周就发布一个独立产品、一月就发布一个程序产品），等等。</p>
 <p>很有意思，塔尖上的人特别光鲜，但大多数人我相信，他们的独立产品并不高。任何人在准备做一名独立黑客时，都要明白，收入可能很少。这个群体它是契合那些天生自由的人，如果你的性格恰好是这样的，你恰好有时候兴趣来了可以一直工作，有时候没兴致了又会一直睡觉，风格很随性，同时又很认真、很用力，那么，独立黑客这个不是工作的职业可能便是适合你的。</p>
 <h2 id="_2-迈出第一步" tabindex="-1"><a class="header-anchor" href="#_2-迈出第一步"><span>2，迈出第一步</span></a></h2>
-<p>下面进入第二部分的学习：迈出第一步。这部分又分为三个小部分：<br>
-2.1 留出金钱和时间<br>
-2.2 找到你的团队<br>
+<p>下面进入第二部分的学习：迈出第一步。这部分又分为三个小部分：
+2.1 留出金钱和时间
+2.2 找到你的团队
 2.3 想出一个点子</p>
 <p>2.1 留出金钱与时间</p>
 <p>下面这篇文章教导我们在业余时间积极开辟我们的副业，并举出了爱因斯坦在当专利局审核员时发明了《相对论》的示例。</p>
@@ -248,14 +248,14 @@
 <p>下面这篇文章是一个讨论贴，楼主很开放，他抛出了这个话题，但没有限制答案。答案不是唯一的，因人而异，答案在评论区里。</p>
 <p>这一篇非常好，值得多次反复阅读。主要讲如何找到适合自己的商业模式。</p>
 <p>什么是好的商业模式？商业模式不同于产品点子。它至少包括 5 个部分：</p>
-<p>1，痛点<br>
-2，拥有痛点的用户<br>
-3，连接用户的渠道<br>
-4，可以持续为用户服务的商业模式<br>
+<p>1，痛点
+2，拥有痛点的用户
+3，连接用户的渠道
+4，可以持续为用户服务的商业模式
 5，解决方案</p>
-<p><a href="https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c" target="_blank" rel="noopener noreferrer">indiehackers.com/post/how-to-br…</a><br>
-<a href="https://pbs.twimg.com/media/F7ujIm4bcAAkga9.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F7ujIm4bcAAkga9.png" alt="Image" loading="lazy"></a></p>
-<p><a href="https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c" target="_blank" rel="noopener noreferrer"><strong>How to brainstorm great business ideas</strong>Learn how to develop a successful business idea, from an expert who's interviewed hundreds of founders. Avoid making common mistakes that lead to failure.</a><a href="https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c</a></p>
+<p><a href="https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c" target="_blank" rel="noopener noreferrer">indiehackers.com/post/how-to-br…</a>
+<a href="https://pbs.twimg.com/media/F7ujIm4bcAAkga9.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F7ujIm4bcAAkga9.png" alt="Image"></a></p>
+<p><a href="https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c" target="_blank" rel="noopener noreferrer"><strong>How to brainstorm great business ideas</strong>Learn how to develop a successful business idea, from an expert who's interviewed hundreds of founders. Avoid making common mistakes that lead to failure.</a>https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c</p>
 <p>创始人在寻找用户痛点容易犯的 4 个致命错误：</p>
 <p>1，从心中解决方案开始，拿着锤子满世界找钉子。</p>
 <p>在这里你需要对自己诚实，因为这有时是微妙的。如果您已经对想要构建的产品、技术或功能集的特定想法产生了兴趣，那么这将破坏您找到可靠问题并客观分析它的能力。你把解决方案放在第一位，但它却让你看不到机会。</p>
@@ -285,32 +285,32 @@
 <p>如果您想不出一个好的解决方案，或者构建解决方案对您来说太难或太昂贵，或者竞争完全无懈可击（由于网络效应或规模经济等原因），那么您可能需要后退一两步。</p>
 <p>通常，您需要做的就是将步骤 1 中发现的问题缩小一点。让它更具体，这样它影响的人会稍微少一些（利基市场），然后尝试专门为他们想一个渠道和解决方案。</p>
 <p>这些内容写的非常好！它在告诉我们独立黑客找到一个小的利基市场的方法，大概分为这几步：</p>
-<p>1，选择一个简单的、经过验证的市场。<br>
-2，从典型的实在的目标用户出发，找到自己的产品市场契合度，尝试选择与竞争对象相反的思路或注入你的个性、思想以提供解决方案。<br>
+<p>1，选择一个简单的、经过验证的市场。
+2，从典型的实在的目标用户出发，找到自己的产品市场契合度，尝试选择与竞争对象相反的思路或注入你的个性、思想以提供解决方案。
 3，如果找不出这样的解决方案，就把利基市场缩小，服务更小众的人。如果仍然发展不起来，就换一个方向。</p>
 <p>从小处着眼。</p>
 <p>例如， 的创始人 Joel 在 YouTube 上找到了一堆视频，将它们放入 ZIP 文件中，然后以一定的价格将它们提供给其他人的邮件列表。这与今天的书呆子所做的事情相去甚远。但他不可能从今天的位置开始，就像你不可能从底层直接跳到楼梯顶一样。</p>
 <p>当您考虑要解决的问题和市场规模时；当您考虑分销渠道时；当您考虑产品时：从小处着眼。</p>
 <p>只有在考虑盈利模式时，在考虑收费时，应当收取自己当下可以接受的费用。压低价格以求快速占领市场，这是大公司做的事情，独立黑客不应该这样做。<a href="http://egghead.io/" target="_blank" rel="noopener noreferrer">egghead.io</a></p>
-<figure><a href="http://egghead.io/" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/root-og_2x.png" alt="img" tabindex="0" loading="lazy"></a><figcaption>img</figcaption></figure>
+<p><a href="http://egghead.io/" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/root-og_2x.png" alt="img"></a></p>
 <p><a href="http://egghead.io/" target="_blank" rel="noopener noreferrer">**Expert led courses for front-end web developers.**expert led courses for front-end web developers and teams that want to level up through straightforward and concise lessons on the most useful tools available.</a><a href="http://egghead.io/" target="_blank" rel="noopener noreferrer">http://egghead.io</a></p>
 <p>这一篇讲精益创业，通过从小处着眼，构建 MVP 产品，通过犯小的错误避免犯大的错误。</p>
-<p><a href="https://stackingthebricks.com/validation-is-backwards/" target="_blank" rel="noopener noreferrer"><strong>Validation is backwards</strong>If Startuplandia had a bible, you might guess it was The Lean Startup. And credit to Eric Ries where credit is due - he’s managed to get the masses h</a><a href="https://stackingthebricks.com/validation-is-backwards/" target="_blank" rel="noopener noreferrer">https://stackingthebricks.com/validation-is-backwards/</a></p>
+<p><a href="https://stackingthebricks.com/validation-is-backwards/" target="_blank" rel="noopener noreferrer"><strong>Validation is backwards</strong>If Startuplandia had a bible, you might guess it was The Lean Startup. And credit to Eric Ries where credit is due - he’s managed to get the masses h</a>https://stackingthebricks.com/validation-is-backwards/</p>
 <p>这里有许多产品想法，阅读这些想法或许能给你带去灵感。</p>
-<p><a href="https://www.indiehackers.com/round-table/how-to-come-up-with-profitable-online-business-ideas" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/round-table/how-to-come-up-with-profitable-online-business-ideas</a></p>
+<p>https://www.indiehackers.com/round-table/how-to-come-up-with-profitable-online-business-ideas</p>
 <p>第 2 部分迈出第一步结束了，这部分主要讲了如何想出一个点子。它不止是一个点子，进一步拓展，要形成一个完整的商业模式。</p>
 <h2 id="_3-公开建造与发布" tabindex="-1"><a class="header-anchor" href="#_3-公开建造与发布"><span>3，公开建造与发布</span></a></h2>
 <p>构建接下来开始进行第 3 步：公开建造与发布。主要有 3 部分：</p>
-<p>3.1 快速构建一些东西<br>
-3.2 推出产品<br>
+<p>3.1 快速构建一些东西
+3.2 推出产品
 3.3 找到第一批用户</p>
 <p>这篇文章里介绍了不知多少种，各种各样的，建造 App 的，构建 Web 的，还有自动动的无代码工具。</p>
 <p>完全无代码-&gt;辅助开发-&gt;完全手写研发，这是三个层次。大多数情况下独立黑客仅需要在前两个层次活动。</p>
 <p>这个页面很棒，列举了那么多无代码工具。这说明独立黑客有广泛的编程需求，他们将脑海中的想法转化为产品。</p>
 <p>这一篇列举了作为技术人员他们是如何是使用什么技术或框架构建独立产品的。</p>
 <p>这属于前面介绍的第二层次的辅助开发一类。</p>
-<figure><a href="https://www.indiehackers.com/post/what-tech-stacks-are-indie-hackers-using-for-their-products-2ab076c62f" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/2ab076c62f.png" alt="img" tabindex="0" loading="lazy"></a><figcaption>img</figcaption></figure>
-<p><a href="https://www.indiehackers.com/post/what-tech-stacks-are-indie-hackers-using-for-their-products-2ab076c62f" target="_blank" rel="noopener noreferrer">**What tech stacks are indie hackers using for their products?**I asked several indie hackers about the tech stacks powering their businesses. Check out the technologies, methods, and thought processes behind the pro...</a><a href="https://www.indiehackers.com/post/what-tech-stacks-are-indie-hackers-using-for-their-products-2ab076c62f" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/post/what-tech-stacks-are-indie-hackers-using-for-their-products-2ab076c62f</a></p>
+<p><a href="https://www.indiehackers.com/post/what-tech-stacks-are-indie-hackers-using-for-their-products-2ab076c62f" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/2ab076c62f.png" alt="img"></a></p>
+<p><a href="https://www.indiehackers.com/post/what-tech-stacks-are-indie-hackers-using-for-their-products-2ab076c62f" target="_blank" rel="noopener noreferrer">**What tech stacks are indie hackers using for their products?**I asked several indie hackers about the tech stacks powering their businesses. Check out the technologies, methods, and thought processes behind the pro...</a>https://www.indiehackers.com/post/what-tech-stacks-are-indie-hackers-using-for-their-products-2ab076c62f</p>
 <p>这篇文章开始介绍独立黑客的做事规范。首先是开发规则：</p>
 <p>1，选择正确的技术堆栈：这显然会产生很大的影响，最重要的是您对所选择的技术堆栈感到满意。同样重要的是：速度、第三方支持、社区支持等。选择好用、易用且愿意使用的技术栈。bun？vue？react？</p>
 <p>2，选择正确的 IDE：您为集成开发环境选择的内容实际上取决于您的特定需求和语言。做出明智的选择。vscode 是一个不错的选择，为什么要固执地选择 vim 呢？</p>
@@ -363,11 +363,11 @@
 <p>不过，在 2023 年还有一个重要的工具——ChatGPT，它作为提交独立黑客生产力的工具怎么可以或缺呢？</p>
 <p>@MaximeDupre @typographer 3.2 开始推出你的产品</p>
 <p>对于任何产品任何独立黑客来讲，这个大而全清单都是有参考价值的。每个人适合根据它拟定自己的一份清单，然后按计划执行下去。</p>
-<p><a href="https://www.indiehackers.com/post/how-to-bring-a-product-to-market-a-product-launch-checklist-36-steps-939ea077ab" target="_blank" rel="noopener noreferrer">**How to bring a product to market: A product launch checklist (36 steps)**Launching a product can be a juggling act. With so many balls in the air, a solid todo list can save your launch (and your sanity). So I did some diggin...</a><a href="https://www.indiehackers.com/post/how-to-bring-a-product-to-market-a-product-launch-checklist-36-steps-939ea077ab" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/post/how-to-bring-a-product-to-market-a-product-launch-checklist-36-steps-939ea077ab</a></p>
+<p><a href="https://www.indiehackers.com/post/how-to-bring-a-product-to-market-a-product-launch-checklist-36-steps-939ea077ab" target="_blank" rel="noopener noreferrer">**How to bring a product to market: A product launch checklist (36 steps)**Launching a product can be a juggling act. With so many balls in the air, a solid todo list can save your launch (and your sanity). So I did some diggin...</a>https://www.indiehackers.com/post/how-to-bring-a-product-to-market-a-product-launch-checklist-36-steps-939ea077ab</p>
 <p>@MaximeDupre @typographer 在哪里发布产品？</p>
 <p>这里有许多网站，它们可以帮助你发布独立产品。非常棒！它们都值得我研究一下。</p>
-<figure><a href="https://www.indiehackers.com/post/relaunch-like-a-pro-100-places-to-launch-relaunch-and-list-your-product-7c67875635" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/7c67875635.png" alt="img" tabindex="0" loading="lazy"></a><figcaption>img</figcaption></figure>
-<p><a href="https://www.indiehackers.com/post/relaunch-like-a-pro-100-places-to-launch-relaunch-and-list-your-product-7c67875635" target="_blank" rel="noopener noreferrer"><strong>Relaunch like a pro: 100+ places to launch, relaunch, and list your product</strong>For indie hackers, makers, and other entrepreneurs, one launch won't usually cut it. It's becoming increasingly common for companies to launch and relau...</a><a href="https://www.indiehackers.com/post/relaunch-like-a-pro-100-places-to-launch-relaunch-and-list-your-product-7c67875635" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/post/relaunch-like-a-pro-100-places-to-launch-relaunch-and-list-your-product-7c67875635</a></p>
+<p><a href="https://www.indiehackers.com/post/relaunch-like-a-pro-100-places-to-launch-relaunch-and-list-your-product-7c67875635" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/7c67875635.png" alt="img"></a></p>
+<p><a href="https://www.indiehackers.com/post/relaunch-like-a-pro-100-places-to-launch-relaunch-and-list-your-product-7c67875635" target="_blank" rel="noopener noreferrer"><strong>Relaunch like a pro: 100+ places to launch, relaunch, and list your product</strong>For indie hackers, makers, and other entrepreneurs, one launch won't usually cut it. It's becoming increasingly common for companies to launch and relau...</a>https://www.indiehackers.com/post/relaunch-like-a-pro-100-places-to-launch-relaunch-and-list-your-product-7c67875635</p>
 <p>这篇文章同样重要，它至少给我们两点启示。第一点，如何在预算不多的前提下打造有指数级增长潜力的爆款？</p>
 <p>1，走出大楼，与目标用户交谈。确定他们最痛苦、未解决的问题，之一即可。如果目标太大，就缩小范围。</p>
 <p>2，努力帮助他们解决问题。</p>
@@ -375,23 +375,23 @@
 <p>4，他们是否对此赞不绝口并立即与朋友分享？要密切关注这个问题。</p>
 <p>5，如果没有看到目标用户自动增长，请收集他们的反馈并从第一步重新开始。</p>
 <p>第二点启示是如何专注做事情？下面是文章中分享的一人小故事：</p>
-<p>你可能不知道该关注哪里：你可以做很多事情，可以使用很多渠道，你脑子里有很多想法。<br>
-您如何选择首先关注哪个项目？<br>
-只需选择一个简单的，或者正如 Seth Godin 所说：“制作一个旋转器并旋转轮子”。<br>
-做一件事并坚持下去。<br>
-刚入职时，我就像一只无头苍蝇：没有耐心，一眨眼就从一个项目转到另一个项目。<br>
-7 年前，我推出了一个关于营销的博客（法语），写了 9 篇文章，但因为没有足够的人阅读而停止了。<br>
-四年前，我想创建一个社区，供囊性纤维化患者相互联系（我的弟弟患有囊性纤维化）。我在创业周末提出了这个想法，研究了两周，然后退出了。<br>
-几个月后，当我开始采访严肃的营销人员时，我顿悟了：我的每一位客人都用他们自己的话说，提到了宁静的美德。<br>
-在斯多葛主义中，宁静的定义是：“相信自己，相信自己走在正确的道路上，并且不会因为追随那些在各个方向徘徊的无数小路而感到怀疑”。<br>
-我不再每 30 分钟在 Twitter 上检查一次我的提及，我不再每天在 Google Analytics 上检查我的网站统计数据，我不再每周二查看我的播客下载量（当我在《人人讨厌营销者》上发布新一集时）。<br>
-相反，我决定制作一个旋转器并旋转轮子。我决定每周都创造价值，不再期待明天成功就会来敲门。<br>
+<p>你可能不知道该关注哪里：你可以做很多事情，可以使用很多渠道，你脑子里有很多想法。
+您如何选择首先关注哪个项目？
+只需选择一个简单的，或者正如 Seth Godin 所说：“制作一个旋转器并旋转轮子”。
+做一件事并坚持下去。
+刚入职时，我就像一只无头苍蝇：没有耐心，一眨眼就从一个项目转到另一个项目。
+7 年前，我推出了一个关于营销的博客（法语），写了 9 篇文章，但因为没有足够的人阅读而停止了。
+四年前，我想创建一个社区，供囊性纤维化患者相互联系（我的弟弟患有囊性纤维化）。我在创业周末提出了这个想法，研究了两周，然后退出了。
+几个月后，当我开始采访严肃的营销人员时，我顿悟了：我的每一位客人都用他们自己的话说，提到了宁静的美德。
+在斯多葛主义中，宁静的定义是：“相信自己，相信自己走在正确的道路上，并且不会因为追随那些在各个方向徘徊的无数小路而感到怀疑”。
+我不再每 30 分钟在 Twitter 上检查一次我的提及，我不再每天在 Google Analytics 上检查我的网站统计数据，我不再每周二查看我的播客下载量（当我在《人人讨厌营销者》上发布新一集时）。
+相反，我决定制作一个旋转器并旋转轮子。我决定每周都创造价值，不再期待明天成功就会来敲门。
 我知道成功一定会到来；我只是不知道什么时候。</p>
 <p>所以，秘诀就是：从更高的战略层次统盘考虑，坚持把时间投入到有价值的、正确的事情上面去，其它的交给时间。至于如何避免陷于细节的泥沼而产生动摇，要养成复盘、自省的习惯。</p>
 <p>@MaximeDupre @typographer 3.3 如何找到第一批种子用户？</p>
 <p>这里各有各的方法，在产品发布后，甚至发布之前都可以来这里转转，看看能给什么启发。</p>
-<figure><a href="https://www.indiehackers.com/post/finding-your-first-users-without-spending-on-ads-69d79d88ba" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/69d79d88ba.png" alt="img" tabindex="0" loading="lazy"></a><figcaption>img</figcaption></figure>
-<p><a href="https://www.indiehackers.com/post/finding-your-first-users-without-spending-on-ads-69d79d88ba" target="_blank" rel="noopener noreferrer"><strong>Finding your first users without spending on ads</strong>How do you find your first users? This might be the most common question among indie hackers — especially those working on their first products with sma...</a><a href="https://www.indiehackers.com/post/finding-your-first-users-without-spending-on-ads-69d79d88ba" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/post/finding-your-first-users-without-spending-on-ads-69d79d88ba</a></p>
+<p><a href="https://www.indiehackers.com/post/finding-your-first-users-without-spending-on-ads-69d79d88ba" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/69d79d88ba.png" alt="img"></a></p>
+<p><a href="https://www.indiehackers.com/post/finding-your-first-users-without-spending-on-ads-69d79d88ba" target="_blank" rel="noopener noreferrer"><strong>Finding your first users without spending on ads</strong>How do you find your first users? This might be the most common question among indie hackers — especially those working on their first products with sma...</a>https://www.indiehackers.com/post/finding-your-first-users-without-spending-on-ads-69d79d88ba</p>
 <p>什么是数字生意？</p>
 <p>作为我们初始增长战略的一部分，我们研究了应用商店中的比特币游戏。当然，我想瞄准比特币游戏玩家，因为我们最初的产品是一款围绕加密货币的游戏。因此，对于 Android 应用程序的版本 0，我们实际上只是封装了一个指向我们的 Web 应用程序的嵌入式 Web 浏览器（我们的 Web 应用程序是移动响应式的），将其部署到应用程序商店，并将针对这些用户的广告放在一起。我们能够以不到 8 美分的价格购买点击次数，转化率为 25%，并且从这些活动中看到了一些巨大的初始回报。</p>
 <p>这就是数字生意。就像过去，沈万三从东北进购木材，然后卖到江南一样，在虚拟世界，独立黑客也善于做数字生意，将一种资源整合到另一个体系内。</p>
@@ -406,67 +406,67 @@
 <p>3，我给作者发了电子邮件。由于我认为他们是教师数字工具领域的专家（我也写过），所以我礼貌地要求他们测试 并给我反馈。在电子邮件的末尾，我提到如果他们喜欢我的产品，如果他们能将我的产品包含在他们的文章中，我将非常高兴。</p>
 <p>作者的运气不错，有博主回应了他，他获得了一些种子用户。</p>
 <p>下面还有一个联系博主的范文：</p>
-<p>嗨&lt;人名&gt;，<br>
-我读了您的文章“创建交互式工作表的 14 种方法”，认为它对教师非常有帮助。<br>
-我目前正在开发一个网络应用程序，以尽可能轻松地创建、分发和评估数字工作表。我刚刚开始并刚刚在 xxx 发布了该应用程序的第一个版本。<br>
-由于您对（数字）教学以及教师通过您的博客面临的问题了解很多，因此如果您可以尝试该工具并写信给我如何改进它，那就太棒了。<br>
-如果你喜欢的话，如果你博客里的 14 种可能性变成 15 种可能性，我当然会很高兴。<br>
-Best regards and have a nice weekend<br>
-最好的问候，并有一个愉快的周末<br>
+<p>嗨&lt;人名&gt;，
+我读了您的文章“创建交互式工作表的 14 种方法”，认为它对教师非常有帮助。
+我目前正在开发一个网络应用程序，以尽可能轻松地创建、分发和评估数字工作表。我刚刚开始并刚刚在 xxx 发布了该应用程序的第一个版本。
+由于您对（数字）教学以及教师通过您的博客面临的问题了解很多，因此如果您可以尝试该工具并写信给我如何改进它，那就太棒了。
+如果你喜欢的话，如果你博客里的 14 种可能性变成 15 种可能性，我当然会很高兴。
+Best regards and have a nice weekend
+最好的问候，并有一个愉快的周末
 署名</p>
 <p>非常赞的一个副本。</p>
 <p>通过上面作者联系博主以获取第一批种子用户的方式，我有了如下启示：</p>
 <p>独立黑客打造产品最好的方式和最好的方向，并不是独特的、专有的，而是已知的，而是融入一个上下游数字生态。因为当你融入的时候，上下游才有可以利用的资源。</p>
 <p>最糟糕的是，独立不是独特的，是大众的，然后却没能利用上下游的资源。</p>
 <p>接下来这位博主分享的内容让我惊讶，他向我们展示了如何打造了一个独立产品单页面的细节。</p>
-<p>主要包括：<br>
-（一）<br>
-解释您提供的价值（标题）<br>
-解释你将如何创建它（副标题）<br>
-让用户可视化（视觉）<br>
-使其可信（社会证明）<br>
-让下一步变得容易 (CTA)<br>
-（二）<br>
-使价值具体化（特征和反对意见）<br>
-将您的报价变为现实（社会证明）<br>
-打结松散的末端（常见问题解答）<br>
-重复您的号召性用语（第二次 CTA）<br>
+<p>主要包括：
+（一）
+解释您提供的价值（标题）
+解释你将如何创建它（副标题）
+让用户可视化（视觉）
+使其可信（社会证明）
+让下一步变得容易 (CTA)
+（二）
+使价值具体化（特征和反对意见）
+将您的报价变为现实（社会证明）
+打结松散的末端（常见问题解答）
+重复您的号召性用语（第二次 CTA）
 让自己令人难忘（创始人的话）</p>
 <p>这套细则分为 10 步，主要分为两页，每个页面 5 步。它是面向读者设计的，所有信息的部署都是围绕用户展开的。（不仅单页面产品如此，网文等其它内容均是如此，面向读者是内容生产的第一准则！）</p>
 <p>这样的页面在英文中叫 landing pages，翻译为中文是单页面，自动翻译的结果可能是登录页面，登录页面是不确切的。</p>
 <p>landing page 也有模板可以选择：</p>
-<figure><a href="https://pbs.twimg.com/media/F79LpG1boAAnmOD.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F79LpG1boAAnmOD.png" alt="Image" tabindex="0" loading="lazy"></a><figcaption>Image</figcaption></figure>
+<p><a href="https://pbs.twimg.com/media/F79LpG1boAAnmOD.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F79LpG1boAAnmOD.png" alt="Image"></a></p>
 <p>补充两张 landing page 的页面结构图。一个好的设计师，不仅仅要会修图，还要网页用户心理学。</p>
-<p><a href="https://pbs.twimg.com/media/F79Qys2a4AAFrqM.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F79Qys2a4AAFrqM.png" alt="Image" loading="lazy"></a><br>
-<a href="https://pbs.twimg.com/media/F79RBbEbQAAFlEc.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F79RBbEbQAAFlEc.png" alt="Image" loading="lazy"></a></p>
+<p><a href="https://pbs.twimg.com/media/F79Qys2a4AAFrqM.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F79Qys2a4AAFrqM.png" alt="Image"></a>
+<a href="https://pbs.twimg.com/media/F79RBbEbQAAFlEc.png" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/F79RBbEbQAAFlEc.png" alt="Image"></a></p>
 <h2 id="_4-保持成长" tabindex="-1"><a class="header-anchor" href="#_4-保持成长"><span>4，保持成长</span></a></h2>
 <p>下面开始学习第 4 部分，也是最后一部分：保持持续成长。这部分主要包括：</p>
-<p>1，寻找更多的客户<br>
-2，让老用户回来<br>
+<p>1，寻找更多的客户
+2，让老用户回来
 3，设计你的生活方式</p>
 <p>4.1 寻找更多客户</p>
 <p>那些有效的 11 个常青渠道</p>
-<p>1，SEO<br>
+<p>1，SEO
 通过 Google 关键字为产品引流，通常这个过程需发数月的时间。它有效，但需要时间的积累。</p>
 <p>2，产品发布平台：Product Hunt、Beta List</p>
 <p>3，生态应用程序交换市场，例如 shopify、Slack、salesforce 等，它们本身有广泛的用户群，在上面发布对平台用户有价值的插件产品。小程序/小游戏本身也是这一类的平台。</p>
 <p>4，具有 10w 小社区的 Reddit，对开发者比较友好的小社区有/r/web_design、/r/html5、/r/frontend 和 /r/webdev 等。</p>
-<p>5，Cold Mail，冷邮件<br>
+<p>5，Cold Mail，冷邮件
 用邮件主动联系不认识的人，就是冷邮件。邮件内容可能是热情的，但形式却是冷的。它是最简单、创始人最易掌握的营销渠道。</p>
 <p>6，建议免费用户和付费用户添加 Powered by..</p>
 <p>7，Hacker news，有时间回帖和发帖同样有营销效果。</p>
-<p>8，实时的 SEO<br>
+<p>8，实时的 SEO
 取得 Google Adword 的博客具有长尾优势，以前可能需发几周就可以完成，现在因为内容太多， 可能需要几个月。不过这值得的。有一种方法，就是追踪前沿新关键字，同保持原创，这可以获得更快的成长速度。</p>
 <p>9，通过已有用户进行口碑传播，请用户进行口碑传播的秘诀是让用户获取额外的、更多的好处。用口碑带来新用户的老用户，也值得平台给于更多利益。</p>
 <p>10，软件目录——流量经纪人平台，例如 Capterra、G2、GetApp。它们的数字生意是怎么做的呢？从谷歌购买 adwords 广告，拿到流量，然后再向独立黑客收到投放产品的费用。就是这样。</p>
 <p>这 10 个渠道十分朴素。长远来看，经营一个博客，一个 twitter 帐号，一个 Reddit 帐号，不断积累用户和影响力是常久之道。</p>
 <p>争取口碑不能被动地等待用户讲给他人听，要有主动刺激。这篇文章介绍了一些刺激用户口碑传播的小技巧。</p>
-<figure><a href="https://www.indiehackers.com/post/how-to-engineer-word-of-mouth-8aaff01ce0" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/8aaff01ce0.png" alt="img" tabindex="0" loading="lazy"></a><figcaption>img</figcaption></figure>
-<p><a href="https://www.indiehackers.com/post/how-to-engineer-word-of-mouth-8aaff01ce0" target="_blank" rel="noopener noreferrer"><strong>How to engineer word of mouth</strong>Marketing usually works like this: You have a product -&gt; You find a way to get users -&gt; The users sign up and use your product **There's a small problem...</a><a href="https://www.indiehackers.com/post/how-to-engineer-word-of-mouth-8aaff01ce0" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/post/how-to-engineer-word-of-mouth-8aaff01ce0</a></p>
+<p><a href="https://www.indiehackers.com/post/how-to-engineer-word-of-mouth-8aaff01ce0" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/8aaff01ce0.png" alt="img"></a></p>
+<p><a href="https://www.indiehackers.com/post/how-to-engineer-word-of-mouth-8aaff01ce0" target="_blank" rel="noopener noreferrer"><strong>How to engineer word of mouth</strong>Marketing usually works like this: You have a product -&gt; You find a way to get users -&gt; The users sign up and use your product **There's a small problem...</a>https://www.indiehackers.com/post/how-to-engineer-word-of-mouth-8aaff01ce0</p>
 <p>前面提到复盘，这里有 5 条复盘细则，它们都极为重要。长久坚持下去，必有涅槃一般的提升。</p>
-<p>1.将 10%的时间花在高风险、高回报的活动上。<br>
+<p>1.将 10%的时间花在高风险、高回报的活动上。
 浏览一下你的待办事项清单，问：哪种行动需要最少的投入，却能给我带来最高的产出？</p>
-<p>2.寻找战略合作伙伴<br>
+<p>2.寻找战略合作伙伴
 时事通讯、社区、影响者。谁已经拥有您的理想受众？你能和谁合作？</p>
 <ol start="3">
 <li>如何少做，而多得？</li>
@@ -482,16 +482,16 @@ Best regards and have a nice weekend<br>
 <p>想办法增加推荐、增加用户、增长收入</p>
 <p>4.2 如何让老用户回来</p>
 <p>这篇文章介绍了分析用户流失原因，让老用户回来、留下的方法。</p>
-<figure><a href="https://www.indiehackers.com/post/how-to-reduce-churn-the-advice-from-indie-hackers-a396ab3af0" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/a396ab3af0.png" alt="img" tabindex="0" loading="lazy"></a><figcaption>img</figcaption></figure>
-<p><a href="https://www.indiehackers.com/post/how-to-reduce-churn-the-advice-from-indie-hackers-a396ab3af0" target="_blank" rel="noopener noreferrer"><strong>How to reduce churn: the advice from Indie Hackers</strong>In my last post, I asked everyone to share their best churn tips. Here I've cleaned up all the feedback and compiled a list from all the suggestions, en...</a><a href="https://www.indiehackers.com/post/how-to-reduce-churn-the-advice-from-indie-hackers-a396ab3af0" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/post/how-to-reduce-churn-the-advice-from-indie-hackers-a396ab3af0</a></p>
+<p><a href="https://www.indiehackers.com/post/how-to-reduce-churn-the-advice-from-indie-hackers-a396ab3af0" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/a396ab3af0.png" alt="img"></a></p>
+<p><a href="https://www.indiehackers.com/post/how-to-reduce-churn-the-advice-from-indie-hackers-a396ab3af0" target="_blank" rel="noopener noreferrer"><strong>How to reduce churn: the advice from Indie Hackers</strong>In my last post, I asked everyone to share their best churn tips. Here I've cleaned up all the feedback and compiled a list from all the suggestions, en...</a>https://www.indiehackers.com/post/how-to-reduce-churn-the-advice-from-indie-hackers-a396ab3af0</p>
 <p>如何使用“打孔卡”提升用户忠诚度？</p>
 <p>过去，麦当劳和星巴克等公司发放了客户忠诚度打孔卡。每当有人进来买汉堡或咖啡时，收银员都会使用定制的打孔器在卡上做标记。第六次之后，客户因忠诚而获得了免费产品的奖励。</p>
 <p>在电子商务中，这一原则基本上保持不变。然而，现在可用的忠诚度营销工具使小型企业可以更轻松地将此功能添加到其网站中。有两种流行的方法可以将此类程序添加到您的站点。</p>
-<p>1，积分系统<br>
+<p>1，积分系统
 2，通过积分免费兑换商品的商品系统</p>
 <p>减少每月的流失，就等于增加用户。</p>
-<figure><a href="https://www.indiehackers.com/post/how-you-can-decrease-your-monthly-churn-97401bb2f9" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/97401bb2f9.png" alt="img" tabindex="0" loading="lazy"></a><figcaption>img</figcaption></figure>
-<p><a href="https://www.indiehackers.com/post/how-you-can-decrease-your-monthly-churn-97401bb2f9" target="_blank" rel="noopener noreferrer"><strong>How you can decrease your monthly churn</strong>It costs you between <strong>five to 25 times</strong> more to acquire a new customer than to keep an existing one. On top of that, reducing churn by 5% can increase...</a><a href="https://www.indiehackers.com/post/how-you-can-decrease-your-monthly-churn-97401bb2f9" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/post/how-you-can-decrease-your-monthly-churn-97401bb2f9</a></p>
+<p><a href="https://www.indiehackers.com/post/how-you-can-decrease-your-monthly-churn-97401bb2f9" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/97401bb2f9.png" alt="img"></a></p>
+<p><a href="https://www.indiehackers.com/post/how-you-can-decrease-your-monthly-churn-97401bb2f9" target="_blank" rel="noopener noreferrer"><strong>How you can decrease your monthly churn</strong>It costs you between <strong>five to 25 times</strong> more to acquire a new customer than to keep an existing one. On top of that, reducing churn by 5% can increase...</a>https://www.indiehackers.com/post/how-you-can-decrease-your-monthly-churn-97401bb2f9</p>
 <p>最后一小部分内容，设计你的生活。</p>
 <p>独立黑客要想在创收的同时保持轻松，作者给出了以下这几点建议：</p>
 <p>1，删除免费版本，仅提供自动的免费试用。该产品的“营销”版本带来了令人头痛的客户服务问题，对于时间紧迫的个体企业家来说，这些问题很快就超过了营销收益。对于简单的产品，免费试用就足够了。</p>
@@ -505,19 +505,19 @@ Best regards and have a nice weekend<br>
 <p>通过以不懈地关注系统而不是目标的形式实践无限的创业精神。</p>
 <p>这句话让人费解。对于创作者来说，创作本身即是目标，而非创作后获得的荣誉与金钱。</p>
 <p><a href="https://www.indiehackers.com/post/infinite-entrepreneurship-da92f36f21" target="_blank" rel="noopener noreferrer">indiehackers.com/post/infinite-…</a></p>
-<figure><a href="https://www.indiehackers.com/post/infinite-entrepreneurship-da92f36f21" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/da92f36f21.png" alt="img" tabindex="0" loading="lazy"></a><figcaption>img</figcaption></figure>
-<p><a href="https://www.indiehackers.com/post/infinite-entrepreneurship-da92f36f21" target="_blank" rel="noopener noreferrer"><strong>Infinite entrepreneurship</strong>A lot of startup founders I talk to approach entrepreneurship as a finite game. The historian James Carse coined the term in the 1980s: &gt; There are at l...</a><a href="https://www.indiehackers.com/post/infinite-entrepreneurship-da92f36f21" target="_blank" rel="noopener noreferrer">https://www.indiehackers.com/post/infinite-entrepreneurship-da92f36f21</a></p>
+<p><a href="https://www.indiehackers.com/post/infinite-entrepreneurship-da92f36f21" target="_blank" rel="noopener noreferrer"><img src="@source/docs/assets/da92f36f21.png" alt="img"></a></p>
+<p><a href="https://www.indiehackers.com/post/infinite-entrepreneurship-da92f36f21" target="_blank" rel="noopener noreferrer"><strong>Infinite entrepreneurship</strong>A lot of startup founders I talk to approach entrepreneurship as a finite game. The historian James Carse coined the term in the 1980s: &gt; There are at l...</a>https://www.indiehackers.com/post/infinite-entrepreneurship-da92f36f21</p>
 <p>独立黑客做事与公司内做事不同，独立做事最大的成功不在于目标完成了多少，收获了多少奖励，而在于完成了多少计划。</p>
 <p>可以通过制定自己完全可以控制并能完成的计划，来不断积累正向反馈。在产品上，也可以发布不太复杂的独立产品，例如：</p>
-<p>电子书<br>
-指南<br>
-时事通讯<br>
-博客<br>
-产品化服务<br>
-资源合集<br>
-课程（相对复杂）<br>
-数字模板<br>
-网站主题<br>
+<p>电子书
+指南
+时事通讯
+博客
+产品化服务
+资源合集
+课程（相对复杂）
+数字模板
+网站主题
 电子商店（复杂）</p>
 <p>对于大的计划，可以通过精益精神，拆分为小计划进行实施。</p>
 <p>以上就是截止以 2023 年 10 月 9 日独立黑客（IndieHacker）面向初学者的入门教程，我通过学习这些内容，增加了对独立黑客的认知，了解了许多原来不了解或不明白的知识，我仿佛也可以打造一款独立产品了。但 我知道，知与行相差还很远。</p>

@@ -1,9 +1,7 @@
 ---
-title: 随笔
-index: false
-# icon: laptop-code
-sidebar: false
-cover: /assets/images/cover2.jpg
+title: 博客
+index: true
+sidebar: true
 ---
 
-<Catalog />
+<!-- <Catalog /> -->

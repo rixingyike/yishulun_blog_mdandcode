@@ -1,5 +1,7 @@
 ---
-title: "在Rustlings示例中N天学习Rust"
+title: 在Rustlings示例中N天学习Rust
+createTime: 2025/02/19 13:58:17
+# permalink: /article/4oy3th2a/
 ---
 # 在Rustlings示例中N天学习Rust
 

@@ -1,4 +1,4 @@
-<template><div><figure><img src="@source/posts/2023/assets/1cf8a18e1fb705a7de0109a15eaa1d6.png" alt="grok" tabindex="0" loading="lazy"><figcaption>grok</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/1cf8a18e1fb705a7de0109a15eaa1d6.png" alt="grok"></p>
 <h1 id="马斯克发布全新-ai——grok-宣称世界第三-现在加入列表等待舱门开启" tabindex="-1"><a class="header-anchor" href="#马斯克发布全新-ai——grok-宣称世界第三-现在加入列表等待舱门开启"><span>马斯克发布全新 AI——Grok，宣称世界第三，现在加入列表等待舱门开启</span></a></h1>
 <blockquote>
 <p>下文中的“我们”，指代 Grok 的开发团队。这是一篇译稿，引用部分为探长添加。</p>
@@ -155,12 +155,12 @@
 <p>我们在美国为有限数量的用户提供试用 Grok 原型的机会，并提供宝贵的反馈，这将帮助我们在更广泛的发布之前改进其功能。您可以加入 Grok 候补名单。此次发布只是 xAI 的第一步。展望未来，我们有一个令人兴奋的路线图，并将在未来几个月内推出新的功能和特性。</p>
 <blockquote>
 <p>如果你也好奇，不妨戳下面的链接加入等待列表，等待测试舱门开启：</p>
-<p><a href="https://grok.x.ai/" target="_blank" rel="noopener noreferrer">https://grok.x.ai/</a></p>
+<p>https://grok.x.ai/</p>
 </blockquote>
 <h2 id="回顾" tabindex="-1"><a class="header-anchor" href="#回顾"><span>回顾</span></a></h2>
 <p>最后总结一下，自从 2018 年马斯克被踢出 OpenAI 董事会后，一直想推出自己的 AI 产品。现在终于如愿了，Grok 便是。**Grok 宣称，它不仅可以回答人类的一切问题，还可以教人类如何向它提问题。**这让我感觉 Grok 真的有独立意识了一样。</p>
 <p>如果 Grok 真如它宣称的那样，它可以连接 Twitter 这颗人类意识大脑，那么它作为一个研究社会科学的工具，将可能是最好的选择。在这一点上，其他 AI 如 GPT-4、Claude2、Google Bard 可能都不如它。</p>
-<p>英文原文：<a href="https://x.ai/" target="_blank" rel="noopener noreferrer">https://x.ai/</a></p>
+<p>英文原文：https://x.ai/</p>
 </div></template>
 
 

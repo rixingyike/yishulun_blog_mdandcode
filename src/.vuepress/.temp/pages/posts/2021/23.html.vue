@@ -1,6 +1,6 @@
 <template><div><h1 id="《微信小程序全栈开发实战》常见问题" tabindex="-1"><a class="header-anchor" href="#《微信小程序全栈开发实战》常见问题"><span>《微信小程序全栈开发实战》常见问题</span></a></h1>
 <blockquote>
-<p>《微信小程序全栈开发实战》常见问题。<br>
+<p>《微信小程序全栈开发实战》常见问题。
 常见问题解答在最后面。</p>
 </blockquote>
 <p>这是我在极客时间上架的视频专栏课，目前已经全部录制完成了，共179节，48+小时时长。这门课虽然名字冠以小程序，但其实是一门全栈开发的课，不仅全面介绍了小程序技术，还介绍了后端Node.js技术。读者对象适合为编程初学者，或想转行做前端开发的同学。</p>
@@ -21,39 +21,39 @@
 <img src="https://cdn.jsdelivr.net/gh/rixingyike/images/202120210311143855.png" alt="image-20210303183511288" style="zoom:25%;" />
 <p>来自学员Forest的评价：</p>
 <blockquote>
-<p>#你最感谢的一本编程书或教程是什么？<br>
+<p>#你最感谢的一本编程书或教程是什么？
 首先感谢李艺老师，深入浅出，循序渐进，收获颇丰，课程不是简单的讲解小程序的功能，而是将知识点与实际开发运用的一个过程，课程不仅讲了小程序，还讲解到了node, MySQL, nginx,  云开发，微信公众号开发等等，也是我目前接触到的最全的一门小程序课程。</p>
 </blockquote>
 <img src="https://cdn.jsdelivr.net/gh/rixingyike/images/202120210311144028.png" alt="image-20210303183445619" style="zoom:25%;" />
 <p>来自学员小司的评价：</p>
 <blockquote>
-<p>#你最感谢的一本编程书或教程是什么？<br>
-首先感谢李艺老师，十分感谢~<br>
-先不谈老师讲课内容全面、细致，就从课后的耐心解答每一位读者的问题疑惑，就不是一般老师能确确实实做得到的，那一股股认真用心的劲，让我太爱这位老师了。这门课由浅入深，质量对我来说那是杠杠的，更何况所有在开发中遇到的工具、服务，老师已全部提供给我们了。课程不像网络上教程那样单单讲解小程序的功能，而是将每个知识块与实战紧密结合，外加拓展，涉及的很广，甚至还讲解到了云数据库，MySQL，Node.js，Golang，Vue，云开发等各种知识点。<br>
-总之，老师会尽自己一切能力帮助到每一位读者，这一点很难得的，希望我们每一位好好珍惜~<br>
-最后，再次感谢李艺老师，谢谢~<br>
+<p>#你最感谢的一本编程书或教程是什么？
+首先感谢李艺老师，十分感谢~
+先不谈老师讲课内容全面、细致，就从课后的耐心解答每一位读者的问题疑惑，就不是一般老师能确确实实做得到的，那一股股认真用心的劲，让我太爱这位老师了。这门课由浅入深，质量对我来说那是杠杠的，更何况所有在开发中遇到的工具、服务，老师已全部提供给我们了。课程不像网络上教程那样单单讲解小程序的功能，而是将每个知识块与实战紧密结合，外加拓展，涉及的很广，甚至还讲解到了云数据库，MySQL，Node.js，Golang，Vue，云开发等各种知识点。
+总之，老师会尽自己一切能力帮助到每一位读者，这一点很难得的，希望我们每一位好好珍惜~
+最后，再次感谢李艺老师，谢谢~
 期待你的加入，我们一起进军微信小程序全栈开发！</p>
 </blockquote>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images/202120210313103910.png" alt="image-20210313103908412" tabindex="0" loading="lazy"><figcaption>image-20210313103908412</figcaption></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images/202120210313103910.png" alt="image-20210313103908412"></p>
 <p>来自极客时间老读者swordman在最后一节课撰写的评价：</p>
 <blockquote>
-<p>从2020年6月，学习到2021年1月，8个月的时间，让我从一名Android原生应用开发者，转变成小程序应用开发者。非常感谢老师，是老师的一步步引导，让我跨过了新的语言，新的IDE，声明式UI这三个技术关卡。“知行合一”的理念，也让我收益颇丰。<br>
-3月份，我自己的小程序产品已经开始试用了，可以说没有这门课程，我的小程序产品不可能快速从0到1，进入试用阶段。<br>
+<p>从2020年6月，学习到2021年1月，8个月的时间，让我从一名Android原生应用开发者，转变成小程序应用开发者。非常感谢老师，是老师的一步步引导，让我跨过了新的语言，新的IDE，声明式UI这三个技术关卡。“知行合一”的理念，也让我收益颇丰。
+3月份，我自己的小程序产品已经开始试用了，可以说没有这门课程，我的小程序产品不可能快速从0到1，进入试用阶段。
 感谢老师对课程的辛勤付出，也感谢极客时间，提供了那么好的一个学习平台。（我是极客时间的老粉丝，2017年在上海QCon，见证了极客时间的诞生。）</p>
 </blockquote>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images/202120210311144252.png" alt="image-20210309191256574" tabindex="0" loading="lazy"><figcaption>image-20210309191256574</figcaption></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images/202120210311144252.png" alt="image-20210309191256574"></p>
 <h2 id="购买方式" tabindex="-1"><a class="header-anchor" href="#购买方式"><span>购买方式</span></a></h2>
-<p>购买链接：<a href="http://gk.link/a/10AdC" target="_blank" rel="noopener noreferrer">http://gk.link/a/10AdC</a></p>
+<p>购买链接：http://gk.link/a/10AdC</p>
 <h2 id="常见问题⭐️" tabindex="-1"><a class="header-anchor" href="#常见问题⭐️"><span>常见问题⭐️</span></a></h2>
 <p><strong>1. Golang版本的代码有吗？看评论说有，我没找到</strong></p>
 <p>179节课内没有Go语言版本的后端代码。后续如果持续更新完善，考虑添加Go语言代码，毕竟Go语言也是作者钟爱和一贯使用的语言。</p>
 <p><strong>2. 有没有课件？</strong></p>
 <p>有。</p>
-<p>不止一个读者问到极客时间视频专栏的演示文稿，我整理了出来，都在这里了：<br>
-链接：<a href="https://pan.baidu.com/s/1mJq_NVstuPpNRi7PDawjkg" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1mJq_NVstuPpNRi7PDawjkg</a><br>
+<p>不止一个读者问到极客时间视频专栏的演示文稿，我整理了出来，都在这里了：
+链接：<a href="https://pan.baidu.com/s/1mJq_NVstuPpNRi7PDawjkg" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1mJq_NVstuPpNRi7PDawjkg</a>
 提取码：liyi</p>
-<p>这是Mac上的keynote文件，如果在Windows上查看，可以从这个网站转化：<br>
-<a href="https://zhuanhuan.supfree.net/hao.asp?f=key&amp;t=pdf" target="_blank" rel="noopener noreferrer">https://zhuanhuan.supfree.net/hao.asp?f=key&amp;t=pdf</a></p>
+<p>这是Mac上的keynote文件，如果在Windows上查看，可以从这个网站转化：
+https://zhuanhuan.supfree.net/hao.asp?f=key&amp;t=pdf</p>
 <p><strong>3. 听朋友说，他完课拿到了作者新手签名的书？</strong></p>
 <p>是的。截至写条Q/A时，赠书活动仍在进行。完课，并在极客时间部落晒出结课证书，写几句评名，凑够100字，就有很大机会免费得到作者亲笔签名的赠书。目前仅一位读者获得，加油。</p>
 <p>详细信息可以从这里查看：<a href="https://mp.weixin.qq.com/s/AT9ZGknXA3AyFM4f-Hc29w" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/AT9ZGknXA3AyFM4f-Hc29w</a>。</p>
@@ -67,13 +67,13 @@
 <img src="https://gitee.com/rxyk/my-images/raw/master/2021/20210311123419.png" alt="image-20210311123417402" style="zoom: 50%;" />
 <p>此提问，这位读者并不是购买了腾讯云的云直播组件。在云直播组件中，有相关直播域名的要求。</p>
 <blockquote>
-<p><a href="https://cloud.tencent.com/document/product/1078/42916" target="_blank" rel="noopener noreferrer">https://cloud.tencent.com/document/product/1078/42916</a><br>
+<p>https://cloud.tencent.com/document/product/1078/42916
 小程序·云直播插件</p>
 </blockquote>
 <p>这个云直播组件，虽然不需要自己开发，但是仍然需要开发者有非个人资质。</p>
 <p>这位读者尝试的是七牛云。七牛云云直播不需要企业资质，个人也可以申请开通，但需要个人提供同时具有ICP备案和公安备案的域名。关于公安备案，具体要求在下面：</p>
 <blockquote>
-<p><a href="https://developer.qiniu.com/af/kb/3987/how-to-make-website-and-inquires-the-police-put-on-record-information" target="_blank" rel="noopener noreferrer">https://developer.qiniu.com/af/kb/3987/how-to-make-website-and-inquires-the-police-put-on-record-information</a></p>
+<p>https://developer.qiniu.com/af/kb/3987/how-to-make-website-and-inquires-the-police-put-on-record-information</p>
 </blockquote>
 <p>我看了这个链接，公安部图案人个就可以做，不需要企业资质，所以麻烦一下，还是可以申请的。最麻烦的是，它要求企业资质，开发者想申请都没有资格。</p>
 <p>这位读者是想完成毕设。最后我给出的建议是：</p>
@@ -98,8 +98,8 @@
 <p>console.log(JSON.stringify(...))</p>
 <p><strong>9. 老师不知道你了不了解微信支付的账单是如何分类的？比如我扫码骑共享单车微信为啥知道把这个费用归为交通？</strong></p>
 <p>如果商家不提供信息，按理说微信是不知道如何给帐单分类的。我查了一下统一下单接口中的body字段，微信对此字段的内容有所规定，见下图，这可能是它赖以自动分类的依据。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images/2021/20210414104444f689b2f44004853b2177426b97f19b0.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p><a href="https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=4_2" target="_blank" rel="noopener noreferrer">https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=4_2</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images/2021/20210414104444f689b2f44004853b2177426b97f19b0.png" alt=""></p>
+<p>https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=4_2</p>
 </div></template>
 
 

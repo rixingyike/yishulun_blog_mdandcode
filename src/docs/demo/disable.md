@@ -1,14 +1,11 @@
 ---
-# icon: gears
 order: 4
 category:
   - 使用指南
 tag:
   - 禁用
-
 navbar: false
 sidebar: false
-
 breadcrumb: false
 pageInfo: false
 contributors: false
@@ -18,8 +15,10 @@ prev: false
 next: false
 comment: false
 footer: false
-
 backtotop: false
+title: disable
+createTime: 2025/02/19 13:58:17
+# permalink: /article/7746xs4z/
 ---
 # 干净的页面：功能禁用
 

@@ -1,8 +1,8 @@
 <template><div><h1 id="你的下一个项目应该使用-rust-编程的-7-个理由" tabindex="-1"><a class="header-anchor" href="#你的下一个项目应该使用-rust-编程的-7-个理由"><span>你的下一个项目应该使用 Rust 编程的 7 个理由</span></a></h1>
 <blockquote>
-<p>该文译自<a href="https://simpleprogrammer.com/rust-programming-benefits/%EF%BC%8C%E5%8E%9F%E4%BD%9C%E8%80%85%E6%98%AFTAPAN" target="_blank" rel="noopener noreferrer">https://simpleprogrammer.com/rust-programming-benefits/，原作者是TAPAN</a> PATEL。</p>
+<p>该文译自https://simpleprogrammer.com/rust-programming-benefits/，原作者是TAPAN PATEL。</p>
 </blockquote>
-<nav class="table-of-contents"><ul><li><router-link to="#什么是-rust-编程语言">什么是 Rust 编程语言？</router-link></li><li><router-link to="#rust-是一门足够好的编程语言吗">Rust 是一门足够好的编程语言吗？</router-link></li><li><router-link to="#列举-rust-如此受欢迎的-6-个原因">列举 Rust 如此受欢迎的 6 个原因</router-link></li><li><router-link to="#为什么-rust-是你下一个项目的最佳选择-7个理由">为什么 Rust 是你下一个项目的最佳选择？（7个理由）</router-link><ul><li><router-link to="#_1-rust-解决内存管理问题">1.Rust 解决内存管理问题</router-link></li><li><router-link to="#_2-rust-的低开销使其成为嵌入式编程的理想选择">2.Rust 的低开销使其成为嵌入式编程的理想选择</router-link></li><li><router-link to="#_3-rust-促进强大的-web-应用程序开发">3.Rust 促进强大的 Web 应用程序开发</router-link></li><li><router-link to="#_4-rust-的静态类型确保易于维护">4.Rust 的静态类型确保易于维护</router-link></li><li><router-link to="#_5-rust-具有快速和高性能">5.Rust 具有快速和高性能</router-link></li><li><router-link to="#_6-跨平台开发与支持">6.跨平台开发与支持</router-link></li><li><router-link to="#_7-rust-拥有广阔的生态系统">7.Rust 拥有广阔的生态系统</router-link></li></ul></li><li><router-link to="#是什么让-rust-与众不同">是什么让 Rust 与众不同？</router-link><ul><li><router-link to="#语言对比-rust-vs-go">语言对比：Rust vs Go</router-link></li><li><router-link to="#语言对比-rust-vs-c">语言对比：Rust vs C++</router-link></li></ul></li><li><router-link to="#何时使用rust-rust最适合的6个使用领域">何时使用Rust？Rust最适合的6个使用领域</router-link><ul><li><router-link to="#_1-rust-是编写物联网代码的绝佳语言">1.Rust 是编写物联网代码的绝佳语言</router-link></li><li><router-link to="#_2-rust编程可用于hpc-高性能计算">2.Rust编程可用于HPC（高性能计算）</router-link></li><li><router-link to="#_3-使用-webassembly-wasm-编写-web-应用程序">3.使用 WebAssembly (WASM) 编写 Web 应用程序</router-link></li><li><router-link to="#_4-科学项目">4.科学项目</router-link></li><li><router-link to="#_5-游戏开发">5.游戏开发</router-link></li><li><router-link to="#_6-区块链开发">6.区块链开发</router-link></li></ul></li><li><router-link to="#哪些大厂在使用-rust语言">哪些大厂在使用 Rust语言？</router-link></li><li><router-link to="#细数一下rust语言的缺点">细数一下Rust语言的缺点</router-link></li><li><router-link to="#你应该学习-rust-吗">你应该学习 Rust 吗？</router-link></li><li><router-link to="#你应该学习-rust-还是-python">你应该学习 Rust 还是 Python？</router-link></li><li><router-link to="#如何学习-rust-编程">如何学习 Rust 编程</router-link></li><li><router-link to="#发现-rust-的潜力">发现 Rust 的潜力</router-link></li></ul></nav>
+<p>[TOC]</p>
 <p>据最近的一项 Stack Overflow 调查证实，Rust 是 4 年多来最受欢迎的编程语言（高达 83.5% 的程序员首选）。这意味着那些尝试过并实际使用过 Rust 编程的人都对它敬畏不已。</p>
 <p>然而，Rust 仍然不在最常用的编程语言前五名之列。这表明 Rust 编程在很大程度上仍然是一个充满未开发潜力的未开发领域。鉴于其受欢迎程度，越来越多的用户涌向 Rust，这意味着它将很快进入前五名，并将自己确立为世界各地程序员的主要工具。</p>
 <p>为了让你不落伍，这里有一份关于什么是 Rust 编程语言的快速指南，以及你应该在下一个项目中使用 Rust 编程的七个原因。</p>
@@ -18,7 +18,7 @@
 <p>此外，你可以使用 Rust 处理大量数据而不会损失任何性能。</p>
 <p>而且，如果你还不相信。然后，你可以看看 Rust 在行业中的使用情况，Dropbox、Firefox 和 Cloudflare 等公司在生产中使用 Rust。</p>
 <p>**Rust 的核心是一种静态类型的编程语言。这意味着它提供开箱即用的安全性和性能。**它提供比 C++ 更好的内存管理和安全并发。此外，<strong>如果你具有 C++ 知识，那么 Rust 很容易学习</strong>，因为 Rust 语法类似于 C++。</p>
-<p>据 <a href="http://Nature.com" target="_blank" rel="noopener noreferrer">Nature.com</a> 宣称，科学家们也倾向于使用 Rust，因为它具有出色的内存管理功能和可用性。这些点只说明 Rust 是一门足够优秀的编程语言。</p>
+<p>据 Nature.com 宣称，科学家们也倾向于使用 Rust，因为它具有出色的内存管理功能和可用性。这些点只说明 Rust 是一门足够优秀的编程语言。</p>
 <h2 id="列举-rust-如此受欢迎的-6-个原因" tabindex="-1"><a class="header-anchor" href="#列举-rust-如此受欢迎的-6-个原因"><span>列举 Rust 如此受欢迎的 6 个原因</span></a></h2>
 <p>在过去三年中， Rust 一直是StackOverflow 开发人员调查中最“受喜爱”的编程语言。超过 86% 的开发人员正在使用 Rust 或表示有兴趣使用它，使其成为最受欢迎的编程语言。</p>
 <p>随着使用 Rust 的开发人员数量从 2020 年的 5.1% 增加到 2021 年的 7.03%，这种兴趣现在使 Rust 更受欢迎。目前这一比例在 2022 年为 9.32%。</p>
@@ -60,7 +60,7 @@
 <p>如果你习惯于使用 Java 或 Python 等高级语言开发 Web 应用程序，那么你会爱上使用 Rust。使用 Rust，你可以更加确信代码不会出错。</p>
 <p>对于任何已经精通 C 的人来说，Rust 都很容易学习。此外，你可以立即开始修补 Rust，而无需花费数年时间学习技巧。</p>
 <p>使用 Rust 进行 Web 开发的主要亮点是：</p>
-<p>你可以将 Rust 编译为WebAssembly，这样可以更轻松地在 Web 上获得接近原生的性能。<br>
+<p>你可以将 Rust 编译为WebAssembly，这样可以更轻松地在 Web 上获得接近原生的性能。
 Rust 允许任何语言编译成 WebAssembly，从而允许可移植的、可执行的在线运行代码。</p>
 <p>简而言之，对于 Web 开发，Rust 是吸收了所有正确维生素的语言！</p>
 <h3 id="_4-rust-的静态类型确保易于维护" tabindex="-1"><a class="header-anchor" href="#_4-rust-的静态类型确保易于维护"><span>4.Rust 的静态类型确保易于维护</span></a></h3>
@@ -79,7 +79,7 @@ Rust 允许任何语言编译成 WebAssembly，从而允许可移植的、可执
 <h3 id="_7-rust-拥有广阔的生态系统" tabindex="-1"><a class="header-anchor" href="#_7-rust-拥有广阔的生态系统"><span>7.Rust 拥有广阔的生态系统</span></a></h3>
 <p>随着 Rust 的日益流行，Rust 生态系统正在迅速扩展。庞大的生态系统中的一个主要因素是它不仅仅是一种语言或编译器。软件生产质量需要更多方面，而 Rust 生态系统认为所有这些都非常重要。</p>
 <p>首先，Cargo 是 Rust 程序员使用的命令行工具，可帮助管理依赖项、运行测试和生成文档。</p>
-<p>其次，Rust 有一个社区站点 <a href="http://crates.io" target="_blank" rel="noopener noreferrer">crates.io</a>，可以满足你对 Rust 库的需求。你可以在docs.rs上找到在 <a href="http://crates.io" target="_blank" rel="noopener noreferrer">crates.io</a> 上发布的任何库的文档。</p>
+<p>其次，Rust 有一个社区站点 crates.io，可以满足你对 Rust 库的需求。你可以在docs.rs上找到在 crates.io 上发布的任何库的文档。</p>
 <p>新手 Rust 开发人员也可以轻松访问基于属性的测试、基准测试和模糊测试。</p>
 <p>与专业人士交流和学习也很容易。有多个 Rust 会议，如RustConf、RustBelt和RustFest，它们是 Rust 开发人员的知识金矿。</p>
 <h2 id="是什么让-rust-与众不同" tabindex="-1"><a class="header-anchor" href="#是什么让-rust-与众不同"><span>是什么让 Rust 与众不同？</span></a></h2>
@@ -121,7 +121,7 @@ Rust 允许任何语言编译成 WebAssembly，从而允许可移植的、可执
 <p>Rust 支持 WebAssembly，这是一种快速、现代且安全的创建 Web 应用程序的方法。将 Rust 与 WebAssembly 结合使用可为你提供可预测的性能、较小的代码大小以及对优秀库集的访问。</p>
 <p>WASM + Rust 与 JavaScript 配合得很好。这意味着你不必替换现有的代码库，并且可以进行扩充以从 Rust 的性能中获益。此外，Rust 还可以与现有的工具链一起使用，例如 npm。</p>
 <h3 id="_4-科学项目" tabindex="-1"><a class="header-anchor" href="#_4-科学项目"><span>4.科学项目</span></a></h3>
-<p>Rust 的速度和安全性也引起了科学家们的关注。他们正在从 Python 转向 Rust，即使掌握和使用它需要时间。<a href="http://xn--Nature-hz8lt03a.com" target="_blank" rel="noopener noreferrer">根据Nature.com</a> 文章，科学家 Köster 创造了 Varlociraptor，它通过将序列与遗传碱基进行比较来识别基因组变异。Rust 使得以最佳速度进行数百万次此类计算成为可能。</p>
+<p>Rust 的速度和安全性也引起了科学家们的关注。他们正在从 Python 转向 Rust，即使掌握和使用它需要时间。根据Nature.com 文章，科学家 Köster 创造了 Varlociraptor，它通过将序列与遗传碱基进行比较来识别基因组变异。Rust 使得以最佳速度进行数百万次此类计算成为可能。</p>
 <p>Rust 内存模型还让科学家们不用担心内存泄漏或安全漏洞。科学家通过更高的学习和实施时间在编译期间消除错误。所有这些也适用于并行代码。</p>
 <h3 id="_5-游戏开发" tabindex="-1"><a class="header-anchor" href="#_5-游戏开发"><span>5.游戏开发</span></a></h3>
 <p>游戏开发是另一个出色的 Rust 用例。有很多 Rust 游戏引擎可以帮助你入门。其中包括 Amethyst——一种面向数据的游戏引擎；bevy——另一个数据驱动的游戏引擎；Fyrox – 生产就绪引擎和 Nonnou – 开源游戏框架。</p>
@@ -187,9 +187,9 @@ Rust 允许任何语言编译成 WebAssembly，从而允许可移植的、可执
 <p>Rust 是新的和令人兴奋的，并提供许多好处，包括内存安全、零抽象、web-assembly 支持和性能。但是，它并非没有缺点，其中包括：</p>
 <ul>
 <li>编译时错误和缓慢的编译时间：Rust 实现内存安全是因为它在编译时强制执行的规则。这意味着你会看到大量的错误，这会让许多程序员感到沮丧。</li>
-<li>缺少所需的库：Rust 是新的，因此缺少你可以使用其他编程语言轻松获得的所需库。<br>
+<li>缺少所需的库：Rust 是新的，因此缺少你可以使用其他编程语言轻松获得的所需库。
 原型不友好：由于编译需要花费大量时间并且需要 100% 的条件覆盖率，因此 Rust 不适合原型解决方案。</li>
-<li>不适合初学者：Rust 不适合初学者，因为它包含需要时间才能掌握的高级概念。<br>
+<li>不适合初学者：Rust 不适合初学者，因为它包含需要时间才能掌握的高级概念。
 小市场：Rust 市场仍在增长，与其他成熟的编程语言相比，机会更少。</li>
 <li>它从未最终确定：Rust 是一个正在进行的项目，旨在提供向后兼容性和稳定性。这意味着 Rust 功能需要时间才能获得稳定的支持。</li>
 <li>更小的目标平台：由于在 Rust 编译器中使用 LLVM，目标平台的数量比 C/C++ 小。</li>

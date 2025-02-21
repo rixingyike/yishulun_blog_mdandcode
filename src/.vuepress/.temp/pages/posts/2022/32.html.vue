@@ -1,5 +1,5 @@
 <template><div><h1 id="_32《断刀客》观后感" tabindex="-1"><a class="header-anchor" href="#_32《断刀客》观后感"><span>32《断刀客》观后感</span></a></h1>
-<figure><img src="@source/posts/2022/assets/FF91DD70-E329-4185-B6D9-BD85146AFF2C.jpeg" alt="断刀客" tabindex="0" loading="lazy"><figcaption>断刀客</figcaption></figure>
+<p><img src="@source/posts/2022/assets/FF91DD70-E329-4185-B6D9-BD85146AFF2C.jpeg" alt="断刀客"></p>
 <p>徐克导演的《断刀客》这部老电影拍得很好，人物设计得也很出彩。情节如果看未删节版本，也会感到非常的热血。</p>
 <p>主角是定安，故事主线是定安长大后为父报仇的事，高潮也是主角为父报仇。</p>
 <p>影中写的爱情是这样的：</p>
@@ -17,7 +17,7 @@
 <p>当情绪渲染到那里的时候，读者在心里喊：主角，赶快逆袭，干掉那些人渣。这时候你会发现主角的金手指再不可思议，在神佛逻辑下，也都是合理的了。情绪顶到不得不发的地方，主角已经退无可退了，观众也退无可退了，摆在主角面前的只剩下一条路：崛起、逆袭。</p>
 <p>下面是《斷刀客 / 断刀客 1995》未删节版本的链接：</p>
 <blockquote>
-<p><a href="https://www.youtube.com/watch?v=NvBdxpiTM8o" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=NvBdxpiTM8o</a></p>
+<p>https://www.youtube.com/watch?v=NvBdxpiTM8o</p>
 </blockquote>
 </div></template>
 

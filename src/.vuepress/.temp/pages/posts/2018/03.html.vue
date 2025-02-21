@@ -19,11 +19,12 @@
 <p>在win上指命令行窗口（cmd），在mac和linux上指终端窗口。如果安装了git bash，在win上直接使用git bash就可以了。</p>
 <h2 id="_6-建议群主搞个go和类库安装的详细说明-小白太多" tabindex="-1"><a class="header-anchor" href="#_6-建议群主搞个go和类库安装的详细说明-小白太多"><span><strong>6，建议群主搞个go和类库安装的详细说明，小白太多？</strong></span></a></h2>
 <p>书第7.1.1节，即是“安装Golang语言包”。Go语言类库的安装，十分简单，一条指令：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>go get xx</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>go</span><span class="space"> </span><span>get</span><span class="space"> </span><span>xx</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>后面跟类库的git网址，一般是github的项目主页地址。</p>
 <h2 id="_7-我从内嵌的h5页面跳转回小程序页面-怎么跳转" tabindex="-1"><a class="header-anchor" href="#_7-我从内嵌的h5页面跳转回小程序页面-怎么跳转"><span><strong>7，我从内嵌的H5页面跳转回小程序页面，怎么跳转？</strong></span></a></h2>
 <p>可以考虑 wx.miniProgram.navigateBack 接口。详见：</p>
-<p><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/web-view.html" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/debug/wxadoc/dev/component/web-view.html</a></p>
+<p>https://mp.weixin.qq.com/debug/wxadoc/dev/component/web-view.html</p>
 <h2 id="_8-服务器空间需要买多大的" tabindex="-1"><a class="header-anchor" href="#_8-服务器空间需要买多大的"><span><strong>8，服务器空间需要买多大的？</strong></span></a></h2>
 <p>如果选择了ubuntu系统，服务器主机默认一般有20G系统盘，足够了，程序基本不占空间。涉及的图像、视频的存储，建议用存储云；数据存储使用关系数据库，例如mysql。</p>
 <h2 id="_9-关于js-js-not-defined-错误" tabindex="-1"><a class="header-anchor" href="#_9-关于js-js-not-defined-错误"><span><strong>9，关于js“js not defined”错误？</strong></span></a></h2>
@@ -46,7 +47,7 @@
 <h2 id="_15-浏览器访问接口没有正常输出" tabindex="-1"><a class="header-anchor" href="#_15-浏览器访问接口没有正常输出"><span><strong>15，浏览器访问接口没有正常输出？</strong></span></a></h2>
 <p>​    <img src="https://note.youdao.com/yws/public/resource/b4464d346a4b64288ac091aa86b09291/xmlnote/4CBA46764F36457190BDDB3815A40247/22371" alt="0" style="zoom:50%;" /></p>
 <p>这里的地址，不用加s，使用http即可。另外，在启动debug.sh脚本后，出现如下的阻塞状态，这是正常的。</p>
-<p>​    <img src="@source/posts/2018/assets/22376.jpeg" alt="0" loading="lazy"></p>
+<p>​    <img src="@source/posts/2018/assets/22376.jpeg" alt="0"></p>
 </div></template>
 
 

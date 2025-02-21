@@ -1,9 +1,9 @@
-<template><div><figure><img src="@source/posts/2023/assets/image-20231110095118743.png" alt="印泥" tabindex="0" loading="lazy"><figcaption>印泥</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/image-20231110095118743.png" alt="印泥"></p>
 <h1 id="印泥的种类、起源、使用与保养" tabindex="-1"><a class="header-anchor" href="#印泥的种类、起源、使用与保养"><span>印泥的种类、起源、使用与保养</span></a></h1>
 <p>你好，今天聊一下鱼汤，不是，是印泥。</p>
 <h2 id="种类" tabindex="-1"><a class="header-anchor" href="#种类"><span>种类</span></a></h2>
 <p>种类繁多，以下是双维印泥厂子生产的品类。我用过的有堆朱、朱砂、朱磦（piao）、黄磦印泥，它们颜色的亮度也是按我给出的顺序依次拔高的，其中黄磦印泥最喜欢，目前主要使用的也是这一款。</p>
-<figure><img src="@source/posts/2023/assets/1699399965154.png" alt="种类" tabindex="0" loading="lazy"><figcaption>种类</figcaption></figure>
+<p><img src="@source/posts/2023/assets/1699399965154.png" alt="种类"></p>
 <h2 id="印泥的起源" tabindex="-1"><a class="header-anchor" href="#印泥的起源"><span>印泥的起源</span></a></h2>
 <p>据考古和史书记载，印泥的发展已有两千多年的历史。</p>
 <p>早在春秋期就已经出现了印泥。不过那时候的印泥和现在不同，它是用由多种物质配制的黏土做的，平时搓成泥丸子，临用时用水湿透。因为当时的公文和书信是用漆书写在竹简木牍上的，为了防上泄密或传递过程中的私拆，在写好了的简牍外面加上一块挖有方槽的木块，再用绳子把它们捆在一起，然后把绳结放入方槽内，加上一丸湿泥封上，再用铜印章铃上印记，作为封检的标记发出去。这种泥丸称为“封泥”可以视为印泥的始祖，这种封泥工艺一直沿用到了魏晋南北朝。</p>
@@ -12,13 +12,13 @@
 <p>现代印泥除了办公盖戳办的印泥，书画用的印泥，沿用的仍然是老制作工艺。材料主要有以下三种。</p>
 <h3 id="朱砂" tabindex="-1"><a class="header-anchor" href="#朱砂"><span>朱砂</span></a></h3>
 <p>朱砂是印泥中的显色剂，先由天然原矿石碎成辰砂，最后磨成朱砂粉。</p>
-<figure><img src="@source/posts/2023/assets/image-20231108073027273.png" alt="朱砂" tabindex="0" loading="lazy"><figcaption>朱砂</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231108073027273.png" alt="朱砂"></p>
 <h3 id="蓖麻油" tabindex="-1"><a class="header-anchor" href="#蓖麻油"><span>蓖麻油</span></a></h3>
 <p>蓖麻油是印泥中的分散剂，由蓖麻叶、蓖麻籽炸出蓖麻油。</p>
-<figure><img src="@source/posts/2023/assets/image-20231108073050852.png" alt="蓖麻油" tabindex="0" loading="lazy"><figcaption>蓖麻油</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231108073050852.png" alt="蓖麻油"></p>
 <h3 id="艾绒" tabindex="-1"><a class="header-anchor" href="#艾绒"><span>艾绒</span></a></h3>
 <p>艾绒是印泥中的吸附剂，从艾株上采下干艾叶，制成艾绒，最后干脱，制成印泥用的干艾绒。</p>
-<figure><img src="@source/posts/2023/assets/image-20231108073113895.png" alt="艾绒" tabindex="0" loading="lazy"><figcaption>艾绒</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231108073113895.png" alt="艾绒"></p>
 <h2 id="使用说明" tabindex="-1"><a class="header-anchor" href="#使用说明"><span>使用说明</span></a></h2>
 <p>下面说一下使用，先调泥，接着蘸泥，最后盖印。如果经常使用，第一步调泥是可以省略的。</p>
 <p>调泥：</p>

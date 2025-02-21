@@ -31,7 +31,7 @@
 <p>临江仙：您是如何走上小说创作这条路的？</p>
 <p>卖报小郎君：之前在十二天王的感言里说过，主要是从小热爱写作，中小学经常拿作文奖。后来接触了小说，当时还没有网文的概念，看的是萧鼎的诛仙，因此激发了创作欲望。</p>
 <blockquote>
-<p>几乎十年扑街的艰辛，在起点的访谈里有提到，网址见 <a href="https://yishulun.com/posts/2023/24.html" target="_blank" rel="noopener noreferrer">https://yishulun.com/posts/2023/24.html</a></p>
+<p>几乎十年扑街的艰辛，在起点的访谈里有提到，网址见 https://yishulun.com/posts/2023/24.html</p>
 </blockquote>
 <p>卖报小郎君：写书这么多年，最大的感受就是难！</p>
 <p>卖报小郎君：真的太难了！</p>
@@ -135,7 +135,7 @@
 <p>卖报小郎君：日常文只是小众，平淡的剧情很难写出一本爆款。</p>
 <p>卖报小郎君：结构方面，我强烈推荐《诡秘之主》。</p>
 <blockquote>
-<p>《诡秘之主》起点链接已备好：<a href="https://www.qidian.com/book/1010868264/%E3%80%82%E5%9C%A8%E8%B5%B7%E7%82%B9%E9%98%85%E8%AF%BB%E5%8F%AF%E4%BB%A5%E5%90%8C%E6%97%B6%E7%9C%8B%E4%B9%A6%E8%AF%84%E4%B8%8E%E7%AB%A0%E8%AF%84%EF%BC%8C%E8%AF%BB%E8%80%85%E8%AF%84%E8%AE%BA%E4%B9%9F%E5%BE%88%E9%87%8D%E8%A6%81%E3%80%82" target="_blank" rel="noopener noreferrer">https://www.qidian.com/book/1010868264/。在起点阅读可以同时看书评与章评，读者评论也很重要。</a></p>
+<p>《诡秘之主》起点链接已备好：https://www.qidian.com/book/1010868264/。在起点阅读可以同时看书评与章评，读者评论也很重要。</p>
 </blockquote>
 <p>临江仙：抓住乌贼粉一只。</p>
 <p>卖报小郎君：<strong>故事结构，一个装逼剧情，最好不要超过十五章，连载最好不要超过一个星期</strong>。</p>
@@ -149,7 +149,7 @@
 <p>卖报小郎君：换成写《妖二代》以前的我，我也领会不了那些套路，因为我不熟，没怎么写过。</p>
 <p>卖报小郎君：《妖二代》结束后，我花了半年时间，专研究套路写作，半年写了几十万的装逼剧情（指《我的姐姐是大明星》，简称《姐姐》），虽然写的一般，但越来越得心应手，越来越熟练。</p>
 <blockquote>
-<p>这里“装逼剧情练习”可能指的是在公众号续写《姐姐》番外。《姐姐》开书在《妖二代》之前，番外续写在《妖二代》之后。附《姐姐》链接：<a href="https://www.xbiquge.bz/book/17145/" target="_blank" rel="noopener noreferrer">https://www.xbiquge.bz/book/17145/</a></p>
+<p>这里“装逼剧情练习”可能指的是在公众号续写《姐姐》番外。《姐姐》开书在《妖二代》之前，番外续写在《妖二代》之后。附《姐姐》链接：https://www.xbiquge.bz/book/17145/</p>
 </blockquote>
 <p>卖报小郎君：还是得多写，多练，不要怕累。</p>
 <p>临江仙：下一本就是化用套路，做到无招胜有招了。</p>
@@ -222,7 +222,7 @@
 <p>卖报小郎君：很多书，我看个几百章就腻了，看不下去了，但有的书，熬夜通宵都能看，这就是节奏的问题，而不是爽点的问题。</p>
 <p>卖报小郎君：尝谕的《我真是大明星》在节奏方面，超级赞，乌贼的《诡秘之主》是结构。</p>
 <blockquote>
-<p>《我真是大明星》<a href="https://www.xbiquge.bz/book/270/%EF%BC%8C%E3%80%8A%E8%AF%A1%E7%A7%98%E4%B9%8B%E4%B8%BB%E3%80%8Bhttps://www.qidian.com/book/1010868264/" target="_blank" rel="noopener noreferrer">https://www.xbiquge.bz/book/270/，《诡秘之主》https://www.qidian.com/book/1010868264/</a></p>
+<p>《我真是大明星》https://www.xbiquge.bz/book/270/，《诡秘之主》https://www.qidian.com/book/1010868264/</p>
 </blockquote>
 <p>卖报小郎君：如果能研究透彻水鱼的节奏，肯定会出成绩。</p>
 <p>卖报小郎君：我打算打更人完结后，去重新研究一下这两本书。</p>
@@ -239,7 +239,7 @@
 <p>卖报小郎君：对了，我之前在龙空看到一个帖子。</p>
 <p>卖报小郎君：楼主是个高手，实际水平不知道，但理论经验真的扎实，墙裂推荐。</p>
 <p>临江仙：还记得标题，或者作者吗？</p>
-<p>卖报小郎君：<a href="http://www.lkong.net/thread-2708019-1-1.html" target="_blank" rel="noopener noreferrer">http://www.lkong.net/thread-2708019-1-1.html</a></p>
+<p>卖报小郎君：http://www.lkong.net/thread-2708019-1-1.html</p>
 <blockquote>
 <p>这是某位工作室大佬总结的都市飞卢爽文技能贴，稍后有全文解析，见。</p>
 </blockquote>

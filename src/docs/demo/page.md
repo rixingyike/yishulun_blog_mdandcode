@@ -8,7 +8,7 @@ order: 3
 # 设置作者，会覆盖全局设置
 # author: LIYI
 # 设置写作时间
-date: 2020-01-01
+createTime: 2020-01-01
 # 一个页面可以有多个分类
 category:
   - 使用指南

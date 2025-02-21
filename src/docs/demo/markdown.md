@@ -1,10 +1,12 @@
 ---
-# icon: fa6-brands:markdown
 order: 2
 category:
   - 使用指南
 tag:
   - Markdown
+title: markdown
+createTime: 2025/02/19 13:58:17
+# permalink: /article/n95w2z9s/
 ---
 # Markdown扩展语法
 

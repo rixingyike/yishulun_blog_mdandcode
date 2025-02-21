@@ -1,6 +1,6 @@
-<template><div><figure><img src="@source/posts/2023/assets/image-20231120120736379.png" alt="wine" tabindex="0" loading="lazy"><figcaption>wine</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/image-20231120120736379.png" alt="wine"></p>
 <h1 id="警惕潜伏在生活环境中的假酒-谈日常如何选择安全又便宜的粮食酒" tabindex="-1"><a class="header-anchor" href="#警惕潜伏在生活环境中的假酒-谈日常如何选择安全又便宜的粮食酒"><span>警惕潜伏在生活环境中的假酒，谈日常如何选择安全又便宜的粮食酒？</span></a></h1>
-<nav class="table-of-contents"><ul><li><router-link to="#酒按工艺划分">酒按工艺划分</router-link><ul><li><router-link to="#液态法白酒">液态法白酒</router-link></li><li><router-link to="#固液法白酒">固液法白酒</router-link></li><li><router-link to="#固态法白酒">固态法白酒</router-link></li></ul></li><li><router-link to="#粮食洒生产标准">粮食洒生产标准</router-link></li><li><router-link to="#_20-元以下的口粮酒">20 元以下的口粮酒</router-link></li><li><router-link to="#百元以下优质口粮酒">百元以下优质口粮酒</router-link></li><li><router-link to="#小酒坊的私房酒值不值得买">小酒坊的私房酒值不值得买？</router-link></li><li><router-link to="#回顾">回顾</router-link></li></ul></nav>
+<p>[TOC]</p>
 <p>你好，今天聊一下酒。</p>
 <p>二三十年前，你在报纸上经常能看到这样的消息，某某地方举办婚宴或寿宴，客人喝了假酒，导致数人不幸身亡、多人双目失明之类的新闻。原因在于宴请所用的酒不是纯粮食酿造的，是工业酒精勾兑的，含有甲醇、吡啶等违害人类健身的物质。最近这方面的新闻少了，但随着直播卖酒的兴起，这类事情又有所抬头，我们必须谨慎对待。</p>
 <p>酒的文化在中国由来已久，在《水浒传》中，武松景阳岗打虎前喝了 18 碗壮魂酒；在金庸小说《笑傲江湖》中，祖千秋与令狐冲斗酒，从诗、行酒令，到酒杯与酒，每方面都有很多讲究；在《天龙八部》中，乔峰聚贤庄大杀四方前先与昔日老友喝了一碗断交酒。在中国，酒不仅是酒，还附带了其它许多东西。</p>
@@ -60,35 +60,35 @@
 <p>同样是粮食酒，价格差别很大。有哪些酒，既是粮食酒，价格也不高呢？以下是探长总结的 20 元以下的清香型口粮酒。</p>
 <ul>
 <li>
-<p>衡水老白干 62 度绿标 老白干香型白酒<br>
-500ml ￥ 16<br>
-配料：水、高梁、小麦<br>
+<p>衡水老白干 62 度绿标 老白干香型白酒
+500ml ￥ 16
+配料：水、高梁、小麦
 执行标准：GB/T 20825 (优级）</p>
-<figure><img src="@source/posts/2023/assets/a819fb45fea579ba9d7de02355693577.jpg" alt="老白干" tabindex="0" loading="lazy"><figcaption>老白干</figcaption></figure>
+<p><img src="@source/posts/2023/assets/a819fb45fea579ba9d7de02355693577.jpg" alt="老白干"></p>
 <p>注意，这款酒的原料没有玉米，只有高粱和小麦。稍后便会为这点感动。</p>
 </li>
 <li>
-<p>牛栏山二锅头绿牛二 56 度<br>
-500ml ￥ 19<br>
-配料：水、高梁、大麦、小麦、豌豆<br>
+<p>牛栏山二锅头绿牛二 56 度
+500ml ￥ 19
+配料：水、高梁、大麦、小麦、豌豆
 执行标准：GB/T10781.2</p>
-<figure><img src="@source/posts/2023/assets/f529b8ac6c817623d846455683e43b84.jpg" alt="绿牛二" tabindex="0" loading="lazy"><figcaption>绿牛二</figcaption></figure>
+<p><img src="@source/posts/2023/assets/f529b8ac6c817623d846455683e43b84.jpg" alt="绿牛二"></p>
 <p>二锅头这个名字因为“只取第二次蒸馏得到的酒”而得名，从名称上看，二锅头算是头曲或二曲。但这个绿牛二，以及下面的红星蓝瓶 56 度，价格在 20 元以内的，不太可能是二曲，是尾曲或三曲比较合理。</p>
 </li>
 <li>
-<p>红星二锅头蓝瓶 56 度<br>
-500ml ￥ 20<br>
-原料：水、高梁、玉米、大麦、豌豆<br>
+<p>红星二锅头蓝瓶 56 度
+500ml ￥ 20
+原料：水、高梁、玉米、大麦、豌豆
 执行标准：GB/T GBT/10781.2</p>
-<figure><img src="@source/posts/2023/assets/4804f8470d264017cea8fc1d146f77c9.jpg" alt="红星二锅头" tabindex="0" loading="lazy"><figcaption>红星二锅头</figcaption></figure>
+<p><img src="@source/posts/2023/assets/4804f8470d264017cea8fc1d146f77c9.jpg" alt="红星二锅头"></p>
 <p>这款酒的原料含有玉米，酒味会有稍许甘甜，但影响口感的醇厚。使用玉米是为了降低成本，因为玉米相比其它原料便宜。</p>
 </li>
 <li>
-<p>太仆寺旗草原白酒 闷倒驴 60 度<br>
-494ml ￥ 17<br>
-配料：水、高梁、王米<br>
+<p>太仆寺旗草原白酒 闷倒驴 60 度
+494ml ￥ 17
+配料：水、高梁、王米
 执行标准：GB/T10781.2-2006</p>
-<figure><img src="@source/posts/2023/assets/294776aafd6679fad6c3fed89c5ccab0.jpg" alt="草原白" tabindex="0" loading="lazy"><figcaption>草原白</figcaption></figure>
+<p><img src="@source/posts/2023/assets/294776aafd6679fad6c3fed89c5ccab0.jpg" alt="草原白"></p>
 <p>60 度的草原白又名闷倒驴，有的酒叫“闷倒驴”，那是冒充的，一般说内蒙草愿上的闷倒驴指的就是60度的草原白。这款酒的原料也有玉米，低价粮食酒很少不用玉米的。</p>
 </li>
 </ul>
@@ -98,42 +98,42 @@
 <p>以下是百元以内的口粮酒。</p>
 <ul>
 <li>
-<p>衡水老白干 青花手酿 62 度 浓香型<br>
-500ml ￥ 72<br>
-原料：水、高粱、小麦<br>
+<p>衡水老白干 青花手酿 62 度 浓香型
+500ml ￥ 72
+原料：水、高粱、小麦
 生产标准：GB/T 20825 (优级）</p>
-<figure><img src="@source/posts/2023/assets/8e532f6fba4a6f0407aa1becc4b6a2f4.jpg" alt="老白干" tabindex="0" loading="lazy"><figcaption>老白干</figcaption></figure>
+<p><img src="@source/posts/2023/assets/8e532f6fba4a6f0407aa1becc4b6a2f4.jpg" alt="老白干"></p>
 <p>这款酒与绿标 62 度相比，好在哪里？它们的生产标准都是 GB/T 20825，度数也是一样的，为什么这个贵？瓶子贵吗？当然不是，青花手酿香气浓郁，相当于浓香型，是头曲或二曲酒浆。</p>
 </li>
 <li>
-<p>西凤绿脖 55 度 凤香型白酒<br>
-500ml ￥ 55<br>
-原料：水、高粱、大麦、小麦、豌豆<br>
+<p>西凤绿脖 55 度 凤香型白酒
+500ml ￥ 55
+原料：水、高粱、大麦、小麦、豌豆
 产品标准：GB/T19508-2007</p>
-<figure><img src="@source/posts/2023/assets/32d1bdaea83011e656490db535f58f64.jpg" alt="西凤绿脖" tabindex="0" loading="lazy"><figcaption>西凤绿脖</figcaption></figure>
+<p><img src="@source/posts/2023/assets/32d1bdaea83011e656490db535f58f64.jpg" alt="西凤绿脖"></p>
 </li>
 <li>
-<p>山西汾洒之黄盖玻汾 53 度 清香型<br>
-475ml ￥ 50<br>
-原料：水、高梁、大麦、豌豆<br>
+<p>山西汾洒之黄盖玻汾 53 度 清香型
+475ml ￥ 50
+原料：水、高梁、大麦、豌豆
 产品标准：GB/TI0781.2</p>
-<figure><img src="@source/posts/2023/assets/8ef52a3049c5e8af4ae9f57036d19cdf-1699770146883-10.jpg" alt="山西汾洒黄盖玻汾" tabindex="0" loading="lazy"><figcaption>山西汾洒黄盖玻汾</figcaption></figure>
+<p><img src="@source/posts/2023/assets/8ef52a3049c5e8af4ae9f57036d19cdf-1699770146883-10.jpg" alt="山西汾洒黄盖玻汾"></p>
 <p>花 50 块喝一款清香型感觉不太值，但很多朋友说这款好喝，探长不觉明厉。</p>
 </li>
 <li>
-<p>泸州老窖六年窖头曲 52 度 浓香型<br>
-500ml ￥ 75<br>
-配料：水、高梁、小麦<br>
+<p>泸州老窖六年窖头曲 52 度 浓香型
+500ml ￥ 75
+配料：水、高梁、小麦
 产品标准：GB/T 10781.1</p>
-<figure><img src="@source/posts/2023/assets/6cafe20cbc359f690f0dfc5ca9e1d66c-1699770209672-13.jpg" alt="泸州老窖六年窖" tabindex="0" loading="lazy"><figcaption>泸州老窖六年窖</figcaption></figure>
+<p><img src="@source/posts/2023/assets/6cafe20cbc359f690f0dfc5ca9e1d66c-1699770209672-13.jpg" alt="泸州老窖六年窖"></p>
 <p>好酒的原料只用高粱与小麦，连豌豆都不用，更不要说玉米。</p>
 </li>
 <li>
-<p>北大仓部优经典 1984 50 度 酱香型<br>
-630ml ￥ 55<br>
-原料：水、高粱、小麦<br>
+<p>北大仓部优经典 1984 50 度 酱香型
+630ml ￥ 55
+原料：水、高粱、小麦
 产品标准：GBT/26760（一级）</p>
-<figure><img src="@source/posts/2023/assets/9db346207b4147510fe6028b3e7c8c15.jpg" alt="北大仓部优经典1984" tabindex="0" loading="lazy"><figcaption>北大仓部优经典1984</figcaption></figure>
+<p><img src="@source/posts/2023/assets/9db346207b4147510fe6028b3e7c8c15.jpg" alt="北大仓部优经典1984"></p>
 <p>GB/T26760 是由贵州茅台酒、四川古蔺郎酒和贵州习酒主导制定的，主要目的是规范酱香型白酒的生产，该标准规定酱香型白酒只能由水、高粱和小麦作为原料，经过传统固态发酵制成，不能添加其他任何添加物，包括食用酒精、食用色素、食用香精等。</p>
 <p>作为按照这个生产标准生产的酒，北大仓可以说是非常良心的一款，它可能是老百姓唯一能够消费的最便宜的酱香粮食酒了。</p>
 </li>
@@ -145,9 +145,9 @@
 <h2 id="回顾" tabindex="-1"><a class="header-anchor" href="#回顾"><span>回顾</span></a></h2>
 <p>最后总结一下。</p>
 <p>平常自用或自酌，可以选择固态法酿造的、生产标准是 GB/T10781.2 的清香型白酒，例如牛栏山二锅头绿牛二。注意选择牛栏山绿牛二时，认准印有天坛图案的绿瓶，不是印有牛头图案的白瓶，后者是液态法洒精+香料勾兑的白酒（如下所示），不能买。</p>
-<figure><img src="@source/posts/2023/assets/image-20231112155519281.png" alt="不要买印牛头的白牛二" tabindex="0" loading="lazy"><figcaption>不要买印牛头的白牛二</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231112155519281.png" alt="不要买印牛头的白牛二"></p>
 <p>如果是送人，老百姓也没有必要买特别贵的酒，生产标准是 GB/T10781.1 的浓香型白酒便可以，例如泸州老窖六年窖头曲 52 度。</p>
-<figure><img src="@source/posts/2023/assets/image-20231112144622796.png" alt="泸州老窖六年窖头曲52度" tabindex="0" loading="lazy"><figcaption>泸州老窖六年窖头曲52度</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231112144622796.png" alt="泸州老窖六年窖头曲52度"></p>
 <p>一些地方特色酒也值得考虑，例如“能喝出男人味”的衡水老白干绿标 62 度，以及价格仅 50 元左右的酱香白酒北大仓部优经典 1984（50 度）。</p>
 <p>过量饮洒伤身，饮用工业酒精勾兑酒伤害更大，国家并没有禁止勾兑酒的生产和销售，我们老百姓在选购的时候一定要自己甄别好！</p>
 <p>尤其是北方的朋友，有朋自远方来，咱很好客，拿出珍藏多年的好酒招待客人，结果酒是“假酒”，是勾兑酒，热情劝酒把人劝医院去了，这样是不是很尴尬？</p>

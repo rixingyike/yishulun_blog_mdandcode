@@ -1,7 +1,7 @@
-<template><div><figure><img src="@source/posts/2023/assets/640-1697420393520-18.png" alt="图片" tabindex="0" loading="lazy"><figcaption>图片</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/640-1697420393520-18.png" alt="图片"></p>
 <h1 id="读二胖《编程路上那些让我效率倍增的方法》-谈新人如何学习编程-只要方法对了人人都可以成为黑客高手" tabindex="-1"><a class="header-anchor" href="#读二胖《编程路上那些让我效率倍增的方法》-谈新人如何学习编程-只要方法对了人人都可以成为黑客高手"><span>读二胖《编程路上那些让我效率倍增的方法》，谈新人如何学习编程，只要方法对了人人都可以成为黑客高手</span></a></h1>
 <p>我在知乎上发现了这篇好文，有 3 万多人点赞，作者是逆袭的二胖，文章地址在此，欢迎翻阅：</p>
-<p><a href="https://zhuanlan.zhihu.com/p/34418394" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/34418394</a></p>
+<p>https://zhuanlan.zhihu.com/p/34418394</p>
 <p>正如作者的名字所暗示的那样，二胖是一名大一调剂到计算机专业的学生，主要通过自学的方式，在毕业后拿到了 10 多个 offer，如愿进入了理想的大厂工作，真正完成了属于他的逆袭。</p>
 <p>文中很多观点与我多年坚持的教学观点暗合，我读了之后也是拍手叫好。下面我结合二胖的原文，谈一下新人如何快速学习编程语言。以下内容当真是肺腑真言，读此一篇，即能真正明白到底该如何学习编程。</p>
 <h2 id="_1-编程主要靠自学" tabindex="-1"><a class="header-anchor" href="#_1-编程主要靠自学"><span>1，编程主要靠自学</span></a></h2>
@@ -26,7 +26,7 @@
 <p>真正优秀的程序员从来都不是只会一门语言，如果你真的有志于此，你早晚会学几门编程语言，因此先学哪个后学哪个其实也并不是特别重要。</p>
 <p>我坚持让初学者从小游戏开发学习编程，从 JS 开始入手，主要有两个考量：</p>
 <p>1，玩游戏与制作游戏是人的天性，C 语言与 Unix 系统正是大神 Ken Thompson 和 Dennis Ritchie 在实验室里捣鼓《太空旅行》游戏时发明出来的；</p>
-<figure><img src="@source/posts/2023/assets/image-20231015220222662.png" alt="image-20231015220222662" tabindex="0" loading="lazy"><figcaption>image-20231015220222662</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231015220222662.png" alt="image-20231015220222662"></p>
 <p>2，JS 这门语言不用手动管理内存，单线程，语法极其简单，还拥有所有语言都向往和暗自学习的异步编程范式，没有比它更适合新人学习的编程语言了。</p>
 <p>我在《微信小游戏开发》这套书中，为什么选择 JS，为什么选择小游戏，原因即在于此。此外，微信小程序生态有数亿的生态用户，市场太大了，用户在哪里就去哪里开发应用，从这个开发的黄金法则考虑，选择微信小游戏而不是选择其它小游戏是不是也好理解了。</p>
 <h2 id="_3-学习编程-我需要学习哪些课程" tabindex="-1"><a class="header-anchor" href="#_3-学习编程-我需要学习哪些课程"><span>3，学习编程，我需要学习哪些课程？</span></a></h2>
@@ -44,14 +44,14 @@
 <blockquote>
 <p>注：《微信小游戏开发》是以微信小游戏开发为技术栈，系统化讲解全栈开发的一套书，并且是在 PBL 案例实战中讲解的。</p>
 </blockquote>
-<figure><img src="@source/posts/2023/assets/image-20231015223150994.png" alt="image-20231015223150994" tabindex="0" loading="lazy"><figcaption>image-20231015223150994</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231015223150994.png" alt="image-20231015223150994"></p>
 <h2 id="_4-学习编程要不要制定一个计划" tabindex="-1"><a class="header-anchor" href="#_4-学习编程要不要制定一个计划"><span>4，学习编程要不要制定一个计划？</span></a></h2>
 <p>二胖：</p>
 <blockquote>
 <p>我认为不只是编程需要制定计划，其他任何的学习和工作都需要制定计划。我从 13 年上大学就开始定期给自己制定计划，这个习惯也一直坚持到了现在，受益匪浅。</p>
 </blockquote>
 <p>当然要有一个可行的计划，凡事预则立，不预则废嘛。为了方便学习者制订计划，我将《微信小游戏开发》这套书的全部内容划分成了 90 课，按部就班，一步学习一课就好了，稳扎稳打，步步为营。</p>
-<figure><img src="@source/posts/2023/assets/640-1697420366409-15.png" alt="图片" tabindex="0" loading="lazy"><figcaption>图片</figcaption></figure>
+<p><img src="@source/posts/2023/assets/640-1697420366409-15.png" alt="图片"></p>
 <h2 id="_5-学习编程要不要记笔记" tabindex="-1"><a class="header-anchor" href="#_5-学习编程要不要记笔记"><span>5，学习编程要不要记笔记？</span></a></h2>
 <p>二胖：</p>
 <blockquote>
@@ -72,7 +72,7 @@
 <p>其实这个问题也是很多编程新手容易困惑的问题。网络上拥有我们一辈子都看不完的教程和资料，所以现在应该不会存在找不着视频教程、找不着书看的问题。而问题就是我们不知道看什么视频、看什么书。从开始学编程到现在，我也买了上百本书，而真正适合自己的好书并不多。而视频教程的问题就更严重了，东看一点、西看一点，知识很难组织成网络。所以**学习编程的过程中，我们遇到的最大的问题是：当我们遇到问题的时候，在大量资料面前，我们不知道选择什么资料去学习。**即使我们使用项目驱动式学习的方法找到了我们的方向，但是同一个路径下，也有很多资料。前文列举的项目驱动式学习的图中，我们是自上而下的去发现问题，然后再解决问题。<strong>如果能有人帮我们组织好学习路径，然后自下而上地去学习，那么效率可能会提高很多。</strong></p>
 </blockquote>
 <p>我在编写《微信小游戏开发》这套书之前，我没有读到过二胖这篇文章；我是在书已经出版以后，看到了这篇文章。二胖谈论的这个问题，其实是编程初学者遇到的经典问题。</p>
-<figure><img src="@source/posts/2023/assets/acba818bd86ea14d.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p><img src="@source/posts/2023/assets/acba818bd86ea14d.jpg" alt="img"></p>
 <p>我编写这套书，就是想为初学者组织好一条像登泰山一样的路径，带领初学者自下而上一步一步地学习。可能由于我水平有限，加上时间仓促等其他原因，我未必达到了我心目中的理想目标，但我确实是这样去做的。包括我的其它在线课程，其实也都是有意在贯彻 PBL 实战教学思想。</p>
 <p>戳此前往<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">京东下单《微信小游戏开发》套装</a>👈</p>
 <p>——朴素的分割线——</p>
@@ -89,11 +89,11 @@
 <p>1v1 师徒培训班随报随学，只限 60 名，名额报完不再收，这也是为了保证效果。还有，培训结束以后，师徒关系仍然是存续的，你在自修过程中有什么技术问题仍然可以随时找我讨论。</p>
 <p>如果你对 1v1 师徒培训班感兴趣，<a href="https://mp.weixin.qq.com/s?__biz=MzAwODIzMzU3Mw==&amp;mid=2651750551&amp;idx=1&amp;sn=4552e3895fd3e3585c9a4ba6004a30a3&amp;chksm=808bd79db7fc5e8bc31d88a2d986336ecaaae9db210daa081eb1463bcee80235cdff03be6900#rd" target="_blank" rel="noopener noreferrer">戳此添加我的微信报名</a><a href="http://mp.weixin.qq.com/s?__biz=MzAwODIzMzU3Mw==&amp;mid=2651750551&amp;idx=1&amp;sn=4552e3895fd3e3585c9a4ba6004a30a3&amp;chksm=808bd79db7fc5e8bc31d88a2d986336ecaaae9db210daa081eb1463bcee80235cdff03be6900&amp;scene=21#wechat_redirect" target="_blank" rel="noopener noreferrer"><strong>👈</strong></a>，发送暗号 1v1。</p>
 <h2 id="读者评价" tabindex="-1"><a class="header-anchor" href="#读者评价"><span>读者评价</span></a></h2>
-<figure><img src="@source/posts/2023/assets/640-1697420142234-3.png" alt="图片" tabindex="0" loading="lazy"><figcaption>图片</figcaption></figure>
-<figure><img src="@source/posts/2023/assets/640-1697420142234-4.png" alt="图片" tabindex="0" loading="lazy"><figcaption>图片</figcaption></figure>
-<figure><img src="@source/posts/2023/assets/640-1697420142234-5.png" alt="图片" tabindex="0" loading="lazy"><figcaption>图片</figcaption></figure>
-<figure><img src="@source/posts/2023/assets/640-1697420142235-6.png" alt="图片" tabindex="0" loading="lazy"><figcaption>图片</figcaption></figure>
-<p>戳此前往<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">京东下单《微信小游戏开发》套装</a>👈<br>
+<p><img src="@source/posts/2023/assets/640-1697420142234-3.png" alt="图片"></p>
+<p><img src="@source/posts/2023/assets/640-1697420142234-4.png" alt="图片"></p>
+<p><img src="@source/posts/2023/assets/640-1697420142234-5.png" alt="图片"></p>
+<p><img src="@source/posts/2023/assets/640-1697420142235-6.png" alt="图片"></p>
+<p>戳此前往<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">京东下单《微信小游戏开发》套装</a>👈
 <a href="http://mp.weixin.qq.com/s?__biz=MzAwODIzMzU3Mw==&amp;mid=2651750551&amp;idx=1&amp;sn=4552e3895fd3e3585c9a4ba6004a30a3&amp;chksm=808bd79db7fc5e8bc31d88a2d986336ecaaae9db210daa081eb1463bcee80235cdff03be6900&amp;scene=21#wechat_redirect" target="_blank" rel="noopener noreferrer">戳此添加作者微信👈</a>，发送暗号 1v1，马上报名私教培训班</p>
 <h2 id="大佬评价" tabindex="-1"><a class="header-anchor" href="#大佬评价"><span>大佬评价</span></a></h2>
 <p>李艺的这本书将带领更多的新开发者敲开理想世界的大门。来吧朋友，这里有一个更酷的新世界在等着你一起构建。</p>
@@ -111,15 +111,15 @@
 <p>——寇永赞，新东方教育集团前端技术经理</p>
 <p>本书是一本介绍微信小游戏开发的图书，不仅适合前端开发者，也适合对小游戏开发感兴趣的读者。阅读本书可以很好地掌握微信小游戏开发的相关知识，学完后即可独立开发出一款完整的微信小游戏。在学习的过程中，不仅能快速产出学习成果，看到小游戏的成型界面，还能学到许多基础知识，便于查漏补缺。这是一本不可多得的好书，值得推荐!</p>
 <p>——舒欣，微信开发者/腾讯云开发工程师</p>
-<p>戳此前往<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">京东下单《微信小游戏开发》套装</a>👈<br>
+<p>戳此前往<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">京东下单《微信小游戏开发》套装</a>👈
 <a href="http://mp.weixin.qq.com/s?__biz=MzAwODIzMzU3Mw==&amp;mid=2651750551&amp;idx=1&amp;sn=4552e3895fd3e3585c9a4ba6004a30a3&amp;chksm=808bd79db7fc5e8bc31d88a2d986336ecaaae9db210daa081eb1463bcee80235cdff03be6900&amp;scene=21#wechat_redirect" target="_blank" rel="noopener noreferrer">戳此添加作者微信👈</a>，发送暗号 1v1，马上报名私教培训班</p>
 <h2 id="销量稳定增长" tabindex="-1"><a class="header-anchor" href="#销量稳定增长"><span>销量稳定增长</span></a></h2>
 <p>《微信小游戏开发》上架后销量一直稳定增长，2023年十一刚过，周销竟然达到了173。照此销量预估，一年销量可达约9000册。</p>
-<figure><img src="@source/posts/2023/assets/image-20231016104113436.png" alt="image-20231016104113436" tabindex="0" loading="lazy"><figcaption>image-20231016104113436</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231016104113436.png" alt="image-20231016104113436"></p>
 <h2 id="《微信小游戏开发》海报" tabindex="-1"><a class="header-anchor" href="#《微信小游戏开发》海报"><span>《微信小游戏开发》海报</span></a></h2>
 <p>附一张出版社为这套书精心制作的海报，它很漂亮不是吗？同时也言简意骇，把本套书的亮点及要解决的痛点都表达清楚了。</p>
-<figure><img src="@source/posts/2023/assets/640.jpeg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
-<p>戳此前往<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">京东下单《微信小游戏开发》套装</a>👈<br>
+<p><img src="@source/posts/2023/assets/640.jpeg" alt="img"></p>
+<p>戳此前往<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">京东下单《微信小游戏开发》套装</a>👈
 <a href="http://mp.weixin.qq.com/s?__biz=MzAwODIzMzU3Mw==&amp;mid=2651750551&amp;idx=1&amp;sn=4552e3895fd3e3585c9a4ba6004a30a3&amp;chksm=808bd79db7fc5e8bc31d88a2d986336ecaaae9db210daa081eb1463bcee80235cdff03be6900&amp;scene=21#wechat_redirect" target="_blank" rel="noopener noreferrer">戳此添加作者微信👈</a>，发送暗号 1v1，马上报名私教培训班</p>
 <h2 id="《微信小游戏开发》套装目录" tabindex="-1"><a class="header-anchor" href="#《微信小游戏开发》套装目录"><span>《微信小游戏开发》套装目录</span></a></h2>
 <p><strong>微信小游戏开发：前端篇</strong></p>
@@ -950,7 +950,7 @@
 <p>6 表单元素 596</p>
 <p>7 页面模板 596</p>
 <p>本课小结597</p>
-<p>戳此前往<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">京东下单《微信小游戏开发》套装</a>👈<br>
+<p>戳此前往<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">京东下单《微信小游戏开发》套装</a>👈
 <a href="http://mp.weixin.qq.com/s?__biz=MzAwODIzMzU3Mw==&amp;mid=2651750551&amp;idx=1&amp;sn=4552e3895fd3e3585c9a4ba6004a30a3&amp;chksm=808bd79db7fc5e8bc31d88a2d986336ecaaae9db210daa081eb1463bcee80235cdff03be6900&amp;scene=21#wechat_redirect" target="_blank" rel="noopener noreferrer">戳此添加作者微信👈</a>，发送暗号 1v1，马上报名私教培训班</p>
 <h2 id="pbl-实战教学思想介绍" tabindex="-1"><a class="header-anchor" href="#pbl-实战教学思想介绍"><span>PBL 实战教学思想介绍</span></a></h2>
 <p>我基于该思想进行计算机课程教学、在线课程视频录制及计算机图书写作。以下内容是我在极客时间四周年记念册上撰写的几段话，是我目前对 PBL 实战教学思想最好的注解。</p>

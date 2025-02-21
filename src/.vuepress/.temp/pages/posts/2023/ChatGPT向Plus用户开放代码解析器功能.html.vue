@@ -11,39 +11,39 @@
 <li>它可以分析文件中的数据、编辑文件、执行数学运算、创建图表，然后输出。</li>
 </ul>
 <p>不是在开启 Plugin 的地方，那是给第三方使用的地方，这个是官方可能。打开官网，在 Settings 设置处，看到了一个新配置：</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/2023ChatGPT向Plus用户开放代码解析器功能-2023-07-08-18-07-45.png" alt="ChatGPT 向 Plus 用户开放代码解析器功能-2023-07-08-18-07-45" tabindex="0" loading="lazy"><figcaption>ChatGPT 向 Plus 用户开放代码解析器功能-2023-07-08-18-07-45</figcaption></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/2023ChatGPT向Plus用户开放代码解析器功能-2023-07-08-18-07-45.png" alt="ChatGPT 向 Plus 用户开放代码解析器功能-2023-07-08-18-07-45"></p>
 <p>将 Code interpreter 的绿色小开关推开。</p>
 <p>开启以后，回到主操作界面，模式选项处就多了一个新选项：</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/2023ChatGPT向Plus用户开放代码解析器功能-2023-07-08-18-23-33.png" alt="ChatGPT向Plus用户开放代码解析器功能-2023-07-08-18-23-33" tabindex="0" loading="lazy"><figcaption>ChatGPT向Plus用户开放代码解析器功能-2023-07-08-18-23-33</figcaption></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/2023ChatGPT向Plus用户开放代码解析器功能-2023-07-08-18-23-33.png" alt="ChatGPT向Plus用户开放代码解析器功能-2023-07-08-18-23-33"></p>
 <p>据说，ChatGPT Plus 的代码解析器功能非常强大，几乎日常工作的文件、数据集、代码都能解析。接下来开始试用它有哪些强大的功能。听说一旦我选择了插件，我就可以像往常一样与 ChatGPT 交谈。然后，它会将我的问题转化为数据，并为我提供明确的答案。</p>
 <h2 id="_1-文件格式转化-使用-py-代码" tabindex="-1"><a class="header-anchor" href="#_1-文件格式转化-使用-py-代码"><span>1，文件格式转化（使用 Py 代码）</span></a></h2>
 <p>宝玉将一个PDF上传，然后告诉ChatGPT：“请将这个PDF文件保存成2行2列的图片，每4页一张图片。”</p>
 <p>然而它就真的按要求做到了。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708195241-2023-07-08-19-52-42.png" alt="20230708195241-2023-07-08-19-52-42" tabindex="0" loading="lazy"><figcaption>20230708195241-2023-07-08-19-52-42</figcaption></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708195241-2023-07-08-19-52-42.png" alt="20230708195241-2023-07-08-19-52-42"></p>
 <p>至于怎么上传PDF，在输入框旁边有一个加号，单击就可以上传：</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708195526-2023-07-08-19-55-26.png" alt="20230708195526-2023-07-08-19-55-26" tabindex="0" loading="lazy"><figcaption>20230708195526-2023-07-08-19-55-26</figcaption></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708195526-2023-07-08-19-55-26.png" alt="20230708195526-2023-07-08-19-55-26"></p>
 <p>更为重要的是，ChatGPT 完成这一步的文件格式转换，是通过 Python 代码完成。且它所使用的 Py 代码，还可以点开查看，并下载使用。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708195850-2023-07-08-19-58-51.png" alt="20230708195850-2023-07-08-19-58-51" tabindex="0" loading="lazy"><figcaption>20230708195850-2023-07-08-19-58-51</figcaption></figure>
-<p>有兴趣可以跳转过去看宝玉的推特：<br>
-<a href="https://twitter.com/dotey/status/1677426953207382018" target="_blank" rel="noopener noreferrer">https://twitter.com/dotey/status/1677426953207382018</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708195850-2023-07-08-19-58-51.png" alt="20230708195850-2023-07-08-19-58-51"></p>
+<p>有兴趣可以跳转过去看宝玉的推特：
+https://twitter.com/dotey/status/1677426953207382018</p>
 <h2 id="_2-与人类互动-请示" tabindex="-1"><a class="header-anchor" href="#_2-与人类互动-请示"><span>2，与人类互动，请示</span></a></h2>
 <p>更有意思的是来自另一位 ChatGPT 用户的实践，他在与 AI 互动的过程中，要求 AI 将一个 Epub 电子书转为 txt 格式。AI 在尝试转化的过程中失败了，问题在于，它失败以后，还还会向人请示：</p>
 <p>您觉得有什么改进的建议吗？</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708201216-2023-07-08-20-12-17.png" alt="20230708201216-2023-07-08-20-12-17" tabindex="0" loading="lazy"><figcaption>20230708201216-2023-07-08-20-12-17</figcaption></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708201216-2023-07-08-20-12-17.png" alt="20230708201216-2023-07-08-20-12-17"></p>
 <p>这太让人震撼了！我不知道你意识到了什么。</p>
 <p>以往人们批评 ChatGPT 总是强答造谣、虚幻主义，现在好了，它用实际可以运行的代码回答人类提出的具体问题，并且当在实践中遇到问题时，还会征求人类的建议，向人类寻求下一步的指示。</p>
 <p>这不像一个员工在遇到问题时，向他的上级反映问题吗？</p>
 <p>这就是一个真正的智能助理干的事情啊！并且是一个上知天文、下知地理，通晓各种编程语言的智能助理，而且还不睡觉，可以 24 小时干活。</p>
-<p>对向阳乔木这个实验感兴趣，可以访问：<br>
-<a href="https://chat.openai.com/share/b1659250-a557-4ae1-b275-0a0ed3636910" target="_blank" rel="noopener noreferrer">https://chat.openai.com/share/b1659250-a557-4ae1-b275-0a0ed3636910</a></p>
+<p>对向阳乔木这个实验感兴趣，可以访问：
+https://chat.openai.com/share/b1659250-a557-4ae1-b275-0a0ed3636910</p>
 <p>（这个链接是从 ChatGPT 上分享的，这种分享链接非常好，既可以保存有效的 Prompt 实践，又方便分享给他人查看。）</p>
 <h2 id="_3-归纳、分析与总结" tabindex="-1"><a class="header-anchor" href="#_3-归纳、分析与总结"><span>3，归纳、分析与总结</span></a></h2>
 <p>又有人给它上传了一个 prompts.csv 数据文件，指令要求：</p>
 <p>“请你对 prompts.csv 文件进行分析总结，选择一些最佳图表用来展示分析结果，并给出一份编写 prompt 最佳指南。”</p>
 <p>于量，它画出了简洁的图表：</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708203919-2023-07-08-20-39-20.png" alt="20230708203919-2023-07-08-20-39-20" tabindex="0" loading="lazy"><figcaption>20230708203919-2023-07-08-20-39-20</figcaption></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708203919-2023-07-08-20-39-20.png" alt="20230708203919-2023-07-08-20-39-20"></p>
 <p>下面这是它绘制的词云统计效果图：</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708204510-2023-07-08-20-45-10.png" alt="20230708204510-2023-07-08-20-45-10" tabindex="0" loading="lazy"><figcaption>20230708204510-2023-07-08-20-45-10</figcaption></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230708204510-2023-07-08-20-45-10.png" alt="20230708204510-2023-07-08-20-45-10"></p>
 <p>是不是感觉效果还不错。</p>
 <p>最后它还给出了分析结果。下面这是一份来自 ChatGPT 自己回答的，关于如何撰写最佳提示的最佳实践：</p>
 <ul>
@@ -68,7 +68,7 @@
 <p>​智能时代已经到来！以前我们讲数字化，讲了许多年，许多企业在许多城市推进了许多年，勉勉强强不少中小企业开始数字化了。现在不一样了，智能时代来了，原来是数字化，现在是智能数字化，许多中小企业老板在自己的圈子里就相互推荐了。</p>
 <p>“唉，你用了没有？”</p>
 <p>“还没有。”</p>
-<p>“怎么还不用？赶紧让员工用起来！”<br>
+<p>“怎么还不用？赶紧让员工用起来！”
 老板们自己都​卷了起来。现在是程序员不用、设计师不用、产品经理不用，为什么不用？因为隐隐约约感觉这好像是一个砸他们​饭碗的东西。原来新软件新工具都是由员工提出来，向老板申请资金购买，现在是老板主动要求员工​购买与使用。</p>
 <p>关于我们如何面对 AI，还是那句话：​你不能驾驭它，那么未来你将被能驾驭的人淘汰。</p>
 </div></template>

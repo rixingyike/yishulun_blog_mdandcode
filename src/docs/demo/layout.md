@@ -1,10 +1,12 @@
 ---
-# icon: object-group
 order: 2
 category:
   - 指南
 tag:
   - 布局
+title: layout
+createTime: 2025/02/19 13:58:17
+# permalink: /article/aitoy13n/
 ---
 # 布局
 

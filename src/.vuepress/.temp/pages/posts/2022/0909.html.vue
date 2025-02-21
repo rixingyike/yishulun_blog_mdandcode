@@ -14,24 +14,24 @@
 <h2 id="计算机系统的进化史" tabindex="-1"><a class="header-anchor" href="#计算机系统的进化史"><span>计算机系统的进化史</span></a></h2>
 <p>为了了解微软为什么可以崛起，我们有必要先梳理一下计算机系统的发展史。</p>
 <h3 id="开关编程" tabindex="-1"><a class="header-anchor" href="#开关编程"><span>开关编程</span></a></h3>
-<figure><img src="@source/posts/2022/assets/d3961aa12c60423ba5fc926167ae59da.jpeg" alt="第一台计算机ENIAC" tabindex="0" loading="lazy"><figcaption>第一台计算机ENIAC</figcaption></figure>
+<p><img src="@source/posts/2022/assets/d3961aa12c60423ba5fc926167ae59da.jpeg" alt="第一台计算机ENIAC"></p>
 <p>1946年，为给美国陆军的弹道研究实验室（BRL）计算火炮火力表，世界上第一台图灵完备的电子通用计算机ENIAC诞生了，开始它还没有操作系统。那个时候它就是一台北京三室一厅那么大的电子计算器，计算机小姐（Computer Lady，是真正的小姐，有知识有文化）需要在ENIAC上手动拨动开关，以进行编程，就像在计算器上按键一样。</p>
-<figure><img src="@source/posts/2022/assets/bVbp01T.png" alt="有很多控制开关的插线板" tabindex="0" loading="lazy"><figcaption>有很多控制开关的插线板</figcaption></figure>
+<p><img src="@source/posts/2022/assets/bVbp01T.png" alt="有很多控制开关的插线板"></p>
 <p>靠手动拨动开关进行编程的效率肯定低了，也容易出错。</p>
 <h3 id="第一台家用计算机阿塔尔8800" tabindex="-1"><a class="header-anchor" href="#第一台家用计算机阿塔尔8800"><span>第一台家用计算机阿塔尔8800</span></a></h3>
 <p>1974年面世的阿塔尔（Altair）8800，如下所示，它由美国微型仪器和遥测系统（MITS，Micro Instrumentation and Telemetry Systems）公司，基于Intel 8080微处理器实现，它是第一款取得商业成功的家用计算机。当时还在哈佛读书的比尔·盖茨与其小伙伴保罗·艾伦一起为Altair 8800设计了Altair BASIC编辑器，这款编译器后来变成了Microsoft BASIC，成为了MS-DOS系统的基础，后来又变成了Microsoft QuickBASIC，最后成为了今天依然流行的Visual Basic。Microsoft在命名上也以Micro开头，可能收了MITS的影响。包括比尔·盖茨退学创建微软，也可能与这次成功的外包经历有关。注意这个时间，1974年，比基尔代尔博士发布CP/M，还有二年时间。</p>
 <blockquote>
 <p>注意：BASIC并不是比尔·盖茨设计的，最原始的BASIC语言是在1964年由约翰·克米尼和Thomas E. Kurtz设计的。</p>
 </blockquote>
-<figure><img src="@source/posts/2022/assets/image-20220909094859582.png" alt="image-20220909094859582" tabindex="0" loading="lazy"><figcaption>image-20220909094859582</figcaption></figure>
+<p><img src="@source/posts/2022/assets/image-20220909094859582.png" alt="image-20220909094859582"></p>
 <p>阿塔尔8800虽然是一课家用计算机，但要给他编程并不容易，要拨动面板上的开关，靠输入二进制操作码输入数据（一堆0和1），然后按「存储键」把临时值写入内存。注意，这时候计算机已经有了内存了。</p>
 <p>待到把整个程序都写入内存后，推动开关，内存地址重设为0，按「运行」按钮，灯闪烁起来，阿塔尔就开始运行了。下一次如果要计算别的什么，重新再来一遍开关编程，阿塔尔与其说是一个电脑，不如说是一个大玩具。</p>
 <h3 id="打孔机编程" tabindex="-1"><a class="header-anchor" href="#打孔机编程"><span>打孔机编程</span></a></h3>
 <p>人们或许从早期可编程纺织机上获得了灵感，发明了打孔机，专门给纸卡打孔。开关只有两个状态，不是0就是1，上机前先在纸带上把要输入的0、1数据准备好，等计算机空闲了，拿纸卡往读卡器一插就可以了。用打孔机编程，不仅提高了计算机的利用效率，还减少了出错率。</p>
 <p>IBM在1964年推出的IBM 029打孔机是当时打孔机的代表，如下所示：</p>
-<figure><img src="@source/posts/2022/assets/image-20220909115241230.png" alt="image-20220909115241230" tabindex="0" loading="lazy"><figcaption>image-20220909115241230</figcaption></figure>
+<p><img src="@source/posts/2022/assets/image-20220909115241230.png" alt="image-20220909115241230"></p>
 <p>IBM 029是作为IBM System/360 大型电脑的配件而发售的，用IBM 029打出一种一种打孔卡，如下所示：</p>
-<figure><img src="@source/posts/2022/assets/v2-d9b371ac94c464645d1ad7a6f31457a9_1440w.jpg" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p><img src="@source/posts/2022/assets/v2-d9b371ac94c464645d1ad7a6f31457a9_1440w.jpg" alt="img"></p>
 <p>将这种打孔卡插入IBM System/360，计算机就可以自动输入数据，已经不再需要波动开关了，计算机小姐们觉得太幸福了，此时离1946年ENIAC诞生已经过去了18年。</p>
 <p>ENIAC作为第一台图灵完备的电子计算机，后来它其实也是有打孔机和读卡器的，如下所示，在房间位置的下方，放置的便是读卡器和打卡机，而上方及左右两侧都是计算模块，最多的是累加器。区别是什么？ENIAC是军用的，而IBM 026和IBM System/360是商用的。</p>
 <img src="@source/posts/2022/assets/image-20220909115909656.png" alt="image-20220909115909656" style="zoom: 50%;" />
@@ -40,17 +40,19 @@
 <h3 id="助记符和汇编语言a-0-1952" tabindex="-1"><a class="header-anchor" href="#助记符和汇编语言a-0-1952"><span>助记符和汇编语言A-0（1952）</span></a></h3>
 <p>打孔机编程有一个问题：不支持循环和跳转。如果某段机器码想要再执行一遍，计算机小姐们必须将纸带环过来，再输入一遍。</p>
 <p>还有，在使用打孔机制作纸卡时，科学家们往往会事先把要输入的机器码内容写在纸上，这也很好理解，因为谁也不可能把成百上千张数据全部记在脑子里。而为了记述和理解方便，往往会在机器码旁边写上助记符。举个例子：</p>
-<div class="language-shell line-numbers-mode" data-highlighter="shiki" data-ext="shell" data-title="shell" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">0010</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1110</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"> # LOAD A</span></span></code></pre>
+<div class="language-shell line-numbers-mode" data-ext="shell" data-title="shell"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">0010</span><span class="space"> </span><span style="--shiki-light:#2F798A;--shiki-dark:#4C9A91">1110</span><span class="space"> </span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD">#</span><span class="space"> </span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD">LOAD</span><span class="space"> </span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD">A</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>这段机器码0010是操作吗，1110是数据吗，整段表示将内存中的值复制到寄存器A。行尾的LOAD A就相当于是助记符。在打卡机编程时代，计算机小姐输入的是0010 1110这样的机器码，并不是LOAD A这样有自然语义的助记符。</p>
 <p>这时候有一个聪明的第一代计算机小姐葛丽丝·霍普（Grace Hopper）博士，她想，既然有助记符，为什么还要写机器码呢？人类通过键盘（当时早已经有打字机键盘了，打字机的出现比计算机早）向计算机输入助记符，先存在内存里（当时图灵完备的计算机也已经有内存了），然后由计算机负责将助记符翻译为机器码，翻译以后再运行，这样不比直接写和输入机器码更高效吗？</p>
-<figure><img src="@source/posts/2022/assets/image-20220909124611282.png" alt="葛丽丝·霍普" tabindex="0" loading="lazy"><figcaption>葛丽丝·霍普</figcaption></figure>
+<p><img src="@source/posts/2022/assets/image-20220909124611282.png" alt="葛丽丝·霍普"></p>
 <p>这是一个了不起的想法，葛丽丝·霍普据此实现了算术语言版本 0（Arithmetic language version 0），简称A-0，或称A语言。A语言已经是一个汇编语言了。A-0之后还出现过A-1、A-2、A-3等，或许由于理念太先进，或许因为配套设备不齐全，A语言并没有流行起来。这一年是1952年。</p>
 <h3 id="fortran-1957" tabindex="-1"><a class="header-anchor" href="#fortran-1957"><span>FORTRAN（1957）</span></a></h3>
 <p>几年以后，IBM 在 1957 年发布了公式翻译程式语言FORTRAN，它的名字是英文Formula Translation的简写，如下所示是一个Hello World示例。</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>Program main</span></span>
-<span class="line"><span>Implicit none</span></span>
-<span class="line"><span>write(*,*) "Hello World!"</span></span>
-<span class="line"><span>End program main</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>Program</span><span class="space"> </span><span>main</span></span>
+<span class="line"><span>Implicit</span><span class="space"> </span><span>none</span></span>
+<span class="line"><span>write(*,*)</span><span class="space"> </span><span>"Hello</span><span class="space"> </span><span>World!"</span></span>
+<span class="line"><span>End</span><span class="space"> </span><span>program</span><span class="space"> </span><span>main</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>FORTRAN的开发者想，既然计算机可以翻译，并且要这样做，那么为什么不做的更彻底一些呢？于是FORTRAN的语法相比A语言，更易读、易懂，它是第一门面向过程的有函数和变量支持的编程语言，FORTRAN主宰了早期的计算机编程。</p>
 <p>FORTRAN以后，计算机编程语言开始了长足发展。</p>
 <h3 id="cobol-1960" tabindex="-1"><a class="header-anchor" href="#cobol-1960"><span>COBOL（1960）</span></a></h3>
@@ -59,17 +61,18 @@
 <p>1964年，达特茅斯学院的两位教授约翰·克米尼和Thomas E. Kurtz，推出了BASIC语言。这个语言没有FORTRAN和COBOL强大，它主要作为教学使用。1977年主动从哈佛退学的学生比尔·盖茨，自然是可能知道和学习过这门语言的。</p>
 <h3 id="b语言-1969" tabindex="-1"><a class="header-anchor" href="#b语言-1969"><span>B语言（1969）</span></a></h3>
 <p>大约1969，美国贝尔实验室的计算机科学家──肯·汤普森，如下所示，他想在Unix系统上开发一个Fortran编译器，后来因为在编写过程中引进了另一种编程风格，改着改着，就形成一们新语言——B语言。B语言在命名上是为了向A语言致敬，以表达谦逊之情；我们周围有些程序员不是这样，在别人某个东西的基础上搞了点东西，就命名为某+，或者某Pro、某Super，总是标榜高出别人许多。</p>
-<figure><img src="@source/posts/2022/assets/image-20220909135726068.png" alt="肯·汤普森" tabindex="0" loading="lazy"><figcaption>肯·汤普森</figcaption></figure>
+<p><img src="@source/posts/2022/assets/image-20220909135726068.png" alt="肯·汤普森"></p>
 <p>Unix系统也是在这一年开始开发的。</p>
 <h3 id="unix系统与c语言-1969-1973" tabindex="-1"><a class="header-anchor" href="#unix系统与c语言-1969-1973"><span>Unix系统与C语言（1969-1973）</span></a></h3>
 <p>大概在1969年至1973年间，贝尔实验室的丹尼斯·里奇与肯·汤普逊，以B语言为基础，当时他们为了移植与开发UNIX操作系统，还有玩一款游戏，无意中设计和开发出了C语言。如下所示是一个C语言版本的Hello World程序示例：</p>
-<div class="language-c line-numbers-mode" data-highlighter="shiki" data-ext="c" data-title="c" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &#x3C;stdio.h></span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">void</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    printf</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"Hello, world!</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    return</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="language-c line-numbers-mode" data-ext="c" data-title="c"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">#</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">include</span><span class="space"> </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">&#x3C;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">stdio.h</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">></span></span>
+<span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">int</span><span class="space"> </span><span style="--shiki-light:#59873A;--shiki-dark:#80A665">main</span><span style="--shiki-light:#999999;--shiki-dark:#666666">(</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">void</span><span style="--shiki-light:#999999;--shiki-dark:#666666">)</span><span class="space"> </span><span style="--shiki-light:#999999;--shiki-dark:#666666">{</span></span>
+<span class="line"><span class="space"> </span><span class="space"> </span><span class="space"> </span><span class="space"> </span><span style="--shiki-light:#59873A;--shiki-dark:#80A665">printf</span><span style="--shiki-light:#999999;--shiki-dark:#666666">(</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">Hello,</span><span class="space"> </span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">world!</span><span style="--shiki-light:#A65E2B;--shiki-dark:#C99076">\n</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="--shiki-light:#999999;--shiki-dark:#666666">);</span></span>
+<span class="line"><span class="space"> </span><span class="space"> </span><span class="space"> </span><span class="space"> </span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">return</span><span class="space"> </span><span style="--shiki-light:#2F798A;--shiki-dark:#4C9A91">0</span><span style="--shiki-light:#999999;--shiki-dark:#666666">;</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">}</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>当时贝尔实验室有一台PDP-7计算机，如下所示。肯·汤普逊是一为当之无愧的计算机大佬，他在1966年写过一款名字叫Space Travel的游戏，估计是使用FORTRAN编写的。他先是为了在闲置的PDP-7上玩这款游戏，想写个高效的FORTRAN编译器，不小心发明了B语言。</p>
-<figure><img src="@source/posts/2022/assets/image-20220909132927113.png" alt="PDP-7，由迪吉多公司研发的一款迷你电脑，1965年上市" tabindex="0" loading="lazy"><figcaption>PDP-7，由迪吉多公司研发的一款迷你电脑，1965年上市</figcaption></figure>
+<p><img src="@source/posts/2022/assets/image-20220909132927113.png" alt="PDP-7，由迪吉多公司研发的一款迷你电脑，1965年上市"></p>
 <p>后来新的编译器完成了，B语言也有了，仍然对游戏的流畅度不满意。于是，开始重写PDP-7的系统，即Unix系统，并在这个重写的过程当中，和他的同事丹尼斯·里奇一起，发明了C语言。</p>
 <p>大神的创造力真不是盖的，没有游戏，写一个，没有趁手的编程语言，写一个，操作系统不高效，写一个。在大声眼里，语言和系统一样，都是工具，都是可以随手打造的。</p>
 <p>Unix系统诞生的时间大概在1970年。</p>
@@ -77,14 +80,14 @@
 <p>基尔代尔在现代磁盘操作系统的发展上确实功不可没，他通过DR公司在商业上赚了不少钱，这与他早期积极编写程序并尝试卖给Intel有关，他因次洞悉到了更多的前沿需求。</p>
 <h3 id="基尔代尔创造pl-m编写cp-m-1973-1974" tabindex="-1"><a class="header-anchor" href="#基尔代尔创造pl-m编写cp-m-1973-1974"><span>基尔代尔创造PL/M编写CP/M（1973-1974）</span></a></h3>
 <p>Unix系统诞生这么早，为什么没有发展起来呢？</p>
-<figure><img src="@source/posts/2022/assets/image-20220907202223449.png" alt="image-20220907202223449" tabindex="0" loading="lazy"><figcaption>image-20220907202223449</figcaption></figure>
+<p><img src="@source/posts/2022/assets/image-20220907202223449.png" alt="image-20220907202223449"></p>
 <p>原因大概有两个：</p>
 <ul>
 <li>两位作者是实验室的研究员，对商业化运作不敢兴趣，只对写游戏、玩游戏感兴趣；</li>
 <li>Unix系统是封闭的，不具有开放的生态，没有快速发展的土壤。</li>
 </ul>
 <p>1972年，基尔代尔博士（如下所示）偶然在华盛顿大学公告板上看到一则二手出售广告，有人以25美元的价格卖一台装备英特尔4004微处理器的微机。基尔代尔买下了它，相比300万美元的IBM 360计算机，这台微机实在太便宜了。</p>
-<figure><img src="@source/posts/2022/assets/013.png" alt="加里·基尔代尔" tabindex="0" loading="lazy"><figcaption>加里·基尔代尔</figcaption></figure>
+<p><img src="@source/posts/2022/assets/013.png" alt="加里·基尔代尔"></p>
 <p>与肯·汤普森不同，基尔代尔对赚钱感兴趣，他与几名程序员为4004编写了一个游戏程序，他们找到英特尔的老板罗伯特·诺伊斯推销这个程序。英特尔不感兴趣，诺伊斯深信微处理器的未来在其他方面，当基尔代尔问他在什么地方是，他认真地说：“可能在钟表方面。”</p>
 <p>不过英特尔发现基尔代尔有出色的数学程序编程能力，于是邀请他到英特尔参观，并请他担任顾问。1973年，基尔代尔应邀参观了英特尔的微机部。基尔代尔与英特尔的人很投缘，他用每周一天的休息日在这里担任顾问。基尔代尔很喜欢这个新职务，也迷上了微处理器。</p>
 <p>不久英特尔让基尔代尔试用新出炉的8008，只用了几个月，基尔代尔就创建了计算机历史上具有革命性意义的高级结构性汇编语言PL/M（Programming Language for Microcomputers的简写，中文微机程序设计语言，1972年创建），并用该语言在1974年编写了微型计算机操作系统CP/M（Control Program for Microcomputers的简写，中文微机控制程序）。注意这里的CP/M是程序，并不是系统，因为在当时的人眼里，系统是不存在的，所谓的CP/M就是一个大程序。</p>
@@ -119,9 +122,9 @@
 <h2 id="小结" tabindex="-1"><a class="header-anchor" href="#小结"><span>小结</span></a></h2>
 <p>从以上Intel、IBM、微软、DR公司的故事中，你学到了什么呢？比尔·盖茨确实是一位商业奇才，他在上大学的时候，就敏锐第嗅到了PC电脑的商机，毅然退学创办了微软，幂幂之中好像命中注定一样，好像有什么东西在指引他前进。</p>
 <p>当他需要从蒂姆·帕特森手里买下QDOS的时候，他没有犹豫。他在DR和IBM商业经验的基础上，开创了微软独特的商业模式。在Windowns 98之后，微软抛弃了MS-DOS系统架构，只保留了Windows NT架构，这个架构曾经给微软带来了非常成功的Windows 2000服务器系统，即使在中国，都卖出了许多付费拷贝。我们今天使用的Windows 7/10/11，以及Windows Server系列的系统，均是基于Windows NT。而Windows NT（Windows New Technology），源于微软与IBM合作过的OS/2系统，后来两个公司理念不和，各自开发，成就了后来的微软。Windows NT与CP/M已经彻底没有了关系。</p>
-<figure><img src="@source/posts/2022/assets/v2-92b7d48884b5df567618cdce63c7e9ab_1440w.jpg" alt="Windows" tabindex="0" loading="lazy"><figcaption>Windows</figcaption></figure>
+<p><img src="@source/posts/2022/assets/v2-92b7d48884b5df567618cdce63c7e9ab_1440w.jpg" alt="Windows"></p>
 <p>关于Windows NT系统的更新历史，可以查看这个链接：</p>
-<p><a href="https://zh.m.wikipedia.org/zh/Windows_NT" target="_blank" rel="noopener noreferrer">https://zh.m.wikipedia.org/zh/Windows_NT</a></p>
+<p>https://zh.m.wikipedia.org/zh/Windows_NT</p>
 <p>2022年9月9日</p>
 </div></template>
 

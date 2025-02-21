@@ -1,15 +1,17 @@
 <template><div><h1 id="如何写好人物对话" tabindex="-1"><a class="header-anchor" href="#如何写好人物对话"><span>如何写好人物对话？</span></a></h1>
 <p>目录</p>
-<nav class="table-of-contents"><ul><li><router-link to="#故意添加语气词、人物动作、人物神情的描写">故意添加语气词、人物动作、人物神情的描写</router-link><ul><li><router-link to="#动作、神情、语气从哪里来">动作、神情、语气从哪里来？</router-link></li></ul></li><li><router-link to="#大师安于用-说-与-道-有时候用用也无妨">大师安于用“说”与“道”，有时候用用也无妨</router-link><ul><li><router-link to="#将发言的角色放在中间">将发言的角色放在中间</router-link></li><li><router-link to="#不超过-10-个字的两人简单直白对话-什么也不加">不超过 10 个字的两人简单直白对话，什么也不加</router-link></li></ul></li><li><router-link to="#多角色对话-加上称谓">多角色对话，加上称谓</router-link></li><li><router-link to="#塑造角色独特的气质-个性、语言风格">塑造角色独特的气质（个性、语言风格）</router-link></li><li><router-link to="#一句话分两部分-第一部分结尾用什么标点">一句话分两部分，第一部分结尾用什么标点？</router-link></li><li><router-link to="#话说一半-剩余部分用其它代替-或让读者猜">话说一半，剩余部分用其它代替，或让读者猜</router-link></li><li><router-link to="#重音-只留重点-重音-其余删掉">重音：只留重点（重音），其余删掉</router-link></li><li><router-link to="#重复单句">重复单句</router-link></li><li><router-link to="#切换角色-话先行">切换角色，话先行</router-link></li><li><router-link to="#少用-道-只用-说">少用“道”，只用“说”</router-link></li><li><router-link to="#对话内容长-怎么办">对话内容长，怎么办？</router-link></li><li><router-link to="#回顾">回顾</router-link></li></ul></nav>
+<p>[TOC]</p>
 <h2 id="故意添加语气词、人物动作、人物神情的描写" tabindex="-1"><a class="header-anchor" href="#故意添加语气词、人物动作、人物神情的描写"><span>故意添加语气词、人物动作、人物神情的描写</span></a></h2>
 <p>不好的示例：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>张三说：“我觉得你杀不了我。”</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>张三说：“我觉得你杀不了我。”</span></span>
 <span class="line"><span>李四道：“不，我觉得我杀得了你。”</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>修改后：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>“哦，就凭你？”</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>“哦，就凭你？”</span></span>
 <span class="line"><span>张三冷冷一笑，眉宇间便透出几分不屑来：“你觉得，你杀得了我？”</span></span>
 <span class="line"><span>“那就不妨试试！”</span></span>
 <span class="line"><span>李四一声狂吼，踏步向前，手中剑……</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这个方法的核心，就是加入对于人物的语气词、动作和神情描写，以及调整人物和对话的位置。</p>
 <p>什么是语气词？</p>
 <p>例如冷冷一笑、一声狂吼。</p>
@@ -21,8 +23,9 @@
 <p>下面说一个相关的问题：我们写对话，要注意多写动作、神情和语气，那么怎么写，这些概念从哪里来？</p>
 <p>一个偷懒的法子就是从影视中的人物上来，从老戏骨身上来。老戏骨演什么像什么，为什么？因为他们把角色演活了。</p>
 <p>比如陈道明，演过皇帝形象，观察他在剧中表演的言行举止，小细节写到位了，语气写到位了，台词自然而然对味了。例如：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>皇帝来回走动，久久不发一言……慢慢将眼神抬起，指着百官道：</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>皇帝来回走动，久久不发一言……慢慢将眼神抬起，指着百官道：</span></span>
 <span class="line"><span>“朕一看到你们就痛心疾首，那百姓都尸横遍野，你们好端端在这站着，如何有得脸面？”</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>演员为什么这样演，与他理解的角色性格有关，他认为应该这样演。</p>
 <p>写作亦是如此，动作、神情、语气都要围绕角色的性格展开。</p>
 <p>下面是一个深谙对话写作技巧的高手，他运用技巧写了一段教人这些技巧的对话：</p>
@@ -69,40 +72,46 @@
 <p>“学到了？还不赶紧去实践！你真以为像前边那样把对白接在动词或者动词+名词后面是长久之计啊？写久了读者还是会腻味，所以提升自己人物塑造的能力，才能让小说更加细腻！”</p>
 <h2 id="一句话分两部分-第一部分结尾用什么标点" tabindex="-1"><a class="header-anchor" href="#一句话分两部分-第一部分结尾用什么标点"><span>一句话分两部分，第一部分结尾用什么标点？</span></a></h2>
 <p>合在一起的情况下该用什么标点，在分别的时候也用该标点。例如：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>“那你可得好好记清楚了。”</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>“那你可得好好记清楚了。”</span></span>
 <span class="line"><span>“嗯嗯，”我急忙打开自己的小本本，翻开空白的一页，“我会记清楚的，你说吧。”</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>“嗯嗯”的后面，用的是逗号。</p>
 <h2 id="话说一半-剩余部分用其它代替-或让读者猜" tabindex="-1"><a class="header-anchor" href="#话说一半-剩余部分用其它代替-或让读者猜"><span>话说一半，剩余部分用其它代替，或让读者猜</span></a></h2>
 <p>原版</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>金莲说道：“你若有心，吃我这半盏儿残酒。”</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>金莲说道：“你若有心，吃我这半盏儿残酒。”</span></span>
 <span class="line"><span>武松说道：“嫂嫂休要恁地不识羞耻！”</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>泛音版</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>“你若有心？”金莲轻捏半盏儿残酒，擎到男人唇前。</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>“你若有心？”金莲轻捏半盏儿残酒，擎到男人唇前。</span></span>
 <span class="line"><span>“嫂嫂休要！”武松猛地背过身。</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>第二个版本只说了一半。</p>
 <p>这里提到了泛音，这是从音乐中借来的概念。</p>
 <p><strong>什么是对话中的泛音？</strong></p>
 <p>指的是正常表述性对话中那些相对隐蔽、模糊或微弱的回声和余音。总之，不是主要的、显式的，而是隐蔽的。</p>
-<figure><img src="@source/posts/2024/assets/image-20240117221216109.png" alt="image-20240117221216109" tabindex="0" loading="lazy"><figcaption>image-20240117221216109</figcaption></figure>
+<p><img src="@source/posts/2024/assets/image-20240117221216109.png" alt="image-20240117221216109"></p>
 <h2 id="重音-只留重点-重音-其余删掉" tabindex="-1"><a class="header-anchor" href="#重音-只留重点-重音-其余删掉"><span>重音：只留重点（重音），其余删掉</span></a></h2>
 <p>重点版</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>“吃了它。”金莲轻捏半盏儿残酒，擎到男人唇前。</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>“吃了它。”金莲轻捏半盏儿残酒，擎到男人唇前。</span></span>
 <span class="line"><span>“不识羞耻！”武松猛地背过身。</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>这个好！网文小说喜欢这种语言风格。</p>
 <h2 id="重复单句" tabindex="-1"><a class="header-anchor" href="#重复单句"><span>重复单句</span></a></h2>
 <blockquote>
 <p>重复的时候，动作也是同步的。为了写作上的方便，将重复的话语叠放在一起了。</p>
 </blockquote>
 <p>泛音基础上的重复版</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>“你若有心，若有心......？”金莲轻捏半盏儿残酒，擎到男人唇前。</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>“你若有心，若有心......？”金莲轻捏半盏儿残酒，擎到男人唇前。</span></span>
 <span class="line"><span>“嫂嫂休要.......休要！”武松猛地背过身。</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>在重音基础上的重复版</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>“吃了它，吃了它。”金莲轻捏半盏儿残酒，擎到男人唇前。</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>“吃了它，吃了它。”金莲轻捏半盏儿残酒，擎到男人唇前。</span></span>
 <span class="line"><span>“不识羞耻，不识羞耻！”武松猛地背过身。</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="切换角色-话先行" tabindex="-1"><a class="header-anchor" href="#切换角色-话先行"><span>切换角色，话先行</span></a></h2>
 <p>切换角色时，让角色先说话，用话语带动对人物神态、语气、动作、心理的描写。</p>
 <p>举例：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>“不冷?"</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>“不冷?"</span></span>
 <span class="line"><span>金莲用拇指食指使劲儿捏了一下武松的肩胛。</span></span>
 <span class="line"><span>武松不吭声，低着头用铁箸拨弄火盆里的木炭。</span></span>
 <span class="line"><span>"你不会，"金莲劈手便夺过铁箸，"我来!"</span></span>
@@ -116,12 +125,13 @@
 <span class="line"><span>武松猛地背过身，</span></span>
 <span class="line"><span>"哎呀……"金莲笑得花枝乱颤，"玩笑，玩笑，莫当真，莫当真。"</span></span>
 <span class="line"><span>说着，一滴泪从眼中坠下，她举手不经意擦掉。</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果切换角色时，角色没有说话怎么办？</p>
 <p>没说话，就说他“没吭声、没搭话、没说话、没理睬”等，都是可以的，例如上面第二句中“武松不吭声”。也可以不说说话的事，直接写反应，例如第五句。</p>
 <h2 id="少用-道-只用-说" tabindex="-1"><a class="header-anchor" href="#少用-道-只用-说"><span>少用“道”，只用“说”</span></a></h2>
 <p>有时候没有那么多的动作、语气、神态去写，写的多了，反而重复，让读者生厌。这种情况下就简单用“说”，但不用“道”或“说道”。</p>
 <p>海明威的《老人与海》一向被认为是对话简洁有力的典范，看一段它的对话：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>他们俩从小船停泊的地方爬上岸时，孩子对他说，"我又能陪你出海了，我家挣到了一点儿钱。"</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>他们俩从小船停泊的地方爬上岸时，孩子对他说，"我又能陪你出海了，我家挣到了一点儿钱。"</span></span>
 <span class="line"><span>老人教会了这孩子捕鱼，孩子爱他。</span></span>
 <span class="line"><span>"不，"老人说。"你遇上了一条交好运的船，跟他们待下去吧。"</span></span>
 <span class="line"><span>"不过你该记得，你有一回八十七天钓不到一条鱼，跟着有三个礼拜，我们每天都逮住了大鱼。"</span></span>
@@ -132,10 +142,11 @@
 <span class="line"><span>"是啊，"老人说。"可是我们有。可不是吗?"</span></span>
 <span class="line"><span>"对，"孩子说。"我请你到露台饭店去喝杯啤酒，然后一起把打鱼的家什带回去。"</span></span>
 <span class="line"><span>"那敢情好，"老人说。"都是打鱼人嘛。"</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>作者用了大量的角色中间放置法。但作者没有过多地用语气、神态、动作去水文。</p>
 <h2 id="对话内容长-怎么办" tabindex="-1"><a class="header-anchor" href="#对话内容长-怎么办"><span>对话内容长，怎么办？</span></a></h2>
 <p>这里有一个截短的示例：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>'大人，大人，不好啦!那群死老头又来了。"</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>'大人，大人，不好啦!那群死老头又来了。"</span></span>
 <span class="line"><span>“嗯?不是给过他们每人一吊钱了嘛，还想怎样?"</span></span>
 <span class="line"><span>许大人面有愠色。</span></span>
 <span class="line"><span>"大人，他们说昨个儿给的钱不够，还要一吊。还说....还说.</span></span>
@@ -143,6 +154,7 @@
 <span class="line"><span>“还说大人今个儿不发钱，以后生出的孩子木有小JJ。"</span></span>
 <span class="line"><span>"岂有此理，老子和他们拼了!"</span></span>
 <span class="line"><span>许大人暴跳如雷，啪的一声将手中的玉盏摔碎，随即抽出侍卫腰间的朴刀冲出门外，。</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>第 4 行，这个角色发说的话，被人为截断了，这是一种处理手段。</p>
 <p>更多的方式是另外一种：分段。将长的对话分成几段，每一段都使用独立的引号，段与段之间并没有其它的东西连接。分段，也是一种暂停，在故事文本转变为语音后，分段的地方是有一个小停顿的。</p>
 <h2 id="回顾" tabindex="-1"><a class="header-anchor" href="#回顾"><span>回顾</span></a></h2>
@@ -154,10 +166,10 @@
 <p>如果一个人物说的独立很长，这是不合理的。要别人打断他，向他提出问题。或者让他停下来喝口茶，润润嗓子。</p>
 <p>参考</p>
 <ul>
-<li><a href="https://www.zhihu.com/question/345921656/answer/949640221" target="_blank" rel="noopener noreferrer">https://www.zhihu.com/question/345921656/answer/949640221</a></li>
-<li><a href="https://www.zhihu.com/question/345921656/answer/825255601" target="_blank" rel="noopener noreferrer">https://www.zhihu.com/question/345921656/answer/825255601</a></li>
-<li><a href="http://wxpl.ajcass.org/Admin/UploadFile/Issue/r3b4bfvy.pdf" target="_blank" rel="noopener noreferrer">http://wxpl.ajcass.org/Admin/UploadFile/Issue/r3b4bfvy.pdf</a></li>
-<li><a href="https://www.zhihu.com/question/20355902/answer/778907564" target="_blank" rel="noopener noreferrer">https://www.zhihu.com/question/20355902/answer/778907564</a></li>
+<li>https://www.zhihu.com/question/345921656/answer/949640221</li>
+<li>https://www.zhihu.com/question/345921656/answer/825255601</li>
+<li>http://wxpl.ajcass.org/Admin/UploadFile/Issue/r3b4bfvy.pdf</li>
+<li>https://www.zhihu.com/question/20355902/answer/778907564</li>
 </ul>
 </div></template>
 

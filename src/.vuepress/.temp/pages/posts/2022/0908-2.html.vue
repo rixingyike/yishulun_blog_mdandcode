@@ -31,7 +31,7 @@
 <p>最后说一下，有人质疑为什么不用无人机把手机送下塔，还有两人的运动装备根本不专业，背包没有上双险，保命绳也不长，还有一个最大槽点：苹果手机能用三天？好吧，如果导演没有从水果商那里拿到一份广告费的话，确实应该换一个手机品牌。</p>
 <p>等等吧，确实有一些不严谨的地方，但电影或小说，主要是帮助观众释放情绪的，情绪占第一位，逻辑什么的其实不太重要。</p>
 <blockquote>
-<p>最后附一个在线试看链接：<a href="https://www.olevod.com/index.php/vod/play/id/38429/sid/1/nid/1.html%EF%BC%8C%E8%AF%B7%E6%94%AF%E6%8C%81%E6%AD%A3%E7%89%88%E3%80%82" target="_blank" rel="noopener noreferrer">https://www.olevod.com/index.php/vod/play/id/38429/sid/1/nid/1.html，请支持正版。</a></p>
+<p>最后附一个在线试看链接：https://www.olevod.com/index.php/vod/play/id/38429/sid/1/nid/1.html，请支持正版。</p>
 </blockquote>
 <p>2022年9月8日</p>
 </div></template>

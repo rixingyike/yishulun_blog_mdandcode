@@ -53,9 +53,9 @@
 <h2 id="二、分享两个与时间管理、意志力相关的ted视频" tabindex="-1"><a class="header-anchor" href="#二、分享两个与时间管理、意志力相关的ted视频"><span>二、分享两个与时间管理、意志力相关的TED视频</span></a></h2>
 <p>在抛出正式的技巧之前，为了增加说服力，再分享两个TED视频。这两个视频都是与时间管理，与自控力相关的。</p>
 <h3 id="_2-1-第一个视频-如何掌控自己的时间" tabindex="-1"><a class="header-anchor" href="#_2-1-第一个视频-如何掌控自己的时间"><span>2.1，第一个视频：如何掌控自己的时间？</span></a></h3>
-<figure><img src="https://gitee.com/rxyk/my-images/raw/master/2020/20210120110953.png" alt="image-20210120104709357" tabindex="0" loading="lazy"><figcaption>image-20210120104709357</figcaption></figure>
+<p><img src="https://gitee.com/rxyk/my-images/raw/master/2020/20210120110953.png" alt="image-20210120104709357"></p>
 <blockquote>
-<p>视频链接见：<a href="https://video.zhihu.com/video/1045382423000481792?autoplay=false&amp;useMSE=" target="_blank" rel="noopener noreferrer">https://video.zhihu.com/video/1045382423000481792?autoplay=false&amp;useMSE=</a></p>
+<p>视频链接见：https://video.zhihu.com/video/1045382423000481792?autoplay=false&amp;useMSE=</p>
 </blockquote>
 <p>这条视频给我带来两点启示：</p>
 <ol>
@@ -66,9 +66,9 @@
 <li>第二点，人要面对未来做展望。我们在某个时间点想取得什么成就，想遇见什么事情，想成为别人心目中什么样的人，要做这样的未来展望。每当我们懈怠的时候，但凡这样一想，动力立马又恢复了。</li>
 </ol>
 <h3 id="_2-2-第二条视频-成功的要诀是意志力" tabindex="-1"><a class="header-anchor" href="#_2-2-第二条视频-成功的要诀是意志力"><span>2.2，第二条视频：成功的要诀是意志力</span></a></h3>
-<figure><img src="https://gitee.com/rxyk/my-images/raw/master/2020/20210120105755.png" alt="image-20210120105755068" tabindex="0" loading="lazy"><figcaption>image-20210120105755068</figcaption></figure>
+<p><img src="https://gitee.com/rxyk/my-images/raw/master/2020/20210120105755.png" alt="image-20210120105755068"></p>
 <blockquote>
-<p>视频链接见：<a href="https://www.zhihu.com/question/27484486/answer/530051653" target="_blank" rel="noopener noreferrer">https://www.zhihu.com/question/27484486/answer/530051653</a></p>
+<p>视频链接见：https://www.zhihu.com/question/27484486/answer/530051653</p>
 </blockquote>
 <p>这条视频也给我两点启示：</p>
 <ol>
@@ -84,7 +84,7 @@
 <h2 id="三、管理时间的具体技巧" tabindex="-1"><a class="header-anchor" href="#三、管理时间的具体技巧"><span>三、管理时间的具体技巧</span></a></h2>
 <p>接下来我们就谈一下具体的培养意志力、管理时间方面的实用技巧。这些技巧并非我的发明创造，它们来源于我看的书、文章和评论，我只是做一个总结。</p>
 <h3 id="_3-1-使用smart原则" tabindex="-1"><a class="header-anchor" href="#_3-1-使用smart原则"><span>3.1，使用SMART原则</span></a></h3>
-<figure><img src="https://gitee.com/rxyk/my-images/raw/master/2020/20210120111311.png" alt="image-20210120111311242" tabindex="0" loading="lazy"><figcaption>image-20210120111311242</figcaption></figure>
+<p><img src="https://gitee.com/rxyk/my-images/raw/master/2020/20210120111311.png" alt="image-20210120111311242"></p>
 <blockquote>
 <p>图引自第一链接</p>
 </blockquote>
@@ -119,7 +119,7 @@
 <p>再举个例子，写网文小说也是一样的道理。先把大纲码出来，根据大纲再把情节脉路码出来。最后就是根据情节，每天坚持填满4000字或8000字就可以了。当然了，码大纲也不是一件容易的事情，闷在屋里瞎想一般也想不出来，具体也有技巧和办法，这里就不展开了。</p>
 <p>做自由职业，尤其要和读者一同成长。有一种说法是这样的，<strong>并不是我们从逻辑上应该和读者一起成长，而是我们必须这样做、只能这样做</strong>。因为只有这样做，我们才能及时得到读者的反馈，才能更长久地坚持下去。譬如罗胖每天60秒语音这个项目，他如果先坚持自己录30年，等30年后再将音频放出来，这个事多半就完成不了。而录完一节，就放出来一节，读者马上就能看到就能评论，罗胖马上就能得到反馈，这样才能走得更远。</p>
 <h3 id="_3-4-搞一些形式-记录自己的汗水" tabindex="-1"><a class="header-anchor" href="#_3-4-搞一些形式-记录自己的汗水"><span>3.4，搞一些形式，记录自己的汗水</span></a></h3>
-<figure><img src="https://yishulun.com/post-images/1611125365876.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p><img src="https://yishulun.com/post-images/1611125365876.png" alt=""></p>
 <blockquote>
 <p>图引自第一链接</p>
 </blockquote>
@@ -134,14 +134,14 @@
 <h3 id="_3-7-备好自己的激励之物" tabindex="-1"><a class="header-anchor" href="#_3-7-备好自己的激励之物"><span>3.7，备好自己的激励之物</span></a></h3>
 <p>人是一种高级动物，受基因的控制和支配，蜥蜴脑又好逸恶劳，但我们还有另外一个理智的上层精神脑，会受到美好的有希望的事物的鼓励。我们可以准备一些专门激励自己的内容，放在我们经常可以看到的地方，可以是一句话、一张图、一张照片，还是一个视频，一个电影。</p>
 <p>当你懈怠的时候，当你因为懈怠又悔恨自己不自律的时候，不妨看一看这些内容。越王勾贱，正是三年卧薪尝胆，使用这招不断激励自己，最终复仇打败了吴国。</p>
-<figure><img src="https://yishulun.com/post-images/1611125210962.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p><img src="https://yishulun.com/post-images/1611125210962.jpeg" alt=""></p>
 <blockquote>
 <p>TVP IPLUSO</p>
 </blockquote>
 <p>每个人经历不同，所以可以激励自己的事物也是不同的。这事情，可以是别人送的一支钢笔，或者只是一句话，一段回忆。例如，对我来讲，我每天写字就用TVP组织送的钢笔，那是一支群友戏言将来签百万合同的专用钢笔。每当看见它，我就想起绝不能辜负年华时光，一定要有所作为。</p>
-<figure><img src="https://gitee.com/rxyk/my-images/raw/master/2020/20210120143655.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p><img src="https://gitee.com/rxyk/my-images/raw/master/2020/20210120143655.png" alt=""></p>
 <blockquote>
-<p>腾讯QQ音乐出道链接：<a href="https://y.qq.com/n/yqq/mv/v/s00359gyycg.html" target="_blank" rel="noopener noreferrer">https://y.qq.com/n/yqq/mv/v/s00359gyycg.html</a></p>
+<p>腾讯QQ音乐出道链接：https://y.qq.com/n/yqq/mv/v/s00359gyycg.html</p>
 </blockquote>
 <p>还有《未来可见》歌曲也是，歌词写的很好，写出了技术人的心声。反思诸己，要努力对得住这份承定和荣耀。</p>
 <p>还有我填写的诗词《声声慢·记 LeaTech 全球 CTO 领导力峰会暨 TVP 二周年庆典》，“待东风与便，再造辉煌”。如果不努力，怎么创造辉煌？</p>
@@ -156,10 +156,10 @@
 <p>2021年1月20日</p>
 <p><strong>参考链接</strong></p>
 <ul>
-<li><a href="https://www.zhihu.com/question/27484486/answer/530051653" target="_blank" rel="noopener noreferrer">https://www.zhihu.com/question/27484486/answer/530051653</a></li>
-<li><a href="https://jingyan.baidu.com/article/5552ef47b2ee7a518efbc958.html" target="_blank" rel="noopener noreferrer">https://jingyan.baidu.com/article/5552ef47b2ee7a518efbc958.html</a></li>
-<li><a href="https://www.zhihu.com/question/27484486/answer/941818438" target="_blank" rel="noopener noreferrer">https://www.zhihu.com/question/27484486/answer/941818438</a></li>
-<li><a href="https://www.zhihu.com/question/27484486/answer/530871841" target="_blank" rel="noopener noreferrer">https://www.zhihu.com/question/27484486/answer/530871841</a></li>
+<li>https://www.zhihu.com/question/27484486/answer/530051653</li>
+<li>https://jingyan.baidu.com/article/5552ef47b2ee7a518efbc958.html</li>
+<li>https://www.zhihu.com/question/27484486/answer/941818438</li>
+<li>https://www.zhihu.com/question/27484486/answer/530871841</li>
 </ul>
 </div></template>
 

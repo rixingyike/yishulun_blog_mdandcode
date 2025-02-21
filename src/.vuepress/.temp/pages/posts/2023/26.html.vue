@@ -7,7 +7,7 @@
 <p>对于这三项数据我早有预料，但真正看到官方披露的时候，也是微微感到震惊。这意味着，整个互联网的注意力，无论是 B 端，还是 C 端，都是向 AI 倾斜。这是给全世界开发者的风口，并不仅仅是已有的 200 万开发者。</p>
 <h2 id="一-gpt-4-turbo" tabindex="-1"><a class="header-anchor" href="#一-gpt-4-turbo"><span>一，GPT-4 Turbo</span></a></h2>
 <p>第一个登场的功能是 GPT-4 Turbo。</p>
-<figure><img src="@source/posts/2023/assets/image-20231107195208765.png" alt="GPT-4 Turbo" tabindex="0" loading="lazy"><figcaption>GPT-4 Turbo</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231107195208765.png" alt="GPT-4 Turbo"></p>
 <p>它相比旧的 GPT-4 和 GPT-3.5，主要有 6 项改进：</p>
 <p>1，允许更长的上下文对话长度，这次升级后，基本上日常对话不需要考虑 token 不够用的情况了。由于用户抱怨，GPT-4 升过两次级，第一次升到 8192 个 token，第二次升到 3.2 万个 token，这一次直接涨到了 12.8 万个 token。普通的 200 页 PDF，对于新模型 GPT-4 Turbo 都可以一口吃下。</p>
 <p>祝贺那些至今还没有用过 GPT-4 的人，现在他们没有必要使用 GPT-4 了，直接使用更强的 GPT Turbo 就可以了。</p>
@@ -17,13 +17,13 @@
 <p>5，GPT-4 像它的前任 GPT 3.5 一样，也支持微调了。不过对于一般开发者这一项功能就不要惦记了，它是为 92%的世界 500 强公司准备的，因为针对特定领域训练 GPT-4 模型，奥特曼表示，这个成本并不便宜。</p>
 <p>6，最后一项，是开发者调用 API 的速率提升了一倍，简单说就是反应速度变快了。返回结果的速度更快了，本质上是大语言模型的响应速度更快了。不知道 OpenAI 是怎么做到的，但从 4 月份固定知识库，10 月份正式发布，相信他们团队也付出了许多辛苦。</p>
 <p>7，价格更低了。</p>
-<figure><img src="@source/posts/2023/assets/image-20231107200553625.png" alt="价格对比" tabindex="0" loading="lazy"><figcaption>价格对比</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231107200553625.png" alt="价格对比"></p>
 <p>调用 API 的价格分为输入价格和输出价值，GPT Turbo 模型相比前任，输入 Token 的价格只有 1/3，输出 Token 的价格只有 1/2，</p>
 <p>总的来说就是，功能变强了、变快了，价格还变便宜了。</p>
 <p>这是有可能的，大的东西都容易产生规模效应，OpenAI 的 AI 产品彻底成了气候以后，很难再有人撼动它的地位。甚至不远的将来，一些除 Meta、Google 之外的中小公司不再开发自己的 AI 产品，直接套牌 OpenAI 的产品了，因为这样更便宜、成本更低。</p>
 <h2 id="二、自定义-gpt" tabindex="-1"><a class="header-anchor" href="#二、自定义-gpt"><span>二、自定义 GPT</span></a></h2>
 <p>这个东西和上面提到的模型微调还不是一个东西，奥特曼说，用户可以通过自定义指令、拓展（模型）的知识边界和下达行动命令，来构建属于自己的 GPT，称之为用户的自定义 GPT。</p>
-<figure><img src="@source/posts/2023/assets/image-20231107201529009.png" alt="自定义 GPT" tabindex="0" loading="lazy"><figcaption>自定义 GPT</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231107201529009.png" alt="自定义 GPT"></p>
 <p>它不需要编程，动动嘴说说话，动动手上传一些资料就可以了。</p>
 <p>在现场演示中，奥特曼创作了一个创业咨询 GPT，还顺手生成了一个 Logo。随后奥特曼在属性页面中上传了一份他自己关于创业公司的演讲稿，向这个用例提供了额外的知识。至此，自定义用途的 GPT 就初步搭建完成了。神奇啊！</p>
 <p>并且，官方宣称，稍后会有一个 GPT Store 上线，开发者将可以上架自己的智能应用并能在销售中拿到分成。现场的开发者们听到这个消息沸腾了，上一次他们听到类似的声音，还是在 2008 年，那一次乔帮主开启了 App Store。</p>
@@ -32,7 +32,7 @@
 <p>这个助理 API 提供了如代码解释器、检索以及函数调用等功能，用于处理此前开发者必须自己完成的许多繁重工作。对于该功能，OpenAI 的工作人员现场做了演示，他用语言告诉 AI：</p>
 <p>“从开发者大会现场随机挑选 5 位观众，给他们的 OpenAI 账户里各充值 500 美金！”</p>
 <p>结果，AI 完成了。</p>
-<figure><img src="@source/posts/2023/assets/image-20231107202913243.png" alt="助理 API" tabindex="0" loading="lazy"><figcaption>助理 API</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231107202913243.png" alt="助理 API"></p>
 <p>随后，这位工作人员为了安慰所有现场与会未中奖人员，再次向 AI 发出语言指令：</p>
 <p>“给现场所有人的账户里打入 500 美元！”</p>
 <p>AI 也完成了！</p>

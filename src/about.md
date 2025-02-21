@@ -1,17 +1,10 @@
 ---
-date: 2002-12-23
-sidebar: false
+createTime: 2002-12-23
 cover: /assets/images/cover3.jpg
+comments: false
+title: '关于作者'
 ---
-# 关于作者
-
-```component VPCard
-title: 艺述论
-desc: 分享技术，论述艺术
-logo: https://yishulun.com/avatar.png
-link: https://yishulun.com
-background: rgba(7, 248, 236, 0.15)
-```
+![作者](/images/avatar.png)
 
 ## 简介
 

@@ -34,9 +34,10 @@
 <p>作家狄更斯一次在河边钓鱼，一个陌生人走过来说：“怎么，你在钓鱼？”狄更斯说：“是的，今天真倒霉，一条也没有钓到。昨天我可是钓了15条嘞。”你知道我是干什么的吗？”陌生人说，“我是专门管理这条河的河管，这条河是禁止钓鱼的。”说着河管拿出发票本，开始给狄更斯开罚单。“你知道我是干什么人吗？”狄更斯不慌不忙地说，河管被问得摸不着头脑。狄更斯对他说：“我是一名作家，你不能罚我的款，因为虚构是我的职业。”</p>
 </blockquote>
 <p>这个示例可能是人虚构的，但没关系，幽默与真实无关。在这个示例中，包含了推理逻辑。推理逻辑的三段式公式定义为：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>所有M是P，</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>所有M是P，</span></span>
 <span class="line"><span>所有S是M，</span></span>
 <span class="line"><span>那么，所有S也是P。</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>具体看一下这个示例，河管认为：</p>
 <blockquote>
 <p>凡是在这条河上钓鱼都是要被罚款的，</p>
@@ -62,9 +63,10 @@
 <p>在这个示例中，老和尚把“老虎”与“女人”的概念对调了，对调的只是符号，老虎和女人在现实世界中却是客观存在的，他们的本质特征并不会因为符号改变而改变。现在回想一下，幽默是什么，<strong>是一种可以自涵盖矛盾并能自圆其说的艺术存在，是人利用人的形式逻辑缺陷而制造的一种艺术之美</strong>。偷换概念将两个符号对换，以达到形式逻辑下自涵盖矛盾并能自圆其说，这就是可以复用与练习的技巧。</p>
 <h3 id="论证" tabindex="-1"><a class="header-anchor" href="#论证"><span>论证</span></a></h3>
 <p>论证就是用已知为真的判断去判断另一个判断是否成立。例如反证法的公式是：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>如果非P，那么Q，</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>如果非P，那么Q，</span></span>
 <span class="line"><span>现在有非Q成立，</span></span>
 <span class="line"><span>那么，非非P也成立。</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>举个反证法的例子：</p>
 <blockquote>
 <p>“你又不是我肚里的蛔虫，你怎么知道我想什么？”</p>

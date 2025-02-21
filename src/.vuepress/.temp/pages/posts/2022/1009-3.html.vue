@@ -53,7 +53,7 @@
 <p>**最后，向所有一直在岗位上把事情做对、做好，以后仍然想做对、做好的程序员致敬，无论厂子大小！**也向自己致敬，我一直都是这样走过来的。（关于团队管理，客观讲我认为它是计算机世界客观存在的一种事物，必须按照软件研发管理的科学理论认真对待，并不是什么旁门左道。）</p>
 <p>参考链接</p>
 <ul>
-<li><a href="https://www.quora.com/Where-do-weak-software-developers-work/answer/Tomislav-Turalija" target="_blank" rel="noopener noreferrer">https://www.quora.com/Where-do-weak-software-developers-work/answer/Tomislav-Turalija</a></li>
+<li>https://www.quora.com/Where-do-weak-software-developers-work/answer/Tomislav-Turalija</li>
 </ul>
 </div></template>
 

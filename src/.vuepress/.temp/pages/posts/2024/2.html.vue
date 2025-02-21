@@ -1,12 +1,12 @@
 <template><div><h1 id="体验世界单体最大北京城市图书馆-看到桌子的脑残设计-我不禁骂了一句-傻逼" tabindex="-1"><a class="header-anchor" href="#体验世界单体最大北京城市图书馆-看到桌子的脑残设计-我不禁骂了一句-傻逼"><span>体验世界单体最大北京城市图书馆，看到桌子的脑残设计，我不禁骂了一句：傻逼！</span></a></h1>
 <p>目录</p>
-<nav class="table-of-contents"><ul><li><router-link to="#失真的7x24">失真的7x24</router-link></li><li><router-link to="#人如果冷漠还不如用机器人">人如果冷漠还不如用机器人</router-link></li><li><router-link to="#插座的脑残设计">插座的脑残设计</router-link></li><li><router-link to="#让人憋屈的静音舱">让人憋屈的静音舱</router-link></li><li><router-link to="#怎么解决">怎么解决？</router-link></li><li><router-link to="#就餐">就餐</router-link></li><li><router-link to="#回顾">回顾</router-link></li><li><router-link to="#补充">补充</router-link></li></ul></nav>
+<p>[TOC]</p>
 <p>位于通州区六环外的北京城市图书馆建成了，号称是吉尼斯单体面积第一的公共图书馆，7x24 小时对外开放。</p>
-<p><img src="@source/posts/2024/assets/GEF4ISubEAAcZQM.jpeg" alt="铺天盖地的宣传" loading="lazy">push</p>
+<p><img src="@source/posts/2024/assets/GEF4ISubEAAcZQM.jpeg" alt="铺天盖地的宣传">push</p>
 <p>单体第一与 7x24 小时开放，牛逼！看到这两个介绍，我就想去体验一下。体验之后，颇感失望。</p>
 <h2 id="失真的7x24" tabindex="-1"><a class="header-anchor" href="#失真的7x24"><span>失真的7x24</span></a></h2>
 <p>但其实不是真正的 7x24，只有一层入门处潞云筑是全天侯的。周二至周日，上午 10 点开始，里面才正式开放。</p>
-<figure><img src="@source/posts/2024/assets/GEF4yCAbwAAVcXD.png" alt="Image" tabindex="0" loading="lazy"><figcaption>Image</figcaption></figure>
+<p><img src="@source/posts/2024/assets/GEF4yCAbwAAVcXD.png" alt="Image"></p>
 <p>每天上午不到 10 点，内门门口的潞云筑就挤满了许多人。那些看到宣传来到这里体验的市民，不清楚状况，就一直在这里等。</p>
 <h2 id="人如果冷漠还不如用机器人" tabindex="-1"><a class="header-anchor" href="#人如果冷漠还不如用机器人"><span>人如果冷漠还不如用机器人</span></a></h2>
 <p>内门门口有个管锁的保安，今天有一位带俩孩子的大姐问他：“几点开门啊，师傅？”</p>
@@ -33,21 +33,21 @@
 <p>2 层是关闭的。1 至 3 层略有装修余味。有一些封闭的桌面设施，打开板子气味会更加浓烈。</p>
 <p>有可以给笔记本电脑供电的电源插座，桌子上有这样的设计。阶梯阅读区有布线，但插座还没有装上。阅览区的桌子大部分都已经安装了插座，但设计有点脑残。</p>
 <p>设计人员在桌子中间挖了一个正方形大洞，距离两个桌边的距离已经不多了。这个距离，勉强可以放一本书或一个小尺寸的笔记本电脑。</p>
-<figure><img src="@source/posts/2024/assets/GEF8HWFakAAvdDW.jpeg" alt="Image" tabindex="0" loading="lazy"><figcaption>Image</figcaption></figure>
+<p><img src="@source/posts/2024/assets/GEF8HWFakAAvdDW.jpeg" alt="Image"></p>
 <p>将板子掀起来，底下是一排插座。看到这排插座，我不禁骂了一句：“设计师真傻逼！”</p>
 <p>明明只用一个长方形的盖板就可以满足需求，为什么要挖一个正方形的洞？</p>
-<figure><img src="@source/posts/2024/assets/GEF8IC1asAAblXl.jpeg" alt="Image" tabindex="0" loading="lazy"><figcaption>Image</figcaption></figure>
+<p><img src="@source/posts/2024/assets/GEF8IC1asAAblXl.jpeg" alt="Image"></p>
 <p>这设计师是对正方形有执念吗？单体图书馆从上空看是正方形的，所以这里面桌子上的洞也必须是正方形的？</p>
 <p>我实在难以理解这伟大的设计！</p>
 <p>在桌子上开洞，方便使用电源，我最喜欢下面这样的设计：嵌入式。如果提供者再细心一些，可以同时提供多个三插、两插的位置，及 USB、Type-C 充电的小插口。</p>
-<figure><img src="@source/posts/2024/assets/GEGARXEa0AAQ7tU.jpeg" alt="Image" tabindex="0" loading="lazy"><figcaption>Image</figcaption></figure>
+<p><img src="@source/posts/2024/assets/GEGARXEa0AAQ7tU.jpeg" alt="Image"></p>
 <p>如果怕落尘，还可以采用下面这种带滑盖的设计。不用的时候盖上，防尘；擦拭打扫的时候，也可以盖上，避免电器粘水。</p>
-<figure><img src="@source/posts/2024/assets/GEGA_bvagAAgJql.jpeg" alt="Image" tabindex="0" loading="lazy"><figcaption>Image</figcaption></figure>
+<p><img src="@source/posts/2024/assets/GEGA_bvagAAgJql.jpeg" alt="Image"></p>
 <p>但从简洁上考虑，我还是觉得前面与桌面平齐的嵌入式插座最实用。</p>
 <h2 id="让人憋屈的静音舱" tabindex="-1"><a class="header-anchor" href="#让人憋屈的静音舱"><span>让人憋屈的静音舱</span></a></h2>
 <p>这个图书馆有两个静音舱。</p>
 <p>静音舱是全封闭的，里面是桌子、凳子和插座。昨天我来的时候，看到有人使用且用了一天，羡慕不已。当时我就想，那小子可能是一个自闭症患者。</p>
-<figure><img src="@source/posts/2024/assets/image-20240118112904398.png" alt="image-20240118112904398" tabindex="0" loading="lazy"><figcaption>image-20240118112904398</figcaption></figure>
+<p><img src="@source/posts/2024/assets/image-20240118112904398.png" alt="image-20240118112904398"></p>
 <p>今天我赶了个早，抢占了一个静音舱。</p>
 <p>刚进去，放好电脑，插上电，还没有两分钟，一个保安来了。</p>
 <p>“读者，这个地方你不能用，请你出来！”</p>
@@ -90,7 +90,7 @@
 <p>关于静音舱的设计及用途，他们也是糊涂的。</p>
 <p>现代图书馆，读者有接打电话的需求，也有出声朗读、录制视频的需求，这两点目前在这个新馆并没有很好得到满足。</p>
 <p>从静音舱的设计来看，有桌、有椅、有插座，连有线网络接口都有。</p>
-<figure><img src="@source/posts/2024/assets/image-20240118125837558.png" alt="image-20240118125837558" tabindex="0" loading="lazy"><figcaption>image-20240118125837558</figcaption></figure>
+<p><img src="@source/posts/2024/assets/image-20240118125837558.png" alt="image-20240118125837558"></p>
 <p>这样的设计，应该是给有语音、视频录制需求的读者使用的，说明了也就是给像我这样的教育工作者准备的。</p>
 <p>但是，在试运营过程中，他们发现，馆中有不少读者接打电话。</p>
 <p>而单体最大的图书馆要保持安静很难，馆中甚至都有人举着一个“保持安静”的牌子左右来回巡走。</p>
@@ -123,13 +123,13 @@
 <hr>
 <h2 id="补充" tabindex="-1"><a class="header-anchor" href="#补充"><span>补充</span></a></h2>
 <p>馆中随处可见的静字，及举“静”人士。</p>
-<figure><img src="@source/posts/2024/assets/image-20240118151710017.png" alt="image-20240118151710017" tabindex="0" loading="lazy"><figcaption>image-20240118151710017</figcaption></figure>
+<p><img src="@source/posts/2024/assets/image-20240118151710017.png" alt="image-20240118151710017"></p>
 <p>馆中并非只有两个静音舱，大概是每个角有两个，可能一定有八字。在下面这个舱中，里面一直有人。TNND，再次感觉被针对了，为什么我在舱里待 10 分钟，就有工作人员请我出来？</p>
-<figure><img src="@source/posts/2024/assets/image-20240118151735393.png" alt="image-20240118151735393" tabindex="0" loading="lazy"><figcaption>image-20240118151735393</figcaption></figure>
+<p><img src="@source/posts/2024/assets/image-20240118151735393.png" alt="image-20240118151735393"></p>
 <p>这是一棵树。</p>
-<figure><img src="@source/posts/2024/assets/image-20240118152017484.png" alt="image-20240118152017484" tabindex="0" loading="lazy"><figcaption>image-20240118152017484</figcaption></figure>
+<p><img src="@source/posts/2024/assets/image-20240118152017484.png" alt="image-20240118152017484"></p>
 <p>看大家是什么使用的，大概两个座位坐一个人。</p>
-<figure><img src="@source/posts/2024/assets/GEG3v3La8AABH_o.jpeg" alt="Image" tabindex="0" loading="lazy"><figcaption>Image</figcaption></figure>
+<p><img src="@source/posts/2024/assets/GEG3v3La8AABH_o.jpeg" alt="Image"></p>
 <p>这种设计也有一个优点：节省木料。</p>
 </div></template>
 

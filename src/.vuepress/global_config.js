@@ -1,274 +1,103 @@
-// src\.vuepress\global_config.js
-import { feedPlugin } from '@vuepress/plugin-feed'
+// global_config.js
+// 所有的个人配置项，个性化信息都放在这里，方便管理。
+import { defineNoteConfig, defineNotesConfig, defineNavbarConfig } from 'vuepress-theme-plume'
 
-// 博客配置信息在这里定义
-const blog_url = "https://yishulun.com"
-const blog_name = "艺述论"
-const description = "分享技术，论述艺术"
-const author_name = "李艺"
-const avatar = "/avatar.png"
+const currentYear = new Date().getFullYear();
+const author = "李艺";
+const blog_url = "https://yishulu.com"
+
+//   导航栏
+export let navbar = defineNavbarConfig([
+    { text: '首页', link: '/' },
+    { text: '博客', link: '/blog/' },
+    { text: '笔记', link: '/notes/' },
+    { text: '分类', link: '/categories.html' },
+    { text: '标签', link: '/tags.html' },
+    { text: '归档', link: '/archives.html' },
+    { text: '友链', link: '/friends.html' },
+    { text: '联系作者', link: '/about.html' },
+    // {
+    //     text: '笔记',
+    //     items: [
+    //         { text: '示例', link: '/notes/demo/README.md' },
+
+    //     ]
+    // },
+])
+
+// 专栏
+// 子专栏一定要以/notes开头，否则sidebar无法正常显示
+export let notes = defineNotesConfig({
+    dir: 'notes',
+    link: '/',
+    notes: [
+        {
+            dir: 'typescript',
+            link: '/notes/typescript',
+            sidebar: "auto",
+        }, {
+            dir: 'demo',
+            link: '/notes/demo',
+            sidebar: "auto",
+        }, {
+            dir: 'rust',
+            link: '/notes/rust',
+            sidebar: "auto",
+        }],
+})
 
 export default {
-  base: "/",
-  lang: "zh-CN",
-  title: blog_name,
-  description,
-  hostname: blog_url,
-  blog_logo: avatar,
-  sourceDir: './src',
-  // permalinkPattern: '/posts/:year/:slug.html',
+    author, // 合并 profileName 和 author
+    hostname: blog_url,
+    avatar: '/images/avatar.png', // 更名为 avatar
+    title: '艺述论',
+    description: '分享技术，论述艺术感悟', // 合并 profileDescription 和 description
 
-  // 这是底部信息的内容，在page内可以重写
-  footer: false,
-  // 这是底部copyright是否显示
-  displayFooter: true,
+    // git
+    repoUrl: 'https://github.com/rixingyike/yishulun_blog_mdandcode', // 合并 docsRepo 和 repoUrl
+    repoBranch: 'main',
 
-  head: [
-    [
-      "link",
-      {
-        rel: "icon",
-        type: "image/icon",
-        href: "/favicon.ico",
-      },
-    ],
-    [
-      "meta",
-      {
-        name: "author",
-        content: author_name,
-      },
-    ],
-    [
-      "meta",
-      {
-        property: "og:description",
-        content: description,
-      },
-    ],
-    // add google analytics
-    [
-      'script',
-      {
-        async: true,
-        src: '//www.googletagmanager.com/gtag/js?id=G-8N64Q25EK9',
-      },
-    ],
-    [
-      'script',
-      {},
-      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-8N64Q25EK9');",
-    ], // add google analytics end
-    // add google ads
-    [
-      'script',
-      {
-        async: true,
-        crossorigin: "anonymous",
-        src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2139303336591479',
-      },
-    ],
-  ],
+    // site
+    article: '/blog/',//它决定了自动生成的文章链接的前缀
+    devServer: process.env.NODE_ENV === 'development', // 有些配置例如feed和sitemap需要在devServer下才能生效
+    devHostname: 'http://localhost:8080',
+    site_favicon: '/images/favicon.ico',
+    site_logo: '/images/logo.png', // 更名为 site_logo
+    appearance: 'dark', // 添加 appearance 信息
+    footerMessage: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>', // 添加 footerMessage 信息
+    footerCopyright: `&copy 2002-${currentYear} ${author}`, // 动态获取年份和作者名称
+    googleAnalyticsId: 'G-8N64Q25EK9', // 添加 Google Analytics ID
+    googleAdsClient: 'ca-pub-2139303336591479', // 添加 Google Ads Client ID
 
-  author: {
-    name: author_name,
-    url: blog_url,
-  },
+    // 公告板内容
+    bulletin_content: '',
+    // bulletin_content: `\
+    // **更新说明**
 
-  plugins: [
-    feedPlugin({
-      hostname: blog_url,
-      rss: true,
-    }),
-    ["md-enhance", { 
-      tex: false, // 启用 Tex 语法（可选）
-      container: true // 启用容器解析，避免误解析 HTML
-    }],
-    "@vuepress/plugin-shiki",
-      {
-        theme: "github-dark", // 你可以换成喜欢的主题，比如 "github-dark"
-        langs: ["rust", "javascript", "typescript", "bash", "json", "html", "css", "markdown", "sql", "python", "java", "php", "go", "ruby", "csharp", "cpp", "swift", "dart"],
-      },
-  ],
+    // - 新增了一些功能
+    // - 修复了一些 bugs
+    // `,
 
-  repo: "rixingyike/yishulun_src",
-
-  blog: {
-    description,
-    intro: "/about.html",
-    medias: {
-      Email: "mailto:9830131@qq.com",
-      GitHub: "https://github.com/rixingyike",
-      RSS: "https://yishulun.com/feed.xml",
-      Twitter: "https://x.com/coderliyi",
-      Youtube: "https://www.youtube.com/@yishulun",
-      Zhihu: "https://www.zhihu.com/people/liyi2005",
-      VuePressThemeHope: {
-        icon: blog_url + avatar,
-        link: "/about.html",
-      },
-    },
-  },
-
-  // 加密示例
-  encrypt: {
-    config: {
-      "/docs/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
-    },
-  },
-
-  markdown: {
-    // 修改TOC匹配规则，与Typora一致
-    toc: { pattern: /^\[TOC\]$/i },
-    pageSuffix: '.html',
-    align: true,
-    attrs: true,
-    codeTabs: true,
-    component: true,
-    demo: true,
-    figure: true,
-    gfm: true,
-    imgLazyload: true,
-    imgSize: true,
-    include: true,
-    mark: true,
-    plantuml: true,
-    spoiler: true,
-    stylize: [
-      {
-        matcher: "Recommended",
-        replacer: ({ tag }) => {
-          if (tag === "em")
-            return {
-              tag: "Badge",
-              attrs: { type: "tip" },
-              content: "Recommended",
-            };
-        },
-      },
-    ],
-    sub: true,
-    sup: true,
-    tabs: true,
-    tasklist: true,
-    vPre: true,
-
-    // 取消注释它们如果你需要 TeX 支持
-    // markdownMath: {
-    //   // 启用前安装 katex
-    //   type: "katex",
-    //   // 或者安装 mathjax-full
-    //   type: "mathjax",
-    // },
-
-    // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-    // },
-
-    // 在启用之前安装 chart.js
-    // chartjs: true,
-
-    // insert component easily
-
-    // 在启用之前安装 echarts
-    // echarts: true,
-
-    // 在启用之前安装 flowchart.ts
-    // flowchart: true,
-
-    // 在启用之前安装 mermaid
-    // mermaid: true,
-
-    // playground: {
-    //   presets: ["ts", "vue"],
-    // },
-
-    // 在启用之前安装 @vue/repl
-    // vuePlayground: true,
-
-    // 在启用之前安装 sandpack-vue3
-    // sandpack: true,
-  },
-
-  // 测边栏
-  sidebar:{
-    "/": [
-      {
-        text: "随笔",
-        icon: "book",
-        prefix: "posts/",
-        children: "structure",
-      },
-      // {
-      //   text: "文档",
-      //   icon: "laptop-code",
-      //   prefix: "docs/",
-      //   children: "structure",
-      // },
-    ],
-  },
-  
-  // 顶部导航
-  navbar:[
-    {
-      text: "首页",
-      icon: "house",
-      link: "/",
-    },
-    {
-      text: "随笔",
-      icon: "laptop-code",
-      link: "/posts/",
-    },
-    {
-      text: "专栏",
-      icon: "user-pen",
-      link: "/docs/",
-    },
-    {
-      text: "联系作者",
-      icon: "address-card",
-      link: "/about.html",
-    },
-    {
-      text: "更多",
-      // icon: "link",
-      children: [
+    // social links
+    social: [
+        { icon: 'github', link: 'https://github.com/rixingyike' },
+        // {
+        //     icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27zm0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93z"/></svg>', name: 'feed' },
+        //     link: `${blog_url}/feed.xml`
+        // },
+        { icon: 'x', link: 'https://x.com/coderliyi' },
+        { icon: 'youtube', link: 'https://www.youtube.com/@yishulun' },
         {
-          text: "全部文章",
-          icon: "note-sticky",
-          link: "/article/",
+            icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg>', name: 'email' },
+            link: 'mailto:9830131@qq.com'
         },
-        {
-          text: "星标文章",
-          icon: "star",
-          link: "/star/",
-        },
-        {
-          text: "分类",
-          icon: "bars-staggered",
-          link: "/category/",
-        },
-        {
-          text: "标签",
-          icon: "tag",
-          link: "/tag/",
-        },
-        {
-          text: "时间表",
-          icon: "align-justify",
-          link: "/timeline/",
-        },
-        {
-          text: "Github",
-          icon: "code-branch",
-          link: "https://github.com/rixingyike",
-        },
-      ],
-    },
-  ],
+        { icon: 'zhihu', link: 'https://www.zhihu.com/people/liyi2005' },
+    ], // 添加 social 信息
+
+    // comment
+    comment: true,
+    commentRepo: 'rixingyike/yishulun.com_discus',
+    commentRepoId: 'R_kgDOKRUETQ',
+    commentCategory: 'General',
+    commentCategoryId: 'DIC_kwDOKRUETc4CZMWK',
 }

@@ -1,4 +1,4 @@
-<template><div><figure><img src="@source/posts/2023/assets/image-20231031201628678.png" alt="image-20231031201628678" tabindex="0" loading="lazy"><figcaption>image-20231031201628678</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/image-20231031201628678.png" alt="image-20231031201628678"></p>
 <h1 id="我们如何使用-chatgpt、claude-和-google-bard" tabindex="-1"><a class="header-anchor" href="#我们如何使用-chatgpt、claude-和-google-bard"><span>我们如何使用 ChatGPT、Claude 和 Google Bard？</span></a></h1>
 <p>你好，今天聊一下如何使用 ChatGPT。</p>
 <p>ChatGPT 很强大，且 ChatGPT 3.5 版本是公开与免费的，但并不是所有地方都可以使用它。有些地方甚至抵制使用。</p>
@@ -10,19 +10,19 @@
 <li>不得发布违反法律法规、有害于社会秩序、危害国家安全、损害公共利益的信息；</li>
 <li>不得利用生成式人工智能生成虚假信息、误导公众。</li>
 </ul>
-<p>ChatGPT 是允许使用的。只是 ChatGPT 在大陆，如果使用者直接访问它的官网（<a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer">https://chat.openai.com</a>），网站是打不开的。</p>
+<p>ChatGPT 是允许使用的。只是 ChatGPT 在大陆，如果使用者直接访问它的官网（https://chat.openai.com），网站是打不开的。</p>
 <p>怎么办？难道我们求学向道的心就此被阻止了吗？</p>
 <p>显然不会，否则探长在这里也没有写这个专栏的意义了。在大陆，不仅有办法访问和使用 ChatGPT 3.5 版本，就是需要付费的 GPT-4 也是可以使用的。</p>
 <h2 id="如何注册-chatgpt" tabindex="-1"><a class="header-anchor" href="#如何注册-chatgpt"><span>如何注册 ChatGPT？</span></a></h2>
 <p>首先，我们需要解决网络访问的问题。</p>
 <p>对这个问题，有人第一时间想到使用梯子。探长想说，不要使用梯子，墙内擅自使用梯子突破防火墙属于不规范甚至违法行为。</p>
 <p>有人说，可以使用某类袋装 wifi 移动上网设备。此类设备并不是没有使用梯子，而是设备内隐含了梯子，这种行为也是不规范的。还有人推荐购买香港的 SIM 卡，在大陆漫游使用，但办理费用及 3GB 贵达 88 美金的漫游费用并不低，且办理流程麻烦，所以也不推荐。</p>
-<figure><img src="@source/posts/2023/assets/image-20231031154722559.png" alt="香港卡漫游资费" tabindex="0" loading="lazy"><figcaption>香港卡漫游资费</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231031154722559.png" alt="香港卡漫游资费"></p>
 <p>最简单、最便宜的方式，同时也是合法的方式，是在腾讯云等云厂商平台上购买一台海外云主机。以腾讯云为例，一个美区包月云主机不到 50 元，并且流量不封顶。</p>
-<figure><img src="@source/posts/2023/assets/image-20231031155526336.png" alt="美区包月云主机不足50元" tabindex="0" loading="lazy"><figcaption>美区包月云主机不足50元</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231031155526336.png" alt="美区包月云主机不足50元"></p>
 <p>购买云主机以后，使用微软远程桌面登录软件（Microsoft Remote Desktop Manager），既可以在 PC 电脑上登录云主机，也可以在手机上登录与使用。关于这个软件的相关教程，在网上都有，一搜便知，或者直接问 AI，它也能告诉你使用方法。</p>
 <p>登录云主机以后，网络通了，接下来注册就简单了。</p>
-<p>可以先注册一个 Gmail，然后用 Gmail 打开 ChatGPT 网站（<a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer">https://chat.openai.com</a>）进行注册与登录。由于服务器在境外美区，网站都是可以直接访问的。你相当于是入侵到美国境内上网，ChatGPT对美国人民没有任何限制，注册与登录、使用都是自由的，你在美国操作也是自由的。</p>
+<p>可以先注册一个 Gmail，然后用 Gmail 打开 ChatGPT 网站（https://chat.openai.com）进行注册与登录。由于服务器在境外美区，网站都是可以直接访问的。你相当于是入侵到美国境内上网，ChatGPT对美国人民没有任何限制，注册与登录、使用都是自由的，你在美国操作也是自由的。</p>
 <h2 id="购买-gpt-4-月租服务" tabindex="-1"><a class="header-anchor" href="#购买-gpt-4-月租服务"><span>购买 GPT-4 月租服务</span></a></h2>
 <p>接下来再说一下 GPT-4 的付费购买。</p>
 <p>GPT-4 的功能相比 ChatGPT 3.5 强太多了，但它是付费服务，每月需要支付 20 美元。不过这个费用是物超所值的。</p>
@@ -39,19 +39,19 @@
 <p>如果你选择了其它地区，在付款时苹果公司会收取一款消费税；如果你的礼品卡购买的储值金额恰好是 20 美金，那么你在支付时将因消费税而遭遇余额不足的尴尬。</p>
 <h2 id="在-bing-上使用-gpt-4" tabindex="-1"><a class="header-anchor" href="#在-bing-上使用-gpt-4"><span>在 Bing 上使用 GPT-4</span></a></h2>
 <p>除了在 OpenAI 官网使用 ChatGPT，还有其它方式使用 ChatGPT，甚至是收费的 GPT-4。</p>
-<p>第一个推荐的免费平台是微软的 New Bing，直接访问这个微软网址（<a href="https://www.bing.com/new%EF%BC%89%EF%BC%8C%E6%B3%A8%E5%86%8C%E4%B8%80%E4%B8%AA%E5%BE%AE%E8%BD%AF%E5%B8%90%E5%8F%B7%E7%84%B6%E5%90%8E%E7%99%BB%E5%BD%95%EF%BC%8C%E7%84%B6%E5%90%8E%E5%B0%B1%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E5%85%8D%E8%B4%B9%E7%9A%84GPT-4%E6%9C%8D%E5%8A%A1%E4%BA%86%EF%BC%8C%E5%B9%B6%E4%B8%94%E5%A4%A9%E7%84%B6%E6%9C%89%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%E5%8A%A0%E6%8C%81%E3%80%82" target="_blank" rel="noopener noreferrer">https://www.bing.com/new），注册一个微软帐号然后登录，然后就可以使用免费的GPT-4服务了，并且天然有搜索功能加持。</a></p>
-<figure><img src="@source/posts/2023/assets/image-20231031163728574.png" alt="ChatGPT on Bing" tabindex="0" loading="lazy"><figcaption>ChatGPT on Bing</figcaption></figure>
+<p>第一个推荐的免费平台是微软的 New Bing，直接访问这个微软网址（https://www.bing.com/new），注册一个微软帐号然后登录，然后就可以使用免费的GPT-4服务了，并且天然有搜索功能加持。</p>
+<p><img src="@source/posts/2023/assets/image-20231031163728574.png" alt="ChatGPT on Bing"></p>
 <p>原来微软限制用户只能在自家的 Edge 浏览器上使用 New Bing，现在条件放宽了，在 Chrome 浏览器上也可以登录和使用。在 Bing 搜索中使用 GPT-4 是免费的，虽然微软对每个用户限定了每轮对话只能使用 20 次，每天总共限定使用 200 次，但这对于不常使用 AI 的用户来讲，已经足够用了。</p>
 <p>用户还可以在手机上下载微软的 Skype 或 Bing App，在这两款 App 上也可以免费使用 GPT-4，<strong>并且没有次数限制</strong>。</p>
 <p>微软作为 OpenAI 的大股东，曾在 2019 年 7 月向 OpenAI 投资了 10 亿美金，并且用自家的 Azure 云计算服务集群为 OpenAI 提供磅礴的算力，微软与 OpenAI 是合作关系，在 OpenAI 的火爆崛起中，微软被视为是传统搜索企业中最大的赢家。微软是率先在自家搜索引擎平台上免费提供 GPT-4 服务的，这一举措大大提升了 Bing 在搜索市场中的份额。</p>
 <p>用户在微软与竞争对手的角逐过程中得到了充分的实惠，特别在 2023 年 3 月 22 日谷歌推出了 Google Bard 以后，微软更是加大了免费力度。2023 年 3 月 26 日微软宣布在 Bing App 上提供免费的 GPT-4 功能，且没有次数限制。</p>
 <p>也就是说，用户只要下载承载了必应搜索功能的 Bing App，就可以免费使用 GPT-4 服务了。</p>
 <h2 id="在-poe-上使用-chatgpt" tabindex="-1"><a class="header-anchor" href="#在-poe-上使用-chatgpt"><span>在 poe 上使用 ChatGPT</span></a></h2>
-<p>poe（<a href="https://poe.com/%EF%BC%89%E6%98%AF%E4%B8%80%E4%B8%AAAI%E9%9B%86%E5%90%88%E5%B9%B3%E5%8F%B0%EF%BC%8C%E5%AE%83%E6%8A%8A%E5%B8%B8%E8%A7%81%E7%9A%84AI%E9%83%BD%E9%9B%86%E5%90%88%E5%9C%A8%E4%BA%86%E5%AE%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B9%B3%E5%8F%B0%E4%B9%8B%E4%B8%8A%EF%BC%8C%E4%BB%A5%E4%B8%80%E4%B8%AA%E4%BD%8E%E5%BB%89%E7%9A%84%E6%80%BB%E5%8C%85%E4%BB%B7%E6%A0%BC%E2%80%94%E2%80%94%E5%A4%A7%E7%BA%A6" target="_blank" rel="noopener noreferrer">https://poe.com/）是一个AI集合平台，它把常见的AI都集合在了它自己的平台之上，以一个低廉的总包价格——大约</a> 20 美金，让用户一站使用多款著名的 AI 工具，例如 GPT-4、Claude2、Midjourney 等。</p>
-<figure><img src="@source/posts/2023/assets/image-20231031171243959.png" alt="poe订阅面板" tabindex="0" loading="lazy"><figcaption>poe订阅面板</figcaption></figure>
+<p>poe（https://poe.com/）是一个AI集合平台，它把常见的AI都集合在了它自己的平台之上，以一个低廉的总包价格——大约 20 美金，让用户一站使用多款著名的 AI 工具，例如 GPT-4、Claude2、Midjourney 等。</p>
+<p><img src="@source/posts/2023/assets/image-20231031171243959.png" alt="poe订阅面板"></p>
 <p>**使用 poe 的好处是，在大陆它你可以直接访问与使用它，没有什么限制。**你不需要梯子，也不需要购买云主机。在 poe 上，ChatGPT 3.5 版本是免费的，只有你想使用更为强大的 GPT-4 时，才需要付费。</p>
 <h2 id="使用-claude" tabindex="-1"><a class="header-anchor" href="#使用-claude"><span>使用 Claude</span></a></h2>
-<p>Claude（<a href="https://claude.ai" target="_blank" rel="noopener noreferrer">https://claude.ai</a>）是与 ChatGPT 几乎齐名的另一款大语言模型（LLM，Large Language Model）AI，我们不得不提。它有两个版本，一个是默认的免费版本，另一个是收费的 Pro 版本，它的收费标准仍然是每月 20 美元。</p>
+<p>Claude（https://claude.ai）是与 ChatGPT 几乎齐名的另一款大语言模型（LLM，Large Language Model）AI，我们不得不提。它有两个版本，一个是默认的免费版本，另一个是收费的 Pro 版本，它的收费标准仍然是每月 20 美元。</p>
 <p>Claude 对大陆是访问+注册同时开放的，没有任何限制；并且，它的收费限制与 ChatGPT 还不同，ChatGPT 的免费版本是低级的 3.5 版本，功能不比付费的 GPT-4 强大，而 Claude 无论是免费版本，还是收费版本，都是强大的最新的 Claude2 版本，它只是在使用次数和每日字节吞吐量上做了限制，功能是一样的。</p>
 <p>这一点 Claude 与微软最初的 New Bing 的 Web 版本很像，只是限制使用次数，并不对自家可以提供的强大功力有所隐藏。</p>
 <p>在 Claude 的网站上，平台对 Pro 版本的收费做了这样的解释：</p>
@@ -83,18 +83,18 @@
 <p>最后回顾一下。</p>
 <p>我们有如下五种方式直接使用出色的大语言模型 AI 服务：</p>
 <ul>
-<li>一，使用 GPT-4，网站是<a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer">https://chat.openai.com</a>，使用礼品卡充值付费；</li>
+<li>一，使用 GPT-4，网站是https://chat.openai.com，使用礼品卡充值付费；</li>
 <li>二，在 New Bing 或 Bing App 上使用免费的 GPT-4；</li>
-<li>三，在 AI 集合平台 poe 上使用 GPT-4 或 Claude2，网站是<a href="https://poe.com" target="_blank" rel="noopener noreferrer">https://poe.com</a>；</li>
-<li>四，使用 Claude2，网站是<a href="https://claude.ai" target="_blank" rel="noopener noreferrer">https://claude.ai</a>；</li>
-<li>五，使用 Google Bard，网址是<a href="https://bard.google.com" target="_blank" rel="noopener noreferrer">https://bard.google.com</a>。</li>
+<li>三，在 AI 集合平台 poe 上使用 GPT-4 或 Claude2，网站是https://poe.com；</li>
+<li>四，使用 Claude2，网站是https://claude.ai；</li>
+<li>五，使用 Google Bard，网址是https://bard.google.com。</li>
 </ul>
 <p><strong>参考链接</strong></p>
 <ul>
-<li><a href="https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage" target="_blank" rel="noopener noreferrer">https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage</a></li>
-<li><a href="https://blog.infuseai.io/gpt-model-past-introduction-1e2558462e41" target="_blank" rel="noopener noreferrer">https://blog.infuseai.io/gpt-model-past-introduction-1e2558462e41</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/620494604" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/620494604</a></li>
-<li><a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/1706.03762</a></li>
+<li>https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage</li>
+<li>https://blog.infuseai.io/gpt-model-past-introduction-1e2558462e41</li>
+<li>https://zhuanlan.zhihu.com/p/620494604</li>
+<li>https://arxiv.org/abs/1706.03762</li>
 </ul>
 </div></template>
 

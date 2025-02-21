@@ -15,7 +15,7 @@
 <p>老师请教个问题</p>
 </blockquote>
 <p>然后就发了一个截图，截图中也没有错误信息，其它什么内容都没了。这件事给我造成了很大阴影，本来我就不喜欢微信这样断断续续的聊天，我觉得这种沟通方式很浪费时间。</p>
-<p>关于提问的艺术，有个老外写了一篇「提问圣经」，国人翻译了中文版，见这里：<a href="https://learnku.com/docs/guide/smart-questions/2032%E3%80%82" target="_blank" rel="noopener noreferrer">https://learnku.com/docs/guide/smart-questions/2032。</a></p>
+<p>关于提问的艺术，有个老外写了一篇「提问圣经」，国人翻译了中文版，见这里：https://learnku.com/docs/guide/smart-questions/2032。</p>
 <p>这篇内容写的很好，但内容很多，我提炼一下，有以下几点特别值得注意：</p>
 <ol>
 <li>在提问之前，先尝试谷歌一下。除了谷歌，还可以尝试翻一下软件的FAQ文档或issue列表。</li>

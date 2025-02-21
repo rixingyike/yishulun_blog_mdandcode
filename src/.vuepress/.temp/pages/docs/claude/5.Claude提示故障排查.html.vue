@@ -2,7 +2,8 @@
 <p>如果提示的初始版本表现不好，可以尝试用以下规则排查与优化。</p>
 <h2 id="_1-检查格式" tabindex="-1"><a class="header-anchor" href="#_1-检查格式"><span>1，检查格式</span></a></h2>
 <p>无论是在 Web 上互动，还是使用 API 调用，标准的格式是这样的：</p>
-<div class="language-xml line-numbers-mode" data-highlighter="shiki" data-ext="xml" data-title="xml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">\n\nHuman: [HUMAN_TEXT]\n\nAssistant: [ASSISTANT_TEXT]\n\nHuman: [MORE HUMAN TEXT]\n\nAssistant:</span></span></code></pre>
+<div class="language-xml line-numbers-mode" data-ext="xml" data-title="xml"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">\n\nHuman:</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">[HUMAN_TEXT]\n\nAssistant:</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">[ASSISTANT_TEXT]\n\nHuman:</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">[MORE</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">HUMAN</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">TEXT]\n\nAssistant:</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><ul>
 <li>在每个 nHuman 和 Assistant 之前都有正确数量的换行符（两个）</li>
 <li>唯一的发言者是 Human: 和 Assistant:，文本以 Human 开头并以 Assistant 结束，每个发言者交替进行</li>
@@ -26,8 +27,9 @@
 <p>提示中，尝试列出错误响应的示例，尤其是你看到模型经常给出的错误响应类型。你可以在说明中列出这些内容，例如“这是一个不正确的示例”。</p>
 <h2 id="_9-要求-ai-提前思考" tabindex="-1"><a class="header-anchor" href="#_9-要求-ai-提前思考"><span>9，要求 AI 提前思考</span></a></h2>
 <p>例如：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>你能把这篇文章写得更礼貌、更正式吗？在给出答案之前，请描述一下你的思考过程。原文如下：</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>你能把这篇文章写得更礼貌、更正式吗？在给出答案之前，请描述一下你的思考过程。原文如下：</span></span>
 <span class="line"><span>“你今天要来吗？尽快回复，否则我就不信了。”</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>在给出答案之前，要求 AI 描述一下思考过程，这会促进 AI 思考。</p>
 <h2 id="_10-假装是工程师-已取得超级管理员权限" tabindex="-1"><a class="header-anchor" href="#_10-假装是工程师-已取得超级管理员权限"><span>10，假装是工程师，已取得超级管理员权限</span></a></h2>
 <p>例如：</p>

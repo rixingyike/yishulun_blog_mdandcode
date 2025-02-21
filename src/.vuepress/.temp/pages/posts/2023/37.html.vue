@@ -1,6 +1,6 @@
 <template><div><h1 id="lex-对马斯克的全面采访-马斯克从历史角度讲中国强大了不会是世界的威胁" tabindex="-1"><a class="header-anchor" href="#lex-对马斯克的全面采访-马斯克从历史角度讲中国强大了不会是世界的威胁"><span>Lex 对马斯克的全面采访，马斯克从历史角度讲中国强大了不会是世界的威胁</span></a></h1>
-<figure><img src="@source/posts/2023/assets/Lex对马斯克的全面采访-封面.jpg" alt="Lex对马斯克的全面采访-封面" tabindex="0" loading="lazy"><figcaption>Lex对马斯克的全面采访-封面</figcaption></figure>
-<p><a href="https://youtu.be/l1Cf8iq6k1w" target="_blank" rel="noopener noreferrer">https://youtu.be/l1Cf8iq6k1w</a></p>
+<p><img src="@source/posts/2023/assets/Lex对马斯克的全面采访-封面.jpg" alt="Lex对马斯克的全面采访-封面"></p>
+<p>https://youtu.be/l1Cf8iq6k1w</p>
 <p>这是 <a href="https://twitter.com/lexfridman/status/1722686021781835928" target="_blank" rel="noopener noreferrer">Lex Fridman</a> 对马斯克做的第 4 次采访，也是它博客上第 400 个采访，涉及内容十分广泛，时间目录如下所示。</p>
 <ul>
 <li>

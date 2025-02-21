@@ -1,4 +1,4 @@
-<template><div><figure><img src="@source/posts/2023/assets/F92WBRobgAA3aRt.png" alt="Image" tabindex="0" loading="lazy"><figcaption>Image</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/F92WBRobgAA3aRt.png" alt="Image"></p>
 <h1 id="读《诡异世界-我以肉身镇万物》-聊小说开篇的期待感及创作过程中作者对读者观感的把控" tabindex="-1"><a class="header-anchor" href="#读《诡异世界-我以肉身镇万物》-聊小说开篇的期待感及创作过程中作者对读者观感的把控"><span>读《诡异世界，我以肉身镇万物》，聊小说开篇的期待感及创作过程中作者对读者观感的把控</span></a></h1>
 <p>你好，今天谈一下最近看的小说。它是起点新书榜上的一本小说，成绩是很不错的。</p>
 <p>它的分类是玄幻高武，但我感觉它像都市，它的文笔细腻而真实，只有在世界观设定上，有武修、仙修的设定，这是属于玄幻世界的内容。如果它没有这方面的设定，它应该属于架空历史。</p>

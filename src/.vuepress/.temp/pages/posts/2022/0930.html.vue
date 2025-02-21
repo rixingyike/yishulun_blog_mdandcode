@@ -5,7 +5,7 @@
 <p>在 1957 年诞生的 Fortran 编程语言中，有一个「I—N 规则」，规定以字母 I，J，K，L，M，N 六个字母开头的变量，如无另外说明均为整型变量，以其它字母开头的变量则为实型变量。实型变量在这里狭隘理解就是小数，包括指数形式的小数。</p>
 <p>Fortran 更多是一种教学语言，后来诞生的 B 语言、C 语言都借鉴了 i、k、j 的命名规则，久而久之成为了习惯。</p>
 <blockquote>
-<p>关于 I-N 规则，可以查看这里：<a href="https://micro.ustc.edu.cn/Fortran/ZJDing/Sec1-4.htm" target="_blank" rel="noopener noreferrer">https://micro.ustc.edu.cn/Fortran/ZJDing/Sec1-4.htm</a></p>
+<p>关于 I-N 规则，可以查看这里：https://micro.ustc.edu.cn/Fortran/ZJDing/Sec1-4.htm</p>
 </blockquote>
 <p>Fortran 支持整型、字符型等类型。Fortran 诞生于 1957 年，比 C 语言早了 10 年，很难想象在远古编程语言中，竟然就有了对变量类型的支持。虽然对类型的支持并不是一开始就有的，但也基本发生在 Fortran 诞生之后的几年里。</p>
 <p>JS、Python 这样的脚本语言没有变量类型，并不是它们低级，而是在它们的语言哲学里，没有类型更加简洁方便。</p>

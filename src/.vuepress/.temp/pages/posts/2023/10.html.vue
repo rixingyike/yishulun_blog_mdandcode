@@ -1,4 +1,4 @@
-<template><div><figure><img src="@source/posts/2023/assets/image-20231001212404232.png" alt="image-20231001212404232" tabindex="0" loading="lazy"><figcaption>image-20231001212404232</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/image-20231001212404232.png" alt="image-20231001212404232"></p>
 <h1 id="普通人如何无需运气而致富" tabindex="-1"><a class="header-anchor" href="#普通人如何无需运气而致富"><span>普通人如何无需运气而致富？</span></a></h1>
 <ul>
 <li>追求财富，而不是金钱或地位。财富就是拥有可以在睡觉时赚取的资产。金钱是我们转移时间和财富的方式。地位是你在社会等级制度中的位置。</li>

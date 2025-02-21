@@ -76,9 +76,9 @@
 <img src="@source/posts/2022/assets/image-20221011121717446.png" alt="image-20221011121717446" style="zoom:25%;" />
 <p>参考链接</p>
 <ul>
-<li><a href="https://www.quora.com/How-do-the-best-programmers-write-programs-Do-they-reason-the-program-out-formally-on-paper-before-stepping-up-to-a-computer/answer/Nikola-Mihaylov" target="_blank" rel="noopener noreferrer">https://www.quora.com/How-do-the-best-programmers-write-programs-Do-they-reason-the-program-out-formally-on-paper-before-stepping-up-to-a-computer/answer/Nikola-Mihaylov</a></li>
-<li><a href="https://www.quora.com/How-do-the-best-programmers-write-programs-Do-they-reason-the-program-out-formally-on-paper-before-stepping-up-to-a-computer/answer/Debasis-Ray-5" target="_blank" rel="noopener noreferrer">https://www.quora.com/How-do-the-best-programmers-write-programs-Do-they-reason-the-program-out-formally-on-paper-before-stepping-up-to-a-computer/answer/Debasis-Ray-5</a></li>
-<li><a href="http://www.dodgycoder.net/2012/07/old-school-developers-achieving-lot.html" target="_blank" rel="noopener noreferrer">http://www.dodgycoder.net/2012/07/old-school-developers-achieving-lot.html</a></li>
+<li>https://www.quora.com/How-do-the-best-programmers-write-programs-Do-they-reason-the-program-out-formally-on-paper-before-stepping-up-to-a-computer/answer/Nikola-Mihaylov</li>
+<li>https://www.quora.com/How-do-the-best-programmers-write-programs-Do-they-reason-the-program-out-formally-on-paper-before-stepping-up-to-a-computer/answer/Debasis-Ray-5</li>
+<li>http://www.dodgycoder.net/2012/07/old-school-developers-achieving-lot.html</li>
 </ul>
 </div></template>
 

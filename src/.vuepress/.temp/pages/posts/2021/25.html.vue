@@ -5,8 +5,8 @@
 <p>在中国程序员真是悲哀！写个收费软件吧，没有人付钱。写开源软件吧，别人抄袭你。就是大厂该有的雅量和气度有时候也没有，用了开源软件，不仅不公开致谢，还不认账。大概是因为利益出发点不同吧，同是程序员，厂外厂内竟是两种不同态度。</p>
 <h2 id="开源协议" tabindex="-1"><a class="header-anchor" href="#开源协议"><span>开源协议</span></a></h2>
 <p>接下来我们看看，当我们使用开源软件时，如何做一名有雅量和气度的人。全世界的开源协议大概有100多种，但常见和常用的并不多。使用哪种协议，看这张图就明白了：</p>
-<figure><img src="https://yishulun.com/post-images/1610984500543.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>图：引自 <a href="https://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html" target="_blank" rel="noopener noreferrer">https://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html</a></p>
+<p><img src="https://yishulun.com/post-images/1610984500543.jpeg" alt=""></p>
+<p>图：引自 https://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html</p>
 <p>说明：</p>
 <ul>
 <li>在上图中，闭源指不再公开源码，变成使用者自己的软件。</li>
@@ -26,7 +26,7 @@
 </ul>
 <p>例如，本文版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank" rel="noopener noreferrer">创意共享3.0许可证</a>），这样就可以了。至于别人遵守不遵守，先抱着别人不遵守的打算去创作。</p>
 <p>2021年1月18日</p>
-<p>图片转自阮一峰的博客，见：<a href="https://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html" target="_blank" rel="noopener noreferrer">https://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html</a></p>
+<p>图片转自阮一峰的博客，见：https://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html</p>
 </div></template>
 
 

@@ -27,10 +27,11 @@
 <h3 id="_2-使用-xml-标签-标记提示的不同部分" tabindex="-1"><a class="header-anchor" href="#_2-使用-xml-标签-标记提示的不同部分"><span>2，使用 XML 标签，标记提示的不同部分</span></a></h3>
 <p>像 <code v-pre>&lt;tag&gt;</code> 和 <code v-pre>&lt;/tag&gt;</code> 这样的 XML 标记有助于划分提示的一些重要部分，例如规则、示例或要处理的输入文本。</p>
 <p>例如：</p>
-<div class="language-xml line-numbers-mode" data-highlighter="shiki" data-ext="xml" data-title="xml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">这里有一个文本，在 `&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">text</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">text</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>` XML 标签内。</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">text</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{{TEXT}}</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">text</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="language-xml line-numbers-mode" data-ext="xml" data-title="xml"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">这里有一个文本，在</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">`</span><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">text</span><span style="--shiki-light:#999999;--shiki-dark:#666666">>&#x3C;/</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">text</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">`</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">XML</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">标签内。</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">text</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span>
+<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">{{TEXT}}</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;/</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">text</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意：通常，提示实际上是你想要反复使用的提示模板，其中说明保持不变，但正在处理的文本会变。一般情况下，将正在处理的变量文本的占位符（例如 {{TEXT}} ）放入提示中，然后编写一些代码，将其替换为要在运行时处理的文本。</p>
 <p>我们还可以要求 Claude 在其响应中使用 XML 标签，这样做可以轻松地在自动处理输出的设置中提取关键信息。格式化的输出有助于程序处理。例如：</p>
 <blockquote>
@@ -38,9 +39,10 @@
 <p>将个人信息（如姓名、电话号码、家庭住址和电子邮件地址）替换为 XXX，这是非常重要的。</p>
 <p>这里有一个你需要处理文本，在 <code v-pre>&lt;text&gt;&lt;/text&gt;</code> XML 标签内。</p>
 </blockquote>
-<div class="language-xml line-numbers-mode" data-highlighter="shiki" data-ext="xml" data-title="xml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">text</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{{TEXT}}</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">text</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="language-xml line-numbers-mode" data-ext="xml" data-title="xml"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">text</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span>
+<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">{{TEXT}}</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;/</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">text</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
 <p>请在 XML 标签 <code v-pre>&lt;response&gt;&lt;/response&gt;</code>中，放入删除 PII 文本的预标识版本。</p>
 </blockquote>

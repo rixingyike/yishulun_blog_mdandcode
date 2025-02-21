@@ -1,25 +1,51 @@
-# 艺术论博客源码
+# 艺述论博客md源码及程序代码
 
-## 编译指令
+网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成。
 
+## 如何进行个性化配置&写作
+
+docs目录下，posts与docs是旧目录，是为了兼容旧随笔而存在的。notes是随笔/专栏，完成的专栏要发布，需要在global_config.js中加一个公开配置；blog是日常随笔，仍以年分组，但会自动生成permalink。
+
+使用图标，包括在文章中使用，从这里查找：https://icon-sets.iconify.design/。
+
+
+
+
+## Install
+
+```sh
+pnpm i
 ```
-pnpm docs:dev 启动开发服务器
-pnpm docs:build 构建项目并输出
-pnpm docs:clean-dev 清除缓存并启动开发服务器
+
+## Usage
+
+```sh
+# 启动开发服务
+pnpm docs:dev
+# 构建生产包
+pnpm docs:build
+# 本地预览生产服务
+pnpm docs:preview
+# 更新 vuepress 和主题
+pnpm vp-update
 ```
 
-## 配置
+## 部署到 GitHub Pages
 
-theme的源码在node_modules/vuepress-theme-hope目录下。全局配置在这里：.vuepress/global_config.js。
+主题已创建 github actions: `.github/workflows/docs-deploy.yml`，你还需要在 github 仓库中进行以下设置：
 
-可用的图标：https://icon-sets.iconify.design/fa6-solid/，所有的图标从这里查找可用名称。在站里面，会自动加上fa6-solid前缀，这个配置在theme.config里面。
+- [ ] `settings > Actions > General`，拉到页面底部，在 `Workflow permissions` 下，勾选 `Read and write permissions`，并点击保存按钮
 
-所有静态资源文件在`.vuepress/public`目录下。
+- [ ] `settings > Pages`, 在 `Build and deployment` 中，`Source` 选择 `Deploy from a branch`, `Branch` 选择 `gh-pages`，并点击保存按钮
+  (首次创建可能没有 `gh-pages`分支，你可以先完成上面的设置后，推送一次代码到主分支，等待 `github actions` 完成后再进行设置)
 
-发布时，使用了Git Actions在线自动编译，然后将编译后的`.vuepress/dist`目录推到了线上rixingyike.github.com仓库。
+- [ ] 修改 `docs/.vuepress/config.ts` 中的 `base` 选项：
+  - 如果你准备发布到 `https://<USERNAME>.github.io/` ，你可以省略这一步，因为 `base` 默认就是 `"/"` 。
+  - 如果你准备发布到 `https://<USERNAME>.github.io/<REPO>/` ，也就是说你的仓库地址是 `https://github.com/<USERNAME>/<REPO>` ，则将 `base` 设置为 `"/<REPO>/"`。
 
-robot.txt会自动生成，在public下面不需要手写放置。
+如需要自定义域名，请查看 [Github Pages 文档](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
 
-.viepress目录是程序所在目录，从这里执行，是从启动命令指定的，例如`vuepress-vite build .`指定了项目根目录，该目录下的`.vuepress`就是程序目录。
+## 文档
 
-这样的写法：`{{文本在这里}}`，一定要加上单引号，不然程序会当作vue组件处理了。
+- [vuepress](https://vuepress.vuejs.org/)
+- [vuepress-theme-plume](https://theme-plume.vuejs.press/)

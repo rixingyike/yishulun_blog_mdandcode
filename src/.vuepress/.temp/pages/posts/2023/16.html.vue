@@ -10,13 +10,13 @@
 <p>2012 年 11 月及 2017 年 10 月相继在中共十八届一中全会、中共十九届一中全会上连任中央政治局常委。2013 年 3 月，在十二届全国人大一次会议上当选为国务院总理，并于 2018 年 3 月的十三届全国人大一次会议上获得连任，至 2023 年 3 月卸任。</p>
 <h2 id="大学毕业时给同学的赠言书法" tabindex="-1"><a class="header-anchor" href="#大学毕业时给同学的赠言书法"><span>大学毕业时给同学的赠言书法</span></a></h2>
 <p>以下内容是他在大学毕业时写给同学的赠言：纯真而不欠闻达，善良而不失坚强，把生命高举在尘俗之上，又溶化于社会之中，这应当是我们这一代的共同追求。</p>
-<figure><img src="@source/posts/2023/assets/image-20231027182141383.png" alt="image-20231027182141383" tabindex="0" loading="lazy"><figcaption>image-20231027182141383</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231027182141383.png" alt="image-20231027182141383"></p>
 <p>现在喜欢玩手机、电脑的少年学生，有几人写得出这样的钢笔书法。恐怕一直使用签字笔，一直没有用过钢笔的人都大有人在。</p>
 <h2 id="英语很好" tabindex="-1"><a class="header-anchor" href="#英语很好"><span>英语很好</span></a></h2>
 <p>他是 1977 年中国恢复高考后第一批北京大学法律系的学生，在北大上学期间，师从厉以宁等学者，曾任北大学生会常代会会长，毕业后在职获得北大经济学博士学位。</p>
 <p>他 22 岁走进北大校门，对于他这代基础教育断档的人，英语基础都很糟糕，有的同学怕麻烦申请了免修，但他非常勤奋，做了个小本，正面是一个英语单词，反面是中文解释，苦记硬背。“<strong>走在路上在背，上食堂吃饭排队时在背，外出坐公共汽车等车时也在背。</strong>”</p>
 <p>他的英语水平很快提升，大三以后能使用流利的英语与外国人交流，可以翻译英文原版的法律文献，曾翻译《法律的正当程序》等书。</p>
-<figure><img src="@source/posts/2023/assets/image-20231027181053395.png" alt="《法律的正当程序》" tabindex="0" loading="lazy"><figcaption>《法律的正当程序》</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231027181053395.png" alt="《法律的正当程序》"></p>
 <p>1980 年 5 月，同学何勤华在一则日记中写道：“克强同学真不简单，他翻译的《英国宪法资料》已被全国人大常委会法制委员会录用，共 1 万多字。”</p>
 <h2 id="他的论文著作" tabindex="-1"><a class="header-anchor" href="#他的论文著作"><span>他的论文著作</span></a></h2>
 <ul>
@@ -56,17 +56,17 @@
 <h2 id="什么是克强指数" tabindex="-1"><a class="header-anchor" href="#什么是克强指数"><span>什么是克强指数？</span></a></h2>
 <p>这个名词起始于 2010 年。</p>
 <p>克强指数即他指数，是以中华人民共和国国务院总理他命名的衡量经济发展状况的指标。 最早由英国政经杂志《经济学人》于 2010 年提出，源于他在 2007 年任职中共辽宁省委书记时，向当时来访的美国驻华大使雷德解释，用于分析当地经济状况的数据。</p>
-<figure><img src="@source/posts/2023/assets/image-20231027172909577.png" alt="sc.macromicro.me" tabindex="0" loading="lazy"><figcaption><a href="http://sc.macromicro.me" target="_blank" rel="noopener noreferrer">sc.macromicro.me</a></figcaption></figure>
-<p>注：截图来源<a href="https://sc.macromicro.me/charts/5751/zhong-guo-tie-lu-huo-yun-liang" target="_blank" rel="noopener noreferrer">https://sc.macromicro.me/charts/5751/zhong-guo-tie-lu-huo-yun-liang</a></p>
+<p><img src="@source/posts/2023/assets/image-20231027172909577.png" alt="sc.macromicro.me"></p>
+<p>注：截图来源https://sc.macromicro.me/charts/5751/zhong-guo-tie-lu-huo-yun-liang</p>
 <p>克强指数包括耗电量、铁路货运量和银行贷款发放量三个指标组成，分别占比重 40%、25%及 35%。基数学计算公式为：</p>
-<figure><img src="@source/posts/2023/assets/image-20231027172523186.png" alt="image-20231027172523186" tabindex="0" loading="lazy"><figcaption>image-20231027172523186</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231027172523186.png" alt="image-20231027172523186"></p>
 <p>克强指数与中华人民共和国公布的国内生产总值（GDP）走势总体一致，但上下波动方面，克强指数表现会更剧烈，更能反映中国经济状况。</p>
 <p>《经济学人》也认为，克强指数比中国官方的 GDP 数字更能真实的反映中国经济的现实状况。有学者分析，克强指数更能精确地反映中国经济现状，比如耗电量可以准确反映中国地区工业生产活跃度以及工厂开工率；铁路货运量能反映经济运行现状，以及经济运行效率，因为铁路是中国货运的最大载体。此外中国间接融资占社会融资总量高达 80%以上（2002 年至 2013 年平均值为 87.8%），银行贷款又占间接融资的核心，贷款发放量可以反映市场对当前经济的信心，也可用于预判未来经济风险。</p>
 <h2 id="_15-年之后失灵的克强指数与新克强指数" tabindex="-1"><a class="header-anchor" href="#_15-年之后失灵的克强指数与新克强指数"><span>15 年之后失灵的克强指数与新克强指数</span></a></h2>
 <p>克强指数一度受到了花旗银行等国内外大型投资机构的认可，但是，有人说，现在好像不怎么行了。我们先来看看近十多年的克强指数走势。</p>
-<figure><img src="@source/posts/2023/assets/image-20231027173641390.png" alt="克强指数变化" tabindex="0" loading="lazy"><figcaption>克强指数变化</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231027173641390.png" alt="克强指数变化"></p>
 <p>再来看国内生产总值的走势图，里面我们加上了第一、二、三产业对 GDP 的贡献率，这对下文分析克强指数的失灵有些帮助。</p>
-<figure><img src="@source/posts/2023/assets/image-20231027173736388.png" alt="同期GDP变化图" tabindex="0" loading="lazy"><figcaption>同期GDP变化图</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231027173736388.png" alt="同期GDP变化图"></p>
 <p>从克强指数和 GDP 增速这两张走势图，可以看出，以 2015 年为分界点，2015 年之前克强指数可以反映 GDP 的走势，期间克强指数下降，GDP 增速也出现了持续的下降。</p>
 <p>但是在 2015 年之后，克强指数“似乎”有些失灵了，2015 年之后克强指数出现了反弹，但是 GDP 增速在经过长期的高速增长之后，开始变得缓慢，甚至在疫情期间，GDP 增速一度转负。</p>
 <p>藉此，有人猜测，克强指数已经失灵了。</p>
@@ -80,12 +80,12 @@
 <p><strong>他对自己提出的理想政策并非不知有哪些推进困难，他可是一向被称作经济政策的务实主义者，就像他在给他的大学同学写的临别赠言那样，既仰望星空，又脚踏实地。</strong></p>
 <p><strong>参考资料</strong></p>
 <ul>
-<li><a href="https://baike.baidu.com/item/%E5%85%8B%E5%BC%BA%E6%8C%87%E6%95%B0/1532682" target="_blank" rel="noopener noreferrer">https://baike.baidu.com/item/克强指数/1532682</a></li>
-<li><a href="https://mirror.xyz/0x0372f8D07092D7154F65D09A0319a5fE147E3AD4/AFWf0IKxWggmHOuQaQPD6frEWczjZyBgCD5uGq2zx9s" target="_blank" rel="noopener noreferrer">https://mirror.xyz/0x0372f8D07092D7154F65D09A0319a5fE147E3AD4/AFWf0IKxWggmHOuQaQPD6frEWczjZyBgCD5uGq2zx9s</a></li>
-<li><a href="https://cn.nytimes.com/business/20130719/cc19liconomics/" target="_blank" rel="noopener noreferrer">https://cn.nytimes.com/business/20130719/cc19liconomics/</a></li>
-<li><a href="https://cn.chinadaily.com.cn/2015lianghui/2015-03/06/content_19738874.htm" target="_blank" rel="noopener noreferrer">https://cn.chinadaily.com.cn/2015lianghui/2015-03/06/content_19738874.htm</a></li>
-<li><a href="https://zh.wikipedia.org/zh-hans/%E6%9D%8E%E5%85%8B%E5%BC%BA" target="_blank" rel="noopener noreferrer">https://zh.wikipedia.org/zh-hans/李克强</a></li>
-<li><a href="http://www.ce.cn/xwzx/gnsz/szyw/201303/16/t20130316_24204477_1.shtml" target="_blank" rel="noopener noreferrer">http://www.ce.cn/xwzx/gnsz/szyw/201303/16/t20130316_24204477_1.shtml</a></li>
+<li>https://baike.baidu.com/item/克强指数/1532682</li>
+<li>https://mirror.xyz/0x0372f8D07092D7154F65D09A0319a5fE147E3AD4/AFWf0IKxWggmHOuQaQPD6frEWczjZyBgCD5uGq2zx9s</li>
+<li>https://cn.nytimes.com/business/20130719/cc19liconomics/</li>
+<li>https://cn.chinadaily.com.cn/2015lianghui/2015-03/06/content_19738874.htm</li>
+<li>https://zh.wikipedia.org/zh-hans/%E6%9D%8E%E5%85%8B%E5%BC%BA</li>
+<li>http://www.ce.cn/xwzx/gnsz/szyw/201303/16/t20130316_24204477_1.shtml</li>
 </ul>
 </div></template>
 

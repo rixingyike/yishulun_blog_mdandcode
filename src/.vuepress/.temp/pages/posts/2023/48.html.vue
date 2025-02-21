@@ -60,7 +60,7 @@
 <h2 id="第三阶段-transformer-架构的提出" tabindex="-1"><a class="header-anchor" href="#第三阶段-transformer-架构的提出"><span>第三阶段：Transformer 架构的提出</span></a></h2>
 <p>2017 年，谷歌公开发表论文，提出了 Transformer 模型，这一全新语言模型架构使得自然语言处理领域发生重大突破。</p>
 <p>进入 2020 年代，大语言模型迎来加速发展。2021 年，谷歌在开发者大会上发布了对话预训练语言模型 LaMDA。其拥有 1370 亿参数，在万亿级规模语料上训练，是当时最大模型之一。</p>
-<p>LaMDA 基于 Transformer 架构，专门针对开放域对话进行了优化。Google Bard（https：<a href="//bard.google.com" target="_blank" rel="noopener noreferrer">//bard.google.com</a>）即是基于 LaMDA 构建的，它是 LaMDA 的一个实验性版本，它可以访问和处理来自现实世界的信息，并将其与其知识库相结合，以提供更全面和准确的答案。</p>
+<p>LaMDA 基于 Transformer 架构，专门针对开放域对话进行了优化。Google Bard（https：//bard.google.com）即是基于 LaMDA 构建的，它是 LaMDA 的一个实验性版本，它可以访问和处理来自现实世界的信息，并将其与其知识库相结合，以提供更全面和准确的答案。</p>
 <h3 id="transformer-模型概览" tabindex="-1"><a class="header-anchor" href="#transformer-模型概览"><span>Transformer 模型概览</span></a></h3>
 <p>《Attention Is All You Need》发表于 2017 年，作者来自 Google DeepMind 团队。该论文提出了一种全新的神经网络模型，称为 Transformer 模型，取代了传统的 RNN 和 CNN 模型，用于语言理解与生成任务。</p>
 <p>自注意力机制是 Transformer 模型的核心，它允许模型同时计算输入序列中所有位置之间的关系权重，进而加权得到每个位置的特征表示。自注意力机制的优势在于可以有效捕捉输入序列中的长距离依赖关系，这对于语言理解和生成任务至关重要。</p>
@@ -70,7 +70,7 @@
 <li>将输入序列中的每个元素作为独立的词向量处理，忽略其在序列中的位置信息。这种设计使模型更加通用，适用于各种序列任务。</li>
 </ul>
 <p>Transformer 模型由 Encoder 和 Decoder 两部分构成。</p>
-<figure><img src="@source/posts/2023/assets/image-20231130222439629.png" alt="Transformer 模型" tabindex="0" loading="lazy"><figcaption>Transformer 模型</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231130222439629.png" alt="Transformer 模型"></p>
 <p><strong>Encoder</strong></p>
 <p>Encoder 的主要功能是将输入序列转化为高维的向量表示，这个向量随后被用于 Decoder 以生成输出序列。Encoder 由若干 Encoder 层组成，每层包括两个子层：<strong>多头自注意力机制</strong>和<strong>前馈网络</strong>。</p>
 <ul>
@@ -140,7 +140,7 @@
 <p>总而言之，AI 大语言模型是人工智能领域的重大突破，具有广阔的应用前景。随着研究的深入和技术的进步，AI 大语言模型将会在更加广泛的领域得到应用，并对社会产生深远的影响。</p>
 <p>参考</p>
 <ul>
-<li>https：<a href="//www.jiqizhixin.com/articles/2021-07-07-4" target="_blank" rel="noopener noreferrer">//www.jiqizhixin.com/articles/2021-07-07-4</a></li>
+<li>https：//www.jiqizhixin.com/articles/2021-07-07-4</li>
 </ul>
 </div></template>
 

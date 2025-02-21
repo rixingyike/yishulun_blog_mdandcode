@@ -1,4 +1,4 @@
-<template><div><figure><img src="@source/posts/2023/assets/XUUeYfPt.jpeg" alt="微软聘请了 OpenAI 前首席执行官 Sam Altman" tabindex="0" loading="lazy"><figcaption>微软聘请了 OpenAI 前首席执行官 Sam Altman</figcaption></figure>
+<template><div><p><img src="@source/posts/2023/assets/XUUeYfPt.jpeg" alt="微软聘请了 OpenAI 前首席执行官 Sam Altman"></p>
 <h1 id="是被对手间谍策反-还是强大的-ai-操纵了人类意识-openai-掌门-sam-altman-被自己的公司扫地出门了" tabindex="-1"><a class="header-anchor" href="#是被对手间谍策反-还是强大的-ai-操纵了人类意识-openai-掌门-sam-altman-被自己的公司扫地出门了"><span>是被对手间谍策反，还是强大的 AI 操纵了人类意识，OpenAI 掌门 Sam Altman 被自己的公司扫地出门了</span></a></h1>
 <p>你好，今天聊一下 ChatGPT 的八卦。</p>
 <p>对，不是聊它的技术，而是聊它的八卦——人事方面的八卦。具有相同鬼畜风格的事情，在 1985 年 4 月也发生过一次，那一次乔布斯被自己亲手创建的苹果公司赶出去了。不过，当时人们并没有意识到苹果公司开除乔布斯是多么荒谬；这一次，人们似乎对 OpenAI 重事会开除 Sam Altman 表现出了同等的惋惜和惊讶。</p>
@@ -42,7 +42,7 @@
 <p>OpenAI 成立于 2015 年 12 月 11 日，它由 Elon Musk、Sam Altman、Ilya Sutskever、Greg Brockman 等人共同创立。Elon Musk 曾为 OpenAI 捐献过 1 亿美元，后来因为理念冲突，Elon Musk 退出了董事会。</p>
 <p>OpenAI 是一个非营利研究机构，致力于开发安全可靠的为全人类使用的人工智能技术，这是它成立的实心。为此，它的董事会吸纳了三名具有相同价值观理念的社会精英，他们分别是：</p>
 <ul>
-<li>Adam D’Angelo，Quora 的联合创始人兼首席执行管。当然，他还有另一个有趣的身份，大名鼎鼎的 AI 集合 poe（<a href="https://poe.com/%EF%BC%89" target="_blank" rel="noopener noreferrer">https://poe.com/）</a> 就出自他之手。poe 的商业模式被认为与 OpenAI 有夺利之嫌。</li>
+<li>Adam D’Angelo，Quora 的联合创始人兼首席执行管。当然，他还有另一个有趣的身份，大名鼎鼎的 AI 集合 poe（https://poe.com/） 就出自他之手。poe 的商业模式被认为与 OpenAI 有夺利之嫌。</li>
 <li>Helen Toner，她是乔治城大学安全与新兴技术中心的战略和基础研究基金主任。</li>
 <li>Tasha McCauley，她以其在机器人领域的工作而闻名，同时她是 Fellow Robots 的联合创始人。Fellow Robots 致力于开发以人为本的人工智能技术，目标是创造出能够与人类合作、理解人类需求并为人类做出贡献的人工智能系统。</li>
 </ul>

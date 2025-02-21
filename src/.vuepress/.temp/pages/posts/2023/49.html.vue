@@ -28,7 +28,7 @@
 </blockquote>
 <p>然后，它就开始干活了。</p>
 <p>它不仅返回了润色后的文字，还返回了原文，方便我对照。</p>
-<figure><img src="@source/posts/2023/assets/image-20231130172823197.png" alt="GPT-4的返回" tabindex="0" loading="lazy"><figcaption>GPT-4的返回</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231130172823197.png" alt="GPT-4的返回"></p>
 <p>看起来 GPT-4 的表现不错，但其实到了后面，它有些罢工了。我问它：你还在干活吗？它说：在。</p>
 <p>但等了它一个世纪，它什么也没有输出。</p>
 <h2 id="使用-claude" tabindex="-1"><a class="header-anchor" href="#使用-claude"><span>使用 Claude</span></a></h2>
@@ -38,7 +38,7 @@
 <p>请帮我润色我的文章，不要概括，要保留我的文字内容。</p>
 </blockquote>
 <p>Claude 不需要上传文章，内容长了的时候，剪切板里的内容会直接作为文本附件上传。下面是它的返回：</p>
-<figure><img src="@source/posts/2023/assets/image-20231130174943569.png" alt="Claude的表现" tabindex="0" loading="lazy"><figcaption>Claude的表现</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231130174943569.png" alt="Claude的表现"></p>
 <p>多次返回以后，大概经过十来次互动，它完成了它的校对任务。</p>
 <p>在后期，由于我厌倦了粘贴“接受，请继续”，我给了它这样一条指令：</p>
 <blockquote>

@@ -1,5 +1,5 @@
-<template><div><h1 id="关于作者" tabindex="-1"><a class="header-anchor" href="#关于作者"><span>关于作者</span></a></h1>
-<VPCard v-bind='{"title":"艺述论","desc":"分享技术，论述艺术","logo":"https://yishulun.com/avatar.png","link":"https://yishulun.com","background":"rgba(7, 248, 236, 0.15)"}' /><h2 id="简介" tabindex="-1"><a class="header-anchor" href="#简介"><span>简介</span></a></h2>
+<template><div><p><img src="/images/avatar.png" alt="作者"></p>
+<h2 id="简介" tabindex="-1"><a class="header-anchor" href="#简介"><span>简介</span></a></h2>
 <p>大学计算机讲师。微信学堂<a href="https://developers.weixin.qq.com/community/business/course/000606628dc2e86dc0ddcbb115940d" target="_blank" rel="noopener noreferrer">《小程序性能优化实践》</a>专题讲师、极客时间<a href="http://gk.link/a/10AdC" target="_blank" rel="noopener noreferrer">《微信小程序全栈开发实战》</a>课程讲师，国企一汽大众等企业内训讲师。著有<a href="https://item.jd.com/10070363837259.html" target="_blank" rel="noopener noreferrer">《微信小游戏开发》</a>两册、《小程序从0到1》等计算机畅销图书。是<a href="https://cloud.tencent.com/tvp/124" target="_blank" rel="noopener noreferrer">腾讯云最具价值专家（TVP）</a>、腾讯课堂年度最具影响力专家、中移联合智库 ICT 专家级讲师、极客时间荣誉讲师等。</p>
 <p><mark>欢迎朋友介绍软件外包、企业内部培训、高校/大会演讲等工作机会，谢谢。</mark></p>
 <h2 id="出版著作" tabindex="-1"><a class="header-anchor" href="#出版著作"><span>出版著作</span></a></h2>

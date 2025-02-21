@@ -1,10 +1,10 @@
 <template><div><h1 id="宫斗剧杀青-sam-altman-又回到了-openai" tabindex="-1"><a class="header-anchor" href="#宫斗剧杀青-sam-altman-又回到了-openai"><span>宫斗剧杀青，Sam Altman 又回到了 OpenAI</span></a></h1>
 <p>你好，今天继续聊一下 OpenAI 的宫斗剧后续。</p>
-<figure><img src="@source/posts/2023/assets/image-20231123122820471.png" alt="sam back to openai" tabindex="0" loading="lazy"><figcaption>sam back to openai</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231123122820471.png" alt="sam back to openai"></p>
 <p>继 Altman 被董事会开除，他与好兄弟 Greg 双双从 OpenAI 离职，同时宣布将加入微软，负责新的高级人工智能项目之后，事情再起涟漪。昨天，也就是 11 月 22 日，Greg 再次宣布，他和 Sam 已经回到了 Open AI。</p>
 <p>OpenAI 的官宣是这样的：</p>
 <blockquote>
-<p>我们原则上达成协议，让 Sam Altman 回到 OpenAl 担任首席执行官，由 Bret Taylor（前 salesforce CEO）、Larry Summers（前美国财政部部长）和 Adam D'Angelo（Quora 的联合创始人兼首席执行官，<a href="http://poe.com" target="_blank" rel="noopener noreferrer">poe.com</a> 创始人）组成了新的初始董事会。Sam Altman 没有在董事会里面，据称是为了让这个协议更快达成，可能也是为了防止将来潜在的利益冲突。</p>
+<p>我们原则上达成协议，让 Sam Altman 回到 OpenAl 担任首席执行官，由 Bret Taylor（前 salesforce CEO）、Larry Summers（前美国财政部部长）和 Adam D'Angelo（Quora 的联合创始人兼首席执行官，poe.com 创始人）组成了新的初始董事会。Sam Altman 没有在董事会里面，据称是为了让这个协议更快达成，可能也是为了防止将来潜在的利益冲突。</p>
 </blockquote>
 <p>原来的董事会成员 Ilya Sutskever、Adam D’Angelo、Helen Toner、Tasha McCauley，只有 Adam D'Angelo 保留了席位，11 月 17 日发动宫廷政变的 Ilya Sutskever 已经不在董事会名单里。</p>
 <h2 id="来自董事会的信" tabindex="-1"><a class="header-anchor" href="#来自董事会的信"><span>来自董事会的信</span></a></h2>
@@ -36,10 +36,10 @@
 <p>OpenAI 的治理结构，由 Sam 和 Greg 精心设计，故意使员工无法参与监管盈利运营，这主要是因为他们存在固有的利益冲突。这种不透明的结构让 Sam 和 Greg 可以不受惩罚地操作，避免了责任追究。</p>
 <p>我们敦促 OpenAI 董事会对这些不道德的行为采取坚定的立场，并启动对 Sam 和 Greg 行为的独立调查。我们坚信 OpenAI 的使命过于重要，不应被少数人的个人目标所影响。</p>
 <p>我们恳请董事会坚守 OpenAI 最初的使命，不要屈服于以盈利为主导的利益压力。人工智能的未来和人类的福祉取决于您对道德领导和透明度的坚定承诺。</p>
-<p>此致，<br>
+<p>此致，
 关切的前 OpenAI 员工</p>
 </blockquote>
-<p>信的英文原文可以在这里查看：<a href="https://web.archive.org/web/20231121225252/https://gist.github.com/Xe/32d7bc436e401f3323ae77e7e242f858" target="_blank" rel="noopener noreferrer">https://web.archive.org/web/20231121225252/https://gist.github.com/Xe/32d7bc436e401f3323ae77e7e242f858</a></p>
+<p>信的英文原文可以在这里查看：https://web.archive.org/web/20231121225252/https://gist.github.com/Xe/32d7bc436e401f3323ae77e7e242f858</p>
 <p>从信的内容来看，貌似董事会之前做出开除 Sam 及 Greg 的决定是正义的，至少是师出有名的。董事会的这名成员将此信转发给马斯克，可能就是希望马斯克曝光它，这件事发生在 Sam 与 Greg 两人确认将回归 OpenAI 的当天。</p>
 <p>有人说，这份指控信并不包含实质有力的证据，针对 Greg 关于性别歧视的指控貌似也是为了黑而黑，如果 Sam 是这样一个掌握欲极强的人，他便不会允许那样的一个董事会存在。</p>
 <p>从开发者春晚上 Sam 的表现来看，他确实也不像一位具有极强掌控欲的老板。但，关于董事会的反驳可能是不合适的，因为董事会在 OpenAI 成立之初就定下了，Sam 是从 2018 年 8 月才开始掌舵公司的。</p>
@@ -68,9 +68,9 @@
 <p>这一次 Sam 和 Greg 之所以能够回到 OpenAI，探长个人认为是 OpenAI 员工及其投资者裹挟了舆论的力量，迫使董事会中的反对派妥协了。经此一役，OpenAI 董事会改组了，以后应该不会再有这样的事情发生了，这对 Sam 及 OpenAI 签署联合信的员工或许是对事，但对整个人类而言却未必是好事。</p>
 <p>谁来保证 OpenAI 这艘巨轮在以后的航行中继续保持它的初心不变？</p>
 <p>我也没有答案，我和你一样都只是一个远隔重洋的吃瓜群众。或许像 Anthropic 这样的竞争对手存在，才是促使 OpenAI 大方向不走偏的保证。无论 OpenAI 今后如何发展，我们都认为它首先是安全的，其次才是高效和高能的。</p>
-<p>我想起了Grok（<a href="https://grok.x.ai" target="_blank" rel="noopener noreferrer">https://grok.x.ai</a>），它是马斯克 2018 年被赶出 OpenAI 董事会以后，自己主导研发的 AI。在它刚刚官宣时我就提交了试用申请，很可惜现在都没有通过。</p>
-<figure><img src="@source/posts/2023/assets/image-20231123144703520.png" alt="grok apply" tabindex="0" loading="lazy"><figcaption>grok apply</figcaption></figure>
-<p>在 OpenAI 的董事会改组以后，我希望 Grok 和 Claude（<a href="https://claude.ai" target="_blank" rel="noopener noreferrer">https://claude.ai</a>）可以好好发展。AI 公司不应该一家独大，也不能允许一家独大，即使目前它没有表现出任何恶意行为。</p>
+<p>我想起了Grok（https://grok.x.ai），它是马斯克 2018 年被赶出 OpenAI 董事会以后，自己主导研发的 AI。在它刚刚官宣时我就提交了试用申请，很可惜现在都没有通过。</p>
+<p><img src="@source/posts/2023/assets/image-20231123144703520.png" alt="grok apply"></p>
+<p>在 OpenAI 的董事会改组以后，我希望 Grok 和 Claude（https://claude.ai）可以好好发展。AI 公司不应该一家独大，也不能允许一家独大，即使目前它没有表现出任何恶意行为。</p>
 </div></template>
 
 

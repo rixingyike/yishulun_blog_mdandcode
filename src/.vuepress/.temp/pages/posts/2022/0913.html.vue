@@ -77,7 +77,7 @@
 <p>A 与 B 只要有一个输入，L 端就有输出。</p>
 <p>还有其他的逻辑门电路，都可以基于二极管实现。基本的逻辑门电路又可以组成基本的计算模块，例如半加器、全加器等。除了加法器，还有乘法器、除法器、减法器，都可以基于逻辑门电路实现。</p>
 <p>如下所示，这是一个两位加法器的示意图：</p>
-<figure><img src="@source/posts/2022/assets/two-bit-adder-using-full-adder.png" alt="两位加法器, 使用全加器" tabindex="0" loading="lazy"><figcaption>两位加法器, 使用全加器</figcaption></figure>
+<p><img src="@source/posts/2022/assets/two-bit-adder-using-full-adder.png" alt="两位加法器, 使用全加器"></p>
 <p>图 11</p>
 <p>注意输入和输出都在下方。当输入是 11（3）和 01（1）时，输出是 100（4）。输入相同，输出必定相同。</p>
 <p>现在，我们思考终极问题：电信号是怎么转化为数字信号的？</p>
@@ -96,13 +96,13 @@
 <h3 id="二极管正负极如何判定" tabindex="-1"><a class="header-anchor" href="#二极管正负极如何判定"><span>二极管正负极如何判定？</span></a></h3>
 <p>人类在生产的时候做了一些规定。</p>
 <p>1）一般有色环的为负极，有白线的一端为负极。</p>
-<figure><img src="@source/posts/2022/assets/1-1P3200914212Z.png" alt="二极管正负极" tabindex="0" loading="lazy"><figcaption>二极管正负极</figcaption></figure>
+<p><img src="@source/posts/2022/assets/1-1P3200914212Z.png" alt="二极管正负极"></p>
 <p>图 13</p>
 <p>2）对于发光二极管，引脚长的为正极，短的为负极。</p>
-<figure><img src="@source/posts/2022/assets/1-1P32009144S10.png" alt="发光二极管正负极" tabindex="0" loading="lazy"><figcaption>发光二极管正负极</figcaption></figure>
+<p><img src="@source/posts/2022/assets/1-1P32009144S10.png" alt="发光二极管正负极"></p>
 <p>图 14</p>
 <p>3）发光二极管管体内部金属极较小的是正极，大的片状的是负极。</p>
-<figure><img src="@source/posts/2022/assets/1-1P320091610515.png" alt="二极管正负极判断" tabindex="0" loading="lazy"><figcaption>二极管正负极判断</figcaption></figure>
+<p><img src="@source/posts/2022/assets/1-1P320091610515.png" alt="二极管正负极判断"></p>
 <p>图 15</p>
 <p>4）看图示，竖杠一端为阴极（负极），三角一端为阳极（正极）。三角是一个箭头，箭头指向的方向是电流的方向，在电的一般定义中，电流与正电荷的方向一致（虽然没有正电荷，移动的只有反方向的带负电的电子）。</p>
 <img src="@source/posts/2022/assets/image-20220914071136424.png" alt="image-20220914071136424" style="zoom:50%;" />
@@ -117,11 +117,11 @@
 <p>2022 年 9 月 13 日</p>
 <p>参考链接</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=WbcUw9kXEw0" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=WbcUw9kXEw0</a></li>
-<li><a href="https://www.jianshu.com/p/8d5e901271a7" target="_blank" rel="noopener noreferrer">https://www.jianshu.com/p/8d5e901271a7</a></li>
-<li><a href="https://zh.wikipedia.org/zh-sg/%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7" target="_blank" rel="noopener noreferrer">https://zh.wikipedia.org/zh-sg/数字信号</a></li>
-<li><a href="https://xiaogd.net/book/spcp/multi-bit-adder/two-bit-binary-adder.html" target="_blank" rel="noopener noreferrer">https://xiaogd.net/book/spcp/multi-bit-adder/two-bit-binary-adder.html</a></li>
-<li><a href="http://www.highfel.com/jishu/396.html" target="_blank" rel="noopener noreferrer">http://www.highfel.com/jishu/396.html</a></li>
+<li>https://www.youtube.com/watch?v=WbcUw9kXEw0</li>
+<li>https://www.jianshu.com/p/8d5e901271a7</li>
+<li>https://zh.wikipedia.org/zh-sg/数字信号</li>
+<li>https://xiaogd.net/book/spcp/multi-bit-adder/two-bit-binary-adder.html</li>
+<li>http://www.highfel.com/jishu/396.html</li>
 </ul>
 </div></template>
 

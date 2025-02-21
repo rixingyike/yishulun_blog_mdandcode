@@ -15,44 +15,44 @@
 <p>前面无论是以宽度划分，还是以刀刃材质划分，对刻刀来讲，都不是最重要的。</p>
 <p>对于篆刻者来讲，最重要的是刻刀开刃的角度，并且，不同风格的篆刻者，都喜欢选择特定的角度。<strong>近现代以来，随着制钢工艺的提升与章料矿石开采的便利，刻刀的开刃角度越来越小，多位大师都喜欢使用小角度的刻刀。</strong></p>
 <p>以角度划分，刻刀开刃角度主要有：40 度、30 度、22 或 23 度。下面一一介绍。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029180048282.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029180048282.png" alt="刻刀"></p>
 <p>这是一种很常见，也是某宝上最常见的钨钢合金刻刀，杆身长约16cm。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029175940215.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029175940215.png" alt="刻刀"></p>
 <p>开刃角度是 40 度，刃角看起来是钝钝的感觉。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029180217292.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029180217292.png" alt="刻刀"></p>
 <p>这是纳米刻刀。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029180305795.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029180305795.png" alt="刻刀"></p>
 <p>它的开刃角度也是 40 度。</p>
 <p>关于开刃角度，如果不确定多少，可以用中学生用的量角器量一下，虽然量得不精确，但大概也能量出是多少度。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029180452677.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029180452677.png" alt="刻刀"></p>
 <p>这是西泠印社出品的一套双坡度钨钢合金刻刀，上面那把是 6mm 的，下面那把是 8mm 的。这套刻刀初看无敌，可惜做工不太精细，刃开的也不是很光滑，顶端方杆也不圆润，十分硌手。价格也略高。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029180625027.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029180625027.png" alt="刻刀"></p>
 <p>它们的开刃角度是 30 度。这种刻刀是双坡度，我们能看到它的刀刃坡度分了前后两级，我们说的开刃角度是与与刀刃最近的那个角度。这种 30 度刃角的双坡度刻刀，其实是优于单坡度 30 度刃角的刻刀的。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029180921837.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029180921837.png" alt="刻刀"></p>
 <p>这是双坡度白钢刻刀，刃宽 10mm。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029181005665.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029181005665.png" alt="刻刀"></p>
 <p>它的开刃角度也是 30 度，但价格比钨钢材质的便宜。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029181047296.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029181047296.png" alt="刻刀"></p>
 <p>上面这把不是刻刀！它本是光杆的，被探长绕上了一层绒绳。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029182154058.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029182154058.png" alt="刻刀"></p>
 <p>上面这些，它们是开山凿碑的钢钎！黄色部分是黄铜，上面的钎杆是白钢，下面的刀刃材质是钨钢。因为钨钢贵，白钢相对便宜，所以中间临近钎头的部分使用黄铜焊接了一下。这种钢钎杆身长达 21cm，而普通的篆刻刀杆身通常只有 16cm。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029182942617.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029182942617.png" alt="刻刀"></p>
 <p>由于它是凿石碑的，它的开刃角度竟然有 50 度。只有开刃角度大，在凿石碑的时候才不容易崩刃。这种钢钎是不合适直接刻印的。</p>
 <p>有人给探长寄了几把钎子，我把其中 8mm 的一把用金刚磨盘开了刃，如下所示，猜猜它的角度是多少？</p>
-<figure><img src="@source/posts/2023/assets/image-20231029185810964.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029185810964.png" alt="刻刀"></p>
 <p>23 度！刚刚好！</p>
 <p>然后我还给它缠了一层牛皮绳·：</p>
-<figure><img src="@source/posts/2023/assets/image-20231029190156981.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029190156981.png" alt="刻刀"></p>
 <p>如图所示，上面那杆是 8mm 的钨钢钎，杆身 21cm 长。下面那把是仿制的昊昌硕 10mm 大刻刀，但仿制的不像，因为开刃角度竟然达到了 40 度。</p>
 <p>以前西泠印社自己有售一套三把的昊昌硕钨钢合金篆刻刀，包含 10mm、8mm、6mm 三个刃宽尺寸，开刃角度只有 22 度，现在不卖了，原因不明。</p>
 <p>现在市场上出现了仿制的西泠印社昊昌硕钨钢合金篆刻刀，其它方面都仿得像，包括收纳盒和焊接的黄色烂铜都极像，但可惜开刃角度太大了，竟然有 40 度，这一点不像。吴昌硕用的刻刀，是不可能这么钝的。</p>
 <h2 id="吴昌硕与齐白石的刻刀" tabindex="-1"><a class="header-anchor" href="#吴昌硕与齐白石的刻刀"><span>吴昌硕与齐白石的刻刀</span></a></h2>
 <p>在考虑如何选刻刀之前，我们先看一下近代大师们是怎么选择的。我们首选吴昌硕和齐白石两位大师。</p>
 <p>吴昌硕自称缶翁，是近代集书画印大成于一身的大师，他早年穷苦，选用的刻刀并不是刻刀，而是自己使用钢钎磨制的刻刀，后来使用的是经匠人特制的缶翁刻刀。为了同时方便刻制涩刀的朱文印及斑驳的白文印，吴昌硕大师将刻刀的角度磨得非常薄，大概只有 22 度。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029193915002.png" alt="吴昌硕刻刀仿制" tabindex="0" loading="lazy"><figcaption>吴昌硕刻刀仿制</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029193915002.png" alt="吴昌硕刻刀仿制"></p>
 <p>在昊昌硕的时代，他选用的钢钎是白钢，现代冶金工艺进步了，有了更硬的钨钢，西泠印社曾经推出的吴昌硕防制刻刀，使用的便是上面白钢下面钨钢中间用黄铜焊接的合金刻刀，角度也特意磨成了 22 度，杆长 20cm 左右，是极大还原了现保存于上海吴昌硕纪念馆的两把刻刀及日本篆刻家小林斗庵收藏的一把刻刀，共三把。可惜现在不售了，否则大约300块的售价也是值得购买的。</p>
 <p>另一位大师齐白石，中年学习治印，32 岁开始用修脚刀刻第一枚印章。修脚刀能有多大的角度？我们可以想象，薄刃锋利，刀刃角度甚至都不大于 20 度，大概只有 15 度左右。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029195539946.png" alt="修脚刀" tabindex="0" loading="lazy"><figcaption>修脚刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029195539946.png" alt="修脚刀"></p>
 <p>齐白石大师在治印时擅用单刀冲刻，这种刀法要求刻刀的刀刃绝不能厚，厚了便很难冲刻时爽利，也很难崩出毛边效果。</p>
 <h2 id="我们如何选择刻刀" tabindex="-1"><a class="header-anchor" href="#我们如何选择刻刀"><span>我们如何选择刻刀？</span></a></h2>
 <p>如何选择篆刻刀是篆刻者自己的自由，每个人爱好不同，选择也不一样。</p>
@@ -67,38 +67,38 @@
 <p>如果在网上购买现成的篆刻刀，怎么选择呢？</p>
 <p>第一种选择是西泠印社的白钢特制篆刻刀。</p>
 <p>包括 8mm、6mm 两把，刃角 30 度，稍微磨一下就可以达到 22 度，不磨也可以使用。价格在 120 左右。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029200653509.png" alt="刻刀" tabindex="0" loading="lazy"><figcaption>刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029200653509.png" alt="刻刀"></p>
 <p>第二种选择是铜杆钨钢篆刻刀套装。</p>
 <p>有多家店铺可以选择，包括 10mm、8mm、6mm 三把，刃角 30 度。价格在 200 左右。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029200916309.png" alt="双坡度刻刀" tabindex="0" loading="lazy"><figcaption>双坡度刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029200916309.png" alt="双坡度刻刀"></p>
 <p>这是现代篆刻大师韩天衡喜用的双坡度刻刀，杆身是纯铜的，不会生锈，刀刃是在铜杆上嵌入的钨钢材质。如果角度不满足满足，也可以磨制，并且铜的材质相比钨钢会更容易磨制一些。</p>
 <p>第三种选择是某宝上匠人自制的白钢或钨钢刻刀。</p>
 <p>例如下面这款 6mm、刃度 22 度的双坡度白钢刻刀，长度 16cm 左右，价格仅 30 左右，已经相当实惠了，还是包邮的。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029201907115.png" alt="双坡度刻刀" tabindex="0" loading="lazy"><figcaption>双坡度刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029201907115.png" alt="双坡度刻刀"></p>
 <p>匠人自制由于没有品牌溢价，价格上都比大店铺便宜。</p>
 <p>下面这种刃角仅 10 度的平头 10mm 宽刀，价格仅 40 左右。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029205815252.png" alt="10mm刻刀" tabindex="0" loading="lazy"><figcaption>10mm刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029205815252.png" alt="10mm刻刀"></p>
 <p>下面是 8mm 的薄刃刻刀，价格与 10mm 的差不多。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029202642650.png" alt="8mm刻刀" tabindex="0" loading="lazy"><figcaption>8mm刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029202642650.png" alt="8mm刻刀"></p>
 <h2 id="不要选择什么样的刻刀" tabindex="-1"><a class="header-anchor" href="#不要选择什么样的刻刀"><span>不要选择什么样的刻刀？</span></a></h2>
 <p>下面说一下哪些篆刻刀不要选择。</p>
 <p>首先，圆头刻刀不要选择！</p>
-<figure><img src="@source/posts/2023/assets/image-20231029202809762.png" alt="不要购买的刻刀" tabindex="0" loading="lazy"><figcaption>不要购买的刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029202809762.png" alt="不要购买的刻刀"></p>
 <p>刻刀治印用的是刀角，圆角刻刀没有刀角怎么刻印？</p>
 <p>刃面不平的不要选择！</p>
-<figure><img src="@source/posts/2023/assets/image-20231029202915256.png" alt="不要购买的刻刀" tabindex="0" loading="lazy"><figcaption>不要购买的刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029202915256.png" alt="不要购买的刻刀"></p>
 <p>刻刀如果需要磨制，不平的或有弧度的刃面并不方便固定角度。此处，从加重刻刀刀身的稳定性考虑，也不合适在刀头上减少重量。</p>
 <p>不要迷信套装型号齐全！</p>
-<figure><img src="@source/posts/2023/assets/image-20231029203123778.png" alt="不要购买的刻刀" tabindex="0" loading="lazy"><figcaption>不要购买的刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029203123778.png" alt="不要购买的刻刀"></p>
 <p>篆刻刀只需要双平头、双面对称的刻刀，什么单平头、单斜头、圆尖头统统不需要。型号再全也没有用，上架这种商品的一看就是不懂篆刻的商家，买家也只能是不懂篆刻的初学者。</p>
 <p>太软材质的，兼具木刻功能的刻刀，尤其是木柄刻刀不要选择！</p>
-<figure><img src="@source/posts/2023/assets/image-20231029203407361.png" alt="不要购买的刻刀" tabindex="0" loading="lazy"><figcaption>不要购买的刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029203407361.png" alt="不要购买的刻刀"></p>
 <p>锰钢材质的刻刀是软质刻刀，一般也不要选择。至少选择白钢，优先选择钨钢材质的。</p>
 <p>进口的、价格太贵的不要买！</p>
-<figure><img src="@source/posts/2023/assets/image-20231029203639878.png" alt="不要购买的刻刀" tabindex="0" loading="lazy"><figcaption>不要购买的刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029203639878.png" alt="不要购买的刻刀"></p>
 <p>刻刀材质无非就是那几种，基本的白钢材质就能满足需求，国外的月亮并不比国内的更圆。在选择时，关键是刃角与刻刀的舒服度、顺手度，加个“进口”二字就多付上百块没有必要。</p>
 <p>太贵的手工锻打刻刀，也没有必要购买！</p>
-<figure><img src="@source/posts/2023/assets/image-20231029204108318.png" alt="不要购买的刻刀" tabindex="0" loading="lazy"><figcaption>不要购买的刻刀</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029204108318.png" alt="不要购买的刻刀"></p>
 <p>这类刻刀，完全可以购买 14 块钱的钨钢钎子，外加 5 块钱的金刚磨盘和两个小时的时间，自己磨制一把缶翁遗响仿制刻刀。</p>
 <h2 id="如何自己磨制刻刀" tabindex="-1"><a class="header-anchor" href="#如何自己磨制刻刀"><span>如何自己磨制刻刀？</span></a></h2>
 <p>在磨制之前，首先明确一下工具，你需要一个金刚磨盘，和一个刻刀定角器。</p>
@@ -106,7 +106,7 @@
 <p>因为刻刀太硬了，特别是钨钢材质的，你用油石磨吧，磨一天也磨不下多少，最后还可能把刻刀磨坏了，因为石头太软了。</p>
 <p>金刚磨盘是表面附着了一层金刚石沙粒的磨盘，表面硬度并不比钨钢差，一个金刚磨盘可以重复使用很久。</p>
 <p>另外，除了金刚磨盘，还需要一个定角器。如下所示，这就是一个定角器。</p>
-<figure><img src="@source/posts/2023/assets/image-20231029204820333.png" alt="金刚磨盘与定角器" tabindex="0" loading="lazy"><figcaption>金刚磨盘与定角器</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231029204820333.png" alt="金刚磨盘与定角器"></p>
 <p>定角器将刻刀固定在支架上，两边是两个可以自由滑动的轮子。在磨制的时候，向下压，前后平推，这样磨完以后，才容易保证两面的刃面是平整对称的。对于没有开刃的刻刀，或者钎子，如果没有定角器，根本是没有办法磨制的。</p>
 <p>在购买刻刀的时候，如果有方杆的，就不要选择圆杆的。为什么？圆杆不是更不易硌手吗？</p>
 <p>圆杆在磨制的时候不方便固定角度，如果是方杆，上面方向则很容易确定。至于硌手，根本不是问题，刀杆缠一段牛皮绳就可以了。</p>
@@ -117,7 +117,7 @@
 <p>如果想拥有一套相对完备的工具，一般篆刻两枚刻刀就足够了：一枚 22 度刃角的 6mm 刃宽的钨钢刻刀，和一枚同刃角的 10mm 刃宽的白钢刻刀。刀身最长 21 cm左右，前重后轻，重力放在离刀刃近的地方。</p>
 <h2 id="_10-30补充-章料的选择" tabindex="-1"><a class="header-anchor" href="#_10-30补充-章料的选择"><span>10/30补充，章料的选择</span></a></h2>
 <p>附一张刻刀与常见章料的硬度对比图：</p>
-<figure><img src="@source/posts/2023/assets/image-20231030143719609.png" alt="image-20231030143719609" tabindex="0" loading="lazy"><figcaption>image-20231030143719609</figcaption></figure>
+<p><img src="@source/posts/2023/assets/image-20231030143719609.png" alt="image-20231030143719609"></p>
 <p>青田石的摩尔硬度最高只有1.5，且质地清脆，是非常适合篆刻的。青田中的封门青又不乏精品，是章料中的上选。其次可用的选择是寿山石、巴林石、较软的鸡血石等，但这类章料产量不多，市场上不是很多见，少数精品价格也不扉，不适合购买。各种冻石因为质地软糯，是非常不适合刻单刀爽利风格的白文印的，刻细朱文印也不适合，冻石是章料中的末选。</p>
 <p>近年来国外章料在电商兴起的浪潮下开始大量涌入国内，尤其是离我国边境较近的老挝盛产的老挝石，颜色和质地像之前国内的寿山芙蓉石，也受到了不少篆刻者的喜爱。有人认为，只有传统的四大国石————寿山石、青田石、巴林石、鸡血石，才是正宗的章料，使用它们刻出来的印章才有充足的金石味道，所以坚持抵制、不使用外来石。</p>
 <p>没有这种讲究！篆刻只有中国及日本比较风行，其它国家有石头，但不篆刻，他们的章料正好为我们所用。国内的石头是石头，国外的石头也是石头，并没有正统不正统之分；况且从保护环境的角度讲，开采国外他们不使用的石头，还有利于国内保护青山绿水。</p>

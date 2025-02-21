@@ -55,7 +55,8 @@
 <p>在这种粗粒度滚动中，每一个点相关于翻页设计中的一页，用户拖动时还相当有手感，相对传统滚动条要好许多，这种设计在许多产品中都已经开始使用。</p>
 <h3 id="_2-在更新dataprovider时手动刷新控件视图" tabindex="-1"><a class="header-anchor" href="#_2-在更新dataprovider时手动刷新控件视图"><span>2）在更新DataProvider时手动刷新控件视图</span></a></h3>
 <p>每次当data有变化，均手动再次设置一次ItemRenderer，大意如下：</p>
-<div class="language-js line-numbers-mode" data-highlighter="shiki" data-ext="js" data-title="js" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">list</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">itemRenderer</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> new</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> ClassFactory</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">YourItemRenderer</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span></code></pre>
+<div class="language-js line-numbers-mode" data-ext="js" data-title="js"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">list</span><span style="--shiki-light:#999999;--shiki-dark:#666666">.</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">itemRenderer</span><span class="space"> </span><span style="--shiki-light:#999999;--shiki-dark:#666666">=</span><span class="space"> </span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">new</span><span class="space"> </span><span style="--shiki-light:#59873A;--shiki-dark:#80A665">ClassFactory</span><span style="--shiki-light:#999999;--shiki-dark:#666666">(</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">YourItemRenderer</span><span style="--shiki-light:#999999;--shiki-dark:#666666">);</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>注：在Gumbo中，如果使用Bindable绑定数据，FB在编译时已经做了代码优化。所以，多数时候，按照官方方法可以避免很多问题。</p>
 <h3 id="_3-使用offscreenextrarowsorcolumns属性调整" tabindex="-1"><a class="header-anchor" href="#_3-使用offscreenextrarowsorcolumns属性调整"><span>3）使用offscreenExtraRowsOrColumns属性调整</span></a></h3>
 <p>这是最BT的方案，让人感觉是Adobe自己用算法难已处理了，所以请用户告诉控件目前有多少数据列/行在显示区外。具体用法请参照livedoc说明。</p>
@@ -87,11 +88,11 @@
 </ul>
 <h2 id="_9-在1-5的air运行时环境下-中文不能输入问题" tabindex="-1"><a class="header-anchor" href="#_9-在1-5的air运行时环境下-中文不能输入问题"><span>9，在1.5的AIR运行时环境下，中文不能输入问题</span></a></h2>
 <p>因为客户端可能已经安装1.5的运行时，在网页安装中只能检测客户端是否安装了运行时，却无法检测到版本信息或者更新运行时</p>
-<p>这里面有二个问题，第一个，对于必须要求rumtime为2.0的air程序，在编译时指定，强制用户升级。<br>
+<p>这里面有二个问题，第一个，对于必须要求rumtime为2.0的air程序，在编译时指定，强制用户升级。
 第二个，在网页中安装air，如何知道用户的air rumtime版本？</p>
 <p>Adobe的air网页在线安装是通过这个swf实现的：</p>
-<p><a href="http://airdownload.adobe.com/air/browserapi/air.swf" target="_blank" rel="noopener noreferrer">http://airdownload.adobe.com/air/browserapi/air.swf</a></p>
-<p>下载，反编译后，里面使用一个叫做ProductManager的类进行客户端环境的签别，验证。一共有两个类文件：<a href="http://AIR.xn--asAIRLCEndpoint-gl3x.as" target="_blank" rel="noopener noreferrer">AIR.as与AIRLCEndpoint.as</a>。</p>
+<p>http://airdownload.adobe.com/air/browserapi/air.swf</p>
+<p>下载，反编译后，里面使用一个叫做ProductManager的类进行客户端环境的签别，验证。一共有两个类文件：AIR.as与AIRLCEndpoint.as。</p>
 <p>从原理上讲，可以hack反编译之后的源码，重新编译为自已的air.swf，然后自定义bridge网页安装实现。</p>
 <h2 id="_10-隐藏window边框后-鼠标在拖动窗口边界改变窗口大小时-不能设置系统光标样式" tabindex="-1"><a class="header-anchor" href="#_10-隐藏window边框后-鼠标在拖动窗口边界改变窗口大小时-不能设置系统光标样式"><span>10，隐藏WINDOW边框后，鼠标在拖动窗口边界改变窗口大小时，不能设置系统光标样式</span></a></h2>
 <p>这个问题不复杂。如果不使用系统镶边，自定义光标显示对象，添加进显示列表，并添加事情监听实现缩放与拖动逻辑。在livedoc中官方曾见有示例，有兴趣的朋友可以查一查。</p>

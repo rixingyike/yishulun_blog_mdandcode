@@ -31,9 +31,9 @@
 </ul>
 <p>参考链接</p>
 <ul>
-<li><a href="https://www.infoq.cn/article/Pv1qlEa1GgU7m0sWBmdI" target="_blank" rel="noopener noreferrer">https://www.infoq.cn/article/Pv1qlEa1GgU7m0sWBmdI</a></li>
-<li><a href="https://github.com/apache/servicecomb-pack" target="_blank" rel="noopener noreferrer">https://github.com/apache/servicecomb-pack</a></li>
-<li><a href="https://github.com/apache/apisix" target="_blank" rel="noopener noreferrer">https://github.com/apache/apisix</a></li>
+<li>https://www.infoq.cn/article/Pv1qlEa1GgU7m0sWBmdI</li>
+<li>https://github.com/apache/servicecomb-pack</li>
+<li>https://github.com/apache/apisix</li>
 </ul>
 </div></template>
 
