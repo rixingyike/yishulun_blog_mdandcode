@@ -6,9 +6,7 @@ export default {
    * @see https://theme-plume.vuejs.press/guide/features/copyright/
    */
   copyright: "CC-BY-NC-4.0",
-
   hostname: gc.hostname,
-  // permalink: ":slug.html",
 
   // 自动生成文章的permalinks，只有新创作的article和notes目录下的文章才会生成
   // 生成的文章地址均会以/article/开头，与它在哪个目录下无关
@@ -31,8 +29,8 @@ export default {
 
   docsRepo: gc.repoUrl, // 从全局配置中引用
   docsBranch: gc.repoBranch, // 从全局配置中引用
-  docsDir: 'docs',
-
+  // 文档仓库目录配置，用于生成 Edit this page 链接
+  docsDir: 'src',
   editLink: true,
   lastUpdated: true,
   contributors: false,
@@ -82,6 +80,7 @@ export default {
   plugins: {
     git: true,
 
+    // 是否启用 feed 订阅功能
     feed: {
       hostname: gc.hostname,
       devServer: gc.devServer, // 从全局配置中引用
@@ -141,8 +140,8 @@ export default {
     name: gc.author, // 从全局配置中引用
     description: gc.description, // 从全局配置中引用
     avatar: gc.avatar, // 从全局配置中引用
-    // location: '您的位置',
-    // organization: '您的组织',
+    location: gc.location, // 从全局配置中引用
+    organization: gc.organization, // 从全局配置中引用
     circle: true, // 是否为圆形头像
     layout: 'right', // 个人信息在左侧还是右侧，'left' | 'right'
   },
@@ -156,9 +155,6 @@ export default {
   navbarSocialInclude: ['github', 'twitter'], // 允许显示在导航栏的 social 社交链接
   aside: true, // 页内侧边栏， 默认显示在右侧
   outline: [2, 3, 4], // 页内大纲， 默认显示 h2, h3, h4
-  // permalink: "/article/:slug.html", // 错误的配置，不顶事
-
-  feed: true, // 是否启用 feed 订阅功能
 
   prevPage: true,   // 是否启用上一页链接
   nextPage: true,   // 是否启用下一页链接

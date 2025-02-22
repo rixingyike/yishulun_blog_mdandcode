@@ -6,6 +6,7 @@ const currentYear = new Date().getFullYear();
 const author = "李艺";
 const blog_url = "https://yishulu.com"
 
+// 公告写在这里，为空则不显示
 const bulletin_content = ""
 
 //   导航栏
@@ -55,6 +56,8 @@ export default {
     avatar: '/avatar.png', // 更名为 avatar
     title: '艺述论',
     description: '分享技术，论述艺术感悟', // 合并 profileDescription 和 description
+    location: '北京',
+    organization: '',
 
     // git
     repoUrl: 'https://github.com/rixingyike/yishulun_blog_mdandcode', // 合并 docsRepo 和 repoUrl
