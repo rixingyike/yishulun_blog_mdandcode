@@ -26,7 +26,7 @@ https://pan.baidu.com/s/1wvegfTp5BLY7Mz-qeqFxwA 密码: y5pg</p>
 https://pan.baidu.com/s/1bp3uIFd 密码: k7yy</p>
 <p>上面链接下载的是全部源码。如果回复单个关键字，下载单个示例源吗.例如「豆豆电影2.1」，注意中间无空格。</p>
 <div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>回复「豆豆电影2.4」返回举例：</span></span>
-<span class="line"><span>链接:</span><span class="space"> </span><span>https://pan.baidu.com/s/1BaQAUMUmUwvSMP7x2FVW4A</span><span class="space"> </span><span>密码:</span><span class="space"> </span><span>amge</span></span></code></pre>
+<span class="line"><span>链接: https://pan.baidu.com/s/1BaQAUMUmUwvSMP7x2FVW4A 密码: amge</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>【注意】所有《小程序从0到1》第一版读者请注意查看这个地址（仅限旧版，新版本无此问题）：</p>
 <p><a href="http://api.rixingyike.com/" target="_blank" rel="noopener noreferrer">http://api.rixingyike.com/</a></p>

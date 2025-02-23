@@ -68,7 +68,7 @@ export default {
     // 配置 封面图 布局位置
     // postCover: 'left', // 'left' | 'right' | 'odd-left' | 'odd-right' | 'top'
     postCover: {
-      layout: 'left',
+      layout: 'odd-right',
       ratio: '16:9',
       width: 300,
       compact: true

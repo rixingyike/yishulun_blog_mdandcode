@@ -2,7 +2,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import gc from './global_config' // 引用全局配置
-import plumeConfig from './plume.config' // 引入 plume 配置
+// import plumeConfig from './plume.config' // 引入 plume 配置
+import path from 'node:path'
 
 export default defineUserConfig({
   base: '/',
@@ -24,5 +25,8 @@ export default defineUserConfig({
   bundler: viteBundler(),
   shouldPrefetch: false,
 
-  theme: plumeTheme(plumeConfig),
+  theme: plumeTheme({
+    // 在这里定义自己的主题配置文件路径
+    configFile: path.join(__dirname, 'plume.config.js'), 
+  }),
 })

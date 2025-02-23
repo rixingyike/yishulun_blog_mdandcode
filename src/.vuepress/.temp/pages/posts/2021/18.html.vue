@@ -4,13 +4,13 @@
 <p>https://github.com/hahaha28/typora-extensions</p>
 <p>以及使用npm安装的asar工具，及使用它的指令：</p>
 <div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>安装asar</span></span>
-<span class="line"><span>cnpm</span><span class="space"> </span><span>install</span><span class="space"> </span><span>-g</span><span class="space"> </span><span>asar</span></span>
+<span class="line"><span>cnpm install -g asar</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>用</span><span class="space"> </span><span>asar</span><span class="space"> </span><span>pack</span><span class="space"> </span><span>打包</span></span>
-<span class="line"><span>asar</span><span class="space"> </span><span>pack</span><span class="space"> </span><span>your-app</span><span class="space"> </span><span>app.asar</span></span>
+<span class="line"><span>用 asar pack 打包</span></span>
+<span class="line"><span>asar pack your-app app.asar</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>用</span><span class="space"> </span><span>asar</span><span class="space"> </span><span>extract</span><span class="space"> </span><span>反编译/解压</span></span>
-<span class="line"><span>asar</span><span class="space"> </span><span>extract</span><span class="space"> </span><span>app.asar</span><span class="space"> </span><span>./myapp</span></span></code></pre>
+<span class="line"><span>用 asar extract 反编译/解压</span></span>
+<span class="line"><span>asar extract app.asar ./myapp</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>新世界仿佛被打开了，原来typora也是一个基于electron开发的软件，在使用它的时候完全感受不出来。我使用typora的时候，一直觉得它是原生软件。但是的样式支持定制，并且样式包也是前端html &amp; css文件，从这点我也应该想到，甚至这个有可能也是基于electron开发的，至少它是混合开发的。</p>
 <div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>那么typora是开源软件吗？</span></span>

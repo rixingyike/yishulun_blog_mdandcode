@@ -15,13 +15,13 @@
 </blockquote>
 <p>因为被墙，国内没有办法直接下载这个Google官方的类库。解决方法：</p>
 <p>1）手动下载x类库</p>
-<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>git</span><span class="space"> </span><span>clone</span><span class="space"> </span><span>https://github.com/rixingyike/golang.org-x</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>git clone https://github.com/rixingyike/golang.org-x</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>2）将clone下来的x目录放至$GOPATH/src/golang.org目录下</p>
 <p>解决了上述问题之后，别忘记再次运行“go get github.com/rixingyike/sim.go”</p>
 <h2 id="_3-如何找到-gopath-src-golang-org目录" tabindex="-1"><a class="header-anchor" href="#_3-如何找到-gopath-src-golang-org目录"><span><strong>3，如何找到$GOPATH/src/golang.org目录？</strong></span></a></h2>
 <p>在终端中执行：</p>
-<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>go</span><span class="space"> </span><span>env</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>go env</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>查看GOPATH所在的目录</p>
 <p><img src="@source/posts/2018/assets/202120210327210608.jpeg" alt="0"></p>

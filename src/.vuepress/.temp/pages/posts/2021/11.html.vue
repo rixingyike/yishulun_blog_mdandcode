@@ -8,11 +8,11 @@
 <p>可能更新微信开发者工具后，被官方限制了，毕竟这只是一个hack方法。</p>
 <p>文件找不到，样式也被修改了吗？于是旧老办法，修改progress组件的样式：</p>
 <div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>.progress-box{</span></span>
-<span class="line"><span class="space"> </span><span class="space"> </span><span>width:</span><span class="space"> </span><span>80%;</span></span>
-<span class="line"><span class="space"> </span><span class="space"> </span><span>margin:50px</span><span class="space"> </span><span>20px;</span></span>
+<span class="line"><span>  width: 80%;</span></span>
+<span class="line"><span>  margin:50px 20px;</span></span>
 <span class="line"><span>}</span></span>
-<span class="line"><span>.wx-progress-inner-bar</span><span class="space"> </span><span>{</span></span>
-<span class="line"><span class="space"> </span><span class="space"> </span><span>border-radius:</span><span class="space"> </span><span>5px;</span></span>
+<span class="line"><span>.wx-progress-inner-bar {</span></span>
+<span class="line"><span>  border-radius: 5px;</span></span>
 <span class="line"><span>}</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>运行结果：</p>

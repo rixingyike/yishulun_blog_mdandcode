@@ -1,9 +1,7 @@
 ---
-title: EXAMPLE
 createTime: 2025/02/19 20:25:00
 tags: ["Default"]
-draft: true
-cover: /cover3.jpg
+cover: https://yishulun.com/cover3.jpg
 ---
 
 sticky	false	是否置顶, 如果为数字，则数字越大，置顶越靠前

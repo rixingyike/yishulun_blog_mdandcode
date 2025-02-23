@@ -7,11 +7,11 @@
 <p>在AS3中，Property不应该理解为类的属性，而应该理解为类的元素，包括变量，方法，setter/getter方法。从一个角度讲，在 AS3中，Class没有属性，平常所用的x,y,width,height等不应该称为&quot;属性&quot;，它们是setter/getter方法。这样理解，更 有助于理解trait对象。</p>
 <h2 id="_3-什么是类型注释-type-annotation" tabindex="-1"><a class="header-anchor" href="#_3-什么是类型注释-type-annotation"><span>3，什么是类型注释(Type Annotation)？</span></a></h2>
 <p>type annotation翻译为类型声明是不恰切的，type annotation仅是给编译器用的，代码量虽然增加了，换来的是性能的提升与代码的易读，这与注释的功能是类似的，翻译为类型注释更贴切。</p>
-<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>var</span><span class="space"> </span><span>s</span><span class="space"> </span><span>:String</span><span class="space"> </span><span>=</span><span class="space"> </span><span>"sban";</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>var s :String = "sban";</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>在上例中，String即是类型注释，或变量类型注释。</p>
-<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>public</span><span class="space"> </span><span>function</span><span class="space"> </span><span>getWidth()</span><span class="space"> </span><span>:</span><span class="space"> </span><span>uint</span><span class="space"> </span><span>{</span></span>
-<span class="line"><span>   </span><span class="space"> </span><span>//...</span></span>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>public function getWidth() : uint {</span></span>
+<span class="line"><span>    //...</span></span>
 <span class="line"><span>}</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在上例中，uint即是类型注释，或返回类型注释。</p>

@@ -10,9 +10,9 @@
 <li>assets-cdn.github.com</li>
 </ul>
 <p>得用可用IP后，修改hosts文件（例如macOS的<code v-pre>/etc/hosts</code>），强制相关域名使用指定IP：</p>
-<div class="language-bash line-numbers-mode" data-ext="bash" data-title="bash"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">39.102.194.95</span><span class="space"> </span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">github.com</span></span>
-<span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">151.101.1.194</span><span class="space"> </span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">github.global.ssl.fastly.net</span></span>
-<span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">185.199.108.153</span><span class="space"> </span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">assets-cdn.github.com</span></span></code></pre>
+<div class="language-bash line-numbers-mode" data-ext="bash" data-title="bash"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">39.102.194.95</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> github.com</span></span>
+<span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">151.101.1.194</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> github.global.ssl.fastly.net</span></span>
+<span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">185.199.108.153</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> assets-cdn.github.com</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>完成修改后，需要重启本机网络，指令重启方法因系统因异：</p>
 <ul>
@@ -26,8 +26,8 @@
 <p><code v-pre>git push</code>指令执行时，都在背后访问了哪些域名？我们怎么知道一个指令的成功执行，到底需要能够访问哪些域名地址呢？</p>
 <p>这与具体指令要做的事情有关，在进行git操作时，github.com域名是必连的，github.global.ssl.fastly.net域名是为了处理ssl安全连接的，而assets-cdn.github.com域名是cdn加速域名，在github提交中暂时用不到。</p>
 <p>除了分析指令本身的功能或源码之外，还可以在本地使用网络监测工具。例如netstat指令：</p>
-<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>$</span><span class="space"> </span><span>netstat</span><span class="space"> </span><span>-a</span><span class="space"> </span><span>|</span><span class="space"> </span><span>grep</span><span class="space"> </span><span>"github"</span></span>
-<span class="line"><span>tcp4</span><span class="space"> </span><span class="space"> </span><span class="space"> </span><span>0</span><span class="space"> </span><span class="space"> </span><span class="space"> </span><span>0</span><span class="space"> </span><span class="space"> </span><span>192.168.31.224.50744</span><span class="space"> </span><span class="space"> </span><span class="space"> </span><span>github.com.ssh</span><span class="space"> </span><span class="space"> </span><span class="space"> </span><span>SYN_SENT</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>$ netstat -a | grep "github"</span></span>
+<span class="line"><span>tcp4   0   0  192.168.31.224.50744   github.com.ssh   SYN_SENT</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="有没有防墙提交工具" tabindex="-1"><a class="header-anchor" href="#有没有防墙提交工具"><span>有没有防墙提交工具？</span></a></h2>
 <p>有没有一个自动防墙提交的工具呢？这个工具最好可以封装成一个指令，例如github_safe_push。github自有的CLI工具指令gh并不能担负这个职责。</p>

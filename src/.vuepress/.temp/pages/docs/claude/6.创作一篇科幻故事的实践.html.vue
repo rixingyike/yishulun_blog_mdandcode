@@ -3,9 +3,9 @@
 <p>我：</p>
 <div class="language-xml line-numbers-mode" data-ext="xml" data-title="xml"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">Claude，我们一起写一个多章节的故事吧。以下是我想用来限制和背景化故事的因素：</span></span>
 <span class="line"></span>
-<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">-</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">故事发生在未来的后稀缺环境中。</span></span>
-<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">-</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">聚变能源发电已成为现实。</span></span>
-<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">-</span><span class="space"> </span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">这将为海水淡化、农作物生长用电灯、塑料和金属的回收和再生等用途提供几乎免费的能源。</span></span>
+<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">- 故事发生在未来的后稀缺环境中。</span></span>
+<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">- 聚变能源发电已成为现实。</span></span>
+<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">- 这将为海水淡化、农作物生长用电灯、塑料和金属的回收和再生等用途提供几乎免费的能源。</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">请创作一个包含主角、对手、高风险的潜在灾难和扣人心弦的高潮的情节。</span></span></code></pre>
 
@@ -16,7 +16,7 @@
 <span class="line"><span></span></span>
 <span class="line"><span>然而，一场突如其来的聚变堆芯事故让这座城市陷入了危机。堆芯的磁场失控了，导致放射性尘埃泄漏到周边地区。艾拉和她的团队必须想办法控制事故，并查明事故的原因，以避免更大的灾难发生。</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>在调查中，艾拉发现这可能是一场有预谋的袭击。这个发现使她陷入了一个更大的阴谋之中，必须与时间赛跑，阻止下一场</span><span class="space"> </span><span>EVEN</span><span class="space"> </span><span>大的灾难发生。在这个过程中，她还必须对抗企图掩盖真相的强大势力。.....</span></span></code></pre>
+<span class="line"><span>在调查中，艾拉发现这可能是一场有预谋的袭击。这个发现使她陷入了一个更大的阴谋之中，必须与时间赛跑，阻止下一场 EVEN 大的灾难发生。在这个过程中，她还必须对抗企图掩盖真相的强大势力。.....</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>它的表现还可以，它不像 GPT4 寥寥数语就结束了战斗。但注意，目前这个内容还是小说的最终内容，它只是章节概要。</p>
 <p>我：</p>
@@ -63,13 +63,13 @@
 <span class="line"><span>就在我们收集数据的时候，一场突如其来的暴风雪降临了这个岛屿。我们被困在了冰峡当中，与外界失去了联系。而寒冷和风暴还在持续恶化，我们必须设法自救，同时也抓住这一次难得的机会，近距离观察这场磁暴对环境和生物的影响。.....</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>我：</p>
-<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>让我们继续这个故事。让我们将一年中的时间设置为二月。在第四章中，让我们随着影响全球聚变反应堆的不断增长的磁场而建立紧张局势。其中一个位于加拿大北极地区，经营着一个巨大的地下温室。如果聚变反应堆发生故障，数百万人的食物供应将被冻结并被破坏。写第</span><span class="space"> </span><span>4</span><span class="space"> </span><span>章来描述上述场景。再介绍一个角色，一位年长的科学家，也是主角的亲生母亲。主角是由捐赠的卵子和精子孕育而成的，但她从未认识过她的母亲。</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>让我们继续这个故事。让我们将一年中的时间设置为二月。在第四章中，让我们随着影响全球聚变反应堆的不断增长的磁场而建立紧张局势。其中一个位于加拿大北极地区，经营着一个巨大的地下温室。如果聚变反应堆发生故障，数百万人的食物供应将被冻结并被破坏。写第 4 章来描述上述场景。再介绍一个角色，一位年长的科学家，也是主角的亲生母亲。主角是由捐赠的卵子和精子孕育而成的，但她从未认识过她的母亲。</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>在这里我们又给出了一些新的消息，新消息可能是完全由我们自己想的，也可能是在 AI 的启发下得到的灵感。</p>
 <p>AI：</p>
 <div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>第四章：</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>2</span><span class="space"> </span><span>月，在北半球的寒冷中，地磁场的异常进一步恶化。我们收到消息，加拿大北极圈的一个大型聚变反应堆出现了严重故障，导致为北极地下温室提供电力的系统不稳定。那是一个面积巨大的温室，通过聚变堆提供的廉价电力来人工模拟春夏秋冬，使那里可以全年农耕生产食物。</span></span>
+<span class="line"><span>2 月，在北半球的寒冷中，地磁场的异常进一步恶化。我们收到消息，加拿大北极圈的一个大型聚变反应堆出现了严重故障，导致为北极地下温室提供电力的系统不稳定。那是一个面积巨大的温室，通过聚变堆提供的廉价电力来人工模拟春夏秋冬，使那里可以全年农耕生产食物。</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>如果反应堆发生关停或爆炸，数百万人的食物供应都将面临被冻死和损毁的危险。我们必须立刻飞往北极，与科学家团队合作防止这场灾难的发生。</span></span>
 <span class="line"><span></span></span>
@@ -83,7 +83,7 @@
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>在收到这条提示之后，AI 便会把前四章的章节概要合并、发给我们。</p>
 <p>我：</p>
-<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>Claude，我们试着写第一章的前</span><span class="space"> </span><span>500</span><span class="space"> </span><span>个字。正如你在概要中所描述的，故事的开头应该是关于主角发现反应堆芯异常的故事。包括场景细节、声音、人物形态、人物神态等，还有引人入胜的对话。</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>Claude，我们试着写第一章的前 500 个字。正如你在概要中所描述的，故事的开头应该是关于主角发现反应堆芯异常的故事。包括场景细节、声音、人物形态、人物神态等，还有引人入胜的对话。</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>这条提示，是开始具体创作了。在这里，我们为什么只要求 AI 创作 500 字？</p>
 <p>这是基于 Claude 进行创意创作的技巧：先创作一个个小段落，然后将小段落拼接起来，最终合成一个长段落。</p>
@@ -98,7 +98,7 @@
 <span class="line"><span></span></span>
 <span class="line"><span>“已经启动紧急停堆程序，但效果不明显。”张师傅的声音在紧张中微微发抖，“如果在十分钟内堆芯不能恢复正常，我们就要。.....”</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>“保持冷静！”我制止了他继续往下说，“告诉其他值班人员立即执行</span><span class="space"> </span><span>B-12</span><span class="space"> </span><span>应急方案，我需要直接连接堆芯调控系统，亲自操作磁场稳定器。”</span></span>
+<span class="line"><span>“保持冷静！”我制止了他继续往下说，“告诉其他值班人员立即执行 B-12 应急方案，我需要直接连接堆芯调控系统，亲自操作磁场稳定器。”</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>“但这需要中心主任的签字才能操作啊。”张师傅犹豫着说。</span></span>
 <span class="line"><span></span></span>
@@ -132,7 +132,7 @@
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>不得不说，AI 对特定场景下的人物分析是相当到位。前期是人物的言行造就了人物，后期则是人物性格约束人物的言行了。人物写活了，故事才会鲜亮起来。</p>
 <p>人物分析完成以后，再次要求 AI 重写：</p>
-<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>Claude，我们试着重写第一章的前</span><span class="space"> </span><span>500</span><span class="space"> </span><span>个字。正如你所描述的，故事的开头应该是关于主角发现反应堆芯异常的故事。包括场景细节、声音、颜色等、引人入胜的对话，注意结合刚才的人物设定讨论的结果。</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>Claude，我们试着重写第一章的前 500 个字。正如你所描述的，故事的开头应该是关于主角发现反应堆芯异常的故事。包括场景细节、声音、颜色等、引人入胜的对话，注意结合刚才的人物设定讨论的结果。</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>AI 很好地做了融合：</p>
 <div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>反应堆的警报声突然划破宁静的深夜，惊醒了正在值班室小睡的林主任。她三步并作两步冲进主控制室，张师傅已经坐在操控台前，脸色煞白，手忙脚乱地操作着界面。</span></span>
@@ -141,7 +141,7 @@
 <span class="line"><span></span></span>
 <span class="line"><span>“堆芯磁场突然大幅波动，各项参数全部乱了！”张师傅语无伦次地回答，“外围磁场急速衰减，核心温度在跳升，如果不能及时制止——”</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>“保持冷静，立即执行</span><span class="space"> </span><span>B-12</span><span class="space"> </span><span>应急方案！”林主任迅速判断形势，严肃地命令道。</span></span>
+<span class="line"><span>“保持冷静，立即执行 B-12 应急方案！”林主任迅速判断形势，严肃地命令道。</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>“但手动操作需要中心主任签字批准才可以启动啊？”张师傅犹豫着说。</span></span>
 <span class="line"><span></span></span>
@@ -163,7 +163,7 @@
 <span class="line"><span></span></span>
 <span class="line"><span>“堆芯磁场突然大幅波动，各项参数全部乱了！”张师傅语无伦次地回答，“外围磁场急速衰减，核心温度在跳升，如果不能及时制止——”</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>“保持冷静，立即执行</span><span class="space"> </span><span>B-12</span><span class="space"> </span><span>应急方案！”林主任迅速判断形势，严肃地命令道。</span></span>
+<span class="line"><span>“保持冷静，立即执行 B-12 应急方案！”林主任迅速判断形势，严肃地命令道。</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>“但手动操作需要中心主任签字批准才可以启动啊？”张师傅犹豫着说。</span></span>
 <span class="line"><span></span></span>
@@ -183,7 +183,7 @@
 <span class="line"><span></span></span>
 <span class="line"><span>“开始准备紧急堆芯封存程序。”她对张师傅说。</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>“什么？!</span><span class="space"> </span><span>那会造成反应堆彻底熄火，后果非常严重。.....”张师傅惊恐地说。</span></span>
+<span class="line"><span>“什么？! 那会造成反应堆彻底熄火，后果非常严重。.....”张师傅惊恐地说。</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>“这已经到了不得不而为之的地步！”林主任严厉打断他，“放射性泄漏的危险远比反应堆关闭更严重，我们没有选择，必须立即执行封存，你去通知备用操作人员做准备！”</span></span>
 <span class="line"><span></span></span>
@@ -197,7 +197,7 @@
 <span class="line"><span></span></span>
 <span class="line"><span>小王坐下来进行操作，林主任则注视着显示屏，继续调节参数，确保整个过程顺利进行。</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>“外围磁场强度正常。.....</span><span class="space"> </span><span>冷却系统运转正常。.....</span><span class="space"> </span><span>堆芯压力减少，温度下降。.....”小王报告着各项指标的变化。</span></span>
+<span class="line"><span>“外围磁场强度正常。..... 冷却系统运转正常。..... 堆芯压力减少，温度下降。.....”小王报告着各项指标的变化。</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>终于，堆芯的蓝光渐渐黯淡，所有读数归于静止。封存程序完毕，反应堆成功关闭。</span></span>
 <span class="line"><span></span></span>

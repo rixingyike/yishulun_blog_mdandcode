@@ -17,7 +17,6 @@ import {
   watch,
   watchEffect
 } from "./chunk-3MB4FZ2E.js";
-import "./chunk-3F74YA3Z.js";
 
 // node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/env.js
 function getDevtoolsGlobalHook() {

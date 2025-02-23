@@ -19,7 +19,7 @@
 <p>在win上指命令行窗口（cmd），在mac和linux上指终端窗口。如果安装了git bash，在win上直接使用git bash就可以了。</p>
 <h2 id="_6-建议群主搞个go和类库安装的详细说明-小白太多" tabindex="-1"><a class="header-anchor" href="#_6-建议群主搞个go和类库安装的详细说明-小白太多"><span><strong>6，建议群主搞个go和类库安装的详细说明，小白太多？</strong></span></a></h2>
 <p>书第7.1.1节，即是“安装Golang语言包”。Go语言类库的安装，十分简单，一条指令：</p>
-<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>go</span><span class="space"> </span><span>get</span><span class="space"> </span><span>xx</span></span></code></pre>
+<div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>go get xx</span></span></code></pre>
 
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>后面跟类库的git网址，一般是github的项目主页地址。</p>
 <h2 id="_7-我从内嵌的h5页面跳转回小程序页面-怎么跳转" tabindex="-1"><a class="header-anchor" href="#_7-我从内嵌的h5页面跳转回小程序页面-怎么跳转"><span><strong>7，我从内嵌的H5页面跳转回小程序页面，怎么跳转？</strong></span></a></h2>
