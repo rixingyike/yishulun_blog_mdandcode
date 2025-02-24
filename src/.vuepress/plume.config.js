@@ -77,10 +77,6 @@ export default {
 
   cache: 'memory',
 
-  plugins: {
-
-  },
-
   // 公告板
   bulletin: gc.bulletin,
 
