@@ -1,5 +1,5 @@
 import comp from "C:/Users/Admin/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2023/35.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2023/35.html\",\"title\":\"读《妖二代》之一，前三个小高潮情节\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-11-07T09:20:30.000Z\",\"tags\":[\"网文创作\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":8.3,\"words\":2490},\"filePathRelative\":\"posts/2023/35.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10004,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10017,\"name\":\"2023\"}]}")
+const data = JSON.parse("{\"path\":\"/posts/2023/35.html\",\"title\":\"读《妖二代》之一，前三个小高潮情节\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-11-07T09:20:30.000Z\",\"tags\":[\"网文创作\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":8.3,\"words\":2490},\"filePathRelative\":\"posts/2023/35.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10001,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10017,\"name\":\"2023\"}]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

@@ -78,56 +78,7 @@ export default {
   cache: 'memory',
 
   plugins: {
-    git: true,
 
-    // 是否启用 feed 订阅功能
-    feed: {
-      hostname: gc.hostname,
-      devServer: gc.devServer, // 从全局配置中引用
-      devHostname: gc.devHostname,
-      rss: true,
-      atom: true,
-      json: true,
-    },
-    shiki: {
-      languages: ['shell', 'bash', 'ts', 'js', 'html', 'css', 'json', 'yaml', 'markdown', 'python', 'java', 'php', 'go', 'rust', 'kotlin', 'swift', 'ruby', 'sql', 'dockerfile', 'plaintext'],
-      whitespace: true,
-      lineNumbers: true,
-    },
-    search: true,
-    readingTime: true,
-    markdownPower: {
-      pdf: true,
-      caniuse: true,
-      plot: true,
-      bilibili: true,
-      youtube: true,
-      audioReader: true,
-      icons: true,
-      codepen: true,
-      replit: true,
-      codeSandbox: true,
-      jsfiddle: true,
-      npmTo: true,
-      demo: true,
-      repl: {
-        go: true,
-        rust: true,
-        kotlin: true,
-      },
-      imageSize: 'local',
-    },
-    comment: {
-      provider: 'Giscus',
-      comment: gc.comment, // 从全局配置中引用
-      repo: gc.commentRepo,
-      repoId: gc.commentRepoId,
-      category: gc.commentCategory,
-      categoryId: gc.commentCategoryId,
-      mapping: 'pathname',
-      reactionsEnabled: true,
-      inputPosition: 'top',
-    },
   },
 
   // 公告板

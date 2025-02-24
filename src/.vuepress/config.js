@@ -2,8 +2,6 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import gc from './global_config' // 引用全局配置
-// import plumeConfig from './plume.config' // 引入 plume 配置
-import path from 'node:path'
 
 export default defineUserConfig({
   base: '/',
@@ -26,7 +24,57 @@ export default defineUserConfig({
   shouldPrefetch: false,
 
   theme: plumeTheme({
-    // 在这里定义自己的主题配置文件路径
-    configFile: path.join(__dirname, 'plume.config.js'), 
+    plugins: {
+      comment: {
+        comment: gc.comment, // 从全局配置中引用
+        provider: 'Giscus',
+        repo: gc.commentRepo,
+        repoId: gc.commentRepoId,
+        category: gc.commentCategory,
+        categoryId: gc.commentCategoryId,
+        mapping: 'pathname',
+        reactionsEnabled: true,
+        inputPosition: 'top',
+      },
+    },
+    git: true,
+
+    // 是否启用 feed 订阅功能
+    feed: {
+      hostname: gc.hostname,
+      devServer: gc.devServer, // 从全局配置中引用
+      devHostname: gc.devHostname,
+      rss: true,
+      atom: true,
+      json: true,
+    },
+    shiki: {
+      languages: ['shell', 'bash', 'ts', 'js', 'html', 'css', 'json', 'yaml', 'markdown', 'python', 'java', 'php', 'go', 'rust', 'kotlin', 'swift', 'ruby', 'sql', 'dockerfile', 'plaintext'],
+      whitespace: true,
+      lineNumbers: true,
+    },
+    search: true,
+    readingTime: true,
+    markdownPower: {
+      pdf: true,
+      caniuse: true,
+      plot: true,
+      bilibili: true,
+      youtube: true,
+      audioReader: true,
+      icons: true,
+      codepen: true,
+      replit: true,
+      codeSandbox: true,
+      jsfiddle: true,
+      npmTo: true,
+      demo: true,
+      repl: {
+        go: true,
+        rust: true,
+        kotlin: true,
+      },
+      imageSize: 'local',
+    },
   }),
 })

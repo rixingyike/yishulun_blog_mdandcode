@@ -1,5 +1,5 @@
 import comp from "C:/Users/Admin/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/claude/4.Claude的具体提示实例.html.vue"
-const data = JSON.parse("{\"path\":\"/docs/claude/4.Claude%E7%9A%84%E5%85%B7%E4%BD%93%E6%8F%90%E7%A4%BA%E5%AE%9E%E4%BE%8B.html\",\"title\":\"4.Claude的具体提示实例\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"4.Claude的具体提示实例\",\"createTime\":\"2025/02/19 13:58:17\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":9.05,\"words\":2714},\"filePathRelative\":\"docs/claude/4.Claude的具体提示实例.md\",\"categoryList\":[{\"id\":\"e3e2a9\",\"sort\":10000,\"name\":\"docs\"},{\"id\":\"9a222d\",\"sort\":10005,\"name\":\"claude\"}]}")
+const data = JSON.parse("{\"path\":\"/docs/claude/4.Claude%E7%9A%84%E5%85%B7%E4%BD%93%E6%8F%90%E7%A4%BA%E5%AE%9E%E4%BE%8B.html\",\"title\":\"4.Claude的具体提示实例\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"4.Claude的具体提示实例\",\"createTime\":\"2025/02/19 13:58:17\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":9.05,\"words\":2714},\"filePathRelative\":\"docs/claude/4.Claude的具体提示实例.md\",\"categoryList\":[{\"id\":\"e3e2a9\",\"sort\":10000,\"name\":\"docs\"},{\"id\":\"9a222d\",\"sort\":10006,\"name\":\"claude\"}]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

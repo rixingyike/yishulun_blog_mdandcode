@@ -8,8 +8,9 @@ import * as clientConfig6 from 'C:/Users/Admin/work/yishulun_blog_mdandcode/src/
 import * as clientConfig7 from 'C:/Users/Admin/work/yishulun_blog_mdandcode/src/.vuepress/.temp/md-enhance/config.js'
 import * as clientConfig8 from 'C:/Users/Admin/work/yishulun_blog_mdandcode/src/.vuepress/.temp/md-power/config.js'
 import * as clientConfig9 from 'C:/Users/Admin/work/yishulun_blog_mdandcode/src/.vuepress/.temp/markdown-math/config.js'
-import * as clientConfig10 from 'C:/Users/Admin/work/yishulun_blog_mdandcode/node_modules/.pnpm/vuepress-theme-plume@1.0.0-_c644e86a15dc0b6c18c64173dc70ddad/node_modules/vuepress-theme-plume/lib/client/config.js'
-import * as clientConfig11 from 'C:/Users/Admin/work/yishulun_blog_mdandcode/src/.vuepress/client.js'
+import * as clientConfig10 from 'C:/Users/Admin/work/yishulun_blog_mdandcode/node_modules/.pnpm/@vuepress+plugin-comment@2._4ba07f20068d8aecb47243dffdb06bc5/node_modules/@vuepress/plugin-comment/lib/client/config.js'
+import * as clientConfig11 from 'C:/Users/Admin/work/yishulun_blog_mdandcode/node_modules/.pnpm/vuepress-theme-plume@1.0.0-_c644e86a15dc0b6c18c64173dc70ddad/node_modules/vuepress-theme-plume/lib/client/config.js'
+import * as clientConfig12 from 'C:/Users/Admin/work/yishulun_blog_mdandcode/src/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -24,4 +25,5 @@ export const clientConfigs = [
   clientConfig9,
   clientConfig10,
   clientConfig11,
+  clientConfig12,
 ].map((m) => m.default).filter(Boolean)
