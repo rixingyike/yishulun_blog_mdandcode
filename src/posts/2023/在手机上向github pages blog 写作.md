@@ -8,4 +8,4 @@ createTime: 2023-08-11 09:40:39
 
 试一下贴图功能吧：
 
-![Image](./assets/6c2a10b3c0ed7bd17e0c7bdfba9d9a54.jpg)
+![Image](assets/6c2a10b3c0ed7bd17e0c7bdfba9d9a54.jpg)
