@@ -3,7 +3,7 @@
 <p>下面是2023年2月&amp;3月版本1已经发现的勘误列表。</p>
 <h2 id="前端篇" tabindex="-1"><a class="header-anchor" href="#前端篇"><span>前端篇</span></a></h2>
 <h3 id="p17" tabindex="-1"><a class="header-anchor" href="#p17"><span>P17</span></a></h3>
-<p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/202320230711225054-2023-07-11-22-50-56.png" alt="20230711225054-2023-07-11-22-50-56"></p>
+<p><img src="@source/posts/2023/assets/202320230711225054-2023-07-11-22-50-56.png" alt="img"></p>
 <p>有读者找不到对应内容，在箭头处、句号前面可以添加一句：第16课拓展部分。</p>
 <h3 id="p55" tabindex="-1"><a class="header-anchor" href="#p55"><span>P55</span></a></h3>
 <p>如下所示，<code v-pre>0+&quot;10&quot;</code>结果是<code v-pre>&quot;010&quot;</code>，并不是数值10；如果想将数字字符串转化为数字，直接在前面加符号“+”，不需要数字 0。截图红框内应改为：</p>

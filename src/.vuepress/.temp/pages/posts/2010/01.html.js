@@ -1,16 +1,3 @@
 import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2010/01.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2010/01.html\",\"title\":\"命名空间：如何控制未知方法的调用\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2010-05-01T00:00:00.000Z\",\"tags\":[\"AS3 Expert\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":2.68,\"words\":803},\"filePathRelative\":\"posts/2010/01.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10001,\"name\":\"posts\"},{\"id\":\"45d8df\",\"sort\":10010,\"name\":\"2010\"}]}")
+const data = JSON.parse("{\"path\":\"/posts/2010/01.html\",\"title\":\"命名空间：如何控制未知方法的调用\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2010-05-01T00:00:00.000Z\",\"tags\":[\"AS3 Expert\"]},\"headers\":[],\"readingTime\":{\"minutes\":2.68,\"words\":803},\"git\":{\"updatedTime\":1740126700000,\"contributors\":[{\"name\":\"LIYI\",\"username\":\"LIYI\",\"email\":\"9830131@qq.com\",\"commits\":6,\"avatar\":\"https://avatars.githubusercontent.com/LIYI?v=4\",\"url\":\"https://github.com/LIYI\"},{\"name\":\"李艺\",\"username\":\"李艺\",\"email\":\"9830131@qq.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/李艺?v=4\",\"url\":\"https://github.com/李艺\"}]},\"filePathRelative\":\"posts/2010/01.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10001,\"name\":\"posts\"},{\"id\":\"45d8df\",\"sort\":10003,\"name\":\"2010\"}]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

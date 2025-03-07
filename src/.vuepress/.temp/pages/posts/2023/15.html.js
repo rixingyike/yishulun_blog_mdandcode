@@ -1,16 +1,3 @@
 import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2023/15.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2023/15.html\",\"title\":\"篆刻简易刀法总结，包括刻印面与刻边款的刀\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-10-27T12:12:02.000Z\",\"tags\":[\"篆刻\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":9.64,\"words\":2893},\"filePathRelative\":\"posts/2023/15.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10001,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10017,\"name\":\"2023\"}]}")
+const data = JSON.parse("{\"path\":\"/posts/2023/15.html\",\"title\":\"篆刻简易刀法总结，包括刻印面与刻边款的刀\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-10-27T12:12:02.000Z\",\"tags\":[\"篆刻\"]},\"headers\":[],\"readingTime\":{\"minutes\":9.64,\"words\":2893},\"git\":{\"updatedTime\":1741314273000,\"contributors\":[{\"name\":\"LIYI\",\"username\":\"LIYI\",\"email\":\"9830131@qq.com\",\"commits\":3,\"avatar\":\"https://avatars.githubusercontent.com/LIYI?v=4\",\"url\":\"https://github.com/LIYI\"},{\"name\":\"李艺\",\"username\":\"李艺\",\"email\":\"9830131@qq.com\",\"commits\":2,\"avatar\":\"https://avatars.githubusercontent.com/李艺?v=4\",\"url\":\"https://github.com/李艺\"}]},\"filePathRelative\":\"posts/2023/15.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10001,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10017,\"name\":\"2023\"}]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
