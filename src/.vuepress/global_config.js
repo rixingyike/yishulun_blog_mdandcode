@@ -55,7 +55,7 @@ export default {
     hostname: blog_url,
     avatar: '/avatar.png', // 更名为 avatar
     title: '艺述论',
-    description: '分享技术，论述艺术感悟', // 合并 profileDescription 和 description
+    description: '一枚热爱艺术的技术菌，分享技术，论述艺术感悟。', // 合并 profileDescription 和 description
     location: '北京',
     organization: '',
 
