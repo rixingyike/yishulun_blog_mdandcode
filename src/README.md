@@ -12,7 +12,7 @@ config:
       name: 艺述论
       full: false
       tagline: 分享技术，论述艺术感悟
-      text: 一枚喜受艺术的程序员's blog
+      text: 一枚热爱艺术的技术菌's blog
       actions:
         -
           theme: brand
