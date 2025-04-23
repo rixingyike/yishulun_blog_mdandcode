@@ -2,6 +2,10 @@
 
 网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成。
 
+## 修改历史
+
+- 20250423：添加对honkit的支持。将仓库编译为/ebook/[repo]下面的静态文件。使用时直接拷贝wangwen目录下的.github、.gitignore、package.json、book.json文件。
+
 ## 如何进行个性化配置&写作
 
 在src目录下，posts与docs是旧目录，是为了兼容旧随笔而存在的。notes是随笔/专栏，完成的专栏要发布，需要在global_config.js的notes中加一个公开配置；blog是日常随笔，仍以年分组。

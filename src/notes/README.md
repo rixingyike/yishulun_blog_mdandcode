@@ -6,7 +6,7 @@ config:
   -
     type: profile
     name: 李艺
-    description: 分享技术，论述艺术感悟。
+    description: yishulun.com
     avatar: /avatar.png
     
   -
@@ -14,12 +14,12 @@ config:
     features:
       -
         title: 独立黑客成长手册
-        icon: mdi-light:play
+        icon: mdi-light:book
         details: ""
         link: /docs/indiehacker-handbook.html
       -
         title: 向 GPT 高效提问
-        icon: mdi-light:play
+        icon: mdi-light:book
         details: ""
         link: /docs/向GPT高效提问/
       -
