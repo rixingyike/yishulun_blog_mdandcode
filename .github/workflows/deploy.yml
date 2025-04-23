@@ -55,6 +55,6 @@ jobs:
         with:
           source-directory: src/.vuepress/dist/
           destination-github-username: rixingyike
-          destination-repository-name: yishulun.com
+          destination-repository-name: rixingyike.github.io
           user-email: 9830131@qq.com
           target-branch: "main"
