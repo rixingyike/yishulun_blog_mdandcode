@@ -4,7 +4,7 @@
 
 ## 修改历史
 
-- 20250423：添加对honkit的支持。将仓库编译为/ebook/[repo]下面的静态文件。使用时直接拷贝wangwen目录下的.github、.gitignore、package.json、book.json文件。
+- 20250423：添加对honkit的支持。将仓库编译为/ebook/[repo]下面的静态文件。使用时直接拷贝wangwen目录下的.github、.gitignore、package.json、book.json文件。最后需要在这里（/[repo]/settings/secrets/actions）添加一个EXTERNAL_REPOSITORY_PERSONAL_ACCESS_TOKEN，值在bashrc中。所有仓库都是均等的，包括当前这个，都是向yishulun.com仓库编译发布。
 
 ## 如何进行个性化配置&写作
 

@@ -13,6 +13,17 @@ config:
     type: features
     features:
       -
+        title: 艺术论基本原理
+        icon: mdi-light:book
+        details: ""
+        link: /ebook/yishulun/
+      -
+        title: 如何写网文
+        icon: mdi-light:book
+        details: ""
+        link: /ebook/wangwen/
+
+      -
         title: 独立黑客成长手册
         icon: mdi-light:book
         details: ""
