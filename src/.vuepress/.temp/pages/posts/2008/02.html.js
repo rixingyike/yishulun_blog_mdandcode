@@ -1,3 +1,16 @@
 import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2008/02.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2008/02.html\",\"title\":\"像Ruby一样简易行码：使用Prototype扩展原生对象\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2008-05-01T00:00:00.000Z\",\"tags\":[\"AS3 Expert\"]},\"headers\":[],\"readingTime\":{\"minutes\":2.53,\"words\":758},\"git\":{\"updatedTime\":1740126700000,\"contributors\":[{\"name\":\"LIYI\",\"username\":\"LIYI\",\"email\":\"9830131@qq.com\",\"commits\":5,\"avatar\":\"https://avatars.githubusercontent.com/LIYI?v=4\",\"url\":\"https://github.com/LIYI\"},{\"name\":\"李艺\",\"username\":\"李艺\",\"email\":\"9830131@qq.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/李艺?v=4\",\"url\":\"https://github.com/李艺\"}]},\"filePathRelative\":\"posts/2008/02.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10001,\"name\":\"posts\"},{\"id\":\"2f5952\",\"sort\":10005,\"name\":\"2008\"}]}")
+const data = JSON.parse("{\"path\":\"/posts/2008/02.html\",\"title\":\"像Ruby一样简易行码：使用Prototype扩展原生对象\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2008-05-01T00:00:00.000Z\",\"tags\":[\"AS3 Expert\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":2.53,\"words\":758},\"filePathRelative\":\"posts/2008/02.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10002,\"name\":\"posts\"},{\"id\":\"2f5952\",\"sort\":10009,\"name\":\"2008\"}]}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

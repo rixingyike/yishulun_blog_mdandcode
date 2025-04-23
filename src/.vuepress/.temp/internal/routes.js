@@ -4,18 +4,25 @@ export const routes = Object.fromEntries([
   ["/about.html", { loader: () => import(/* webpackChunkName: "about.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/about.html.js"), meta: {"title":"关于作者"} }],
   ["/friends.html", { loader: () => import(/* webpackChunkName: "friends.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/friends.html.js"), meta: {"title":"友情链接"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
-  ["/example.html", { loader: () => import(/* webpackChunkName: "example.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/example.html.js"), meta: {"title":"cover: https://yishulun.com/cover3.jpg"} }],
+  ["/example.html", { loader: () => import(/* webpackChunkName: "example.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/example.html.js"), meta: {"title":""} }],
   ["/docs/ChatGPT.html", { loader: () => import(/* webpackChunkName: "docs_ChatGPT.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/ChatGPT.html.js"), meta: {"title":"ChatGPT 从0到1，人类全能工程师自修宝典"} }],
   ["/docs/indiehacker-handbook.html", { loader: () => import(/* webpackChunkName: "docs_indiehacker-handbook.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/indiehacker-handbook.html.js"), meta: {"title":"独立黑客成长手册"} }],
-  ["/posts/", { loader: () => import(/* webpackChunkName: "posts_index.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/index.html.js"), meta: {"title":"博客"} }],
   ["/notes/", { loader: () => import(/* webpackChunkName: "notes_index.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/notes/index.html.js"), meta: {"title":""} }],
+  ["/posts/", { loader: () => import(/* webpackChunkName: "posts_index.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/index.html.js"), meta: {"title":"博客"} }],
   ["/blog/2025/1.html", { loader: () => import(/* webpackChunkName: "blog_2025_1.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/1.html.js"), meta: {"title":"对比Copilot与AI代码助手的使用体验"} }],
+  ["/blog/2025/10.html", { loader: () => import(/* webpackChunkName: "blog_2025_10.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/10.html.js"), meta: {"title":"Rust学习笔记3：类型、智能指针"} }],
+  ["/blog/2025/11.html", { loader: () => import(/* webpackChunkName: "blog_2025_11.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/11.html.js"), meta: {"title":"Rust学习笔记4：智能指针、引用和并发"} }],
+  ["/blog/2025/12.html", { loader: () => import(/* webpackChunkName: "blog_2025_12.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/12.html.js"), meta: {"title":"Windows Server 开启 ssh 备忘录"} }],
+  ["/blog/2025/13.html", { loader: () => import(/* webpackChunkName: "blog_2025_13.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/13.html.js"), meta: {"title":"何为雪花创作法？"} }],
+  ["/blog/2025/14.html", { loader: () => import(/* webpackChunkName: "blog_2025_14.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/14.html.js"), meta: {"title":"《勒俄特依》——读彝族史诗遐想"} }],
   ["/blog/2025/2.html", { loader: () => import(/* webpackChunkName: "blog_2025_2.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/2.html.js"), meta: {"title":"在Rust中{:?}与{:#?}有什么异同？"} }],
   ["/blog/2025/3.html", { loader: () => import(/* webpackChunkName: "blog_2025_3.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/3.html.js"), meta: {"title":"杯中倒悬的山河"} }],
   ["/blog/2025/4.html", { loader: () => import(/* webpackChunkName: "blog_2025_4.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/4.html.js"), meta: {"title":"今天参加 DeepSeek 北京研讨会的收获"} }],
   ["/blog/2025/5.html", { loader: () => import(/* webpackChunkName: "blog_2025_5.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/5.html.js"), meta: {"title":"普通人该怎么用好DeepSeek呢，除搜索以外？"} }],
-  ["/blog/2025/6.html", { loader: () => import(/* webpackChunkName: "blog_2025_6.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/6.html.js"), meta: {"title":"Rust进阶知识学习笔记"} }],
+  ["/blog/2025/6.html", { loader: () => import(/* webpackChunkName: "blog_2025_6.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/6.html.js"), meta: {"title":"Rust学习笔记1：闭包"} }],
   ["/blog/2025/7.html", { loader: () => import(/* webpackChunkName: "blog_2025_7.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/7.html.js"), meta: {"title":"Manus vs Coze，Trae vs Copilot"} }],
+  ["/blog/2025/8.html", { loader: () => import(/* webpackChunkName: "blog_2025_8.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/8.html.js"), meta: {"title":"Rust学习笔记2：for循环与迭代器、类型等"} }],
+  ["/blog/2025/9.html", { loader: () => import(/* webpackChunkName: "blog_2025_9.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/blog/2025/9.html.js"), meta: {"title":"电视剧《凡人歌》观后感"} }],
   ["/docs/claude/1.Claude%E7%AE%80%E4%BB%8B.html", { loader: () => import(/* webpackChunkName: "docs_claude_1.Claude简介.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/claude/1.Claude简介.html.js"), meta: {"title":"1.Claude简介"} }],
   ["/docs/claude/2.Claude%E6%8F%90%E7%A4%BA%E7%9A%84%E5%88%9D%E6%AD%A5%E7%BC%96%E5%86%99%E4%B8%8E%E4%BC%98%E5%8C%96.html", { loader: () => import(/* webpackChunkName: "docs_claude_2.Claude提示的初步编写与优化.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/claude/2.Claude提示的初步编写与优化.html.js"), meta: {"title":"2.Claude提示的初步编写与优化"} }],
   ["/docs/claude/3.Claude%E6%8F%90%E7%A4%BA%E5%AE%9E%E7%94%A8%E7%BC%96%E5%86%99%E6%8A%80%E5%B7%A7.html", { loader: () => import(/* webpackChunkName: "docs_claude_3.Claude提示实用编写技巧.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/claude/3.Claude提示实用编写技巧.html.js"), meta: {"title":"3.Claude提示实用编写技巧"} }],
@@ -23,9 +30,9 @@ export const routes = Object.fromEntries([
   ["/docs/claude/5.Claude%E6%8F%90%E7%A4%BA%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5.html", { loader: () => import(/* webpackChunkName: "docs_claude_5.Claude提示故障排查.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/claude/5.Claude提示故障排查.html.js"), meta: {"title":"5.Claude提示故障排查"} }],
   ["/docs/claude/6.%E5%88%9B%E4%BD%9C%E4%B8%80%E7%AF%87%E7%A7%91%E5%B9%BB%E6%95%85%E4%BA%8B%E7%9A%84%E5%AE%9E%E8%B7%B5.html", { loader: () => import(/* webpackChunkName: "docs_claude_6.创作一篇科幻故事的实践.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/claude/6.创作一篇科幻故事的实践.html.js"), meta: {"title":"6.创作一篇科幻故事的实践"} }],
   ["/docs/claude/", { loader: () => import(/* webpackChunkName: "docs_claude_index.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/claude/index.html.js"), meta: {"title":"Claude使用教程"} }],
-  ["/docs/rust/rustlings.html", { loader: () => import(/* webpackChunkName: "docs_rust_rustlings.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/rust/rustlings.html.js"), meta: {"title":"在Rustlings示例中N天学习Rust"} }],
   ["/docs/novel/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Claude%20AI%E8%BE%85%E5%8A%A9%E5%88%9B%E4%BD%9C%E5%B0%8F%E8%AF%B4.html", { loader: () => import(/* webpackChunkName: "docs_novel_如何使用Claude AI辅助创作小说.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/novel/如何使用Claude AI辅助创作小说.html.js"), meta: {"title":"如何使用Claude AI辅助创作小说"} }],
   ["/docs/novel/%E5%B0%8F%E8%AF%B4%E5%88%9B%E4%BD%9C%E7%9A%84%E6%9C%80%E4%BD%8E%E8%A6%81%E6%B1%82%E6%98%AF%E4%BB%80%E4%B9%88.html", { loader: () => import(/* webpackChunkName: "docs_novel_小说创作的最低要求是什么.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/novel/小说创作的最低要求是什么.html.js"), meta: {"title":"小说创作的最低要求是什么"} }],
+  ["/docs/rust/rustlings.html", { loader: () => import(/* webpackChunkName: "docs_rust_rustlings.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/rust/rustlings.html.js"), meta: {"title":"在Rustlings示例中N天学习Rust"} }],
   ["/docs/%E5%90%91GPT%E9%AB%98%E6%95%88%E6%8F%90%E9%97%AE/1.%E8%AE%A4%E8%AF%86GPT.html", { loader: () => import(/* webpackChunkName: "docs_向GPT高效提问_1.认识GPT.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/向GPT高效提问/1.认识GPT.html.js"), meta: {"title":"1.认识GPT"} }],
   ["/docs/%E5%90%91GPT%E9%AB%98%E6%95%88%E6%8F%90%E9%97%AE/2.GPT%E6%98%AF%E5%A6%82%E4%BD%95%E8%BF%90%E8%BD%AC%E7%9A%84.html", { loader: () => import(/* webpackChunkName: "docs_向GPT高效提问_2.GPT是如何运转的.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/向GPT高效提问/2.GPT是如何运转的.html.js"), meta: {"title":"2.GPT是如何运转的"} }],
   ["/docs/%E5%90%91GPT%E9%AB%98%E6%95%88%E6%8F%90%E9%97%AE/3.GPT%E8%83%BD%E5%A4%9F%E5%81%9A%E4%BB%80%E4%B9%88.html", { loader: () => import(/* webpackChunkName: "docs_向GPT高效提问_3.GPT能够做什么.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/docs/向GPT高效提问/3.GPT能够做什么.html.js"), meta: {"title":"3.GPT能够做什么"} }],
@@ -180,3 +187,20 @@ export const routes = Object.fromEntries([
   ["/archives.html", { loader: () => import(/* webpackChunkName: "archives.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/archives.html.js"), meta: {"title":"归档"} }],
   ["/categories.html", { loader: () => import(/* webpackChunkName: "categories.html" */"C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/categories.html.js"), meta: {"title":"分类"} }],
 ]);
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateRoutes) {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+  }
+  if (__VUE_HMR_RUNTIME__.updateRedirects) {
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ routes, redirects }) => {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  })
+}

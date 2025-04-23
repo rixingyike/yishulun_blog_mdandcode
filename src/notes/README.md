@@ -16,12 +16,12 @@ config:
         title: 艺术论基本原理
         icon: mdi-light:book
         details: ""
-        link: /ebook/yishulun/index.html
+        link: //yishulun.com/ebook/yishulun/index.html
       -
         title: 如何写网文
         icon: mdi-light:book
         details: ""
-        link: /ebook/wangwen/index.html
+        link: //yishulun.com/ebook/wangwen/index.html
 
       -
         title: 独立黑客成长手册
