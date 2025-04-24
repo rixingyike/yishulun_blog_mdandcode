@@ -12,20 +12,17 @@ const bulletin_content = ""
 //   导航栏
 export let navbar = defineNavbarConfig([
     { text: '首页', link: '/' },
-    { text: '博客', link: '/blog/' },
-    { text: '笔记', link: '/notes/' },
-    { text: '分类', link: '/categories.html' },
-    { text: '标签', link: '/tags.html' },
-    { text: '归档', link: '/archives.html' },
+    { text: '电子书', link: '/notes/' },
+    { text: '博客', 
+        items: [
+            { text: '最新', link: '/blog/' },
+            { text: '分类', link: '/categories.html' },
+            { text: '标签', link: '/tags.html' },
+            { text: '归档', link: '/archives.html' },
+        ]
+    },
     { text: '友链', link: '/friends.html' },
     { text: '联系作者', link: '/about.html' },
-    // {
-    //     text: '笔记',
-    //     items: [
-    //         { text: '示例', link: '/notes/demo/README.md' },
-
-    //     ]
-    // },
 ])
 
 // 专栏

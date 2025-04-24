@@ -49,7 +49,7 @@ export default defineUserConfig({
       json: true,
     },
     shiki: {
-      languages: ['shell', 'bash', 'ts', 'js', 'html', 'css', 'json', 'yaml', 'markdown', 'python', 'java', 'php', 'go', 'rust', 'kotlin', 'swift', 'ruby', 'sql', 'dockerfile', 'plaintext'],
+      languages: ["rust","bash","xml","go","c","js","ruby","json","python","shell","java","py","html","yaml","ts","jsx","javascript"],
       whitespace: true,
       lineNumbers: true,
     },

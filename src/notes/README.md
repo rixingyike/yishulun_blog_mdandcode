@@ -14,28 +14,28 @@ config:
     features:
       -
         title: 艺术论基本原理
-        icon: mdi-light:book
+        icon: 📖
         details: ""
         link: //yishulun.com/ebook/yishulun/index.html
       -
         title: 如何写网文
-        icon: mdi-light:book
+        icon: 📖
         details: ""
         link: //yishulun.com/ebook/wangwen/index.html
 
       -
         title: 独立黑客成长手册
-        icon: mdi-light:book
+        icon: 📝
         details: ""
         link: /docs/indiehacker-handbook.html
       -
         title: 向 GPT 高效提问
-        icon: mdi-light:book
+        icon: 📝
         details: ""
         link: /docs/向GPT高效提问/
       -
         title: Claude使用教程
-        icon: mdi-light:book
+        icon: 📝
         details: ""
         link: /docs/claude/
 
