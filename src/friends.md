@@ -29,9 +29,14 @@ list:
     avatar: /time_geekbang_logo.png
     desc: 百万程序员充电站
   -
-    name: 机工社
+    name: 机械工业出版社
     link: http://www.cmpedu.com
     avatar: /cmpedu_logo.png
-    desc: 机械工业出版社
+    desc: 机工社
+  -
+    name: 微信学堂
+    link: https://developers.weixin.qq.com/community/business
+    avatar: /weixinxuetang_logo.png
+    desc: 微信开放社区官方教程
 # permalink: /friends/
 ---
