@@ -19,9 +19,9 @@ export let navbar = defineNavbarConfig([
             { text: '分类', link: '/categories.html' },
             { text: '标签', link: '/tags.html' },
             { text: '归档', link: '/archives.html' },
+            { text: '友链', link: '/friends.html' },
         ]
     },
-    { text: '友链', link: '/friends.html' },
     { text: '联系作者', link: '/about.html' },
 ])
 
