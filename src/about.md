@@ -38,7 +38,7 @@ title: '关于作者'
 
 ## 联系方式
 
-欢迎来信交流：`9830131@qq.com`。亦欢迎关注公众号在线交流：
+欢迎来信交流：`9830131@qq.com`。微信/QQ：`9830131`。亦欢迎关注公众号：
 
 <img src="https://yishulun.com/yslqrcode.jpg" style="zoom: 75%;" />
 

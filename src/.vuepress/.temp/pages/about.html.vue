@@ -25,7 +25,7 @@
 <p>2015年05月为北医三院白血病人捐款 <strong>65577</strong> 元</p>
 <img src="@source/assets/gongyi.jpg" alt="活动见证" style="zoom:15%;" />
 <h2 id="联系方式" tabindex="-1"><a class="header-anchor" href="#联系方式"><span>联系方式</span></a></h2>
-<p>欢迎来信交流：<code v-pre>9830131@qq.com</code>。亦欢迎关注公众号在线交流：</p>
+<p>欢迎来信交流：<code v-pre>9830131@qq.com</code>。微信/QQ：<code v-pre>9830131</code>。亦欢迎关注公众号：</p>
 <img src="https://yishulun.com/yslqrcode.jpg" style="zoom: 75%;" />
 <h2 id="赞赏" tabindex="-1"><a class="header-anchor" href="#赞赏"><span>赞赏</span></a></h2>
 <p>感谢赞赏，支持创作更多内容。</p>
