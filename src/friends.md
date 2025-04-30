@@ -1,13 +1,13 @@
 ---
 friends: true
 title: 友情链接
-description: 申请加友链的朋友，请发邮件传送name、link、avatar、desc信息过来，并将我的博客在你的友链列表中加好。
+description: 申请加友链请将name、link、avatar、desc发邮件过来，并将我的友链先在你的博客中加好，谢谢。
 list:
   -
     name: 艺述论
     link: https://yishulun.com
     avatar: /avatar.png
-    desc: 分享技术，论述艺术感悟
+    desc: 大学计算机讲师，《微信小游戏开发》等图书作者。
   -
     name: 腾讯云TVP
     link: https://cloud.tencent.com/tvp

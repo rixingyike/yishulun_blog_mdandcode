@@ -15,7 +15,7 @@ export let navbar = defineNavbarConfig([
     { text: '电子书', link: '/notes/' },
     { text: '博客', 
         items: [
-            { text: '最新', link: '/blog/' },
+            { text: '最新文章', link: '/blog/' },
             { text: '分类', link: '/categories.html' },
             { text: '标签', link: '/tags.html' },
             { text: '归档', link: '/archives.html' },
@@ -52,7 +52,7 @@ export default {
     hostname: blog_url,
     avatar: '/avatar.png', // 更名为 avatar
     title: '艺述论',
-    description: '一枚热爱艺术的技术菌，分享技术，论述艺术感悟。', // 合并 profileDescription 和 description
+    description: '大学计算机讲师，《微信小游戏开发》等图书作者。', // 合并 profileDescription 和 description
     location: '北京',
     organization: '',
 
