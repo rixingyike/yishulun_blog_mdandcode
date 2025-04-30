@@ -1,53 +1,11 @@
 ---
 pageLayout: home
 externalLinkIcon: false
+home: true
 config:
-  -
-    type: banner
-    banner: /hero_home_bg.jpg
-    bannerMask:
-      light: 0.1
-      dark: 0.3
-    hero:
-      name: 艺述论
-      full: false
-      tagline: 分享技术，论述艺术感悟
-      text: 一枚热爱艺术的技术菌's blog
-      actions:
-        -
-          theme: brand
-          text: 博客
-          link: /blog/
-        -
-          theme: alt
-          text: Notes →
-          link: /notes/
-  -
-    type: features
-    features:
-      -
-        title: 《微信小游戏开发》勘误
-        icon: mdi-light:pencil
-        details: 勘误与增补列表
-        link: /posts/2023/02.html
-      -
-        title: 《微信小程序全栈开发实战》
-        icon: mdi-light:play
-        details: 全栈开发视频课程
-        link: http://gk.link/a/10AdC
-      -
-        title: 《小程序性能优化实践》
-        icon: mdi-light:play
-        details: 前端开发性能优化技巧
-        link: https://developers.weixin.qq.com/community/business/course/000606628dc2e86dc0ddcbb115940d
-      -
-        title: 《微信小游戏开发前端+后端》
-        icon: mdi-light:book
-        details: 京东商城在售，套装共2册
-        link: https://item.jd.com/13728755.html
   -
     type: blog
     
 ---
 
-欢迎您访问我的博客。
+欢迎访问。
