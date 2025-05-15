@@ -1,5 +1,5 @@
-import comp from "C:/Users/Admin/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2009/01.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2009/01.html\",\"title\":\"AS3事件机制概述\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2008-05-01T00:00:00.000Z\",\"tags\":[\"AS3 Expert\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":6.8,\"words\":2041},\"filePathRelative\":\"posts/2009/01.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10002,\"name\":\"posts\"},{\"id\":\"f81457\",\"sort\":10010,\"name\":\"2009\"}]}")
+import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2009/01.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/2009/01.html\",\"title\":\"AS3事件机制概述\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2008-05-01T00:00:00.000Z\",\"tags\":[\"AS3 Expert\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":6.8,\"words\":2041},\"filePathRelative\":\"posts/2009/01.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10001,\"name\":\"posts\"},{\"id\":\"f81457\",\"sort\":10010,\"name\":\"2009\"}]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

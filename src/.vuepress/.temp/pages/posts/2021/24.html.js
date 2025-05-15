@@ -1,5 +1,5 @@
-import comp from "C:/Users/Admin/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2021/24.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2021/24.html\",\"title\":\"如何管理好时间\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2021-01-20T14:28:37.000Z\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":23.69,\"words\":7108},\"filePathRelative\":\"posts/2021/24.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10002,\"name\":\"posts\"},{\"id\":\"67aa4c\",\"sort\":10015,\"name\":\"2021\"}]}")
+import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2021/24.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/2021/24.html\",\"title\":\"如何管理好时间\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2021-01-20T14:28:37.000Z\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":23.69,\"words\":7108},\"filePathRelative\":\"posts/2021/24.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10001,\"name\":\"posts\"},{\"id\":\"67aa4c\",\"sort\":10015,\"name\":\"2021\"}]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
