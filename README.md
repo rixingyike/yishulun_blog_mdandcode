@@ -53,6 +53,28 @@ pnpm vp-update
 
 如需要自定义域名，请查看 [Github Pages 文档](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
 
+## 使用Gitbook
+
+安装
+
+pnpm install -g gitbook-cli honkit
+
+pnpm install gitbook-plugin-livereload --save-dev
+
+初始化
+
+honkit init ./
+
+生成目录
+
+chmod +x generate_summary.sh
+
+./generate_summary.sh
+
+本地预览
+
+honkit serve
+
 ## 文档
 
 - [vuepress](https://vuepress.vuejs.org/)
