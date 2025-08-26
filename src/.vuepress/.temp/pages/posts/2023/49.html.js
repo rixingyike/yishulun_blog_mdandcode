@@ -1,5 +1,5 @@
 import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2023/49.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2023/49.html\",\"title\":\"一次让 ChatGPT 帮我润色改文章的经历\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-11-30T17:21:28.000Z\",\"tags\":[\"ChatGPT\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":4.29,\"words\":1287},\"filePathRelative\":\"posts/2023/49.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10001,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10017,\"name\":\"2023\"}]}")
+const data = JSON.parse("{\"path\":\"/posts/2023/49.html\",\"title\":\"一次让 ChatGPT 帮我润色改文章的经历\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-11-30T17:21:28.000Z\",\"tags\":[\"ChatGPT\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":4.29,\"words\":1287},\"filePathRelative\":\"posts/2023/49.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10002,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10017,\"name\":\"2023\"}]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
