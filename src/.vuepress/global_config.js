@@ -67,8 +67,8 @@ export default {
     site_favicon: '/favicon.ico',
     site_logo: '/logo.png', // 更名为 site_logo
     appearance: 'dark', // 添加 appearance 信息
-    footerMessage: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>', // 添加 footerMessage 信息
-    footerCopyright: `&copy 2002-${currentYear} ${author}`, // 动态获取年份和作者名称
+    footerMessage: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">Plume</a>', // 添加 footerMessage 信息
+    footerCopyright: `&copy 2002-${currentYear} ${author} <a target="_blank" href="https://beian.miit.gov.cn">京ICP备14007000号</a>`, // 动态获取年份和作者名称
     googleAnalyticsId: 'G-8N64Q25EK9', // 添加 Google Analytics ID
     googleAdsClient: 'ca-pub-2139303336591479', // 添加 Google Ads Client ID
 
