@@ -4,7 +4,7 @@ import { defineNoteConfig, defineNotesConfig, defineNavbarConfig } from 'vuepres
 
 const currentYear = new Date().getFullYear();
 const author = "李艺";
-const blog_url = "https://yishulu.com"
+const blog_url = "https://yishulun.com"
 const icpbeian = "京ICP备14007000号-8"
 
 // 公告写在这里，为空则不显示
@@ -63,12 +63,12 @@ export default {
 
     // site
     article: '/blog/',//它决定了自动生成的文章链接的前缀
-    devServer: process.env.NODE_ENV === 'development', // 有些配置例如feed和sitemap需要在devServer下才能生效
+    devServer: true, // 有些配置例如feed和sitemap需要在devServer下才能生效
     devHostname: 'http://localhost:8080',
     site_favicon: '/favicon.ico',
     site_logo: '/logo.png', // 更名为 site_logo
     appearance: 'dark', // 添加 appearance 信息
-    footerMessage: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">Plume</a>', // 添加 footerMessage 信息
+    footerMessage: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">Plume</a> | <a href="/sitemap.xml">Sitemap</a>', // 添加 footerMessage 信息
     footerCopyright: `&copy 2002-${currentYear} ${author} ${'<a target="_blank" href="https://beian.miit.gov.cn">'+icpbeian+'</a>'}`, // 动态获取年份和作者名称
     googleAnalyticsId: 'G-8N64Q25EK9', // 添加 Google Analytics ID
     googleAdsClient: 'ca-pub-2139303336591479', // 添加 Google Ads Client ID
