@@ -1,16 +1,3 @@
 import comp from "/Users/liyi/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2023/18.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2023/18.html\",\"title\":\"我们为什么选择 ChatGPT？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-10-31T07:26:53.000Z\",\"tags\":[\"ChatGPT\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":11.16,\"words\":3348},\"filePathRelative\":\"posts/2023/18.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10004,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10018,\"name\":\"2023\"}]}")
+const data = JSON.parse("{\"path\":\"/posts/2023/18.html\",\"title\":\"我们为什么选择 ChatGPT？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-10-31T07:26:53.000Z\",\"tags\":[\"ChatGPT\"]},\"headers\":[],\"readingTime\":{\"minutes\":11.16,\"words\":3348},\"git\":{\"updatedTime\":1741820128000,\"contributors\":[{\"name\":\"LIYI\",\"username\":\"LIYI\",\"email\":\"9830131@qq.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/LIYI?v=4\",\"url\":\"https://github.com/LIYI\"}]},\"filePathRelative\":\"posts/2023/18.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10002,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10018,\"name\":\"2023\"}]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

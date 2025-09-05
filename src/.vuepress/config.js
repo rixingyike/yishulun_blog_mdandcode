@@ -156,7 +156,7 @@ export default defineUserConfig({
   
   // 配置静态资源处理
   pagePatterns: ['**/*.md', '!.vuepress', '!node_modules'],
-  public: '.vuepress/public',
+  // public: '.vuepress/public',
   shouldPrefetch: false,
 
   theme: plumeTheme({

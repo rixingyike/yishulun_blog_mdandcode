@@ -1,16 +1,3 @@
 import comp from "/Users/liyi/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2023/30.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2023/30.html\",\"title\":\"龙空工作室大佬分享飞卢都市爽文写作秘籍，爽点写得好不好关键在两点\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-11-09T12:25:37.000Z\",\"tags\":[\"网文创作\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":29.12,\"words\":8736},\"filePathRelative\":\"posts/2023/30.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10004,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10018,\"name\":\"2023\"}]}")
+const data = JSON.parse("{\"path\":\"/posts/2023/30.html\",\"title\":\"龙空工作室大佬分享飞卢都市爽文写作秘籍，爽点写得好不好关键在两点\",\"lang\":\"zh-CN\",\"frontmatter\":{\"createTime\":\"2023-11-09T12:25:37.000Z\",\"tags\":[\"网文创作\"]},\"headers\":[],\"readingTime\":{\"minutes\":29.12,\"words\":8736},\"git\":{\"updatedTime\":1741820128000,\"contributors\":[{\"name\":\"LIYI\",\"username\":\"LIYI\",\"email\":\"9830131@qq.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/LIYI?v=4\",\"url\":\"https://github.com/LIYI\"}]},\"filePathRelative\":\"posts/2023/30.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10002,\"name\":\"posts\"},{\"id\":\"ac244c\",\"sort\":10018,\"name\":\"2023\"}]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

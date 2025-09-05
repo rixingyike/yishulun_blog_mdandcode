@@ -1,16 +1,3 @@
 import comp from "/Users/liyi/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2022/1006.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2022/1006.html\",\"title\":\"学到的技术知识在使用的时候总会忘记，怎么办？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2022-10-06T00:00:00.000Z\",\"category\":[\"编程\"],\"tags\":[\"学习\"],\"title\":\"学到的技术知识在使用的时候总会忘记，怎么办？\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":1.71,\"words\":514},\"filePathRelative\":\"posts/2022/1006.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10004,\"name\":\"posts\"},{\"id\":\"91e2a1\",\"sort\":10016,\"name\":\"2022\"}]}")
+const data = JSON.parse("{\"path\":\"/posts/2022/1006.html\",\"title\":\"学到的技术知识在使用的时候总会忘记，怎么办？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2022-10-06T00:00:00.000Z\",\"category\":[\"编程\"],\"tags\":[\"学习\"],\"title\":\"学到的技术知识在使用的时候总会忘记，怎么办？\"},\"headers\":[],\"readingTime\":{\"minutes\":1.71,\"words\":514},\"git\":{\"updatedTime\":1741820128000,\"contributors\":[{\"name\":\"LIYI\",\"username\":\"LIYI\",\"email\":\"9830131@qq.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/LIYI?v=4\",\"url\":\"https://github.com/LIYI\"}]},\"filePathRelative\":\"posts/2022/1006.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10002,\"name\":\"posts\"},{\"id\":\"91e2a1\",\"sort\":10017,\"name\":\"2022\"}]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
