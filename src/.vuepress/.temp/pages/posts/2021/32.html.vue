@@ -1,5 +1,4 @@
-<template><div><h1 id="左耳听风专栏学习笔记" tabindex="-1"><a class="header-anchor" href="#左耳听风专栏学习笔记"><span>左耳听风专栏学习笔记</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>这是我在充电平台学习<a href="http://gk.link/a/10pr7" target="_blank" rel="noopener noreferrer">《左耳听风》</a>专栏的笔记，仅是部分。</p>
 </blockquote>
 <h2 id="开篇词-洞悉技术的本质-享受科技的乐趣" tabindex="-1"><a class="header-anchor" href="#开篇词-洞悉技术的本质-享受科技的乐趣"><span>开篇词 | 洞悉技术的本质，享受科技的乐趣</span></a></h2>

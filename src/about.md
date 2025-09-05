@@ -3,7 +3,7 @@ createTime: 2002-12-23
 comments: false
 title: '关于作者'
 ---
-![作者](/avatar.png)
+<img src="./assets/avatar.png" alt="作者"/>
 
 ## 简介
 

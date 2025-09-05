@@ -1,5 +1,4 @@
-<template><div><h1 id="chatgpt-发布对插件的支持-告诉-chatgpt-你可以提供什么在线服务-由它作为-前端-向用户提供" tabindex="-1"><a class="header-anchor" href="#chatgpt-发布对插件的支持-告诉-chatgpt-你可以提供什么在线服务-由它作为-前端-向用户提供"><span>ChatGPT 发布对插件的支持，告诉 ChatGPT 你可以提供什么在线服务，由它作为“前端”向用户提供</span></a></h1>
-<p>目录</p>
+<template><div><p>目录</p>
 <p>[TOC]</p>
 <p>2023 年北京时间 3 月 24 凌晨，OpneAI 在推特上官宣：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/rixingyike/images@master/2023/202303241145523.png" alt="image-20230324114533386"></p>

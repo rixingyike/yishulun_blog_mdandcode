@@ -1,5 +1,4 @@
-<template><div><h1 id="十个flex-air疑难杂症及解决方案简略" tabindex="-1"><a class="header-anchor" href="#十个flex-air疑难杂症及解决方案简略"><span>十个Flex/Air疑难杂症及解决方案简略</span></a></h1>
-<p>最近去一家台企，对方给我出了十道“难道”：</p>
+<template><div><p>最近去一家台企，对方给我出了十道“难道”：</p>
 <ol>
 <li>在TileList中如果選擇檔過多，會出現捲軸，當拖動捲軸時，渲染的進度條會出現花屏現象；</li>
 </ol>

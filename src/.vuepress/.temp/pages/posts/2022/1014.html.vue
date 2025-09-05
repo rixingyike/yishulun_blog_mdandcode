@@ -1,5 +1,4 @@
-<template><div><h1 id="由鸭子测试看go语言的接口实现" tabindex="-1"><a class="header-anchor" href="#由鸭子测试看go语言的接口实现"><span>由鸭子测试看Go语言的接口实现</span></a></h1>
-<p>「If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.」</p>
+<template><div><p>「If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.」</p>
 <p>中文：「如果一只鸟它走起来像鸭子、游泳起来像鸭子、叫起来也像鸭子，那么这只鸟就可以被称为鸭子。」</p>
 <p>这便是「鸭子测试」，它是一种判定思想。这句话据记载来源于美国的一个诗人，叫詹姆斯·惠特科姆·莱利，他曾说过或写过这样一句话：</p>
 <p>「When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck.」</p>

@@ -1,5 +1,4 @@
-<template><div><h1 id="声声慢·记-leatech-全球-cto-领导力峰会暨-tvp-二周年庆典" tabindex="-1"><a class="header-anchor" href="#声声慢·记-leatech-全球-cto-领导力峰会暨-tvp-二周年庆典"><span>声声慢·记 LeaTech 全球 CTO 领导力峰会暨 TVP 二周年庆典</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>声声慢·记 LeaTech 全球 CTO 领导力峰会暨 TVP 二周年庆典</p>
 </blockquote>
 <blockquote>

@@ -1,5 +1,4 @@
-<template><div><h1 id="在rustlings示例中n天学习rust" tabindex="-1"><a class="header-anchor" href="#在rustlings示例中n天学习rust"><span>在Rustlings示例中N天学习Rust</span></a></h1>
-<p>Rustlings 是一个辅助学习者学习Rust语言的学习程序。每写对一个练习，在终端里便会看到这样一条提示：</p>
+<template><div><p>Rustlings 是一个辅助学习者学习Rust语言的学习程序。每写对一个练习，在终端里便会看到这样一条提示：</p>
 <p>🎉 🎉  The code is compiling! 🎉 🎉</p>
 <h2 id="第1天-准备学习环境" tabindex="-1"><a class="header-anchor" href="#第1天-准备学习环境"><span>第1天 准备学习环境</span></a></h2>
 <h3 id="安装rust运行环境" tabindex="-1"><a class="header-anchor" href="#安装rust运行环境"><span>安装Rust运行环境</span></a></h3>

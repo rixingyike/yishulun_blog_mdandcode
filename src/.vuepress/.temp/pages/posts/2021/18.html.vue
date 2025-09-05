@@ -1,5 +1,4 @@
-<template><div><h1 id="typora软件也是可以定制的" tabindex="-1"><a class="header-anchor" href="#typora软件也是可以定制的"><span>typora软件也是可以定制的</span></a></h1>
-<p>最近一年的写作我基本都在使用typora软件，这个软件搞平台，干净、高效，我非常喜欢它。如果说缺点，它唯一的缺点就是不支持定制。</p>
+<template><div><p>最近一年的写作我基本都在使用typora软件，这个软件搞平台，干净、高效，我非常喜欢它。如果说缺点，它唯一的缺点就是不支持定制。</p>
 <p>但是今天发现了一个扩展：</p>
 <p>https://github.com/hahaha28/typora-extensions</p>
 <p>以及使用npm安装的asar工具，及使用它的指令：</p>

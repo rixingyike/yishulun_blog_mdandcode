@@ -1,5 +1,4 @@
-<template><div><h1 id="as3事件机制概述" tabindex="-1"><a class="header-anchor" href="#as3事件机制概述"><span>AS3事件机制概述</span></a></h1>
-<p>目录
+<template><div><p>目录
 [TOC]</p>
 <p>事件机制是AS3的核心功能之一，没有充分掌握事件机制的方方面面，就不能算是精通AS3语言。</p>
 <h2 id="_1-as3事件机制的主要成员" tabindex="-1"><a class="header-anchor" href="#_1-as3事件机制的主要成员"><span>1，AS3事件机制的主要成员</span></a></h2>

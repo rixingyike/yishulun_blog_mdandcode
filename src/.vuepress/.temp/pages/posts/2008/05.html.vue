@@ -1,5 +1,4 @@
-<template><div><h1 id="e4x用法简要" tabindex="-1"><a class="header-anchor" href="#e4x用法简要"><span>E4X用法简要</span></a></h1>
-<p>E4X语法是AS3对ECMAScript标准最前卫的实现，也是目前所有高级编程语言中操作XML最为方便的方式之一。仅仅因为AS3实现了E4X，作为程序员至少也应该了解它一下，因为它是那样的简洁、优雅。</p>
+<template><div><p>E4X语法是AS3对ECMAScript标准最前卫的实现，也是目前所有高级编程语言中操作XML最为方便的方式之一。仅仅因为AS3实现了E4X，作为程序员至少也应该了解它一下，因为它是那样的简洁、优雅。</p>
 <p>因为AS3实现的是ECMAScript 357 for XML标准（ECMAScript对XML的扩展标准），简称为E4X。自有E4X以来，AS2程序员应该忘掉以前惯用的XMLDocument、 XMLNode、XMLParser 和 XMLTag。在AS3中，操作XML仅需要记住两个类：XML与XMLList。</p>
 <p><strong>主要概念：</strong></p>
 <ol>

@@ -1,5 +1,4 @@
-<template><div><h1 id="关于找不到wx-components文件的说明" tabindex="-1"><a class="header-anchor" href="#关于找不到wx-components文件的说明"><span>关于找不到wx-components文件的说明</span></a></h1>
-<p>这是在充电平台上小程序课程下的一个读者问题：</p>
+<template><div><p>这是在充电平台上小程序课程下的一个读者问题：</p>
 <blockquote>
 <p>老师，关于在特殊情况下需要修改微信自带组件和weui组件样式，现在课程上的方法无法找到对应得样式了。</p>
 </blockquote>

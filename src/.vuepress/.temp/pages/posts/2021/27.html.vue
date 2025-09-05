@@ -1,5 +1,4 @@
-<template><div><h1 id="关于信念" tabindex="-1"><a class="header-anchor" href="#关于信念"><span>关于信念</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>“疯狂”那是别人的看法，在疯狂的人的眼里，只有“相信”</p>
 </blockquote>
 <p>以下内容是一觉醒来，早上不到五点钟爬起来写的。我一直觉得，人有时候在黑夜睡梦中思考的内容，比在白天正经的思考，更清醒、更有价值，接下来要说的便是。</p>

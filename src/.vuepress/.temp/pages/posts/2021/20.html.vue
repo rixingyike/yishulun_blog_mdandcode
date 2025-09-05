@@ -1,5 +1,4 @@
-<template><div><h1 id="幽默逻辑学浅窥" tabindex="-1"><a class="header-anchor" href="#幽默逻辑学浅窥"><span>幽默逻辑学浅窥</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>这是一篇不完备的笔记，后续还在继续研究它。</p>
 </blockquote>
 <h2 id="什么是幽默" tabindex="-1"><a class="header-anchor" href="#什么是幽默"><span>什么是幽默？</span></a></h2>

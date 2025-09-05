@@ -1,5 +1,4 @@
-<template><div><h1 id="_1-claude-简介" tabindex="-1"><a class="header-anchor" href="#_1-claude-简介"><span>1.Claude 简介</span></a></h1>
-<p>AI 有多大能力，完全取决于使用它的人。再强大的 AI 工具，如果使用它的人不会编写提示（Prompt），也是零。</p>
+<template><div><p>AI 有多大能力，完全取决于使用它的人。再强大的 AI 工具，如果使用它的人不会编写提示（Prompt），也是零。</p>
 <p>以下内容在使用 Claude 前及使用过程中，值得反复阅读、体会，特别关于提示设计方面的内容及优化方面的内容。写提示，就像程序员写代码一样，这是一门手艺，是一种可以学习与锻炼的能力。</p>
 <p>当你系统化学习了 Claude 的提示以后，你会发现，它的提示是一种结构化的标记。人类与 AI 互动的底层逻辑，也程序员在计算机上编写程序是一般无二的，只不过不用学习繁琐复杂的编程语言的语法了，只需要运用结构化的逻辑思维与 AI 进行交互就可以了。</p>
 <h2 id="claude-是什么" tabindex="-1"><a class="header-anchor" href="#claude-是什么"><span>Claude 是什么？</span></a></h2>

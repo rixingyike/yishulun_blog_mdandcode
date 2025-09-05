@@ -1,5 +1,4 @@
-<template><div><h1 id="_5-claude-提示故障排查规则" tabindex="-1"><a class="header-anchor" href="#_5-claude-提示故障排查规则"><span>5.Claude 提示故障排查规则</span></a></h1>
-<p>如果提示的初始版本表现不好，可以尝试用以下规则排查与优化。</p>
+<template><div><p>如果提示的初始版本表现不好，可以尝试用以下规则排查与优化。</p>
 <h2 id="_1-检查格式" tabindex="-1"><a class="header-anchor" href="#_1-检查格式"><span>1，检查格式</span></a></h2>
 <p>无论是在 Web 上互动，还是使用 API 调用，标准的格式是这样的：</p>
 <div class="language-xml line-numbers-mode" data-ext="xml" data-title="xml"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">\n\nHuman: [HUMAN_TEXT]\n\nAssistant: [ASSISTANT_TEXT]\n\nHuman: [MORE HUMAN TEXT]\n\nAssistant:</span></span></code></pre>

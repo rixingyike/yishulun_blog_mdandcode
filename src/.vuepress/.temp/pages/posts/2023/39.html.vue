@@ -1,5 +1,4 @@
-<template><div><h1 id="我的-gpts-训练提示" tabindex="-1"><a class="header-anchor" href="#我的-gpts-训练提示"><span>我的 GPTs 训练提示</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>下面是我在创建GPTs过程中，使用或使用过的提示语。</p>
 </blockquote>
 <p>38.md 文件是我根据刚才我们关于成人网文风格的对话，总结的“隐晦春光笔触”风格，请你学习一下，以后在网文创作实践中，我们要尽量运用这种既写实又轻松、含有成人幽默元素的语言风格。</p>

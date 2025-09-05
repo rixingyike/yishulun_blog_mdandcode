@@ -1,5 +1,4 @@
-<template><div><h1 id="不用编码-也不用会写严格的提示-创建自己的第一个-gpt" tabindex="-1"><a class="header-anchor" href="#不用编码-也不用会写严格的提示-创建自己的第一个-gpt"><span>不用编码，也不用会写严格的提示，创建自己的第一个 GPT</span></a></h1>
-<p>你好，今天聊一下 Self GPT。</p>
+<template><div><p>你好，今天聊一下 Self GPT。</p>
 <p>前几天 OpenAI 举办了自己的第一场开发者大会，当时就宣布了 ChatGPT 有一项重大的更新：每个人都可以创建一个自己 GPT，并且稍后还有一个 GPT Store 上线它。</p>
 <p>上一次乔帮主开放 App Store 的时候，开发者是使用 Objective-C 编程语言开发 iOS App，然后申请上架赚取佣金。这一次，OpenAI 把门槛降低了，不需要使用者会编程语言，甚至连清晰严格的提示（Prompt）也不需要编写了，操作很简单，用几句中文互动一下，就能开发自己的 GPT了。</p>
 <p>并且，OpenAI 声称，用户创建的 GPT，以后还可能上架到 GPT Store，为自己赚取睡后收入。</p>

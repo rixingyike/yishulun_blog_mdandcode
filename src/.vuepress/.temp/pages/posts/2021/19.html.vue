@@ -1,5 +1,4 @@
-<template><div><h1 id="gitbook简易上手教程" tabindex="-1"><a class="header-anchor" href="#gitbook简易上手教程"><span>Gitbook简易上手教程</span></a></h1>
-<p>Gitbok是一个本地写书工具，基于md语法，使用简单，易于上手。</p>
+<template><div><p>Gitbok是一个本地写书工具，基于md语法，使用简单，易于上手。</p>
 <h2 id="_1-1-如何使用gitbook" tabindex="-1"><a class="header-anchor" href="#_1-1-如何使用gitbook"><span>1.1 如何使用gitbook</span></a></h2>
 <h3 id="安装使用说明" tabindex="-1"><a class="header-anchor" href="#安装使用说明"><span>安装使用说明</span></a></h3>
 <p>安装：</p>

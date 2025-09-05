@@ -1,5 +1,4 @@
-<template><div><h1 id="claude-各版本之间的差异是什么" tabindex="-1"><a class="header-anchor" href="#claude-各版本之间的差异是什么"><span>Claude 各版本之间的差异是什么？</span></a></h1>
-<p>在 Claude 官网上有两个版本：Claude 与 Claude Instant。在 poe 上面有三个版本：Claude-instant、Claude-instant-100k 和 Claude-2-100k，Claude2 自己对这三个版本的差异解答是：</p>
+<template><div><p>在 Claude 官网上有两个版本：Claude 与 Claude Instant。在 poe 上面有三个版本：Claude-instant、Claude-instant-100k 和 Claude-2-100k，Claude2 自己对这三个版本的差异解答是：</p>
 <blockquote>
 <p>Claude-instant、Claude-instant-100k 和 Claude-2-100k 都是 Anthropic 公司开发的大型语言模型，主要的区别在于：</p>
 <ol>

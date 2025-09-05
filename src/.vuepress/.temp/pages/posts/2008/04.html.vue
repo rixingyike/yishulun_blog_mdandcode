@@ -1,5 +1,4 @@
-<template><div><h1 id="as3中的一些基本定义-function与method的区别" tabindex="-1"><a class="header-anchor" href="#as3中的一些基本定义-function与method的区别"><span>AS3中的一些基本定义，Function与Method的区别</span></a></h1>
-<p>Adobe在官方英文文档中，并未专意对一些基本作区别说明；多数自动翻译或中文翻译，又存在翻译不当之处，古人有云，差之毫厘，缪以千里。且先试问一句，Function与Method有何区别？</p>
+<template><div><p>Adobe在官方英文文档中，并未专意对一些基本作区别说明；多数自动翻译或中文翻译，又存在翻译不当之处，古人有云，差之毫厘，缪以千里。且先试问一句，Function与Method有何区别？</p>
 <p>Function与Method翻译成中文，不知如何翻译，使用英文更好。function在AS3中，是定义函数的关键字，但它定义的不一定是Function，也可能是Method。</p>
 <h2 id="_1-method与function的区别" tabindex="-1"><a class="header-anchor" href="#_1-method与function的区别"><span>1，Method与Function的区别</span></a></h2>
 <p>使用function关键字在Class内部显式定义的方法，称为Method，而除此之外使用function关键字定义的方法皆称为 Function。Function类似于js中的function方法。如此区分概念，有助于理解AS3的闭包（closure）概念。</p>

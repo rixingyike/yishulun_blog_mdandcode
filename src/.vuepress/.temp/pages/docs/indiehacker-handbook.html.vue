@@ -1,5 +1,4 @@
-<template><div><h1 id="独立黑客成长手册" tabindex="-1"><a class="header-anchor" href="#独立黑客成长手册"><span>独立黑客成长手册</span></a></h1>
-<p>以下内容由作者<a href="https://twitter.com/coderliyi" target="_blank" rel="noopener noreferrer">@coderliyi</a>的帖子内容生成，你也可以访问原地址：
+<template><div><p>以下内容由作者<a href="https://twitter.com/coderliyi" target="_blank" rel="noopener noreferrer">@coderliyi</a>的帖子内容生成，你也可以访问原地址：
 https://twitter.com/coderliyi/thread/1707997856534007813</p>
 <p>通过对这些内容的阅读和学习，相信你和我一样，也能全面理解独立黑客，并知悉如何做为一名独立黑客开发独立产品。有许多个性崇尚自由的工程师，他们靠发布独立产品，轻松实现了每月上万美刀的睡后收入。希望你从中学到精髓，该手册价值连城，且完全免费与公开。</p>
 <p><strong>什么是独立黑客？</strong></p>

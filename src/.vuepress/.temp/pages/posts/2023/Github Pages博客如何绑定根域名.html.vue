@@ -1,5 +1,4 @@
-<template><div><h1 id="github-pages-博客如何绑定根域名" tabindex="-1"><a class="header-anchor" href="#github-pages-博客如何绑定根域名"><span>Github Pages 博客如何绑定根域名？</span></a></h1>
-<p>Godaddy 的域名不需要域名备案，这是它方便的地方，但它不充许在根域名上直接添加 CNAME 记录，换句话说，原来在国内域名商下的域名，转移到 Godaddy 后，在 Github Pages 上绑定的根域名不再有效了。</p>
+<template><div><p>Godaddy 的域名不需要域名备案，这是它方便的地方，但它不充许在根域名上直接添加 CNAME 记录，换句话说，原来在国内域名商下的域名，转移到 Godaddy 后，在 Github Pages 上绑定的根域名不再有效了。</p>
 <p>以我的博客为例说明一下。原来我可以直接将根域名 yishulun.com 绑定到 rixingyike.github.io，www 域名通过 CNAME 绑定到根域名，这样无论读者访问根域名还是 www 域名，都可以跳转到根域名。国内早期网站网址的写法一般都会在前面带上 www，其实 www 只是一个子域名，与其它 blog、news 等子域名是等同的，为了照顾国内读者的使用习惯，我将 www 域名跳转到根域名（yishulun.com）。但是，在我的域名转移到 Godaddy 之后，这一招不好使了，Godaddy 的 DNS 解析不充许将根域名以 CNAME 的方式绑定到另一个二级域名上。</p>
 <p>在国外，普遍认为根域名是一个域名的主要域名，www 只是一个从属的子域名。并且在 Godaddy 上，根域名只允许绑定 A 记录，不允许直接绑定 CNAME 记录，据说这是为了 CNAME 记录污染 DNS 缓存，造成在根域名上使用的邮件服务投递错乱。</p>
 <p>那么这个问题怎么解决呢？怎么兼容老读者的使用习惯，使他们打开 yishulun.com 时看到页面不是网页荒漠呢？</p>

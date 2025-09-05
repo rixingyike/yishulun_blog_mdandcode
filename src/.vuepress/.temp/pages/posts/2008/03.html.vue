@@ -1,5 +1,4 @@
-<template><div><h1 id="as3中的八种基元类型" tabindex="-1"><a class="header-anchor" href="#as3中的八种基元类型"><span>AS3中的八种基元类型</span></a></h1>
-<h2 id="一-八种基元类型" tabindex="-1"><a class="header-anchor" href="#一-八种基元类型"><span>一，八种基元类型</span></a></h2>
+<template><div><h2 id="一-八种基元类型" tabindex="-1"><a class="header-anchor" href="#一-八种基元类型"><span>一，八种基元类型</span></a></h2>
 <p>何谓基元类型？即是一门语言中最基本基本的数据类型，其它数据类型均是以此为基础定义的，并且可以作为变量注释类型或函数返回类型。在AS3中，共有八种基元类型：</p>
 <p>[此有图，但已被岁月冲走]</p>
 <p>1）Boolean</p>

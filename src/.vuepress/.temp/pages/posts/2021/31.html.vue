@@ -1,5 +1,4 @@
-<template><div><h1 id="充电平台小程序实战专栏导读" tabindex="-1"><a class="header-anchor" href="#充电平台小程序实战专栏导读"><span>充电平台小程序实战专栏导读</span></a></h1>
-<h2 id="课程介绍" tabindex="-1"><a class="header-anchor" href="#课程介绍"><span>| 课程介绍</span></a></h2>
+<template><div><h2 id="课程介绍" tabindex="-1"><a class="header-anchor" href="#课程介绍"><span>| 课程介绍</span></a></h2>
 <p>初学者为什么要学习微信小程序？</p>
 <p>录课结束三个月后，我再回头看这节课，感受只有四个字：“录的真好！”</p>
 <p>对于不知道自己应不应该学、合不合适学小程序这门技术的读者来讲，只要看了这个视频就有答案了。</p>

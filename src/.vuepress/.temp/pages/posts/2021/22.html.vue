@@ -1,5 +1,4 @@
-<template><div><h1 id="《小程序从0到1》常见问题" tabindex="-1"><a class="header-anchor" href="#《小程序从0到1》常见问题"><span>《小程序从0到1》常见问题</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>《小程序从0到1：微信全栈工程师一本通》常见问题。
 常见问题解答在最后面。</p>
 </blockquote>

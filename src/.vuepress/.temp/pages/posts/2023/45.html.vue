@@ -1,5 +1,4 @@
-<template><div><h1 id="读《九州经》前两章-谈传统作家转行网文创作需要避免的文笔问题" tabindex="-1"><a class="header-anchor" href="#读《九州经》前两章-谈传统作家转行网文创作需要避免的文笔问题"><span>读《九州经》前两章，谈传统作家转行网文创作需要避免的文笔问题</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>以下内容是卖报小郎君早期作品《九州经》的前两章。</p>
 </blockquote>
 <h2 id="第1章" tabindex="-1"><a class="header-anchor" href="#第1章"><span>第1章</span></a></h2>

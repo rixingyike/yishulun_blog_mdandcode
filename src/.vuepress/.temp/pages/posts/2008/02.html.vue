@@ -1,5 +1,4 @@
-<template><div><h1 id="像ruby一样简易行码-使用prototype扩展原生对象" tabindex="-1"><a class="header-anchor" href="#像ruby一样简易行码-使用prototype扩展原生对象"><span>像Ruby一样简易行码：使用Prototype扩展原生对象</span></a></h1>
-<p>AS3是基于ECMAScript标准的语言，Adobe团队在遵从此标准的同时，使其向Java靠拢具有Class-Base的特征，因此，AS3是一门很奇特的语言，它既像Javascript，又像Java（Java与Javascript是两门完全不同的语言）。</p>
+<template><div><p>AS3是基于ECMAScript标准的语言，Adobe团队在遵从此标准的同时，使其向Java靠拢具有Class-Base的特征，因此，AS3是一门很奇特的语言，它既像Javascript，又像Java（Java与Javascript是两门完全不同的语言）。</p>
 <h2 id="_1-ruby的collect方法" tabindex="-1"><a class="header-anchor" href="#_1-ruby的collect方法"><span>1，Ruby的collect方法</span></a></h2>
 <p>Ruiby的行码简易，让很多程序员爱不释手。</p>
 <div class="language-ruby line-numbers-mode" data-ext="ruby" data-title="ruby"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD">#!/usr/bin/ruby</span></span>

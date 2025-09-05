@@ -1,5 +1,4 @@
-<template><div><h1 id="chatgpt-向-plus-用户开放了代码解析器-code-interpreter-与其说它是程序员的工具-不如说是为您工作的程序员-真的如此吗" tabindex="-1"><a class="header-anchor" href="#chatgpt-向-plus-用户开放了代码解析器-code-interpreter-与其说它是程序员的工具-不如说是为您工作的程序员-真的如此吗"><span>ChatGPT 向 Plus 用户开放了代码解析器（Code interpreter），与其说它是程序员的工具，不如说是为您工作的程序员，真的如此吗？</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>有人说 ChatGPT 的名字也很糟糕，与其说它是程序员的工具，不如说是为您工作的程序员。体验之后你会发现，只有你想不到，没有它干不了。但真的是这样吗？它没有缺点吗？</p>
 </blockquote>
 <p>7 号 OpenAI 在官方推特上宣布，将向付费的 ChatGPT Plus 用户开放一个代码解析器功能。</p>

@@ -1,5 +1,4 @@
-<template><div><h1 id="bun-介绍四-自动安装依赖项-bun-立志要做一个零配置的快速框架" tabindex="-1"><a class="header-anchor" href="#bun-介绍四-自动安装依赖项-bun-立志要做一个零配置的快速框架"><span>bun 介绍四：自动安装依赖项，bun 立志要做一个零配置的快速框架</span></a></h1>
-<p>在 webpack 工程中，无论是使用 pnpm，还是 yarn，在运行项目之前都需要执行 pnpm i 或 yarn，这是在安装依赖项，将项目代码中引用的类库放在当前项目的 node_modules 目录下。</p>
+<template><div><p>在 webpack 工程中，无论是使用 pnpm，还是 yarn，在运行项目之前都需要执行 pnpm i 或 yarn，这是在安装依赖项，将项目代码中引用的类库放在当前项目的 node_modules 目录下。</p>
 <p>一般情况下，对于复杂的项目这个过程耗时会比较久，这是 Node.js 作为基础构架的痛点，也是 bun 着力解决与优化的亮点。在<a href="https://yishulun.com/posts/2023/05.html" target="_blank" rel="noopener noreferrer">第一篇</a>中，我们就已经详细介绍过了，bun 在这方面将其它包管理工具甩开了一个数量级。</p>
 <p>但这远远还不够，bun 做的还更多。</p>
 <p>bun 在安装速度优化之外，还提供了一个<strong>自动安装</strong>的功能。这个特征，目的在于实现<strong>零配置运行代码</strong>。对于一个 bun 项目，没有什么是不可缺失的，什么 package.json 等文件，统统都可以没有。<strong>代码即是项目本身，有代码就可以运行</strong>。</p>

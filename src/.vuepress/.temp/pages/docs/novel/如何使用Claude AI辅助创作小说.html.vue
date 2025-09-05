@@ -1,5 +1,4 @@
-<template><div><h1 id="我如何使用-gpt4-与-claude-辅助创作小说-及两个-ai-的辅助表现" tabindex="-1"><a class="header-anchor" href="#我如何使用-gpt4-与-claude-辅助创作小说-及两个-ai-的辅助表现"><span>我如何使用 GPT4 与 Claude 辅助创作小说，及两个 AI 的辅助表现</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>我研究了一下如何使用 Claude 辅助创作小说，总体感觉 Claude 的表现优于 GPT。GPT4 最大的缺点是急于完成指令，人类很难让它放缓节奏以增加渲染的厚度。Claude 辅助人类创建一个个片断，然后由人类自己组合，就像一张网，Claude 允许人类控制网上的节点。进一步探索与使用 Claude 是有必要的。</p>
 </blockquote>
 <p>Claude 是 Anthropic 发布的人工智能工具，能够为我的小说创建提供很大帮助，许多作者发现 Claude 帮助作者创建的文本比 ChatGPT 更好。接下来我准备试用它们，对比研究一下它们的辅助创作表现。</p>

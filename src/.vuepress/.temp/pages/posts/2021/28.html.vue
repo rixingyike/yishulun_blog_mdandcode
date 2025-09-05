@@ -1,5 +1,4 @@
-<template><div><h1 id="开课吧三次直播资料下载" tabindex="-1"><a class="header-anchor" href="#开课吧三次直播资料下载"><span>开课吧三次直播资料下载</span></a></h1>
-<p>所有课件请在公众号「艺述论」回复数字100下载。三次直播的源码在课件里有，为方便读者，也列在下面：</p>
+<template><div><p>所有课件请在公众号「艺述论」回复数字100下载。三次直播的源码在课件里有，为方便读者，也列在下面：</p>
 <ol>
 <li>https://github.com/rixingyike/wechat-operation-assistant</li>
 </ol>

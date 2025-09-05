@@ -1,5 +1,4 @@
-<template><div><h1 id="你的下一个项目应该使用-rust-编程的-7-个理由" tabindex="-1"><a class="header-anchor" href="#你的下一个项目应该使用-rust-编程的-7-个理由"><span>你的下一个项目应该使用 Rust 编程的 7 个理由</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>该文译自https://simpleprogrammer.com/rust-programming-benefits/，原作者是TAPAN PATEL。</p>
 </blockquote>
 <p>[TOC]</p>

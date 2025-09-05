@@ -1,5 +1,4 @@
-<template><div><h1 id="在极客时间录课的总结" tabindex="-1"><a class="header-anchor" href="#在极客时间录课的总结"><span>在极客时间录课的总结</span></a></h1>
-<h2 id="一" tabindex="-1"><a class="header-anchor" href="#一"><span>（一）</span></a></h2>
+<template><div><h2 id="一" tabindex="-1"><a class="header-anchor" href="#一"><span>（一）</span></a></h2>
 <p>昨天晚上忙了2个小时，不对，确切地讲，是今天凌晨忙活了2个小时，终于将《微信小程序全栈开发实战》所有已发布的源码链接，都在评论区发布了。今天早上起来，我看到大约165条评论被纳为精选。</p>
 <p>现在读者看到的源码链接，是这样的：</p>
 <p><img src="https://static001.geekbang.org/infoq/90/90337b66449c315b07267902d4313cba.png" alt=""></p>

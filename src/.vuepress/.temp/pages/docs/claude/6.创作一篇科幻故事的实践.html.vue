@@ -1,5 +1,4 @@
-<template><div><h1 id="_6-创作一篇科幻故事的实践" tabindex="-1"><a class="header-anchor" href="#_6-创作一篇科幻故事的实践"><span>6.创作一篇科幻故事的实践</span></a></h1>
-<p>下面使用 Claude 尝试进行一个科幻故事的创作。</p>
+<template><div><p>下面使用 Claude 尝试进行一个科幻故事的创作。</p>
 <p>我：</p>
 <div class="language-xml line-numbers-mode" data-ext="xml" data-title="xml"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">Claude，我们一起写一个多章节的故事吧。以下是我想用来限制和背景化故事的因素：</span></span>
 <span class="line"></span>

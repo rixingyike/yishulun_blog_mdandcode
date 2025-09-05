@@ -1,5 +1,4 @@
-<template><div><h1 id="关于近期微信小程序登陆鉴权机制修改的小说明" tabindex="-1"><a class="header-anchor" href="#关于近期微信小程序登陆鉴权机制修改的小说明"><span>关于近期微信小程序登陆鉴权机制修改的小说明</span></a></h1>
-<p>最近微信小程序的登录鉴权机制又修改了，这是历史上第三次变动了，这次变动添加了新接口wx.getUserProfile，可以在用户任意单击事件后获取用户信息，并且每次都有弹窗提示。原open-type等于getUserInfo的button单击获取准备废弃了。</p>
+<template><div><p>最近微信小程序的登录鉴权机制又修改了，这是历史上第三次变动了，这次变动添加了新接口wx.getUserProfile，可以在用户任意单击事件后获取用户信息，并且每次都有弹窗提示。原open-type等于getUserInfo的button单击获取准备废弃了。</p>
 <p><strong>有啥直接影响？</strong></p>
 <p>1，如果你的代码原来是仅靠getUserInfo获取用户信息的，没有通过后端解密，对不起，代码不能正常工作了
 2，如果是通过后端解密的，没有关系，通过getUserInfo button先拉取加密信息，再到后端解密这种方式仍然有效</p>

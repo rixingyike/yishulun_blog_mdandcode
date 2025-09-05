@@ -1,5 +1,4 @@
-<template><div><h1 id="《微信小程序全栈开发实战》常见问题" tabindex="-1"><a class="header-anchor" href="#《微信小程序全栈开发实战》常见问题"><span>《微信小程序全栈开发实战》常见问题</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>《微信小程序全栈开发实战》常见问题。
 常见问题解答在最后面。</p>
 </blockquote>

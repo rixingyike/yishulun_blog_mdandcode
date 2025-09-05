@@ -1,5 +1,4 @@
-<template><div><h1 id="提问的艺术" tabindex="-1"><a class="header-anchor" href="#提问的艺术"><span>提问的艺术</span></a></h1>
-<p>这篇内容主要写给初学者，高手或老手可以略过了。</p>
+<template><div><p>这篇内容主要写给初学者，高手或老手可以略过了。</p>
 <p>初学者有两个问题很显著：</p>
 <ol>
 <li>不会提问</li>

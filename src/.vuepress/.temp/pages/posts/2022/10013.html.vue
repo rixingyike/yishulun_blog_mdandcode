@@ -1,5 +1,4 @@
-<template><div><h1 id="阿里p10带多少人-阿里p10是什么级别" tabindex="-1"><a class="header-anchor" href="#阿里p10带多少人-阿里p10是什么级别"><span>阿里P10带多少人？阿里p10是什么级别？</span></a></h1>
-<h2 id="p10-带多少人" tabindex="-1"><a class="header-anchor" href="#p10-带多少人"><span>P10 带多少人？</span></a></h2>
+<template><div><h2 id="p10-带多少人" tabindex="-1"><a class="header-anchor" href="#p10-带多少人"><span>P10 带多少人？</span></a></h2>
 <p>一般来说，在阿里 P 是技术系，M 是管理系。但 P 也是带人的，例如阿里 P10 毕玄在<a href="https://time.geekbang.org/column/article/576252" target="_blank" rel="noopener noreferrer">访谈</a>中透露，他在淘系曾带 600 人。我查了一下，其他等级例如 P9 大概带 50~100 人，P8 带 2~30 人。P7 是技术专家/架构师，应该是不带人的。</p>
 <!-- more -->
 <p>各个技术等级是这样的：</p>

@@ -1,5 +1,4 @@
-<template><div><h1 id="_2-claude-提示的初步编写与优化" tabindex="-1"><a class="header-anchor" href="#_2-claude-提示的初步编写与优化"><span>2.Claude 提示的初步编写与优化</span></a></h1>
-<p>下面这些技巧属于基础的 Claude 提示编写技巧。</p>
+<template><div><p>下面这些技巧属于基础的 Claude 提示编写技巧。</p>
 <h2 id="初步设计" tabindex="-1"><a class="header-anchor" href="#初步设计"><span>初步设计</span></a></h2>
 <p>和 ChatGPT 类似，指令的质量会对它的输出质量产生很大的影响，特别是对于复杂的任务。</p>
 <p>Claude 模型使用你发送给它的所有文本，以及迄今为止生成的所有文本，来预测下一个最有帮助的标记（Token）。这意味着 Claude 一次按顺序构造一组字符的响应。它在写入后无法返回并编辑其响应，除非你在后续提示中给它机会这样做。并且，Claude也只能看到其上下文窗口中的内容，它无法记住以前的对话，除非你将它们放入提示中。</p>

@@ -1,5 +1,4 @@
-<template><div><h1 id="夜晚跳广场舞归来有感" tabindex="-1"><a class="header-anchor" href="#夜晚跳广场舞归来有感"><span>夜晚跳广场舞归来有感</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>狗来人避让，车走路通行。
 广场舞喧天，孑然背手归。</p>
 </blockquote>

@@ -1,5 +1,4 @@
-<template><div><h1 id="_3-claude-提示实用编写技巧" tabindex="-1"><a class="header-anchor" href="#_3-claude-提示实用编写技巧"><span>3.Claude 提示实用编写技巧</span></a></h1>
-<p>以下这些技巧基本都附有特定场景下的示例，可以直接使用或修改后使用。</p>
+<template><div><p>以下这些技巧基本都附有特定场景下的示例，可以直接使用或修改后使用。</p>
 <h2 id="_1-允许-ai-说-不知道" tabindex="-1"><a class="header-anchor" href="#_1-允许-ai-说-不知道"><span>1，允许 AI 说“不知道”</span></a></h2>
 <p>ChatGPT 有两项短处被人诟病：</p>
 <ul>

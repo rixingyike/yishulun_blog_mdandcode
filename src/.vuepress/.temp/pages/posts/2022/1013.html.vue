@@ -1,5 +1,4 @@
-<template><div><h1 id="javascript到底是不是面向对象语言" tabindex="-1"><a class="header-anchor" href="#javascript到底是不是面向对象语言"><span>JavaScript到底是不是面向对象语言？</span></a></h1>
-<p>当然是。</p>
+<template><div><p>当然是。</p>
 <p>为了讲清楚这个问题，我们需要先看一看「什么是面向对象编程」和「什么是面向对象语言」。</p>
 <p>什么是面向对象编程？使用面向对象语言进行的编程就是面向对象编程。</p>
 <p>什么是面向对象语言？在面向对象编程中使用的编程语言就是编程语言。</p>

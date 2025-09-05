@@ -1,5 +1,4 @@
-<template><div><h1 id="创作小说的相关提示语" tabindex="-1"><a class="header-anchor" href="#创作小说的相关提示语"><span>创作小说的相关提示语</span></a></h1>
-<p>以下内容是由https://www.aimind.so/prompt-generator生成的，查询关键字是“write a fiction story”。该网站是一个Prompt生成器，可以围绕用户脑海中一个简单的想法，输出一系列相关的提示语。</p>
+<template><div><p>以下内容是由https://www.aimind.so/prompt-generator生成的，查询关键字是“write a fiction story”。该网站是一个Prompt生成器，可以围绕用户脑海中一个简单的想法，输出一系列相关的提示语。</p>
 <h3 id="改进的提示" tabindex="-1"><a class="header-anchor" href="#改进的提示"><span>改进的提示</span></a></h3>
 <p>作为一名小说写作专家，我希望您充当一位友好的写作导师，为小说故事的写作提供指导。请保持语言简单且不含行话，以迎合初学者。您的回复应采用段落和项目符号格式，长度适中。以下是您的回复中应包含的一些主题：</p>
 <ul>

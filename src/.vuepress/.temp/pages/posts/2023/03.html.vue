@@ -1,5 +1,4 @@
-<template><div><h1 id="rust-为什么不能在同一个结构体中存储一个值和对该值的引用" tabindex="-1"><a class="header-anchor" href="#rust-为什么不能在同一个结构体中存储一个值和对该值的引用"><span>Rust：为什么不能在同一个结构体中存储一个值和对该值的引用？</span></a></h1>
-<p>基本把下面问题这个搞明白，就能彻底明白 Rust 语言的生命周期是怎么回事了。简而言之，生命周期不会改变你的代码，是你的生命控制生命周期，而不是生命周期在控制你的代码。换言之，生命周期是描述性的，而不是规定性的。</p>
+<template><div><p>基本把下面问题这个搞明白，就能彻底明白 Rust 语言的生命周期是怎么回事了。简而言之，生命周期不会改变你的代码，是你的生命控制生命周期，而不是生命周期在控制你的代码。换言之，生命周期是描述性的，而不是规定性的。</p>
 <blockquote>
 <p>原文：https://stackoverflow.com/questions/32300132/why-cant-i-store-a-value-and-a-reference-to-that-value-in-the-same-struct，作者：<a href="https://kmdreko.github.io/" title="kmdreko" target="_blank" rel="noopener noreferrer">kmdreko</a></p>
 </blockquote>

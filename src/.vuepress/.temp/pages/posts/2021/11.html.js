@@ -1,5 +1,5 @@
-import comp from "C:/Users/98301/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2021/11.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/2021/11.html\",\"title\":\"关于找不到wx-components文件的说明\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2021-04-06T17:53:11.000Z\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":0.95,\"words\":286},\"filePathRelative\":\"posts/2021/11.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10002,\"name\":\"posts\"},{\"id\":\"67aa4c\",\"sort\":10015,\"name\":\"2021\"}]}")
+import comp from "/Users/liyi/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/2021/11.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/2021/11.html\",\"title\":\"关于找不到wx-components文件的说明\",\"lang\":\"zh-CN\",\"frontmatter\":{\"sidebar\":false,\"createTime\":\"2021-04-06T17:53:11.000Z\",\"title\":\"关于找不到wx-components文件的说明\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":0.95,\"words\":286},\"filePathRelative\":\"posts/2021/11.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10004,\"name\":\"posts\"},{\"id\":\"67aa4c\",\"sort\":10015,\"name\":\"2021\"}]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

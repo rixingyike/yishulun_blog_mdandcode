@@ -1,5 +1,4 @@
-<template><div><h1 id="清平乐·贺tvp周年" tabindex="-1"><a class="header-anchor" href="#清平乐·贺tvp周年"><span>清平乐·贺TVP周年</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>这是在腾讯云TVP一周年时填写的一首词。</p>
 </blockquote>
 <p><strong>清平乐·贺TVP周年</strong></p>
