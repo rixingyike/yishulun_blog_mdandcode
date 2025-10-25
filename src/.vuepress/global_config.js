@@ -52,8 +52,8 @@ export default {
     author, // 合并 profileName 和 author
     hostname: blog_url,
     avatar: '/avatar.png', // 更名为 avatar
-    title: '艺述论',
-    description: '大学计算机讲师，《微信小游戏开发》等图书作者。', // 合并 profileDescription 和 description
+    title: '一树论',
+    description: '一花一世界，一树一菩提', // 合并 profileDescription 和 description
     location: '北京',
     organization: '',
 
