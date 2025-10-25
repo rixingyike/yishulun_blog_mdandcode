@@ -3,7 +3,7 @@
 import { defineNoteConfig, defineNotesConfig, defineNavbarConfig } from 'vuepress-theme-plume'
 
 const currentYear = new Date().getFullYear();
-const author = "李艺";
+const author = "一树论";
 const blog_url = "https://yishulun.com"
 const icpbeian = "京ICP备14007000号-8"
 
