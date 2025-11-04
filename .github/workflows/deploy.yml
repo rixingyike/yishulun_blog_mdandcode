@@ -20,32 +20,26 @@ jobs:
           # "Last updated time" and other git log-related information require fetching all commit records.
           fetch-depth: 0
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+      - name: Setup Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          # 选择要使用的 node 版本
-          node-version: 20
+      - name: Cache cargo
+        uses: Swatinem/rust-cache@v2
 
+      # 安装并使用 RustPress 进行构建
+      - name: Install RustPress (v0.1.0)
+        run: cargo install --git https://github.com/rixingyike/rustpress --tag v0.1.0 --locked
 
-      # 安装依赖
-      # Install dependencies
-      - name: Install Dependencies
-        run: pnpm install --no-frozen-lockfile
-
-
-      # 运行构建脚本
-      # Run the build script
-      - name: Build VuePress site
-        run: pnpm run docs:build
+      - name: Build site with RustPress
+        run: rustpress build -m source -o public
+      - name: Copy CNAME to public
+        run: cp source/CNAME public/
 
       # 上传构建结果到 GitHub Pages
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
-          path: src/.vuepress/dist
+          path: public
 
       # 部署到外部仓库
       - name: Deploy to external repository
@@ -53,9 +47,8 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.EXTERNAL_REPOSITORY_PERSONAL_ACCESS_TOKEN }}
         with:
-          source-directory: src/.vuepress/dist/
+          source-directory: public/
           destination-github-username: rixingyike
           destination-repository-name: rixingyike.github.io
           user-email: 9830131@qq.com
           target-branch: "main"
-
