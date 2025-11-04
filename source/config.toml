@@ -2,7 +2,7 @@
 name = "一树论"
 description = "一花一世界，一树一菩提。"
 author = "LIYI"
-base_url = "http://localhost:1111"
+base_url = "https://yishulun.com"
 # 在RSS中公开显示的域名
 domain = "https://yishulun.com"
 icp_license = "京ICP备14007000号-8"
