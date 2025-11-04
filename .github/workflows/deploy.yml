@@ -31,7 +31,7 @@ jobs:
         run: cargo install --git https://github.com/rixingyike/rustpress --tag v0.1.0 --locked
 
       - name: Build site with RustPress
-        run: rustpress build -m source -o public
+        run: rustpress -m source -o public build
       - name: Copy CNAME to public
         run: cp source/CNAME public/
 
