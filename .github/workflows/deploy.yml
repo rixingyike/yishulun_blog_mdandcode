@@ -26,23 +26,12 @@ jobs:
       - name: Cache cargo
         uses: Swatinem/rust-cache@v2
 
-      # 安装并使用 RustPress 进行构建
-      - name: Install RustPress (v0.1.0)
-        run: cargo install --git https://github.com/rixingyike/rustpress --tag v0.1.0 --locked
-
-      # 准备默认主题模板与静态资源（供 Tera 加载）
-      - name: Prepare RustPress default theme templates
-        run: |
-          set -euxo pipefail
-          rm -rf src/themes/default || true
-          git clone --depth 1 --branch v0.1.0 https://github.com/rixingyike/rustpress rustpress_src
-          mkdir -p src/themes/default
-          cp -r rustpress_src/src/themes/default/* src/themes/default/
+      # 安装 crates.io 上的 RustPress（固定版本）
+      - name: Install RustPress (crates.io v0.1.5)
+        run: cargo install rustpress --version 0.1.5 --locked
 
       - name: Build site with RustPress
         run: rustpress -m source build -o public
-      - name: Copy CNAME to public
-        run: cp source/CNAME public/
 
       # 上传构建结果到 GitHub Pages
       - name: Upload build artifacts
