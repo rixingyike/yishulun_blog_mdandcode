@@ -1,3 +1,0 @@
-import comp from "/Users/liyi/work/yishulun_blog_mdandcode/src/.vuepress/.temp/pages/posts/index.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/\",\"title\":\"博客\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"博客\",\"index\":true,\"sidebar\":true},\"headers\":[],\"readingTime\":{\"minutes\":0.03,\"words\":9},\"git\":{\"updatedTime\":1741820128000,\"contributors\":[{\"name\":\"LIYI\",\"username\":\"LIYI\",\"email\":\"9830131@qq.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/LIYI?v=4\",\"url\":\"https://github.com/LIYI\"}]},\"filePathRelative\":\"posts/README.md\",\"categoryList\":[{\"id\":\"18958e\",\"sort\":10002,\"name\":\"posts\"}]}")
-export { comp, data }
