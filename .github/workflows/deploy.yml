@@ -27,8 +27,8 @@ jobs:
         uses: Swatinem/rust-cache@v2
 
       # 安装 crates.io 上的 RustPress（固定版本）
-      - name: Install RustPress (crates.io v0.1.5)
-        run: cargo install rustpress --version 0.1.5 --locked
+      - name: Install RustPress
+        run: cargo install rustpress
 
       - name: Build site with RustPress
         run: rustpress -m source build -o public
